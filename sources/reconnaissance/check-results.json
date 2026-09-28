@@ -1,0 +1,38 @@
+{
+  "cache_hashes": {
+    "verified_files": 56,
+    "passed": true
+  },
+  "serbench_cal500": {
+    "rows": 500,
+    "labels": 500,
+    "minimum_certified_sizes": {
+      "1": 256,
+      "3": 86,
+      "2": 135,
+      "4": 19,
+      "5": 3,
+      "14": 1
+    },
+    "oracle_empty_scorer_assertions": "passed",
+    "loader_label_separation": "passed"
+  },
+  "serbench_test500": {
+    "inference_rows": 500,
+    "labels_loaded": false,
+    "observed_lists_nonempty": 298,
+    "observed_candidate_overlap": 186
+  },
+  "musique": {
+    "samples": 3,
+    "answer_metric_oracle": [
+      1.0,
+      1.0
+    ],
+    "support_metric_oracle": [
+      1.0,
+      1.0
+    ]
+  },
+  "scope": "Asset/scorer plumbing only; no model or selector predictions, training, or private Test500 labels."
+}

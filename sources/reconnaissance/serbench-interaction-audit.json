@@ -1,0 +1,14 @@
+{
+  "minimum_certified_set_size": {
+    "1": 256,
+    "3": 86,
+    "2": 135,
+    "4": 19,
+    "5": 3,
+    "14": 1
+  },
+  "runs_per_instance": {
+    "1": 241
+  },
+  "nonempty_event_timestamps": 0
+}

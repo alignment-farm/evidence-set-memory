@@ -1,0 +1,26 @@
+{
+  "cal500/items.jsonl.gz": {
+    "compressed": true,
+    "uncompressed": true
+  },
+  "cal500/labels.jsonl.gz": {
+    "compressed": true,
+    "uncompressed": true
+  },
+  "test500/items.jsonl.gz": {
+    "compressed": true,
+    "uncompressed": true
+  },
+  "example/items.jsonl": {
+    "compressed": true,
+    "uncompressed": true
+  },
+  "example/labels.jsonl": {
+    "compressed": true,
+    "uncompressed": true
+  },
+  "cal500/id_mapping.jsonl.gz": {
+    "compressed": true,
+    "uncompressed": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "count": 500,
+  "keys": [
+    "benchmark_id",
+    "candidate_count",
+    "candidate_evidence",
+    "candidate_pool_truncated",
+    "corpus_id",
+    "current_hypothesis",
+    "current_observation",
+    "current_subgoal",
+    "information_need",
+    "instance_id",
+    "issue",
+    "observed_evidence_ids",
+    "opened_files",
+    "repo",
+    "schema_version",
+    "search_queries",
+    "split",
+    "state_id",
+    "state_type"
+  ],
+  "nonempty_fields": {
+    "benchmark_id": 500,
+    "candidate_count": 500,
+    "candidate_pool_truncated": 16,
+    "corpus_id": 500,
+    "current_hypothesis": 300,
+    "current_observation": 500,
+    "current_subgoal": 500,
+    "information_need": 500,
+    "instance_id": 500,
+    "issue": 500,
+    "observed_evidence_ids": 298,
+    "opened_files": 176,
+    "repo": 500,
+    "schema_version": 500,
+    "search_queries": 300,
+    "split": 500,
+    "state_id": 500,
+    "state_type": 500
+  },
+  "candidate_range": [
+    20,
+    120
+  ]
+}

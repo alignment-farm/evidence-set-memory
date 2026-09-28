@@ -1,0 +1,56 @@
+{
+  "groups": {
+    "1": 242,
+    "3": 100,
+    "2": 117,
+    "4": 37,
+    "5": 4
+  },
+  "alternative_set_sizes": {
+    "1": 329,
+    "3": 190,
+    "2": 306,
+    "4": 58,
+    "5": 8,
+    "14": 1
+  },
+  "state_types": {
+    "after_file_inspection": 156,
+    "before_edit": 134,
+    "before_search": 45,
+    "after_search": 165
+  },
+  "nonempty_fields": {
+    "current_diff": 0,
+    "current_hypothesis": 455,
+    "current_observation": 500,
+    "current_subgoal": 500,
+    "information_need": 500,
+    "issue": 500,
+    "latest_test_output": 0,
+    "opened_files": 290,
+    "search_queries": 455,
+    "state_type": 500,
+    "trajectory_prefix": 500,
+    "state_id": 500,
+    "item_id": 500,
+    "instance_id": 500,
+    "repo": 500,
+    "base_commit": 500,
+    "split": 500,
+    "observed_evidence_ids": 0,
+    "candidate_pool_truncated": 47,
+    "candidate_count": 500
+  },
+  "actions": {
+    "plan_update": 500,
+    "repo_search": 910,
+    "read_file": 614,
+    "edit_file": 134
+  },
+  "candidate_keysets": {
+    "['content_excerpt', 'content_sha256', 'evidence_id', 'line_end', 'line_start', 'observed_by_state', 'source_path', 'source_type']": 43451
+  },
+  "diff_nonempty": 0,
+  "test_nonempty": 0
+}

@@ -1,0 +1,22 @@
+.venv/
+.uv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+*.pem
+*.key
+models/
+downloads/
+tmp/
+.codex/
+
+# Keep protocols, raw scientific outputs, failures, manifests and uv.lock tracked.

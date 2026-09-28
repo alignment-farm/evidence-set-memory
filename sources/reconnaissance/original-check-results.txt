@@ -1,0 +1,26 @@
+{
+  "cal_rows": 500,
+  "labels": 500,
+  "minimum_certified_sizes": {
+    "1": 256,
+    "3": 86,
+    "2": 135,
+    "4": 19,
+    "5": 3,
+    "14": 1
+  },
+  "oracle_empty_scorer_assertions": "passed",
+  "loader_label_separation": "passed"
+}
+{
+  "musique_samples": 3,
+  "answer_metric_oracle": [
+    1.0,
+    1.0
+  ],
+  "support_metric_oracle": [
+    1.0,
+    1.0
+  ],
+  "note": "scorer plumbing only; no predictions from a model or selector"
+}

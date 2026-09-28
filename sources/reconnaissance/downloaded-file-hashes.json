@@ -1,0 +1,230 @@
+{
+  "SERBench/.gitattributes": {
+    "bytes": 169,
+    "sha256": "83e93c7099aafdcd56a57e383d734604f7dc854c3b3bfee92151f4cb4533a0cc"
+  },
+  "SERBench/.gitignore": {
+    "bytes": 138,
+    "sha256": "11e596f17ccce0be995e6f945ef73db248aea9ed29cab8900c5ce680eba52a92"
+  },
+  "SERBench/CHANGELOG.md": {
+    "bytes": 1895,
+    "sha256": "a25af610fd5865949ea05bc29b1633a9028eff6ec7c730f41053d3e2257077dc"
+  },
+  "SERBench/CITATION.cff": {
+    "bytes": 466,
+    "sha256": "85046a6bbaf975b03263ee2657782f31f2a9f6a9ae777a9eb1a0fc3322ebdd5f"
+  },
+  "SERBench/CONTRIBUTING.md": {
+    "bytes": 759,
+    "sha256": "dd92dfdf21dcf234c4a0b84028573b5dba19566922b88a9a0e9ec6a70fe1d5f6"
+  },
+  "SERBench/DATA_LICENSE.md": {
+    "bytes": 1206,
+    "sha256": "afa8257ca6a5d3614c934543e4735b52b84c93264dab7af98fb244d9ad828ae6"
+  },
+  "SERBench/LICENSE": {
+    "bytes": 1279,
+    "sha256": "c1b0f5d77bf1795c549d34b5406c45351f0e07fbf2f7bce2d235bc55459a798e"
+  },
+  "SERBench/README.md": {
+    "bytes": 6298,
+    "sha256": "3c09da77ff1b70486b46cf79d24ab678563ecc0b41a513e1faaca5838a584db2"
+  },
+  "SERBench/README_zh.md": {
+    "bytes": 3008,
+    "sha256": "9525dee7f3c9174f72221189b6ceb0773d358e65f7e9d9bb8d5d9e5e01380f74"
+  },
+  "SERBench/SECURITY.md": {
+    "bytes": 582,
+    "sha256": "fee173e350d5342c52537e8df951565e49192bdf209c9d0246b20956ed5abd85"
+  },
+  "SERBench/THIRD_PARTY_NOTICES.md": {
+    "bytes": 791,
+    "sha256": "c1334bfaccfa88cba7ad891bed23e59a8a2869d798a3a5a12489e271c85b7c5a"
+  },
+  "SERBench/community_results.json": {
+    "bytes": 567,
+    "sha256": "33c924606ef0884d2f077d5588d7560326bb4d71bce15d0b4e55d514c9a79b88"
+  },
+  "SERBench/data/cal500/id_mapping.jsonl.gz": {
+    "bytes": 15207,
+    "sha256": "9a2e49b11c4e97c3f3cf82be2500c337dfc511b1d329830962e30b43dd99af4d"
+  },
+  "SERBench/data/cal500/items.jsonl.gz": {
+    "bytes": 29263904,
+    "sha256": "aa4d8d250f47dae4239ef567db6edc8ae6dbacb8421874fe6c95e748b761386f"
+  },
+  "SERBench/data/cal500/labels.jsonl.gz": {
+    "bytes": 121455,
+    "sha256": "adb5e164fe94b1c29301965478005d188eaea332313d636e03c253ee33317dae"
+  },
+  "SERBench/data/example/items.jsonl": {
+    "bytes": 703902,
+    "sha256": "32a237cfe32d06ceae5dc840b4059389afe21c55725c5b148fef9c38be4ac514"
+  },
+  "SERBench/data/example/labels.jsonl": {
+    "bytes": 5845,
+    "sha256": "42d88b8004e1f5482542893ef0c83b88693288a50219e1b939dccdaa29863994"
+  },
+  "SERBench/data/manifest.json": {
+    "bytes": 3519,
+    "sha256": "112b1d5fb51cac6b701eb12c91b8d45e2cfdc24b6666c7a2df56348c92ed1a20"
+  },
+  "SERBench/data/source_repositories.json": {
+    "bytes": 22231,
+    "sha256": "f152e89a5f55c4f98e03d2f479f48dbab3d60a80f48571ddd7291f603ca9caab"
+  },
+  "SERBench/data/test500/items.jsonl.gz": {
+    "bytes": 26010955,
+    "sha256": "837ed2ab7062c64b219dd4b760b0f6b58bdc273d08ccbc2da07f41a65e1299b3"
+  },
+  "SERBench/docs/DATASET.md": {
+    "bytes": 5351,
+    "sha256": "4725a856c4d2ab9af197760d980beac3a68e07619c27887d45172db2934f5b79"
+  },
+  "SERBench/docs/EVALUATION.md": {
+    "bytes": 5486,
+    "sha256": "d499e47b880e393f113fc9e2d53a23c4f3a96363f21f5e99a1d58ebfe999e6f9"
+  },
+  "SERBench/docs/QUICKSTART.md": {
+    "bytes": 3045,
+    "sha256": "1b66ba4392bb45983670c0c8aa468aaabefc29367a3e221576b9ad5bf13626a8"
+  },
+  "SERBench/docs/REPRODUCTION.md": {
+    "bytes": 1949,
+    "sha256": "928d967da39ca6d793419299af802492286e3412b916b76bacc5912b757046be"
+  },
+  "SERBench/examples/custom_method.py": {
+    "bytes": 2725,
+    "sha256": "c9485d3deed3b17e223ad6fd2a601170c47be4c1750259828801aeb25dfb7a04"
+  },
+  "SERBench/examples/service_smoke.jsonl": {
+    "bytes": 79058,
+    "sha256": "054bd87f8b30a310ed02b7f684219e2490361c68df61045a075075f45679b8cb"
+  },
+  "SERBench/pyproject.toml": {
+    "bytes": 726,
+    "sha256": "57f42a8b44c4efe5cebc2d78ac69d7beaebf6aeaee6e24213b02bab94210ef96"
+  },
+  "SERBench/schemas/prediction.schema.json": {
+    "bytes": 544,
+    "sha256": "8e7807f0c4fe32cfe5fe5a65214eb2374dd22562378901d1fdd4c02efaac03e9"
+  },
+  "SERBench/src/serbench/__init__.py": {
+    "bytes": 885,
+    "sha256": "aca4bc88a1908f74bdb5c751432a063a8d378830883f294d6c3fee696973f6cd"
+  },
+  "SERBench/src/serbench/__main__.py": {
+    "bytes": 209,
+    "sha256": "e56a78e74d4a5ec6460abc61bcbfc52ce70734f0d310e548810e817a0d4d9b3b"
+  },
+  "SERBench/src/serbench/_reference_scorer.py": {
+    "bytes": 9657,
+    "sha256": "9eee4777a8d0cf4edf7d8b34a4aeb06abadb58a4f1160fbe0ef5f478c7abbe33"
+  },
+  "SERBench/src/serbench/baseline.py": {
+    "bytes": 4437,
+    "sha256": "be689f7d1850e80c392117936ce1e9ee7bc2442305f57a3794fde76aa65c8da8"
+  },
+  "SERBench/src/serbench/cli.py": {
+    "bytes": 7817,
+    "sha256": "fc3903611c1eaabffcda7a013e819ca355651aeb718a0fd7987585719e24b8e9"
+  },
+  "SERBench/src/serbench/data.py": {
+    "bytes": 8834,
+    "sha256": "00bd7111bea0d744cb667a96b282acac82c2359d9e6d13aea4593dbfa444e14a"
+  },
+  "SERBench/src/serbench/scoring.py": {
+    "bytes": 20857,
+    "sha256": "84d6b4e5564cd95ba32ed90653e2aebc2c98e2ed46e3001fcc6556f142005274"
+  },
+  "SERBench/tests/test_leaderboard.py": {
+    "bytes": 10098,
+    "sha256": "60e5738206ba62aa53937f3fd3e2770cd4ca09d668682485a01c66c312c64867"
+  },
+  "SERBench/tests/test_sdk.py": {
+    "bytes": 13323,
+    "sha256": "de633d7a1d5a4cc396d6dff6534b2127659975040286012419cb888678d96940"
+  },
+  "SERBench/tools/make_service_smoke_submission.py": {
+    "bytes": 621,
+    "sha256": "13143a51c81aa8a8b29af1ec1e84e0155fbab774d04ce88829a2e6f066159257"
+  },
+  "SERBench/tools/update_leaderboard.py": {
+    "bytes": 10388,
+    "sha256": "39d568b8d9f5ec9809cd561f2a592981af02a5b9b64b0624567e9eea27faf88e"
+  },
+  "SERBench/tools/verify_release.py": {
+    "bytes": 2027,
+    "sha256": "78fa64da76a5c4350223097782be7b99a59c0038088eb408d0c82f97f9b3b0be"
+  },
+  "MuSiQue/.all_data_information.json": {
+    "bytes": 1408,
+    "sha256": "74f5b5a6a47a5a4331509011d60dca866059ff01c4d0af09762db66654b5f43e"
+  },
+  "MuSiQue/.answer_aliases.json": {
+    "bytes": 4883219,
+    "sha256": "4cf3863daf437d7de43e9f8723b3c2c2923ffbef44737c3fd383d26291bb3e1e"
+  },
+  "MuSiQue/LICENSE": {
+    "bytes": 18652,
+    "sha256": "cce5d01fa4a83b794271bd2c28cffdf99afd43c803e6ddefddae39b591ea7448"
+  },
+  "MuSiQue/README.md": {
+    "bytes": 48623,
+    "sha256": "7a3fb6a960f3fa122d2a1a81b73b9cf5a39ac983b11735d158490947960b9359"
+  },
+  "MuSiQue/download_data.sh": {
+    "bytes": 445,
+    "sha256": "3242f928d7c0f8db885296872397af33ce19014e6edab62bbd44bab3d73a09d2"
+  },
+  "MuSiQue/download_raw_data.py": {
+    "bytes": 1106,
+    "sha256": "cc949372c7b15ff24612b8c5e397a8cef8c7aa1ed0400d2788654d35aea3034e"
+  },
+  "MuSiQue/evaluate_v1.0.py": {
+    "bytes": 4606,
+    "sha256": "f5fe66ae61dbea5172cba9d428d9924a5811f3457edc945fc1d81369c30e74b7"
+  },
+  "MuSiQue/metrics/__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "MuSiQue/metrics/answer.py": {
+    "bytes": 2837,
+    "sha256": "10368f619b4d5ef5d83748c05a96c0afd332a14ab5c010740c98d58dfaefe974"
+  },
+  "MuSiQue/metrics/group.py": {
+    "bytes": 1152,
+    "sha256": "b7bff5d19b426a353e50ad07db125fdb6fdd2660a229e1b11752b63e4ebd9087"
+  },
+  "MuSiQue/metrics/group_answer_sufficiency.py": {
+    "bytes": 2320,
+    "sha256": "6fd72646055b736cfae474eba58f7d4823ee8f539c0746bb87dd5c8208d7abcc"
+  },
+  "MuSiQue/metrics/group_support_sufficiency.py": {
+    "bytes": 2546,
+    "sha256": "ab6f9aa92243190b891d28a1787781029bd808616e347cbf325526bffcc10820"
+  },
+  "MuSiQue/metrics/metric.py": {
+    "bytes": 628,
+    "sha256": "c858d1bfda2f0b005065e87a402cd2f82154eb7eed5916845ae130759cc3a299"
+  },
+  "MuSiQue/metrics/support.py": {
+    "bytes": 2315,
+    "sha256": "ac16c0daf458a6a4d6db97682c2340fe5b5936a947bf32c04dc3bf16406077c6"
+  },
+  "MuSiQue/raw-dev-first3.jsonl": {
+    "bytes": 47500,
+    "sha256": "76abbe39d5ec3797c2a853bee0e0c56a02ee43177ab2cf772229ead856a3e455"
+  },
+  "MuSiQue/raw_data_to_official_format.py": {
+    "bytes": 6466,
+    "sha256": "8c2dbb07efbf2c71a739a29406d5e5cae1c53a6609df5d411140cc82925c66aa"
+  },
+  "MuSiQue/sample-headers.txt": {
+    "bytes": 5673,
+    "sha256": "2fa2032b3c240ec79e71ea6a1287713b38c0567f3f94ec0f00f536dbb7720271"
+  }
+}
