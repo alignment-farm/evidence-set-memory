@@ -18,14 +18,17 @@ def main():
     fits={name:read(f'phase2/runs/{name}/costs.json') for name in names}
     enc={name:read(f'phase2/runs/encoding-{name}.json') for name in ['train','development','confirmation']}
     readers={name:read(f'phase2/runs/{name}/costs.json') for name in ['development-reader','semantic-development-reader','confirmation-reader']}
+    if (ROOT/'phase2/runs/reader-budget-diagnostic/costs.json').exists():
+        readers['reader-budget-diagnostic']=read('phase2/runs/reader-budget-diagnostic/costs.json')
     selection={p.parent.name:json.loads(p.read_text()) for p in sorted((ROOT/'phase2/runs').glob('*/summary.json')) if (p.parent/'representation.json').exists()}
     representations={p.parent.name:json.loads(p.read_text()) for p in sorted((ROOT/'phase2/runs').glob('*/representation.json'))}
     phase3=read('phase3/runs/scaling/summary.json');phase4=read('phase4/runs/extension/summary.json')
     result=dict(
         training=dict(runs=names,totals=sums(list(fits.values()),['train_wall_seconds','train_cpu_seconds','optimizer_updates','contrast_presentations']),
             representation_wall_seconds=sum(r['representation']['seconds']+r['development_representation']['seconds'] for r in fits.values()),
-            label_questions=253,label_contrasts_per_fit=8096,
+            training_label_questions=253,development_label_questions=48,evaluation_label_questions=64,label_contrasts_per_fit=8096,
             note='Imported benchmark labels, not earned feedback. Train timer includes validation/checkpoint writing; contrast construction before timer is not separately timed. Failed initial size assertion remains unmetered.'),
+        source_acquisition=read('phase2/data/acquisition.json'),
         encoder=dict(by_split=enc,totals=sums(list(enc.values()),['logical_texts','unique_texts','encoded_tokens','truncated_texts','encoding_wall_seconds','encoding_cpu_seconds','load_seconds','embedding_bytes']),
             note='Unique counts are per-partition, summed, not globally deduplicated. Imported pretraining/weight construction cost is unknown, not zero.'),
         selection=dict(by_run=selection,representation_by_run=representations,
@@ -46,6 +49,8 @@ def main():
             'Separate coefficient forward timing for earliest lexical runs',
             'Additional offline acquisition diagnostics, tests, parsing and audit CPU are not fully timed'],
         separation='This ledger reports measured components; it is not a complete energy, monetary, or total-wall estimate. Phase 1 has its own ledger and is not folded into continuation totals.')
+    if 'reader-budget-diagnostic' in readers:
+        result['primary']['budget_repaired_deployment_by_policy']=read('phase2/runs/reader-budget-diagnostic/summary.json')
     dump(a.out,result)
     print(json.dumps(dict(training=result['training']['totals'],encoder=result['encoder']['totals'],primary=result['primary']['actual_total']),indent=2))
 

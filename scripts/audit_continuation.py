@@ -127,6 +127,8 @@ def main():
               complete_support_not_sufficient_for_reader=sum(r['retrieved_complete'] and not r['complete'] for r in reader if r['arm']=='exact'),
               exact_correct_answer_missing_support=sum(r['answer_em'] and not r['complete'] for r in reader if r['arm']=='exact'))
         result['reader_failure_attribution']={arm:dict(
+            length_stops=sum(finished[r['request_hash']]['response'].get('choices',[{}])[0].get('finish_reason')=='length' for r in reader if r['arm']==arm),
+            parse_failures=sum(bool(r['answer'].get('parse_error')) for r in reader if r['arm']==arm),
             selection_missing_support=sum(not r['retrieved_complete'] for r in reader if r['arm']==arm),
             selected_all_support_but_wrong_answer=sum(r['retrieved_complete'] and not r['answer_em'] for r in reader if r['arm']==arm),
             selected_all_support_correct_answer_but_citation_failure=sum(r['retrieved_complete'] and r['answer_em'] and not r['complete'] for r in reader if r['arm']==arm),
@@ -135,6 +137,33 @@ def main():
             group=[r for r in reader if r['arm']==arm]
             counts['candidate_pool_complete']=sum(set(by_label[r['id']]['supports']).issubset(
                 {p['idx'] for e in examples['confirmation'] if e['id']==r['id'] for p in e['paragraphs']}) for r in group)
+        budgetdir=ROOT/'phase2/runs/reader-budget-diagnostic'
+        if (budgetdir/'costs.json').exists():
+            repaired=read('phase2/runs/reader-budget-diagnostic/outcomes.json')
+            eligibility=read('phase2/runs/reader-budget-diagnostic/eligibility.json')['requests']
+            checks['budget_all_and_only_public_length_stops']=eligibility==sorted(k for k,v in finished.items() if v['response'].get('choices',[{}])[0].get('finish_reason')=='length')
+            effective=dict(finished);actual_keys=[]
+            for path in budgetdir.glob('*-request.json'):
+                payload=json.loads(path.read_text());newkey=path.name.removesuffix('-request.json')
+                checks[f'budget_payload_hash_{newkey}']=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()==newkey
+                checks[f'budget_cap_{newkey}']=payload['max_tokens']==4096
+                payload['max_tokens']=1024;oldkey=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()
+                actual_keys.append(oldkey)
+                effective[oldkey]=json.loads((budgetdir/f'{newkey}-response.json').read_text())
+            checks['budget_requests_only_change_cap']=sorted(actual_keys)==eligibility
+            valid=[];fallback_valid=[]
+            for row in repaired:
+                answer=parse(effective[row['request_hash']]['response'])
+                valid.append(all(row[k]==v for k,v in grade(answer,by_label[row['id']],row['selected']).items()))
+                full=next(r for r in repaired if r['id']==row['id'] and r['arm']=='all')
+                fallback=not answer['answer'].strip() or not set(answer['citations']).issubset(row['selected']) or bool(answer.get('parse_error'))
+                final=parse(effective[full['request_hash']]['response']) if fallback else answer
+                fallback_valid.append(row['after_fallback']==grade(final,by_label[row['id']],full['selected'] if fallback else row['selected']))
+            checks['budget_raw_grades_reproduce']=all(valid)
+            checks['budget_fallback_grades_reproduce']=all(fallback_valid)
+            checks['budget_selected_evidence_unchanged']=all(row['selected']==next(r['selected'] for r in reader if r['id']==row['id'] and r['arm']==row['arm']) for row in repaired)
+            budgetstats={arm:{r['id']:r['complete'] for r in repaired if r['arm']==arm} for arm in {r['arm'] for r in repaired}}
+            result['budget_reader_comparison']={arm:paired(budgetstats['exact'],budgetstats[arm],groups) for arm in ['ordinary_1.0','learned_unary','all']}
     result['all_checks_passed']=all(checks.values())
     dump(args.out,result)
     print(json.dumps({k:v for k,v in result.items() if k not in ['checks','reproduction_costs','confirmation_component_clusters']},indent=2))
