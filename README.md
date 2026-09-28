@@ -4,12 +4,13 @@ An independent Construct-2 ancillary investigation, commissioned 28 September
 2026. **Status: phase 2 experimentation underway; phase 1 published locally.
 Root scientific review remains separate.**
 
-[Phase 2 development findings](phase2/DEVELOPMENT.md) extend the work to real
+[Phase 2 findings](phase2/FINDINGS.md) extend the work to real
 MuSiQue prose, a small neural pairwise energy, and projected continuous selection.
 The learner improves development support recovery, while exact/beam search is
 more reliable and cheaper than the tested relaxation. The semantic diagnostic and
 frozen held-out selection are complete; the 24-case complete-QA comparison is
 running. This phase is explicitly benchmark-supervised, not continuing experience.
+The earlier [development publication](phase2/DEVELOPMENT.md) is retained unchanged.
 
 [Phase 3 scaling findings](phase3/FINDINGS.md) test the frozen energy with up to
 160 candidates. Relaxation beats exhaustive enumeration at larger pools, but
