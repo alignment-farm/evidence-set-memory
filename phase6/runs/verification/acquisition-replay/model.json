@@ -1,0 +1,160 @@
+{
+  "broad_baseline_policy": "all",
+  "cost_only_pairs": 21,
+  "development_tasks": 2,
+  "example_construction_seconds": 0.05592291703214869,
+  "features": [
+    "source_bytes_20k",
+    "request_symbol_coverage",
+    "test_token_coverage",
+    "unresolved_source_edges_20",
+    "resolved_source_edges_20",
+    "intact_file_delivery"
+  ],
+  "inference": "Enumerate six public candidate sets and minimize linear energy; no selection-variable gradients",
+  "initial_weights": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "leave_one_task_out": [
+    {
+      "chosen_policy": "pointwise",
+      "fit": {
+        "cost_only_pairs": 15,
+        "features": [
+          "source_bytes_20k",
+          "request_symbol_coverage",
+          "test_token_coverage",
+          "unresolved_source_edges_20",
+          "resolved_source_edges_20",
+          "intact_file_delivery"
+        ],
+        "pair_ranking_accuracy": 0.9333333333333333,
+        "pairs": 15,
+        "quality_pairs": 0,
+        "seconds": 0.09040329203708097,
+        "steps": 800,
+        "trace": [
+          {
+            "loss": 0.9740769841801066,
+            "step": 1
+          },
+          {
+            "loss": 0.38699727137879014,
+            "step": 100
+          },
+          {
+            "loss": 0.3665679508998641,
+            "step": 400
+          },
+          {
+            "loss": 0.3661877990092521,
+            "step": 800
+          }
+        ],
+        "weights": [
+          -0.01912597689058665,
+          -3.4982407361433348,
+          -0.8128210372372855,
+          -1.5030003928167797,
+          2.0290125122939044,
+          -1.83333363222123
+        ]
+      },
+      "held_task": "dev-quoted-backslashes",
+      "tokens": 11262
+    },
+    {
+      "chosen_policy": "pointwise",
+      "fit": {
+        "cost_only_pairs": 6,
+        "features": [
+          "source_bytes_20k",
+          "request_symbol_coverage",
+          "test_token_coverage",
+          "unresolved_source_edges_20",
+          "resolved_source_edges_20",
+          "intact_file_delivery"
+        ],
+        "pair_ranking_accuracy": 0.8666666666666667,
+        "pairs": 15,
+        "quality_pairs": 9,
+        "seconds": 0.05645933299092576,
+        "steps": 800,
+        "trace": [
+          {
+            "loss": 0.9740769841801066,
+            "step": 1
+          },
+          {
+            "loss": 0.4255144274617193,
+            "step": 100
+          },
+          {
+            "loss": 0.4030729909835743,
+            "step": 400
+          },
+          {
+            "loss": 0.4030669121296467,
+            "step": 800
+          }
+        ],
+        "weights": [
+          -0.5565014788649367,
+          -2.1238912458264867,
+          -1.2700767004374764,
+          -1.2871270077550536,
+          0.976687416139973,
+          2.9145410393758335
+        ]
+      },
+      "held_task": "dev-values-precedence",
+      "tokens": 4611
+    }
+  ],
+  "main_trainable_parameters": 6,
+  "ordinary_baseline_policy": "ordinary",
+  "ordinary_experience_policy": "pointwise",
+  "pair_ranking_accuracy": 0.8333333333333334,
+  "pairs": 30,
+  "quality_pairs": 9,
+  "script_sha256": "a795860c780b517071a10cb70710160a27e02b2a269279f47221a47d15d87c39",
+  "seconds": 0.5285495420102961,
+  "seen_task_choices": {
+    "dev-quoted-backslashes": "ordinary",
+    "dev-values-precedence": "pointwise"
+  },
+  "steps": 800,
+  "timestamp": "2026-09-28T19:19:32Z",
+  "torch_threads": 2,
+  "trace": [
+    {
+      "loss": 0.9740769841801068,
+      "step": 1
+    },
+    {
+      "loss": 0.5417381135448567,
+      "step": 100
+    },
+    {
+      "loss": 0.5350692570924253,
+      "step": 400
+    },
+    {
+      "loss": 0.5350122347895359,
+      "step": 800
+    }
+  ],
+  "weights": [
+    -0.3200322742975662,
+    -2.635247835832962,
+    -1.168388440360132,
+    -1.1787306668228428,
+    1.3460944243924204,
+    0.6311496734472408
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "after_counts": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 1,
+    "tests": 180
+  },
+  "after_returncode": 0,
+  "before_counts": {
+    "errors": 0,
+    "failures": 1,
+    "skipped": 1,
+    "tests": 180
+  },
+  "before_returncode": 1,
+  "causal_claim": "Only the helper changed; comparison is post-hoc and unblinded",
+  "model_calls": 0,
+  "original_complete": false,
+  "original_patch_source_replayed": true,
+  "pytest_invocations": 2,
+  "script_sha256": "0f45a863cccc44311324ec15ffbf3cc478efdca74aa0525095b1e20953c4dbd4",
+  "seconds": 2.264401291962713,
+  "timestamp": "2026-09-28T19:17:47Z"
+}

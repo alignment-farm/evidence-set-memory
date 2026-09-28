@@ -1,0 +1,37 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/9263fc297e0eba2a12af\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/9263fc297e0eba2a12af/tmp/heldout",
+    "--junitxml",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/9263fc297e0eba2a12af/heldout.xml",
+    "heldout_current.py"
+  ],
+  "counts": {
+    "errors": 0,
+    "failures": 1,
+    "skipped": 0,
+    "tests": 6
+  },
+  "output": "..F...                                                                   [100%]\n=================================== FAILURES ===================================\n___ test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n] ____\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/9263fc297e0eba2a12af/tmp/heldout/test_newline_variants_B_keep_n0')\nbefore = b'B=keep\\nC=tail\\r\\n', key = 'A'\nexpected = b\"B=keep\\nC=tail\\r\\nA='new'\\n\"\n\n    @pytest.mark.parametrize('before, key, expected', [\n        (b'B=keep\\r\\nA=old\\nC=tail', 'A', b\"B=keep\\r\\nA='new'\\r\\nC=tail\"),\n        (b'B=keep\\r\\nC=tail', 'A', b\"B=keep\\r\\nC=tail\\r\\nA='new'\\r\\n\"),\n        (b'B=keep\\nC=tail\\r\\n', 'A', b\"B=keep\\nC=tail\\r\\nA='new'\\n\"),\n        (b'B=keep', 'A', b\"B=keep\\nA='new'\\n\"),\n        (b'', 'A', b\"A='new'\\n\"),\n    ])\n    def test_newline_variants(tmp_path, before, key, expected):\n        p = tmp_path / '.env'; p.write_bytes(before)\n        assert dotenv.set_key(p, key, 'new') == (True, key, 'new')\n>       assert p.read_bytes() == expected\nE       assert b\"B=keep\\nC=t...\\nA='new'\\r\\n\" == b\"B=keep\\nC=tail\\r\\nA='new'\\n\"\nE         \nE         At index 22 diff: b'\\r' != b'\\n'\nE         Use -v to get more diff\n\nheldout_current.py:14: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/9263fc297e0eba2a12af/heldout.xml -\n=========================== short test summary info ============================\nFAILED heldout_current.py::test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n]\n1 failed, 5 passed in 0.03s\n",
+  "returncode": 1,
+  "seconds": 0.24477404198842123,
+  "source_sha256": {
+    "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+    "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+    "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+    "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+    "src/dotenv/main.py": "34a4ebbaa66b66444db62be10e018cf48f0c3c9b2c5a894f2effb24af121dce0",
+    "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+    "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+    "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+  }
+}

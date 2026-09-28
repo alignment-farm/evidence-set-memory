@@ -1,0 +1,13 @@
+{
+  "audit_pytest_invocations": 48,
+  "checks": {
+    "native_complete_grade_replay": 24,
+    "patch_source_hash_replay": 24,
+    "request_hash_reader_identity_private_test_boundary": 47,
+    "tests_not_modified": 24
+  },
+  "frozen_files": 33,
+  "reader_calls": 0,
+  "script_sha256": "0714ff0223022a20263e629191c74fe6741364dc8c95c54d851eaeab06dbbd06",
+  "seconds": 30.12948000000324
+}

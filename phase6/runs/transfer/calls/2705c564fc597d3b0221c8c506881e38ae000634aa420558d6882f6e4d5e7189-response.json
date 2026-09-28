@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"src/dotenv/main.py\", \"old\": \"def set_key(\\n    dotenv_path: StrPath,\\n    key_to_set: str,\\n    value_to_set: str,\\n    quote_mode: str = \\\"always\\\",\\n    export: bool = False,\\n    encoding: Optional[str] = \\\"utf-8\\\",\\n) -> Tuple[Optional[bool], str, str]:\\n    \\\"\\\"\\\"\\n    Adds or Updates a key/value to the given .env\\n\\n    If the .env path given doesn't exist, fails instead of risking creating\\n    an orphan .env somewhere in the filesystem\\n    \\\"\\\"\\\"\\n    if quote_mode not in (\\\"always\\\", \\\"auto\\\", \\\"never\\\"):\\n        raise ValueError(f\\\"Unknown quote_mode: {quote_mode}\\\")\\n\\n    quote = (\\n        quote_mode == \\\"always\\\"\\n        or (quote_mode == \\\"auto\\\" and not value_to_set.isalnum())\\n    )\\n\\n    if quote:\\n        value_out = \\\"'{}'\\\".format(\\n            value_to_set.replace(\\\"\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\").replace(\\\"'\\\", \\\"\\\\\\\\'\\\")\\n        )\\n    else:\\n        value_out = value_to_set\\n    if export:\\n        line_out = f'export {key_to_set}={value_out}\\\\n'\\n    else:\\n        line_out = f\\\"{key_to_set}={value_out}\\\\n\\\"\\n\\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\\n        replaced = False\\n        missing_newline = False\\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\\n            if mapping.key == key_to_set:\\n                dest.write(line_out)\\n                replaced = True\\n            else:\\n                dest.write(mapping.original.string)\\n                missing_newline = not mapping.original.string.endswith(\\\"\\\\n\\\")\\n        if not replaced:\\n            if missing_newline:\\n                dest.write(\\\"\\\\n\\\")\\n            dest.write(line_out)\\n\\n    return True, key_to_set, value_to_set\", \"new\": \"def _detect_line_ending(source: IO[str]) -> str:\\n    content = source.read()\\n    source.seek(0)\\n    if \\\"\\\\r\\\\n\\\" in content:\\n        return \\\"\\\\r\\\\n\\\"\\n    if \\\"\\\\n\\\" in content:\\n        return \\\"\\\\n\\\"\\n    return \\\"\\\\n\\\"\\n\\n\\ndef set_key(\\n    dotenv_path: StrPath,\\n    key_to_set: str,\\n    value_to_set: str,\\n    quote_mode: str = \\\"always\\\",\\n    export: bool = False,\\n    encoding: Optional[str] = \\\"utf-8\\\",\\n) -> Tuple[Optional[bool], str, str]:\\n    \\\"\\\"\\\"\\n    Adds or Updates a key/value to the given .env\\n\\n    If the .env path given doesn't exist, fails instead of risking creating\\n    an orphan .env somewhere in the filesystem\\n    \\\"\\\"\\\"\\n    if quote_mode not in (\\\"always\\\", \\\"auto\\\", \\\"never\\\"):\\n        raise ValueError(f\\\"Unknown quote_mode: {quote_mode}\\\")\\n\\n    quote = (\\n        quote_mode == \\\"always\\\"\\n        or (quote_mode == \\\"auto\\\" and not value_to_set.isalnum())\\n    )\\n\\n    if quote:\\n        value_out = \\\"'{}'\\\".format(\\n            value_to_set.replace(\\\"\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\").replace(\\\"'\\\", \\\"\\\\\\\\'\\\")\\n        )\\n    else:\\n        value_out = value_to_set\\n\\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\\n        line_ending = _detect_line_ending(source)\\n        if export:\\n            line_out = f'export {key_to_set}={value_out}{line_ending}'\\n        else:\\n            line_out = f\\\"{key_to_set}={value_out}{line_ending}\\\"\\n\\n        replaced = False\\n        missing_newline = False\\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\\n            if mapping.key == key_to_set:\\n                dest.write(line_out)\\n                replaced = True\\n            else:\\n                dest.write(mapping.original.string)\\n                missing_newline = not mapping.original.string.endswith((\\\"\\\\n\\\", \\\"\\\\r\\\"))\\n        if not replaced:\\n            if missing_newline:\\n                dest.write(line_ending)\\n            dest.write(line_out)\\n\\n    return True, key_to_set, value_to_set\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790622456,
+    "id": "chatcmpl-IodEp9U1WDcHCwtyG9oYl9oLLarzoZxS",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 8214,
+      "predicted_ms": 56043.702,
+      "predicted_n": 1002,
+      "predicted_per_second": 17.878904573434497,
+      "predicted_per_token_ms": 55.93183832335329,
+      "prompt_ms": 28947.255,
+      "prompt_n": 4940,
+      "prompt_per_second": 170.65521411270257,
+      "prompt_per_token_ms": 5.859768218623482
+    },
+    "usage": {
+      "completion_tokens": 1002,
+      "prompt_tokens": 13154,
+      "prompt_tokens_details": {
+        "cached_tokens": 8214
+      },
+      "total_tokens": 14156
+    }
+  },
+  "seconds": 85.06056645797798,
+  "timestamp": "2026-09-28T19:07:36Z"
+}

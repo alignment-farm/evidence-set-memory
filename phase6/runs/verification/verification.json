@@ -1,0 +1,47 @@
+{
+  "bit_identical_fits": 3,
+  "chronology_correction": "Transfer task definitions were authored in phase6_transfer.py after acquisition and before freeze. They were serialized/executed only after freeze. Frozen wording saying generated after freeze is too strong. No task definitions are inputs to acquisition; this is not investigator-blinded transfer.",
+  "exact_example_replay": true,
+  "numpy": "2.5.3",
+  "python": "3.12.14",
+  "reader_calls": 0,
+  "repository_tests_pass": true,
+  "script_sha256": "9b43e4429cb6e4ddb8ba645fe45f16e58d544868b36a09cec65578ec7e966ee2",
+  "seconds": 1.8648256249725819,
+  "supplementary_costs": {
+    "audit_pytest_invocations": 48,
+    "audit_pytest_seconds": 29.859686622046866,
+    "semantic_diagnosis": {
+      "after_counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 1,
+        "tests": 180
+      },
+      "after_returncode": 0,
+      "before_counts": {
+        "errors": 0,
+        "failures": 1,
+        "skipped": 1,
+        "tests": 180
+      },
+      "before_returncode": 1,
+      "causal_claim": "Only the helper changed; comparison is post-hoc and unblinded",
+      "model_calls": 0,
+      "original_complete": false,
+      "original_patch_source_replayed": true,
+      "pytest_invocations": 2,
+      "script_sha256": "0f45a863cccc44311324ec15ffbf3cc478efdca74aa0525095b1e20953c4dbd4",
+      "seconds": 2.264401291962713,
+      "timestamp": "2026-09-28T19:17:47Z"
+    },
+    "verification_example_seconds": 0.05592291703214869,
+    "verification_fit_seconds": 0.6754121670383029
+  },
+  "timestamp": "2026-09-28T19:19:33Z",
+  "timing_gaps": [
+    "Six outer transfer records() scans and one interface-validation scan were executed but their timers discarded; each scans eight source files. Inner attempt scans are timed separately.",
+    "Do not interpret saved representation/selection times as exhaustive wall-clock costs. Copying, hashing, prompt serialization and authoring overhead are incomplete."
+  ],
+  "torch": "2.14.0"
+}

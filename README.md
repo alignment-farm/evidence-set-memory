@@ -1,14 +1,22 @@
 # Evidence-set memory
 
 An independent Construct-2 ancillary investigation, commissioned 28 September
-2026. **Status: phases 1–5 and the reader-budget diagnosis published locally.
+2026. **Status: phases 1–6 and their bounded diagnoses published locally.
 Root scientific review remains separate.**
 
-Phase 6 is underway: a [source-native code-edit pilot](phase6/PROTOCOL.md) with
-pinned python-dotenv source, executable regression/acceptance tests and a fixed
-local reader. The upstream baseline passes 149 tests (one unavailable IPython
-integration skipped). Development currently tests real patches, ordinary source
-expansion and public test-driven repair; no phase-6 transfer result is claimed yet.
+[Phase 6 findings](phase6/FINDINGS.md) report source-native python-dotenv edits
+with executable tests and a fixed local reader. A six-weight set energy learns
+earlier executed preferences, but on two later edits selects exactly the same
+evidence as ordinary empirical policy reuse. All four policies complete the API
+extension and fail the line-ending change despite passing its public example.
+Ordinary dependency access misses one held-out case; compact reuse/energy miss
+three. An isolated investigator repair explains the ordinary failure; it is not
+counted as reader success. The two earlier obligations survive the one accepted
+later revision. All 24 saved outcomes replay, three fits reproduce bit-for-bit,
+and 22 repository boundary tests pass. [Reproduction](phase6/REPRODUCE.md),
+[costs](phase6/runs/audit/native-costs.json) and [limitations/next step](phase6/FINDINGS.md#limits-and-next-bounded-step)
+include authored-task provenance, the chronology correction, failed attempts,
+and the common reader-interface limit. No energy-specific advantage is established.
 
 [Phase 5 findings](phase5/FINDINGS.md) add an authored versioned-configuration
 workload with native CPython execution and fresh longer dependency chains.

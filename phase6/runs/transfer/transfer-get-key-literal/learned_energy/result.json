@@ -1,0 +1,212 @@
+{
+  "baseline": {
+    "command": [
+      "/usr/bin/sandbox-exec",
+      "-p",
+      "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/tmp/baseline",
+      "--junitxml",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/baseline.xml",
+      "tests",
+      "public_current.py",
+      "prior_0.py",
+      "prior_1.py",
+      "prior_2.py",
+      "prior_3.py"
+    ],
+    "counts": {
+      "errors": 0,
+      "failures": 1,
+      "skipped": 1,
+      "tests": 172
+    },
+    "output": "........................................................................ [ 42%]\n........................................................................ [ 84%]\n.....F.....................                                              [100%]\n=================================== FAILURES ===================================\n_____________________________ test_get_key_literal _____________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/tmp/baseline/test_get_key_literal0')\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b80c7d0>\n\n    def test_get_key_literal(tmp_path, monkeypatch):\n        monkeypatch.setenv('EXTERNAL', 'expanded')\n        p = tmp_path / '.env'\n        p.write_text('A=${EXTERNAL}\\n', encoding='utf-8')\n>       assert dotenv.get_key(p, 'A', interpolate=False) == '${EXTERNAL}'\nE       TypeError: get_key() got an unexpected keyword argument 'interpolate'\n\n/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/public_current.py:7: TypeError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/baseline.xml -\n=========================== short test summary info ============================\nFAILED public_current.py::test_get_key_literal - TypeError: get_key() got an ...\n1 failed, 170 passed, 1 skipped in 0.92s\n",
+    "returncode": 1,
+    "seconds": 1.1756264999858104,
+    "source_sha256": {
+      "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+      "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+      "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+      "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+      "src/dotenv/main.py": "7d61cf9c031ade38b86e8a2a25e3ecefacf4b19b71d3e4881e31ce47beb858fa",
+      "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+      "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+      "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+    }
+  },
+  "complete": true,
+  "events": [
+    {
+      "action": {
+        "edits": [
+          {
+            "new": "def get_key(\n    dotenv_path: StrPath,\n    key_to_get: str,\n    encoding: Optional[str] = \"utf-8\",\n    interpolate: bool = True,\n) -> Optional[str]:\n    \"\"\"\n    Get the value of a given key from the given .env.\n\n    Returns `None` if the key isn't found or doesn't have a value.\n\n    Parameters:\n        dotenv_path: Absolute or relative path to the .env file.\n        key_to_get: Key to get the value of.\n        encoding: Encoding to be used to read the file.\n        interpolate: Whether to interpolate variable references using the values of\n            already parsed variables and the process environment. When `False`, the\n            literal stored expression is returned without expansion.\n    \"\"\"\n    return DotEnv(\n        dotenv_path,\n        verbose=True,\n        encoding=encoding,\n        interpolate=interpolate,\n    ).get(key_to_get)",
+            "old": "def get_key(\n    dotenv_path: StrPath,\n    key_to_get: str,\n    encoding: Optional[str] = \"utf-8\",\n) -> Optional[str]:\n    \"\"\"\n    Get the value of a given key from the given .env.\n\n    Returns `None` if the key isn't found or doesn't have a value.\n    \"\"\"\n    return DotEnv(dotenv_path, verbose=True, encoding=encoding).get(key_to_get)",
+            "path": "src/dotenv/main.py"
+          }
+        ]
+      },
+      "changed": [
+        "src/dotenv/main.py"
+      ],
+      "public_test": {
+        "command": [
+          "/usr/bin/sandbox-exec",
+          "-p",
+          "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "--basetemp",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/tmp/public_0",
+          "--junitxml",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/public_0.xml",
+          "tests",
+          "public_current.py",
+          "prior_0.py",
+          "prior_1.py",
+          "prior_2.py",
+          "prior_3.py"
+        ],
+        "counts": {
+          "errors": 0,
+          "failures": 0,
+          "skipped": 1,
+          "tests": 172
+        },
+        "output": "........................................................................ [ 42%]\n........................................................................ [ 84%]\n...........................                                              [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/public_0.xml -\n171 passed, 1 skipped in 0.73s\n",
+        "returncode": 0,
+        "seconds": 0.9727736660279334,
+        "source_sha256": {
+          "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+          "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+          "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+          "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+          "src/dotenv/main.py": "549622f432661ff2e16335097dcbf5f809b8da084e5be6053732dca8b9b896ac",
+          "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+          "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+          "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+        }
+      },
+      "request_hash": "062f6401e39d8d2b6f66357ca7fac753d3acaed5f7b1da5ec69beb7df70dfc28",
+      "reused": true,
+      "turn": 0
+    }
+  ],
+  "first_patch_public_pass": true,
+  "heldout": {
+    "command": [
+      "/usr/bin/sandbox-exec",
+      "-p",
+      "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/tmp/heldout",
+      "--junitxml",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/heldout.xml",
+      "heldout_current.py"
+    ],
+    "counts": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 1
+    },
+    "output": ".                                                                        [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/308b542657e9031d4556/heldout.xml -\n1 passed in 0.01s\n",
+    "returncode": 0,
+    "seconds": 0.22390804102178663,
+    "source_sha256": {
+      "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+      "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+      "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+      "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+      "src/dotenv/main.py": "549622f432661ff2e16335097dcbf5f809b8da084e5be6053732dca8b9b896ac",
+      "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+      "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+      "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+    }
+  },
+  "heldout_pass": true,
+  "initial_noop": false,
+  "logical_completion_tokens": 340,
+  "logical_prompt_tokens": 5042,
+  "patches": [
+    {
+      "edits": [
+        {
+          "new": "def get_key(\n    dotenv_path: StrPath,\n    key_to_get: str,\n    encoding: Optional[str] = \"utf-8\",\n    interpolate: bool = True,\n) -> Optional[str]:\n    \"\"\"\n    Get the value of a given key from the given .env.\n\n    Returns `None` if the key isn't found or doesn't have a value.\n\n    Parameters:\n        dotenv_path: Absolute or relative path to the .env file.\n        key_to_get: Key to get the value of.\n        encoding: Encoding to be used to read the file.\n        interpolate: Whether to interpolate variable references using the values of\n            already parsed variables and the process environment. When `False`, the\n            literal stored expression is returned without expansion.\n    \"\"\"\n    return DotEnv(\n        dotenv_path,\n        verbose=True,\n        encoding=encoding,\n        interpolate=interpolate,\n    ).get(key_to_get)",
+          "old": "def get_key(\n    dotenv_path: StrPath,\n    key_to_get: str,\n    encoding: Optional[str] = \"utf-8\",\n) -> Optional[str]:\n    \"\"\"\n    Get the value of a given key from the given .env.\n\n    Returns `None` if the key isn't found or doesn't have a value.\n    \"\"\"\n    return DotEnv(dotenv_path, verbose=True, encoding=encoding).get(key_to_get)",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    }
+  ],
+  "policy": "learned_energy",
+  "public_pass": true,
+  "representation": {
+    "characters_scanned": 28773,
+    "files_scanned": 8,
+    "records": 48,
+    "seconds": 0.006467166997026652
+  },
+  "selected": [
+    "src/dotenv/main.py::DotEnv",
+    "src/dotenv/main.py::get_key",
+    "src/dotenv/main.py::module",
+    "src/dotenv/variables.py::Literal",
+    "src/dotenv/variables.py::module"
+  ],
+  "selection": {
+    "bytes": 4368,
+    "chosen_proposal": "pointwise",
+    "energy": -3.492142882757509,
+    "proposal_and_selection_seconds": 0.027154709037858993,
+    "proposal_energies": {
+      "all": -0.013885196811279976,
+      "all_files": 0.6172644766359608,
+      "ordinary": -2.9364240606312397,
+      "ordinary_files": -0.39002197876681216,
+      "pointwise": -3.492142882757509,
+      "root_only": -1.4352552955206492
+    },
+    "proposal_evaluations": 6,
+    "records": 5,
+    "seconds": 0.000864707981236279
+  },
+  "source_base": {
+    "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+    "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+    "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+    "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+    "src/dotenv/main.py": "7d61cf9c031ade38b86e8a2a25e3ecefacf4b19b71d3e4881e31ce47beb858fa",
+    "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+    "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+    "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+  },
+  "source_result": {
+    "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+    "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+    "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+    "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+    "src/dotenv/main.py": "549622f432661ff2e16335097dcbf5f809b8da084e5be6053732dca8b9b896ac",
+    "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+    "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+    "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+  },
+  "task": "transfer-get-key-literal"
+}

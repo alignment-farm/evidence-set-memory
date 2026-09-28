@@ -1,0 +1,336 @@
+{
+  "baseline": {
+    "command": [
+      "/usr/bin/sandbox-exec",
+      "-p",
+      "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/tmp/baseline",
+      "--junitxml",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/baseline.xml",
+      "tests",
+      "public_current.py",
+      "prior_0.py",
+      "prior_1.py",
+      "prior_2.py",
+      "prior_3.py",
+      "prior_4.py",
+      "prior_5.py"
+    ],
+    "counts": {
+      "errors": 0,
+      "failures": 1,
+      "skipped": 1,
+      "tests": 174
+    },
+    "output": "........................................................................ [ 41%]\n........................................................................ [ 83%]\n.....F.......................                                            [100%]\n=================================== FAILURES ===================================\n_________________________ test_crlf_update_and_remove __________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/tmp/baseline/test_crlf_update_and_remove0')\n\n    def test_crlf_update_and_remove(tmp_path):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=old\\r\\nB=keep\\r\\n')\n        dotenv.set_key(p, 'A', 'new')\n>       assert p.read_bytes() == b\"A='new'\\r\\nB=keep\\r\\n\"\nE       assert b\"A='new'\\nB=keep\\n\" == b\"A='new'\\r\\nB=keep\\r\\n\"\nE         \nE         At index 7 diff: b'\\n' != b'\\r'\nE         Use -v to get more diff\n\n/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/public_current.py:7: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/baseline.xml -\n=========================== short test summary info ============================\nFAILED public_current.py::test_crlf_update_and_remove - assert b\"A='new'\\nB=k...\n1 failed, 172 passed, 1 skipped in 0.95s\n",
+    "returncode": 1,
+    "seconds": 1.1953723749611527,
+    "source_sha256": {
+      "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+      "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+      "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+      "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+      "src/dotenv/main.py": "549622f432661ff2e16335097dcbf5f809b8da084e5be6053732dca8b9b896ac",
+      "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+      "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+      "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+    }
+  },
+  "complete": false,
+  "events": [
+    {
+      "action": {
+        "read": [
+          "src/dotenv/main.py",
+          "src/dotenv/parser.py"
+        ]
+      },
+      "read_bytes": 18384,
+      "request_hash": "4368d06778d8f99e21450631d6c5c46f6cb32f07855c6b9de75a6dd02e319147",
+      "reused": false,
+      "turn": 0
+    },
+    {
+      "action": {
+        "edits": [
+          {
+            "new": "def _detect_line_ending(source: IO[str]) -> str:\n    \"\"\"Detect the first LF or CRLF line-ending style in the source stream.\n\n    Returns the line-ending string (\"\\r\\n\" or \"\\n\") to use for new or replaced\n    assignments. Defaults to \"\\n\" when no line ending is present. The stream\n    position is restored to where it was on entry.\n    \"\"\"\n    start = source.tell()\n    try:\n        content = source.read()\n    except Exception:\n        content = \"\"\n    try:\n        source.seek(start)\n    except Exception:\n        pass\n    if \"\\r\\n\" in content:\n        return \"\\r\\n\"\n    if \"\\n\" in content:\n        return \"\\n\"\n    return \"\\n\"\n\n\ndef set_key(\n    dotenv_path: StrPath,\n    key_to_set: str,\n    value_to_set: str,\n    quote_mode: str = \"always\",\n    export: bool = False,\n    encoding: Optional[str] = \"utf-8\",\n) -> Tuple[Optional[bool], str, str]:\n    \"\"\"\n    Adds or Updates a key/value to the given .env\n\n    If the .env path given doesn't exist, fails instead of risking creating\n    an orphan .env somewhere in the filesystem\n    \"\"\"\n    if quote_mode not in (\"always\", \"auto\", \"never\"):\n        raise ValueError(f\"Unknown quote_mode: {quote_mode}\")\n\n    quote = (\n        quote_mode == \"always\"\n        or (quote_mode == \"auto\" and not value_to_set.isalnum())\n    )\n\n    if quote:\n        value_out = \"'{}'\".format(\n            value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n        )\n    else:\n        value_out = value_to_set\n\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        line_ending = _detect_line_ending(source)\n        if export:\n            line_out = f'export {key_to_set}={value_out}{line_ending}'\n        else:\n            line_out = f\"{key_to_set}={value_out}{line_ending}\"\n\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith(\"\\n\")\n        if not replaced:\n            if missing_newline:\n                dest.write(line_ending)\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+            "old": "def set_key(\n    dotenv_path: StrPath,\n    key_to_set: str,\n    value_to_set: str,\n    quote_mode: str = \"always\",\n    export: bool = False,\n    encoding: Optional[str] = \"utf-8\",\n) -> Tuple[Optional[bool], str, str]:\n    \"\"\"\n    Adds or Updates a key/value to the given .env\n\n    If the .env path given doesn't exist, fails instead of risking creating\n    an orphan .env somewhere in the filesystem\n    \"\"\"\n    if quote_mode not in (\"always\", \"auto\", \"never\"):\n        raise ValueError(f\"Unknown quote_mode: {quote_mode}\")\n\n    quote = (\n        quote_mode == \"always\"\n        or (quote_mode == \"auto\" and not value_to_set.isalnum())\n    )\n\n    if quote:\n        value_out = \"'{}'\".format(\n            value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n        )\n    else:\n        value_out = value_to_set\n    if export:\n        line_out = f'export {key_to_set}={value_out}\\n'\n    else:\n        line_out = f\"{key_to_set}={value_out}\\n\"\n\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith(\"\\n\")\n        if not replaced:\n            if missing_newline:\n                dest.write(\"\\n\")\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+            "path": "src/dotenv/main.py"
+          }
+        ]
+      },
+      "changed": [
+        "src/dotenv/main.py"
+      ],
+      "public_test": {
+        "command": [
+          "/usr/bin/sandbox-exec",
+          "-p",
+          "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "--basetemp",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/tmp/public_1",
+          "--junitxml",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/public_1.xml",
+          "tests",
+          "public_current.py",
+          "prior_0.py",
+          "prior_1.py",
+          "prior_2.py",
+          "prior_3.py",
+          "prior_4.py",
+          "prior_5.py"
+        ],
+        "counts": {
+          "errors": 0,
+          "failures": 1,
+          "skipped": 1,
+          "tests": 174
+        },
+        "output": "........................................................................ [ 41%]\n........................................................................ [ 83%]\n.....F.......................                                            [100%]\n=================================== FAILURES ===================================\n_________________________ test_crlf_update_and_remove __________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/tmp/public_1/test_crlf_update_and_remove0')\n\n    def test_crlf_update_and_remove(tmp_path):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=old\\r\\nB=keep\\r\\n')\n        dotenv.set_key(p, 'A', 'new')\n>       assert p.read_bytes() == b\"A='new'\\r\\nB=keep\\r\\n\"\nE       assert b\"A='new'\\nB=keep\\n\" == b\"A='new'\\r\\nB=keep\\r\\n\"\nE         \nE         At index 7 diff: b'\\n' != b'\\r'\nE         Use -v to get more diff\n\n/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/public_current.py:7: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/public_1.xml -\n=========================== short test summary info ============================\nFAILED public_current.py::test_crlf_update_and_remove - assert b\"A='new'\\nB=k...\n1 failed, 172 passed, 1 skipped in 0.75s\n",
+        "returncode": 1,
+        "seconds": 1.0148129999870434,
+        "source_sha256": {
+          "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+          "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+          "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+          "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+          "src/dotenv/main.py": "d9b74b899b4e29d55189ce2b6ca4ede7c8ea2b3597092ad6efa7e94621043f52",
+          "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+          "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+          "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+        }
+      },
+      "request_hash": "33583ce194d6bc36a1e3ca919c86bb9ad2de9bcf24e12f0a68e7cc8eb7fa8a34",
+      "reused": false,
+      "turn": 1
+    },
+    {
+      "interface_error": "No schema-valid JSON read/edit object",
+      "request_hash": "5a445baed14d3476cf9a4b1f39dfec747fe7e9cbe9524a27c8312769c527c79d",
+      "reused": false,
+      "turn": 2
+    },
+    {
+      "action": {
+        "edits": [
+          {
+            "new": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False, newline=\"\") as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding, newline=\"\") as source:\n                yield (source, dest)",
+            "old": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False) as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding) as source:\n                yield (source, dest)",
+            "path": "src/dotenv/main.py"
+          }
+        ]
+      },
+      "changed": [
+        "src/dotenv/main.py"
+      ],
+      "public_test": {
+        "command": [
+          "/usr/bin/sandbox-exec",
+          "-p",
+          "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "--basetemp",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/tmp/public_3",
+          "--junitxml",
+          "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/public_3.xml",
+          "tests",
+          "public_current.py",
+          "prior_0.py",
+          "prior_1.py",
+          "prior_2.py",
+          "prior_3.py",
+          "prior_4.py",
+          "prior_5.py"
+        ],
+        "counts": {
+          "errors": 0,
+          "failures": 0,
+          "skipped": 1,
+          "tests": 174
+        },
+        "output": "........................................................................ [ 41%]\n........................................................................ [ 83%]\n.............................                                            [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/public_3.xml -\n173 passed, 1 skipped in 0.74s\n",
+        "returncode": 0,
+        "seconds": 1.0008709580288269,
+        "source_sha256": {
+          "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+          "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+          "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+          "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+          "src/dotenv/main.py": "254c17e079ca72e0e6b3ed1d1971ed23025cf42b1965bc3dd85f3be5ef645506",
+          "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+          "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+          "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+        }
+      },
+      "request_hash": "1e59fe749390bd4f3c93520b5758a2bc8c63dd0ce57d394bb7a81d5b4d9ec482",
+      "reused": false,
+      "turn": 3
+    }
+  ],
+  "first_patch_public_pass": false,
+  "heldout": {
+    "command": [
+      "/usr/bin/sandbox-exec",
+      "-p",
+      "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "--basetemp",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/tmp/heldout",
+      "--junitxml",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/heldout.xml",
+      "heldout_current.py"
+    ],
+    "counts": {
+      "errors": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 6
+    },
+    "output": "..F...                                                                   [100%]\n=================================== FAILURES ===================================\n___ test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n] ____\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/tmp/heldout/test_newline_variants_B_keep_n0')\nbefore = b'B=keep\\nC=tail\\r\\n', key = 'A'\nexpected = b\"B=keep\\nC=tail\\r\\nA='new'\\n\"\n\n    @pytest.mark.parametrize('before, key, expected', [\n        (b'B=keep\\r\\nA=old\\nC=tail', 'A', b\"B=keep\\r\\nA='new'\\r\\nC=tail\"),\n        (b'B=keep\\r\\nC=tail', 'A', b\"B=keep\\r\\nC=tail\\r\\nA='new'\\r\\n\"),\n        (b'B=keep\\nC=tail\\r\\n', 'A', b\"B=keep\\nC=tail\\r\\nA='new'\\n\"),\n        (b'B=keep', 'A', b\"B=keep\\nA='new'\\n\"),\n        (b'', 'A', b\"A='new'\\n\"),\n    ])\n    def test_newline_variants(tmp_path, before, key, expected):\n        p = tmp_path / '.env'; p.write_bytes(before)\n        assert dotenv.set_key(p, key, 'new') == (True, key, 'new')\n>       assert p.read_bytes() == expected\nE       assert b\"B=keep\\nC=t...\\nA='new'\\r\\n\" == b\"B=keep\\nC=tail\\r\\nA='new'\\n\"\nE         \nE         At index 22 diff: b'\\r' != b'\\n'\nE         Use -v to get more diff\n\nheldout_current.py:14: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/6422bf6a03a8f81736f8/heldout.xml -\n=========================== short test summary info ============================\nFAILED heldout_current.py::test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n]\n1 failed, 5 passed in 0.03s\n",
+    "returncode": 1,
+    "seconds": 0.24388612498296425,
+    "source_sha256": {
+      "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+      "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+      "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+      "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+      "src/dotenv/main.py": "254c17e079ca72e0e6b3ed1d1971ed23025cf42b1965bc3dd85f3be5ef645506",
+      "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+      "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+      "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+    }
+  },
+  "heldout_pass": false,
+  "initial_noop": false,
+  "logical_completion_tokens": 1582,
+  "logical_prompt_tokens": 87157,
+  "patches": [
+    {
+      "edits": [
+        {
+          "new": "def _detect_line_ending(source: IO[str]) -> str:\n    \"\"\"Detect the first LF or CRLF line-ending style in the source stream.\n\n    Returns the line-ending string (\"\\r\\n\" or \"\\n\") to use for new or replaced\n    assignments. Defaults to \"\\n\" when no line ending is present. The stream\n    position is restored to where it was on entry.\n    \"\"\"\n    start = source.tell()\n    try:\n        content = source.read()\n    except Exception:\n        content = \"\"\n    try:\n        source.seek(start)\n    except Exception:\n        pass\n    if \"\\r\\n\" in content:\n        return \"\\r\\n\"\n    if \"\\n\" in content:\n        return \"\\n\"\n    return \"\\n\"\n\n\ndef set_key(\n    dotenv_path: StrPath,\n    key_to_set: str,\n    value_to_set: str,\n    quote_mode: str = \"always\",\n    export: bool = False,\n    encoding: Optional[str] = \"utf-8\",\n) -> Tuple[Optional[bool], str, str]:\n    \"\"\"\n    Adds or Updates a key/value to the given .env\n\n    If the .env path given doesn't exist, fails instead of risking creating\n    an orphan .env somewhere in the filesystem\n    \"\"\"\n    if quote_mode not in (\"always\", \"auto\", \"never\"):\n        raise ValueError(f\"Unknown quote_mode: {quote_mode}\")\n\n    quote = (\n        quote_mode == \"always\"\n        or (quote_mode == \"auto\" and not value_to_set.isalnum())\n    )\n\n    if quote:\n        value_out = \"'{}'\".format(\n            value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n        )\n    else:\n        value_out = value_to_set\n\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        line_ending = _detect_line_ending(source)\n        if export:\n            line_out = f'export {key_to_set}={value_out}{line_ending}'\n        else:\n            line_out = f\"{key_to_set}={value_out}{line_ending}\"\n\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith(\"\\n\")\n        if not replaced:\n            if missing_newline:\n                dest.write(line_ending)\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+          "old": "def set_key(\n    dotenv_path: StrPath,\n    key_to_set: str,\n    value_to_set: str,\n    quote_mode: str = \"always\",\n    export: bool = False,\n    encoding: Optional[str] = \"utf-8\",\n) -> Tuple[Optional[bool], str, str]:\n    \"\"\"\n    Adds or Updates a key/value to the given .env\n\n    If the .env path given doesn't exist, fails instead of risking creating\n    an orphan .env somewhere in the filesystem\n    \"\"\"\n    if quote_mode not in (\"always\", \"auto\", \"never\"):\n        raise ValueError(f\"Unknown quote_mode: {quote_mode}\")\n\n    quote = (\n        quote_mode == \"always\"\n        or (quote_mode == \"auto\" and not value_to_set.isalnum())\n    )\n\n    if quote:\n        value_out = \"'{}'\".format(\n            value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n        )\n    else:\n        value_out = value_to_set\n    if export:\n        line_out = f'export {key_to_set}={value_out}\\n'\n    else:\n        line_out = f\"{key_to_set}={value_out}\\n\"\n\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith(\"\\n\")\n        if not replaced:\n            if missing_newline:\n                dest.write(\"\\n\")\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    },
+    {
+      "edits": [
+        {
+          "new": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False, newline=\"\") as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding, newline=\"\") as source:\n                yield (source, dest)",
+          "old": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False) as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding) as source:\n                yield (source, dest)",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    }
+  ],
+  "policy": "full_context",
+  "public_pass": true,
+  "representation": {
+    "characters_scanned": 29287,
+    "files_scanned": 8,
+    "records": 48,
+    "seconds": 0.006252042017877102
+  },
+  "selected": [
+    "src/dotenv/__init__.py::load_ipython_extension",
+    "src/dotenv/__init__.py::get_cli_string",
+    "src/dotenv/__init__.py::module",
+    "src/dotenv/__main__.py::module",
+    "src/dotenv/cli.py::enumerate_env",
+    "src/dotenv/cli.py::cli",
+    "src/dotenv/cli.py::stream_file",
+    "src/dotenv/cli.py::list",
+    "src/dotenv/cli.py::set",
+    "src/dotenv/cli.py::get",
+    "src/dotenv/cli.py::unset",
+    "src/dotenv/cli.py::run",
+    "src/dotenv/cli.py::run_command",
+    "src/dotenv/cli.py::module",
+    "src/dotenv/ipython.py::IPythonDotEnv",
+    "src/dotenv/ipython.py::load_ipython_extension",
+    "src/dotenv/ipython.py::module",
+    "src/dotenv/main.py::with_warn_for_invalid_lines",
+    "src/dotenv/main.py::DotEnv",
+    "src/dotenv/main.py::get_key",
+    "src/dotenv/main.py::rewrite",
+    "src/dotenv/main.py::set_key",
+    "src/dotenv/main.py::unset_key",
+    "src/dotenv/main.py::resolve_variables",
+    "src/dotenv/main.py::_walk_to_root",
+    "src/dotenv/main.py::find_dotenv",
+    "src/dotenv/main.py::load_dotenv",
+    "src/dotenv/main.py::dotenv_values",
+    "src/dotenv/main.py::module",
+    "src/dotenv/parser.py::make_regex",
+    "src/dotenv/parser.py::Original",
+    "src/dotenv/parser.py::Binding",
+    "src/dotenv/parser.py::Position",
+    "src/dotenv/parser.py::Error",
+    "src/dotenv/parser.py::Reader",
+    "src/dotenv/parser.py::decode_escapes",
+    "src/dotenv/parser.py::parse_key",
+    "src/dotenv/parser.py::parse_unquoted_value",
+    "src/dotenv/parser.py::parse_value",
+    "src/dotenv/parser.py::parse_binding",
+    "src/dotenv/parser.py::parse_stream",
+    "src/dotenv/parser.py::module",
+    "src/dotenv/variables.py::Atom",
+    "src/dotenv/variables.py::Literal",
+    "src/dotenv/variables.py::Variable",
+    "src/dotenv/variables.py::parse_variables",
+    "src/dotenv/variables.py::module",
+    "src/dotenv/version.py::module"
+  ],
+  "selection": {
+    "bytes": 29287,
+    "chosen_proposal": "all",
+    "records": 48,
+    "seconds": 0.000935667019803077
+  },
+  "source_base": {
+    "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+    "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+    "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+    "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+    "src/dotenv/main.py": "549622f432661ff2e16335097dcbf5f809b8da084e5be6053732dca8b9b896ac",
+    "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+    "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+    "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+  },
+  "source_result": {
+    "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+    "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+    "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+    "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+    "src/dotenv/main.py": "254c17e079ca72e0e6b3ed1d1971ed23025cf42b1965bc3dd85f3be5ef645506",
+    "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+    "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+    "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+  },
+  "task": "transfer-preserve-newlines"
+}

@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\":[{\"path\":\"src/dotenv/main.py\",\"old\":\"def get_key(\\n    dotenv_path: StrPath,\\n    key_to_get: str,\\n    encoding: Optional[str] = \\\"utf-8\\\",\\n) -> Optional[str]:\\n    \\\"\\\"\\\"\\n    Get the value of a given key from the given .env.\\n\\n    Returns `None` if the key isn't found or doesn't have a value.\\n    \\\"\\\"\\\"\\n    return DotEnv(dotenv_path, verbose=True, encoding=encoding).get(key_to_get)\",\"new\":\"def get_key(\\n    dotenv_path: StrPath,\\n    key_to_get: str,\\n    encoding: Optional[str] = \\\"utf-8\\\",\\n    interpolate: bool = True,\\n) -> Optional[str]:\\n    \\\"\\\"\\\"\\n    Get the value of a given key from the given .env.\\n\\n    Returns `None` if the key isn't found or doesn't have a value.\\n\\n    Parameters:\\n        dotenv_path: Absolute or relative path to the .env file.\\n        key_to_get: Key to get the value of.\\n        encoding: Encoding to be used to read the file.\\n        interpolate: Whether to interpolate variable references using the values of\\n            already parsed variables and the process environment. When `False`, the\\n            literal stored expression is returned without expansion.\\n    \\\"\\\"\\\"\\n    return DotEnv(\\n        dotenv_path,\\n        verbose=True,\\n        encoding=encoding,\\n        interpolate=interpolate,\\n    ).get(key_to_get)\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790622273,
+    "id": "chatcmpl-hGlRrM2CaMhw8X5uddYxTdyj6w1GqL12",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 19227.49,
+      "predicted_n": 340,
+      "predicted_per_second": 17.68301530777028,
+      "predicted_per_token_ms": 56.55144117647059,
+      "prompt_ms": 90928.481,
+      "prompt_n": 16051,
+      "prompt_per_second": 176.52334915833467,
+      "prompt_per_token_ms": 5.664972961186219
+    },
+    "usage": {
+      "completion_tokens": 340,
+      "prompt_tokens": 16051,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 16391
+    }
+  },
+  "seconds": 110.26208529202268,
+  "timestamp": "2026-09-28T19:04:33Z"
+}

@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"src/dotenv/main.py\", \"old\": \"@contextmanager\\ndef rewrite(\\n    path: StrPath,\\n    encoding: Optional[str],\\n) -> Iterator[Tuple[IO[str], IO[str]]]:\\n    pathlib.Path(path).touch()\\n\\n    with tempfile.NamedTemporaryFile(mode=\\\"w\\\", encoding=encoding, delete=False) as dest:\\n        error = None\\n        try:\\n            with open(path, encoding=encoding) as source:\\n                yield (source, dest)\\n        except BaseException as err:\\n            error = err\\n\\n    if error is None:\\n        shutil.move(dest.name, path)\\n    else:\\n        os.unlink(dest.name)\\n        raise error from None\", \"new\": \"@contextmanager\\ndef rewrite(\\n    path: StrPath,\\n    encoding: Optional[str],\\n) -> Iterator[Tuple[IO[str], IO[str]]]:\\n    pathlib.Path(path).touch()\\n\\n    with tempfile.NamedTemporaryFile(mode=\\\"w\\\", encoding=encoding, delete=False, newline=\\\"\\\") as dest:\\n        error = None\\n        try:\\n            with open(path, encoding=encoding, newline=\\\"\\\") as source:\\n                yield (source, dest)\\n        except BaseException as err:\\n            error = err\\n\\n    if error is None:\\n        shutil.move(dest.name, path)\\n    else:\\n        os.unlink(dest.name)\\n        raise error from None\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790622853,
+    "id": "chatcmpl-wM53YorzwPLuImhA7uMmgsYZCGm4Im9w",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 12324,
+      "predicted_ms": 18009.638,
+      "predicted_n": 319,
+      "predicted_per_second": 17.712738035045458,
+      "predicted_per_token_ms": 56.45654545454545,
+      "prompt_ms": 21535.327,
+      "prompt_n": 3547,
+      "prompt_per_second": 164.7061128906935,
+      "prompt_per_token_ms": 6.071420073301382
+    },
+    "usage": {
+      "completion_tokens": 319,
+      "prompt_tokens": 15871,
+      "prompt_tokens_details": {
+        "cached_tokens": 12324
+      },
+      "total_tokens": 16190
+    }
+  },
+  "seconds": 39.63288691599155,
+  "timestamp": "2026-09-28T19:14:13Z"
+}

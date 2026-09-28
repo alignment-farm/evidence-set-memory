@@ -1,0 +1,351 @@
+{
+  "acquisition": {
+    "example_construction_seconds": 0.056254791968967766,
+    "leave_one_task_out_fits": 2,
+    "leave_one_task_out_seconds": 0.11383862496586516,
+    "main_pairs": 30,
+    "main_seconds": 0.7223614589893259,
+    "main_steps": 800,
+    "parameters": 6
+  },
+  "aggregate": {
+    "completion_tokens": 11774,
+    "physical_reader_calls": 41,
+    "prompt_tokens": 469523,
+    "pytest_invocations": 80,
+    "reader_seconds": 1863.827558833058
+  },
+  "interpretation": "Native token counts are not dollars or independent observations. Reported prompt-cache tokens are retained; wall times are not isolated.",
+  "preflight_pytest_invocations": 3,
+  "preflight_seconds": 2.1434741670964286,
+  "runs": [
+    {
+      "attempts": 8,
+      "completion_tokens": 3717,
+      "endpoint_errors": 0,
+      "missing_usage": 0,
+      "physical_requests": 15,
+      "policies": {
+        "all": {
+          "additional_source_bytes": 17284,
+          "chosen_proposals": [
+            "all",
+            "all"
+          ],
+          "complete": 2,
+          "completion_tokens": 853,
+          "first_patch_public_pass": 2,
+          "initial_noops": 0,
+          "initial_source_bytes": 56418,
+          "logical_requests": 3,
+          "n": 2,
+          "prompt_tokens": 46866,
+          "public_patch_submissions": 2,
+          "representation_seconds": 0.013168959005270153,
+          "selection_seconds": 0.0018294589244760573,
+          "source_reads": 1
+        },
+        "ordinary": {
+          "additional_source_bytes": 17284,
+          "chosen_proposals": [
+            "ordinary",
+            "ordinary"
+          ],
+          "complete": 2,
+          "completion_tokens": 913,
+          "first_patch_public_pass": 2,
+          "initial_noops": 0,
+          "initial_source_bytes": 25568,
+          "logical_requests": 3,
+          "n": 2,
+          "prompt_tokens": 24655,
+          "public_patch_submissions": 2,
+          "representation_seconds": 0.012305208016186953,
+          "selection_seconds": 0.0019303320441395044,
+          "source_reads": 1
+        },
+        "pointwise": {
+          "additional_source_bytes": 17284,
+          "chosen_proposals": [
+            "pointwise",
+            "pointwise"
+          ],
+          "complete": 2,
+          "completion_tokens": 898,
+          "first_patch_public_pass": 2,
+          "initial_noops": 0,
+          "initial_source_bytes": 11610,
+          "logical_requests": 3,
+          "n": 2,
+          "prompt_tokens": 14975,
+          "public_patch_submissions": 2,
+          "representation_seconds": 0.01246512500802055,
+          "selection_seconds": 0.0017899999511428177,
+          "source_reads": 1
+        },
+        "root_only": {
+          "additional_source_bytes": 48009,
+          "chosen_proposals": [
+            "root_only",
+            "root_only"
+          ],
+          "complete": 1,
+          "completion_tokens": 1053,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 4122,
+          "logical_requests": 6,
+          "n": 2,
+          "prompt_tokens": 35097,
+          "public_patch_submissions": 3,
+          "representation_seconds": 0.012750583002343774,
+          "selection_seconds": 0.0018002500291913748,
+          "source_reads": 3
+        }
+      },
+      "prompt_tokens": 121593,
+      "pytest_invocations": 25,
+      "pytest_seconds": 19.590160416031722,
+      "reader_seconds": 642.0067840830889,
+      "reported_models": [
+        "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf"
+      ],
+      "run": "phase6/runs/development",
+      "server_cached_prompt_tokens": 44763,
+      "test_case_executions": 2747
+    },
+    {
+      "attempts": 4,
+      "completion_tokens": 2381,
+      "endpoint_errors": 0,
+      "missing_usage": 0,
+      "physical_requests": 10,
+      "policies": {
+        "all_files": {
+          "additional_source_bytes": 18583,
+          "chosen_proposals": [
+            "all_files",
+            "all_files"
+          ],
+          "complete": 1,
+          "completion_tokens": 1159,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 56418,
+          "logical_requests": 5,
+          "n": 2,
+          "prompt_tokens": 73162,
+          "public_patch_submissions": 3,
+          "representation_seconds": 0.012432499963324517,
+          "selection_seconds": 0.015056165982969105,
+          "source_reads": 1
+        },
+        "ordinary_files": {
+          "additional_source_bytes": 18583,
+          "chosen_proposals": [
+            "ordinary_files",
+            "ordinary_files"
+          ],
+          "complete": 1,
+          "completion_tokens": 1222,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 39308,
+          "logical_requests": 5,
+          "n": 2,
+          "prompt_tokens": 58832,
+          "public_patch_submissions": 3,
+          "representation_seconds": 0.012881376023869962,
+          "selection_seconds": 0.015238417021464556,
+          "source_reads": 1
+        }
+      },
+      "prompt_tokens": 131994,
+      "pytest_invocations": 14,
+      "pytest_seconds": 11.848184167931322,
+      "reader_seconds": 425.87731633201474,
+      "reported_models": [
+        "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf"
+      ],
+      "run": "phase6/runs/packaging",
+      "server_cached_prompt_tokens": 80200,
+      "test_case_executions": 1600
+    },
+    {
+      "attempts": 10,
+      "completion_tokens": 4922,
+      "endpoint_errors": 0,
+      "missing_usage": 0,
+      "physical_requests": 15,
+      "policies": {
+        "empirical_reuse": {
+          "additional_source_bytes": 32023,
+          "chosen_proposals": [
+            "pointwise",
+            "pointwise"
+          ],
+          "complete": 1,
+          "completion_tokens": 1320,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 10149,
+          "logical_requests": 5,
+          "n": 2,
+          "prompt_tokens": 50965,
+          "public_patch_submissions": 3,
+          "representation_seconds": 0.01253687497228384,
+          "selection_seconds": 0.001869790954515338,
+          "source_reads": 2
+        },
+        "full_context": {
+          "additional_source_bytes": 18384,
+          "chosen_proposals": [
+            "all",
+            "all"
+          ],
+          "complete": 1,
+          "completion_tokens": 1922,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 58060,
+          "logical_requests": 5,
+          "n": 2,
+          "prompt_tokens": 103208,
+          "public_patch_submissions": 3,
+          "representation_seconds": 0.012482292018830776,
+          "selection_seconds": 0.001841250981669873,
+          "source_reads": 1
+        },
+        "learned_energy": {
+          "additional_source_bytes": 32023,
+          "chosen_proposals": [
+            "pointwise",
+            "pointwise"
+          ],
+          "complete": 1,
+          "completion_tokens": 1320,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 10149,
+          "logical_requests": 5,
+          "n": 2,
+          "prompt_tokens": 50965,
+          "public_patch_submissions": 3,
+          "representation_seconds": 0.012843042029999197,
+          "selection_seconds": 0.055186209036037326,
+          "source_reads": 2
+        },
+        "ordinary_access": {
+          "additional_source_bytes": 18384,
+          "chosen_proposals": [
+            "ordinary",
+            "ordinary"
+          ],
+          "complete": 1,
+          "completion_tokens": 1680,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 18253,
+          "logical_requests": 5,
+          "n": 2,
+          "prompt_tokens": 57916,
+          "public_patch_submissions": 3,
+          "representation_seconds": 0.01297450001584366,
+          "selection_seconds": 0.001998624997213483,
+          "source_reads": 1
+        },
+        "retention": {
+          "additional_source_bytes": 0,
+          "chosen_proposals": [
+            "retention",
+            "retention"
+          ],
+          "complete": 2,
+          "completion_tokens": 0,
+          "first_patch_public_pass": 0,
+          "initial_noops": 2,
+          "initial_source_bytes": 41464,
+          "logical_requests": 0,
+          "n": 2,
+          "prompt_tokens": 0,
+          "public_patch_submissions": 0,
+          "representation_seconds": 0.012513876019511372,
+          "selection_seconds": 0.016566499951295555,
+          "source_reads": 0
+        }
+      },
+      "prompt_tokens": 212089,
+      "pytest_invocations": 32,
+      "pytest_seconds": 25.604815498983953,
+      "reader_seconds": 734.5408983759698,
+      "reported_models": [
+        "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf"
+      ],
+      "run": "phase6/runs/transfer",
+      "server_cached_prompt_tokens": 132310,
+      "test_case_executions": 3859
+    },
+    {
+      "attempts": 2,
+      "completion_tokens": 754,
+      "endpoint_errors": 0,
+      "missing_usage": 0,
+      "physical_requests": 1,
+      "policies": {
+        "identical_delivery_replay": {
+          "additional_source_bytes": 0,
+          "chosen_proposals": [
+            "identical_delivery_replay"
+          ],
+          "complete": 1,
+          "completion_tokens": 754,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 5691,
+          "logical_requests": 1,
+          "n": 1,
+          "prompt_tokens": 3847,
+          "public_patch_submissions": 1,
+          "representation_seconds": 0.00616104097571224,
+          "selection_seconds": 0.0009813749929890037,
+          "source_reads": 0
+        },
+        "pointwise": {
+          "additional_source_bytes": 0,
+          "chosen_proposals": [
+            "pointwise"
+          ],
+          "complete": 1,
+          "completion_tokens": 754,
+          "first_patch_public_pass": 1,
+          "initial_noops": 0,
+          "initial_source_bytes": 5691,
+          "logical_requests": 1,
+          "n": 1,
+          "prompt_tokens": 3847,
+          "public_patch_submissions": 1,
+          "representation_seconds": 0.006739959004335105,
+          "selection_seconds": 0.0009813749929890037,
+          "source_reads": 0
+        }
+      },
+      "prompt_tokens": 3847,
+      "pytest_invocations": 6,
+      "pytest_seconds": 4.72062812501099,
+      "reader_seconds": 61.40256004198454,
+      "reported_models": [
+        "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf"
+      ],
+      "run": "phase6/runs/interface-validation",
+      "server_cached_prompt_tokens": 0,
+      "test_case_executions": 670
+    }
+  ],
+  "unknown": [
+    "investigator tokens/dollars",
+    "authored task/test labor",
+    "machine energy",
+    "Git/package network transfer",
+    "constructor/serialization/process startup overhead outside saved timers"
+  ]
+}

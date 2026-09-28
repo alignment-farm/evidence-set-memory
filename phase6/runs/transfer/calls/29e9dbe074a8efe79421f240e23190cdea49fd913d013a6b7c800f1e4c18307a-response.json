@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"src/dotenv/main.py\", \"old\": \"    if quote:\\n        value_out = \\\"'{}'\\\".format(\\n            value_to_set.replace(\\\"\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\").replace(\\\"'\\\", \\\"\\\\\\\\'\\\")\\n        )\\n    else:\\n        value_out = value_to_set\\n    if export:\\n        line_out = f'export {key_to_set}={value_out}\\\\n'\\n    else:\\n        line_out = f\\\"{key_to_set}={value_out}\\\\n\\\"\\n\\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\\n        replaced = False\\n        missing_newline = False\\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\\n            if mapping.key == key_to_set:\\n                dest.write(line_out)\\n                replaced = True\\n            else:\\n                dest.write(mapping.original.string)\\n                missing_newline = not mapping.original.string.endswith(\\\"\\\\n\\\")\\n        if not replaced:\\n            if missing_newline:\\n                dest.write(\\\"\\\\n\\\")\\n            dest.write(line_out)\\n\\n    return True, key_to_set, value_to_set\", \"new\": \"    if quote:\\n        value_out = \\\"'{}'\\\".format(\\n            value_to_set.replace(\\\"\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\").replace(\\\"'\\\", \\\"\\\\\\\\'\\\")\\n        )\\n    else:\\n        value_out = value_to_set\\n\\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\\n        replaced = False\\n        missing_newline = False\\n        line_ending = \\\"\\\\n\\\"\\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\\n            original = mapping.original.string\\n            if \\\"\\\\r\\\\n\\\" in original:\\n                line_ending = \\\"\\\\r\\\\n\\\"\\n            elif \\\"\\\\n\\\" in original:\\n                line_ending = \\\"\\\\n\\\"\\n            if export:\\n                line_out = f'export {key_to_set}={value_out}{line_ending}'\\n            else:\\n                line_out = f\\\"{key_to_set}={value_out}{line_ending}\\\"\\n            if mapping.key == key_to_set:\\n                dest.write(line_out)\\n                replaced = True\\n            else:\\n                dest.write(original)\\n                missing_newline = not original.endswith((\\\"\\\\n\\\", \\\"\\\\r\\\\n\\\"))\\n        if not replaced:\\n            if export:\\n                line_out = f'export {key_to_set}={value_out}{line_ending}'\\n            else:\\n                line_out = f\\\"{key_to_set}={value_out}{line_ending}\\\"\\n            if missing_newline:\\n                dest.write(line_ending)\\n            dest.write(line_out)\\n\\n    return True, key_to_set, value_to_set\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790622809,
+    "id": "chatcmpl-bV2XM2MZYRyEYNGJhASFuYMAFhMJimmi",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 6409,
+      "predicted_ms": 34862.069,
+      "predicted_n": 629,
+      "predicted_per_second": 18.04253212854349,
+      "predicted_per_token_ms": 55.42459300476948,
+      "prompt_ms": 28442.834,
+      "prompt_n": 4940,
+      "prompt_per_second": 173.6817083698481,
+      "prompt_per_token_ms": 5.757658704453441
+    },
+    "usage": {
+      "completion_tokens": 629,
+      "prompt_tokens": 11349,
+      "prompt_tokens_details": {
+        "cached_tokens": 6409
+      },
+      "total_tokens": 11978
+    }
+  },
+  "seconds": 63.38922262500273,
+  "timestamp": "2026-09-28T19:13:29Z"
+}
