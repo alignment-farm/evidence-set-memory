@@ -1,0 +1,13 @@
+{
+  "completion_tokens": 33262,
+  "errors": 0,
+  "note": "Additional physical calls only. Per-policy summary already includes original calls plus retries. Post-freeze diagnosis, not fresh confirmation.",
+  "prompt_tokens": 24043,
+  "protocol_sha256": "358fb12061850484df328f883f5752992fbf526eaebff18d9a7f8ce1a97ec633",
+  "remaining_length_stops": 1,
+  "request_seconds": 1903.2129088319489,
+  "requests": 13,
+  "script_sha256": "d846eb887b2ce9478b2ee3ded1aabbf95e93a697eb8d63a2ae232959d1651f5a",
+  "usage_missing": 0,
+  "wall_seconds": 1903.3254233330372
+}

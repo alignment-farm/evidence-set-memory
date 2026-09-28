@@ -1,5 +1,6 @@
 """Aggregate recorded native costs without counting shared inference twice."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 from phase2_assets import dump
@@ -37,6 +38,9 @@ def main():
             deployment_by_policy=read('phase2/runs/confirmation-reader/summary.json'),
             note='Physical totals deduplicate identical payloads. Deployment arm tokens count logical calls; add fallback tokens and fallback calls per policy. Fallback uses already executed all-source outputs, so do not add them again to physical totals. API-reported tokens; all-source-first order can affect cache/timing.'),
         optimizer_diagnostics=dict(phase3=phase3,phase4=phase4,
+            phase3_shared_representation={key:sum(r[key] for r in read('phase3/runs/scaling/outcomes.json') if r['method']=='exact')
+                for key in ['feature_seconds','coefficient_forward_seconds']},
+            phase4_representation=read('phase4/runs/extension/provenance.json')['representation'],
             phase4_actual_selection_gradients=read('phase4/runs/extension/provenance.json')['actual_selection_gradients'],
             phase4_refined_inclusive_wall_seconds=sum(r['refined']['seconds'] for r in phase4.values()),
             note='Phase 4 refined includes rounded predecessor: do not sum both. Phase 3 and phase 4 reuse embeddings, build features again, and fit no new weights.'),
@@ -51,6 +55,13 @@ def main():
         separation='This ledger reports measured components; it is not a complete energy, monetary, or total-wall estimate. Phase 1 has its own ledger and is not folded into continuation totals.')
     if 'reader-budget-diagnostic' in readers:
         result['primary']['budget_repaired_deployment_by_policy']=read('phase2/runs/reader-budget-diagnostic/summary.json')
+        rows=read('phase2/runs/reader-budget-diagnostic/outcomes.json')
+        for arm,summary in result['primary']['budget_repaired_deployment_by_policy'].items():
+            group=[r for r in rows if r['arm']==arm]
+            summary['fallback_repaired_calls']=sum(next(f['repaired'] for f in rows if f['id']==r['id'] and f['arm']=='all') for r in group if r['fallback'])
+            summary['requests_including_retries_and_fallback']=summary['n']+summary['repaired_calls']+summary['fallback_calls']+summary['fallback_repaired_calls']
+        result['primary']['call_accounting_note']='fallback_calls counts fallback activations; fallback_repaired_calls adds length-stop retries inside the full-source fallback route.'
+    result['script_sha256']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     dump(a.out,result)
     print(json.dumps(dict(training=result['training']['totals'],encoder=result['encoder']['totals'],primary=result['primary']['actual_total']),indent=2))
 

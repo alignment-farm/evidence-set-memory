@@ -43,6 +43,9 @@ train with `--semantic --unary --seed 11` into another new output directory.
 Lexical attempts omit `--semantic`; both pairwise seeds 11 and 23 and unary seed
 11 were executed. Defaults are 60 epochs, with checkpoint selection on development.
 The seed-11 initial size assertion failure is retained separately.
+Exact numeric replay was checked on this host with the locked environment, not
+promised across different architectures or numerical libraries. Timing is always
+a new measurement; the replay comparisons explicitly exclude timing fields.
 
 The phase-2 freeze hashes the methods, checkpoints and split manifests. It does
 not certify novelty, absence of pretraining contamination, or source truth. See
@@ -83,5 +86,12 @@ per-policy costs are not the same as the deduplicated physical experiment total.
 Phase-1 publication is commit `ad01b74421d2297356ba92bd67584e1667cb4fdf`.
 Phase-2 lexical development publication is `2c55bdf`; the semantic freeze and
 phase-3 results are `dda88d9`; phase-4 results are `53f1d7f`. The final continuation
-publication manifest will pin all current evidence without rewriting these
+publication manifest pins current evidence without rewriting these
 earlier publication boundaries.
+
+The final local publication is pinned by `continuation-manifest.json`; verify with
+`uv run python scripts/manifest_continuation.py --verify`. Rebuild the native cost
+aggregation with `uv run python scripts/continuation_costs.py --out .cache/new-costs.json`.
+The first ledger is retained; v2 adds nested-fallback request counts without
+changing physical cost totals. Original frozen QA and label-diagnosis publication
+is commit `7784e34`; later diagnostic results do not overwrite that boundary.

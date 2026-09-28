@@ -1,8 +1,8 @@
 # Natural-text neural set energy: selection and complete work
 
-28 September 2026. **The frozen comparison is complete. A separate public
-length-stop repair diagnostic is running. No useful end-to-end or EBM-specific
-advantage is established.** Root review remains separate.
+28 September 2026. **The frozen comparison and separate public length-stop
+diagnostic are complete. No useful end-to-end or EBM-specific advantage is
+established.** Root review remains separate.
 
 ## What was learned, and from what
 
@@ -129,7 +129,29 @@ five all-source calls and three exact-set calls (some payloads map to multiple
 arms). Public schema extraction already salvages valid trailing JSON when present.
 The separately declared [budget diagnostic](READER_BUDGET_DIAGNOSTIC.md) retries
 all length stops at 4,096 tokens, without correctness triggers. That is post-freeze
-diagnosis on the same cases, not fresh confirmation. Its results remain pending.
+diagnosis on the same cases, not fresh confirmation.
+
+All thirteen retries preserved the original response as an exact text prefix;
+the returned model identity was unchanged. One still hit the larger cap. Full-
+context complete score rises 6→7/24; exact/refined stays 2/24, unary 1/24 and
+ordinary compact 0/24. Full-context answer EM rises 9→10, exact 4→5; other main
+arms are unchanged. The support control remains 9/24 complete. See the separate
+[repair summary](runs/reader-budget-diagnostic/summary.json).
+
+After fallback, exact/refined actually falls 3→2/24 complete. On
+`triple_ii__135794_87694_64412`, the extra generation replaces a malformed output
+with the correct answer `11 February 1929`, but the selected evidence lacks the
+annotated basilica paragraph and the answer omits that intermediate citation.
+The now-well-formed response no longer triggers full-source fallback. This is a
+complete-metric loss, not an answer-correctness loss: more generation can suppress
+a public repair trigger without fixing missing evidence. No hidden-label trigger
+is added to rescue it. Ordinary and unary fallback completions stay 1 and 2/24;
+full-context repaired access reaches 7/24.
+
+The thirteen additional calls use 24,043 prompt and 33,262 completion tokens,
+taking 1,903 measured wall seconds. All had reported usage and none had an endpoint
+error. The response-cap limitation is real, but lifting it does not establish
+useful compact-evidence performance or resolve the label-validity problems.
 
 Raw [outcomes](runs/confirmation-reader/outcomes.json),
 [summary](runs/confirmation-reader/summary.json), and
@@ -146,7 +168,7 @@ The original confirmation reader makes 166 unique calls for 192 mapped outcomes,
 using 165,890 prompt and 26,529 completion tokens in 2,291 measured wall seconds,
 with zero endpoint errors or missing usage fields. It reports 9,612 cached prompt
 tokens; execution order and backend caching limit timing comparisons. The final
-native ledger will add all development/diagnostic reader calls, tokens, encoding,
+native ledger includes all development/diagnostic reader calls, tokens, encoding,
 repeated selection, fallback and verification work without double-counting reuse.
 
 For the 24-case deployment comparison, exact compact reading uses 25,590 initial
@@ -157,8 +179,30 @@ not additional physical calls on top of reused experiment outputs. The compact
 policies cost less but achieve lower recorded complete quality; shorter context
 alone is not a usefulness claim.
 
+With the larger-budget repair policy, exact selection plus fallback consumes
+71,244 prompt+completion tokens and 35 logical model requests, ordinary compact
+66,048 tokens and 34 requests, and full-context access 115,493 tokens and 29
+requests. These counts include retries **inside** fallback as well as the initial
+compact retries. Compact delivery can reduce tokens while increasing the number
+of model invocations; native units must not be collapsed into one cost claim.
+
+The continuation's physical reader total, including both unsuccessful development
+interfaces and all diagnostics, is **262 calls, 258,920 prompt tokens, 64,888
+completion tokens and 4,833 summed run-wall seconds**, with zero endpoint errors.
+Encoder construction processes 12,289 per-partition-unique strings / 745,053 tokens
+in 34.97 measured encoding wall seconds plus 10.63 loading seconds; 206 strings
+are truncated at 256 encoder tokens. Encoder and reader token units are different.
+The [native ledger](runs/continuation-costs-v2.json) retains every component and
+unknown cost. Its v2 adds nested-fallback request accounting; the first ledger is
+preserved with identical physical totals. No monetary or electrical-energy total
+is inferred.
+
 Exact checkpoint and non-timing selection replay succeeded; six boundary tests
-pass. See [reproduction instructions](REPRODUCE.md) for pinned source/model versions,
+pass, plus the quadratic identity test and four earlier revision-workload tests
+(eleven total). The [final audit](runs/final-audit.json) reproduces raw grading,
+fallback, request hashes, model identity, retry eligibility and token totals.
+These are integrity checks, not independent scientific validation of the labels.
+See [reproduction instructions](REPRODUCE.md) for pinned source/model versions,
 scratch-checkout precautions, executed commands and raw-evidence audit paths.
 
 The current phase resolves acquisition and search distinctions in a supplied-pool
@@ -170,3 +214,11 @@ preserve ordinary source/answer reuse and complete repair. It also needs validat
 entity/source links and acceptance of legitimate answer/evidence alternatives;
 the current annotated-support proxy cannot certify that. More static QA rows or
 an additional winning optimizer would not by themselves close that gap.
+
+This bounded continuation closes on explanatory progress, not a first failed
+recipe or exhausted compute. The next bounded step is a pilot of one versioned
+source/code workload with executable complete outcomes: acquire feedback from
+earlier attempts, compare updated versus frozen specialist state on later work
+and authoritative corrections, and keep ordinary code/source/answer reuse available.
+Validate identity, scope and accepted outcome alternatives before freezing that
+comparison. The broader investigation is not retired by this publication.

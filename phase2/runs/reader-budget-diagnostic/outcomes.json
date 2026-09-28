@@ -1,0 +1,6517 @@
+[
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Hewlett Packard",
+      "citations": [
+        17,
+        2,
+        16
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "bc596cf6600d09c6b1bc4b2b1017f2155fec9136d2aeb4e4ad963c5f834d9263",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Compaq",
+      "citations": [
+        2,
+        16
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "6c3c5f1e33cfead8a9a83941ca4cf2e2da34b6bd64a1919c25132e2ecec024cf",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      2,
+      14,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "1191c364b6d7d075a37bd35e3d9971592d24ad2cf4a2f45c241735189a116c35",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      6,
+      14,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Dell",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "0e125ebc8ef1dc84a0399fbc197d37259a9b34459d18c9983cd0cc7fc7d77cdb",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Compaq",
+      "citations": [
+        2,
+        16
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "7432b0fcf5a63dce5d721a363effd3bcab2fc6d176a297745dc7c5f84e780fef",
+    "retrieved_complete": true,
+    "selected": [
+      2,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Compaq",
+      "citations": [
+        16,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "baa3de29745e8deaaad270abd033e2561209a2a09cd64512a6aad6a6156fddf1",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      2,
+      16,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Compaq",
+      "citations": [
+        2,
+        16
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "6c3c5f1e33cfead8a9a83941ca4cf2e2da34b6bd64a1919c25132e2ecec024cf",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      2,
+      14,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Compaq",
+      "citations": [
+        2
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__14095_15463",
+    "repaired": false,
+    "request_hash": "cf17703fbbcb59ecc9ec22f5bc59222a8977b6ca5f302ce8f01ae76148d56218",
+    "retrieved_complete": false,
+    "selected": [
+      2
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "The Mickey Mouse Club",
+      "citations": [
+        2,
+        6
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "8fd0b0ef33b73f0ada19008f00f599fd83c03ac419490a59800bde1489b17781",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.8,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Mickey Mouse",
+      "citations": [
+        2
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.8,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "9afb422bbec40372238d665b2345b4e13607f37cb00def2aa46e2a835c17dd74",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Mickey's Revue",
+      "citations": [
+        13
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "ec54cab3d3522d98b223f73ba7d4c0c953cd1f3b69b3d34cc8c9bd6ec4e1ce49",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      4,
+      5,
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.8,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Mickey Mouse",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0.8,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "5a0e003797487e6d423b2e2e596fcf88774fa43d9fb3209ffcc2b2980dd7a28c",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "The Mickey Mouse Club",
+      "citations": [
+        0,
+        6
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "8a9358216351593aeea2807601f7c4407363511ca65828bdbe6a271fb07439e5",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      6
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Oswald the Lucky Rabbit",
+      "citations": [
+        0
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "e33d611c93e4942f69861c9957757d9ea3b9b1a7d8b51512391c8392e7e0e656",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      2,
+      9,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.8,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Mickey Mouse",
+      "citations": [
+        2
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.8,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "9afb422bbec40372238d665b2345b4e13607f37cb00def2aa46e2a835c17dd74",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Oswald the Lucky Rabbit",
+      "citations": [
+        0
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__7046_44085",
+    "repaired": false,
+    "request_hash": "30ddd4f06f5479a588a84a4d1f780ec2b8ae6f3acbec21c474f74ea50ce9c70b",
+    "retrieved_complete": false,
+    "selected": [
+      0
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Toronto Coach Terminal",
+      "citations": [
+        15,
+        6,
+        5
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "e07f62c3112f7aa1a78c2ebf6740af4f3629e02f8ebfc265557026ce42681006",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Toronto Coach Terminal",
+      "citations": [
+        15,
+        6,
+        5
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "exact",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "0579f89323e54bb0cfaa4024f32999397d40d724ad5f14070d8e152e7cf8cad2",
+    "retrieved_complete": true,
+    "selected": [
+      5,
+      6,
+      15,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.3333333333333333,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Philadelphia Greyhound Terminal",
+      "citations": [
+        4,
+        15
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.3333333333333333,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "7efa71765588f84fbeeccdd376ec4de80e3cac1b899e700edac391d470725032",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      4,
+      5,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Greyhound buses leave from the Greyhound Bus Station located at 1200 S. Lamar Blvd in Austin, Texas.",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "30a4b7de43ee585950a1a27bd1aaf650fb89ab56bb1c1b68e1b6118d3e3963ae",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Toronto Coach Terminal",
+      "citations": [
+        15,
+        6,
+        5
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "2f6e12b73d56d26c869ff143a394ad4f22bb75d4d6c58f0ce7ad0a2f20f4b01f",
+    "retrieved_complete": true,
+    "selected": [
+      5,
+      6,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.4,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Toronto, Ontario",
+      "citations": [
+        15,
+        6
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.4,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "2f5dcaeeec68810c209c8f4f116513d26f00c4326dd9866cff3f77f9621589aa",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      9,
+      10,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Toronto Coach Terminal",
+      "citations": [
+        15,
+        6,
+        5
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "relaxed_swap",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "0579f89323e54bb0cfaa4024f32999397d40d724ad5f14070d8e152e7cf8cad2",
+    "retrieved_complete": true,
+    "selected": [
+      5,
+      6,
+      15,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Toronto Coach Terminal",
+      "citations": [
+        5,
+        6
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__389955_132457_47686",
+    "repaired": false,
+    "request_hash": "90cc7870ca4a6da8eae15a27ace53ae384de9f12bf36c174756043f2db5fe23f",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      6
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__512773_346751",
+    "repaired": true,
+    "request_hash": "62d737404e366186b2acb5c845d48dfa869b4687835dad4daf48dd68176278e5",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__512773_346751",
+    "repaired": false,
+    "request_hash": "bfda363b3ca1987434cc319a692d989485e81909028e4f523a74b5d22f33ddf2",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      8,
+      15,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__512773_346751",
+    "repaired": false,
+    "request_hash": "87e3a9212ed80130e4b942bd422ee6c2d831af80dccd15d553d0b9ba8b2b9f30",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      13,
+      15,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.11764705882352941,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Bancroft is a village in the county of Cheshire, England. It borders the counties of Staffordshire and Shropshire.",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0.11764705882352941,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__512773_346751",
+    "repaired": false,
+    "request_hash": "4a8666ca5119a6caf0d7a68845765153523541c38fa4c7b818599c1d16b4fba4",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Renfrew County",
+      "citations": [
+        7,
+        8
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__512773_346751",
+    "repaired": false,
+    "request_hash": "91a5f7126e8390044598721d4b8a88034fa8fee65fe25366bb38af0e6d5dab25",
+    "retrieved_complete": true,
+    "selected": [
+      7,
+      8
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Hastings County",
+      "citations": [
+        8
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__512773_346751",
+    "repaired": false,
+    "request_hash": "5578d1dfa7bed1539882e56d761ae1ce2c664b439b77c7ccaea1b140f641fbdb",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      7,
+      8,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__512773_346751",
+    "repaired": false,
+    "request_hash": "bfda363b3ca1987434cc319a692d989485e81909028e4f523a74b5d22f33ddf2",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      8,
+      15,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__512773_346751",
+    "repaired": false,
+    "request_hash": "195d704dc40f28e9d9e5d8141f878428c1904aab6d0413d6eb7b9d37b50f9509",
+    "retrieved_complete": false,
+    "selected": [
+      7
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Yongjia County",
+      "citations": [
+        6,
+        3
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "36298d64de1c4a4086bfad62055e044b09da6c17ef9783f867a90722db8eddab",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Wenzhou",
+      "citations": [
+        6
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "63a5dcc54a8beb41edcbb385ec89214baef30475f2afdb2fc2a6507f51b786a3",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      8,
+      14,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Wenzhou",
+      "citations": [
+        6
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "412a8bf8a048e68d3077572eb01b8d9c2fd4076abccb1dcdb28116dc57e06ae0",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      6,
+      14,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Jiangyin County",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "b22f6e83cefd7754ddd4b9977909f0bf08fce2db8802c6b9a603047fdbe9e483",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Yongjia County",
+      "citations": [
+        3,
+        6
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "4f22e62dfba730a1c494d15a82000105ff0b85b5829bf062867c0815d00cc5ef",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      6
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Wenzhou",
+      "citations": [
+        6
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "2d6a11b43e1a44fda99c399b829d83d29649dba10d3f0b144a51f8e1cab08d55",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      6,
+      8,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Wenzhou",
+      "citations": [
+        6
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "63a5dcc54a8beb41edcbb385ec89214baef30475f2afdb2fc2a6507f51b786a3",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      8,
+      14,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__144763_599630",
+    "repaired": false,
+    "request_hash": "6be21c6fb9910da6fd0a9a130957a37fce0e6bab96596e2f67800272388c3124",
+    "retrieved_complete": false,
+    "selected": [
+      3
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "48%",
+      "citations": [
+        9,
+        1,
+        19
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "d459631acc322587767b7d732d1025df2b26af67591836b03d2b89af154e6f74",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "48%",
+      "citations": [
+        9,
+        19
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "c0646076ab4b70b8af9ce4ca135ddcdc9658c9c44524742261318ace2543dcbf",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      9,
+      13,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "48%",
+      "citations": [
+        5,
+        9,
+        19
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "66cdd773d47447e547a852f2fdbb0240a3bdfa8985d23338047718ebb520f725",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      9,
+      11,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Unknown",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "fe19c4979b4bde79919d42a830d51676f0093819de993c40a9b62d5e67436753",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "48%",
+      "citations": [
+        9,
+        19
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "2c708ab720cf3f20536949255fb01ce340080ae476975446a142b19222081c48",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      9,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "48%",
+      "citations": [
+        5,
+        9,
+        19
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "66cdd773d47447e547a852f2fdbb0240a3bdfa8985d23338047718ebb520f725",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      9,
+      11,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "48%",
+      "citations": [
+        9,
+        19
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "c0646076ab4b70b8af9ce4ca135ddcdc9658c9c44524742261318ace2543dcbf",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      9,
+      13,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__158139_19788_15107",
+    "repaired": false,
+    "request_hash": "6e39b2c736b3a45e89ba657f188634e7286b6c018e63e2ae4512306e0da7ad8d",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      9
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "the sextuple",
+      "citations": [
+        0,
+        19,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": false,
+    "request_hash": "16ac5fdb7ef809c85b80d89be529f1067aac3886c800884a2ed528e5a7bbc50a",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.13333333333333333,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League (and also the Spanish Super Cup, UEFA Super Cup and FIFA Club World Cup, completing the sextuple)",
+      "citations": [
+        0,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.13333333333333333,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": false,
+    "request_hash": "12133294fc6e80d9e10b9ed6be9a02dd51553dbd0c1dc825ba9c88aed2154d0d",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      7,
+      17,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": true,
+    "request_hash": "c0871450d1f0001743102db13f281dc81d2bc501b097f0d1dc1cf76c869e01fd",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      1,
+      4,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "La Liga, Copa del Rey, and UEFA Champions League",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": false,
+    "request_hash": "f427995da75c5622f6b6fe30350df91f6e99f4d34c521f67833d6fdcfc7d2e1e",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2666666666666667,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League",
+      "citations": [
+        0,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2666666666666667,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": false,
+    "request_hash": "a42863f12fae03724b59a80f81429f38bbd7ee10726d2d3e06c493bf41a5dee3",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      17,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": true,
+    "request_hash": "6ad84a6efad994fe50e53794291ffd224e5d643f5e17fd107637e578e5591231",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      7,
+      9,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.13333333333333333,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League (and also the Spanish Super Cup, UEFA Super Cup and FIFA Club World Cup, completing the sextuple)",
+      "citations": [
+        0,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.13333333333333333,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": false,
+    "request_hash": "12133294fc6e80d9e10b9ed6be9a02dd51553dbd0c1dc825ba9c88aed2154d0d",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      7,
+      17,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2666666666666667,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League",
+      "citations": [
+        0,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2666666666666667,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__92788_648104_13493",
+    "repaired": false,
+    "request_hash": "4b3f7b48a2381301474ca3a45d0ab7c59968c9938e12eb32ef70502b88f058f0",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "33dd4987e687d6afef8fa3c808c07ac0ccf2044cf4eb6be63c67a3a24769485a",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "fcbdd2e2a39518fb3f02c4deaa5b0d886db577d5a470636f662fa1489bfce763",
+    "retrieved_complete": false,
+    "selected": [
+      4,
+      14,
+      16,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "1dbc45059706e4ef847c37322cb81c6637846a65609d86705f9e5136309d3b70",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      10,
+      14,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Unknown",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "b79a0949c3a1080dd81d879a44278c9dd6979d19a0ecb0010a2c9ea40c95d9d6",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "ada9ad36e24f0284debc46ef26851ce0f8276ced9d4db21fa995635636bd735c",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      7,
+      12,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "6c957bbe9e5343274bf14fd572f4540bc37197f8e25f9a165d2ec5de52a4a081",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      14,
+      16,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "fcbdd2e2a39518fb3f02c4deaa5b0d886db577d5a470636f662fa1489bfce763",
+    "retrieved_complete": false,
+    "selected": [
+      4,
+      14,
+      16,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__15567_59747_211319_557671",
+    "repaired": false,
+    "request_hash": "ad011b6c5276aa5d4630a68f303ff0c3268439ee146cf1460ea8e600f859a30c",
+    "retrieved_complete": false,
+    "selected": [
+      3,
+      7,
+      12
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "2009",
+      "citations": [
+        5
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "1d610a6799047dd0f50706950619254910171ece86a55328126338f28a34de76",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "2009",
+      "citations": [
+        5
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "295cd20dc5053f0cc9543b04ea48a441b0677152233e512070e03a4af29f58b1",
+    "retrieved_complete": true,
+    "selected": [
+      4,
+      5,
+      9,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "2009",
+      "citations": [
+        5
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "467d06e4826e5b83802771c01223a1c6c26f29c670ce85621f6dde38bbe7dde1",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      5,
+      12,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "9bc1cb4f95db910d9c634487d698facfc322e7e57495005889af1948ca605c07",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "2009",
+      "citations": [
+        5
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "eb293a03e1bcf882a7266c5424ce565e8ebd64feef0337c7dbc606f6e3211096",
+    "retrieved_complete": true,
+    "selected": [
+      4,
+      5
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "2009",
+      "citations": [
+        5
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "444bee090e7526ff9c51567472811abee777d061a5e0263eb9534335a51a7c7e",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      9,
+      12,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "2009",
+      "citations": [
+        5
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "295cd20dc5053f0cc9543b04ea48a441b0677152233e512070e03a4af29f58b1",
+    "retrieved_complete": true,
+    "selected": [
+      4,
+      5,
+      9,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__159903_154896",
+    "repaired": false,
+    "request_hash": "31ecd4dece90b8877a17b7b07e30e4124c0dcca189ee6c0648d4e52b75f1a357",
+    "retrieved_complete": false,
+    "selected": [
+      4
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2222222222222222,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "southwards",
+      "citations": [
+        11,
+        17,
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2222222222222222,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "67effb9fba9f0d96a6e84af33fa8ab7eeaeafbd827e097c7d923877a99899f2c",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2222222222222222,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "southwards",
+      "citations": [
+        11,
+        17,
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2222222222222222,
+    "arm": "exact",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "6276d1f817237424b2d0ba485c0fbe7f4b069b657d10d47c34df6c725240d6c1",
+    "retrieved_complete": true,
+    "selected": [
+      10,
+      11,
+      17,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2222222222222222,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "southwards",
+      "citations": [
+        11,
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2222222222222222,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "07158e00b8230939e1a67f435dd4f1ca4be21c9b835a2c41131f1335bcb3497f",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      10,
+      11,
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "North",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "4cc280e9586f84b4569578e940e450d7c49a561cd7135e91dad6f0945b8f00ef",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2222222222222222,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "southwards",
+      "citations": [
+        11,
+        17,
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2222222222222222,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "c78dffcbdeb97f4b38397d0f7e411387d588b2bbabb82c4a7626d0f9abb20060",
+    "retrieved_complete": true,
+    "selected": [
+      10,
+      11,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2222222222222222,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "southwards",
+      "citations": [
+        11,
+        17,
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2222222222222222,
+    "arm": "ordinary_1.0",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "12e84ea78a06813d2c96e7066a301656839b02f3dceec37405a07d878f955563",
+    "retrieved_complete": true,
+    "selected": [
+      7,
+      10,
+      11,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2222222222222222,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "southwards",
+      "citations": [
+        11,
+        17,
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2222222222222222,
+    "arm": "relaxed_swap",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "6276d1f817237424b2d0ba485c0fbe7f4b069b657d10d47c34df6c725240d6c1",
+    "retrieved_complete": true,
+    "selected": [
+      10,
+      11,
+      17,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.2222222222222222,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "southwards",
+      "citations": [
+        10,
+        11
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.2222222222222222,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__131783_131926_87157",
+    "repaired": false,
+    "request_hash": "186c3a311f5f761b602e6b4d61fa37bbaac128581b8222282168a36023145a62",
+    "retrieved_complete": false,
+    "selected": [
+      10,
+      11
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Paco Godia's birthplace is Barcelona, located in the region of Catalonia, while Real Madrid is based in Madrid, located in the region of Castile.",
+      "citations": [
+        10,
+        11,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": true,
+    "request_hash": "d357deb7998c0c0b025106ef9ca46f2e5e173aceaadfe06fc40bd74175738c1d",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.11764705882352941,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; the two cities represent rival regions (Catalonia and Castile) and have a fierce sporting rivalry known as El Cl\u00e1sico.",
+      "citations": [
+        10,
+        15,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.11764705882352941,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": false,
+    "request_hash": "5addab0edf4ae13b1d418b1e360ac32e540adaf266aadd15f4286f6f60594db9",
+    "retrieved_complete": false,
+    "selected": [
+      10,
+      15,
+      17,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; the rivalry between their respective clubs (FC Barcelona and Real Madrid) reflects political and cultural tensions between Catalonia and Castile.",
+      "citations": [
+        10,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": false,
+    "request_hash": "f7960e820988d93713d8a47a9884996015ec0710d50f0d79a2fcd9c597bd0966",
+    "retrieved_complete": false,
+    "selected": [
+      10,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain. The primary differences are their geographic locations (Catalonia vs. Castile), their respective city identities, and their historical roles as rival football clubs representing different regional cultures within Spain.",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": false,
+    "request_hash": "c03dddffe3e5154b77449cfb81e75b66be52b3bb528e833db8f8401cd048d987",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.058823529411764705,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; they represent rival regions (Catalonia and Castile) and cities, with their rivalry reflecting political and cultural tensions.",
+      "citations": [
+        10,
+        17,
+        19
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.058823529411764705,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": false,
+    "request_hash": "4a715b3280858db89f5d6ec6fc5c3334d2322d48f06b8a0dcf3d250607fcb9b6",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      10,
+      17,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.05405405405405405,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; they are located in different cities and regions (Catalonia vs. Castile/Madrid), and they are rivals in La Liga (El Cl\u00e1sico).",
+      "citations": [
+        10,
+        13,
+        17,
+        19
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.05405405405405405,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": false,
+    "request_hash": "cffb12a2fbdc87eb56b01b21116059424d5fc321ec332b5a1ef7012fd12f6b2d",
+    "retrieved_complete": false,
+    "selected": [
+      10,
+      13,
+      17,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.11764705882352941,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; the two cities represent rival regions (Catalonia and Castile) and have a fierce sporting rivalry known as El Cl\u00e1sico.",
+      "citations": [
+        10,
+        15,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.11764705882352941,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": false,
+    "request_hash": "5addab0edf4ae13b1d418b1e360ac32e540adaf266aadd15f4286f6f60594db9",
+    "retrieved_complete": false,
+    "selected": [
+      10,
+      15,
+      17,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.10526315789473684,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; the two cities represent rival regions (Catalonia and Castile) and have a fierce rivalry known as El Cl\u00e1sico, reflecting political and cultural tensions.",
+      "citations": [
+        10,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.10526315789473684,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__316459_41402_145282_13584",
+    "repaired": false,
+    "request_hash": "fe13bd8d294125e329b2bf4142b6a42bf209b8a40ad779fb8db1becc75f05f6f",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      10,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "11 February 1929",
+      "citations": [
+        2,
+        14,
+        0
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": false,
+    "request_hash": "044d875b17caa6d554e148905c967e6d180555e89eb5bebd919fc223a1c48bba",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "11 February 1929",
+      "citations": [
+        0,
+        2
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": true,
+    "request_hash": "9eb5ab125210772db4845357276f0e78857c8a2a94c32bd1c9611652deedc743",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      2,
+      9,
+      12
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1929",
+      "citations": [
+        2,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": false,
+    "request_hash": "68e626b4439465e6a60d63d8ac12452130eb12aa5a2ad0907b1bc70f27c304fb",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      9,
+      13,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1947",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": false,
+    "request_hash": "7181cc2aa927b690d5015786995a8748b3e361fc716e927bf6c4ddd914f4aef3",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "11 February 1929",
+      "citations": [
+        0,
+        2,
+        14
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": false,
+    "request_hash": "63ed875fd4283b3c236fd62d0ee66f52f618c4aecc8e6ca19826a6e6f7e08064",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      2,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": false,
+    "request_hash": "3b1bfa959ef7665e06324c27e8044a30339747fb92cdaaf866e1e7f53df12335",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      7,
+      9,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "11 February 1929",
+      "citations": [
+        0,
+        2
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": true,
+    "request_hash": "9eb5ab125210772db4845357276f0e78857c8a2a94c32bd1c9611652deedc743",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      2,
+      9,
+      12
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "11 February 1929",
+      "citations": [
+        0,
+        2
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__135794_87694_64412",
+    "repaired": false,
+    "request_hash": "bbee6746fdea2c7966955f42cc38bea3ef82d39d2ba66a7b1c3e9bd5816405fd",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      2
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5454545454545454,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "inter-marriage and conversions",
+      "citations": [
+        13,
+        3
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5454545454545454,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "449652542774bd14bb56389c59dc8b51617f6dc537219bb4ac42d30bf2232f34",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5454545454545454,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "inter-marriage and conversions",
+      "citations": [
+        3,
+        12
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5454545454545454,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "e777c3fb3f3a7ecfb999e2f028cbc67bdfcf5441ea6581fe92ec4cac3749777b",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      3,
+      8,
+      12
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.3076923076923077,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "common genetic origin and intermarriage",
+      "citations": [
+        2,
+        8,
+        15
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.3076923076923077,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "cc796503eecb695f3a49db79ac6fa10bf58c90260796c9b1b9bd64cc1350d82e",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      8,
+      13,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.3076923076923077,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Geographic proximity and historical intermarriage",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0.3076923076923077,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "8938a03ae121aebeed0a6a1af4d1a63b5cc290e35be0d8aedad6efd4ce9a2ff4",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "inter-marriage and conversions in the time of the Roman Empire",
+      "citations": [
+        3,
+        13
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "a7d644c111b506319e0b978eee8a5a35844ddc4e9ea9c6fa64f1cb4c299271e8",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5454545454545454,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "inter-marriage and conversions",
+      "citations": [
+        3
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5454545454545454,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "a37e45680bd911fe0b725fc261fd7ee30f2160ffca8434bfd824f50a77dd88ac",
+    "retrieved_complete": false,
+    "selected": [
+      3,
+      8,
+      16,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5454545454545454,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "inter-marriage and conversions",
+      "citations": [
+        3,
+        12
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5454545454545454,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "e777c3fb3f3a7ecfb999e2f028cbc67bdfcf5441ea6581fe92ec4cac3749777b",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      3,
+      8,
+      12
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5454545454545454,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "inter-marriage and conversions",
+      "citations": [
+        3
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5454545454545454,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__6870_16335",
+    "repaired": false,
+    "request_hash": "5b38849b4ad2c958518204ac84a255e89079ac9b888404b29bc518d291b95dfa",
+    "retrieved_complete": false,
+    "selected": [
+      3
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Ninghai",
+      "citations": [
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "7bf957742c90c537036bb10897f057425532831c23f0369539b0c4a16c2a35a9",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Ninghai",
+      "citations": [
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "d501c987b2221f0f8ce742cb62796220e21373ad6803d1b8fd0b49860a19263b",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      7,
+      10,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Ninghai County",
+      "citations": [
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "f3456073b17595955b4a28677c9f88586bcdc75f40cc1f3dbb8578ab28606612",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      8,
+      10,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Nanjing",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "274d5af5b1575ef06e601b4171f4b26f9b464a356768d7245b5b2171f42170aa",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Ningbo",
+      "citations": [
+        10,
+        13
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "9d0f745937870d18ed16594d482c5551819cd6d63c4ecdba2b84502e9ab374ec",
+    "retrieved_complete": true,
+    "selected": [
+      10,
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Ninghai",
+      "citations": [
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "44c289d2975bc54c33a874a4c0f5407f313a8cc478ee287fd4ded8bea4900adc",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      7,
+      10,
+      12
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Ninghai",
+      "citations": [
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "d501c987b2221f0f8ce742cb62796220e21373ad6803d1b8fd0b49860a19263b",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      7,
+      10,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Ninghai County",
+      "citations": [
+        10
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__636597_480615",
+    "repaired": false,
+    "request_hash": "fd53a5d77b8b02435f3ba3b4258e586d9a389df7a737bb53e5fa0e1d2a56be48",
+    "retrieved_complete": false,
+    "selected": [
+      10
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__39063_212301",
+    "repaired": true,
+    "request_hash": "579dd8a1b0a672502b313cdf714a4c865147f837a5f144e9ebb9288d690a8d0b",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.3333333333333333,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Sir Robert Peel, Bt.",
+      "citations": [
+        4,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.3333333333333333,
+    "arm": "exact",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__39063_212301",
+    "repaired": false,
+    "request_hash": "cd50f87074066d380e72ad1b16eb86c0f05099a6b27e33056769f1348747276d",
+    "retrieved_complete": true,
+    "selected": [
+      4,
+      5,
+      13,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Robert Peel",
+      "citations": [
+        4,
+        13
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__39063_212301",
+    "repaired": false,
+    "request_hash": "9c930637fcf0f02633cbd5cd7cc50149600e2e9b6ba7f3718788c6536765e2db",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      3,
+      4,
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Unknown",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__39063_212301",
+    "repaired": false,
+    "request_hash": "9e1b2bb5bceef92171fd065ff2dce56dd873915e0fdb9a9c6b09f8199622a514",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.3333333333333333,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Sir Robert Peel, Bt",
+      "citations": [
+        4,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.3333333333333333,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__39063_212301",
+    "repaired": false,
+    "request_hash": "01e7ec1b1ae3a54acb76732878196d128fdcc26c08dedaa2dae7243ade3858a2",
+    "retrieved_complete": true,
+    "selected": [
+      4,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__39063_212301",
+    "repaired": false,
+    "request_hash": "dcf71202ecfa07d051b40c2e5c236086ff200104373954c10dcc6501bd858098",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      3,
+      4,
+      9
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.3333333333333333,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Sir Robert Peel, Bt.",
+      "citations": [
+        4,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.3333333333333333,
+    "arm": "relaxed_swap",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__39063_212301",
+    "repaired": false,
+    "request_hash": "cd50f87074066d380e72ad1b16eb86c0f05099a6b27e33056769f1348747276d",
+    "retrieved_complete": true,
+    "selected": [
+      4,
+      5,
+      13,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__39063_212301",
+    "repaired": false,
+    "request_hash": "d070cf7d982062d35fafa6dfc3077dbca2c321133f1f9fdd9cc95a5edbc3c2d4",
+    "retrieved_complete": false,
+    "selected": [
+      4
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Meghan McCain",
+      "citations": [
+        18,
+        8
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": true,
+    "request_hash": "af4a447033e1f5164e2a83b096ee86aecf0c4753663e8f94448febfcf32d9451",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Meghan McCain",
+      "citations": [
+        18,
+        8
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "exact",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": false,
+    "request_hash": "93a4e96824a8340bffb3017b4457beafe15f238c6f67ba1bcc0a7a0b72a6da7c",
+    "retrieved_complete": true,
+    "selected": [
+      8,
+      10,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Sarah Palin",
+      "citations": [
+        18
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": false,
+    "request_hash": "5ed47f7b0fc3187066b90408b707f444ae04836637b96c924d53384f9a615a38",
+    "retrieved_complete": false,
+    "selected": [
+      4,
+      10,
+      14,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Mitt Romney's children include Taylor, Jennifer, Scott, and Josh",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": false,
+    "request_hash": "dcc78e13f070842d27b96f3c3582a73f3c910755b8efb1d26abf814d586dc5ad",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Meghan McCain",
+      "citations": [
+        8,
+        18
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": false,
+    "request_hash": "e3191622a9365cfe28271ab6f399c92a389b26334f04a88666b3612bb1a81ea8",
+    "retrieved_complete": true,
+    "selected": [
+      8,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.3076923076923077,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "John McCain's children (e.g., Meghan McCain, Jack McCain, or Cindy McCain)",
+      "citations": [
+        3,
+        18
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.3076923076923077,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": false,
+    "request_hash": "c4b075d2120b8b57733d2943e9ee851713c9ea8c0e44bc375823d1278669823e",
+    "retrieved_complete": false,
+    "selected": [
+      3,
+      10,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Meghan McCain",
+      "citations": [
+        18,
+        8
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "relaxed_swap",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": false,
+    "request_hash": "93a4e96824a8340bffb3017b4457beafe15f238c6f67ba1bcc0a7a0b72a6da7c",
+    "retrieved_complete": true,
+    "selected": [
+      8,
+      10,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Meghan McCain",
+      "citations": [
+        8
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__58939_213732",
+    "repaired": false,
+    "request_hash": "061ebdc59972541c08bc1142c0d0699b663cdffae7f301667d5aa767a14464b7",
+    "retrieved_complete": false,
+    "selected": [
+      8
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Francisco Guterres",
+      "citations": [
+        3,
+        7,
+        17
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "1dd36dace5b33edeb4d87fa486edab678e1018d5ec60d830023a39b44c2e3540",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Francisco Guterres",
+      "citations": [
+        7,
+        17
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "87ba2924456a98bf5a2b45006d8c4b214840f210d063417c94fd959eb436c3e9",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      7,
+      8,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Francisco Guterres",
+      "citations": [
+        3,
+        7,
+        17
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "learned_unary",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "6c3616dc5ca95c87969eb00e80b30cb373bec565aba2033281caa04e2054f9f6",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      7,
+      8,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Xanana Gusm\u00e3o",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "6d3b6bfee324e4aab82cf27cb0025f18fad9e116f097111b58eca42490ba4b6c",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Francisco Guterres",
+      "citations": [
+        3,
+        7,
+        17
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "4cb64f6fd6517b4437ff15c1ecc780bc32998aec3c7ee36e54c637a8678016be",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      7,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Francisco Guterres",
+      "citations": [
+        7,
+        17
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "efb347fc579d5a91329bf2132cbf43a2cb4cd34663fec15a0c1b39bd35ec20cb",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      7,
+      11,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Francisco Guterres",
+      "citations": [
+        7,
+        17
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "87ba2924456a98bf5a2b45006d8c4b214840f210d063417c94fd959eb436c3e9",
+    "retrieved_complete": false,
+    "selected": [
+      5,
+      7,
+      8,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Susilo Bambang Yudhoyono",
+      "citations": [
+        3,
+        7
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__604797_443779_52195",
+    "repaired": false,
+    "request_hash": "8a168a09eb2a8fd648683ec679de8bc50846079e7c8448134041590632f837d9",
+    "retrieved_complete": false,
+    "selected": [
+      3,
+      7
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Liverpool",
+      "citations": [
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "0509654a11924d11056d441e7df4c180ec9bda6dcac1662698936867af1bff06",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Liverpool",
+      "citations": [
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "2d374b037abe1c3ee5a2b4ecdc5f04269af969a95764861428eda1ecb853366f",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Liverpool",
+      "citations": [
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "739365dd77d8e26f8bab51a76dec3b6f7445b8d30cce7179629ee9ed2ef8950a",
+    "retrieved_complete": true,
+    "selected": [
+      6,
+      8,
+      14,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Manchester City",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "37f28d2d534960eaa65860693137f35cce49136070c1a9925b892b0d0d283a09",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Liverpool",
+      "citations": [
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "d3d2c022f5abdda871e3a39934dedbd638243706db36bae890a494aab7f3ca63",
+    "retrieved_complete": true,
+    "selected": [
+      14,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Liverpool",
+      "citations": [
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "e4aa2d12a3844b50dca0f729a6f0f32df9d74586c7c84e92708e75a268e4f453",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      6,
+      8,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Liverpool",
+      "citations": [
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "2d374b037abe1c3ee5a2b4ecdc5f04269af969a95764861428eda1ecb853366f",
+    "retrieved_complete": false,
+    "selected": [
+      6,
+      14,
+      16,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "Liverpool",
+      "citations": [
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__48776_807969",
+    "repaired": false,
+    "request_hash": "3edd432021a2803ef80c360efa69485b841a49991448f9474835f19af92862ad",
+    "retrieved_complete": false,
+    "selected": [
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "K-League",
+      "citations": [
+        13
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "7bd33b49171c230ef66e19b31b7fdb69ac6f56578b792718289ebcc383ff5765",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "62d8f073e4504080d052783a3923496252cde8996d8a843b802c38292d2c2ec8",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      2,
+      4,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "K-League",
+      "citations": [
+        15
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "042cbfb68d865e4d257ae7684d6074462b85b0386eebaca21d9e0017d5c7c479",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      11,
+      13,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "S\u00e9rie A",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "1d9fa83dd1ebf973cfaabcf7374d5750ad2fd73f586ed5d8fc62b65fbb288862",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "K-League",
+      "citations": [
+        15
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "4efcb433fcc8b5106135a1676bd4bffb4b01433b1e437dd28d2358f48c1cb5d9",
+    "retrieved_complete": true,
+    "selected": [
+      13,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "K League 1",
+      "citations": [
+        15
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "3d12a14db245358e6cc0f0bf7b7340c08042b30c28873194fbae07fe9117f783",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      6,
+      15,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "62d8f073e4504080d052783a3923496252cde8996d8a843b802c38292d2c2ec8",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      2,
+      4,
+      15
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__825727_584042",
+    "repaired": false,
+    "request_hash": "c04df6b6f289c604b6c7c7d58c10e4441e6fa52e401a347cd341b7258259b490",
+    "retrieved_complete": false,
+    "selected": [
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.28571428571428575,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Prince Philip, Duke of Edinburgh",
+      "citations": [
+        3,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.28571428571428575,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "5386ed2e31f17e3485d7850fed18a765d799fa99c35f61597679a377286aad49",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Philip Mountbatten, Duke of Edinburgh",
+      "citations": [
+        3,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "exact",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "89acade728b081f46b311ba028791cd75880a596b745ed3f7912f48ab63cbaff",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      4,
+      16,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Philip Mountbatten, Duke of Edinburgh",
+      "citations": [
+        3,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "learned_unary",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "c316110df0b3109072656305204250e0e2f4e8c14c7d5c25ceae9aebb79bc841",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      4,
+      9,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.28571428571428575,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "27b4a8e3b00c34ea3acd98e576962db52574ea89bef983852706ccb1822ae42a",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Philip Mountbatten, Duke of Edinburgh",
+      "citations": [
+        3,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "79ad53c290ba58047067ac9263fb47f36dd57229ab522b3a40c66ec419637471",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.28571428571428575,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "70569a8ab4f4a928e036265410ad6c404d18c46ae9c24466cda176a5961f5255",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      3,
+      15,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "Philip Mountbatten, Duke of Edinburgh",
+      "citations": [
+        3,
+        17
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "relaxed_swap",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "89acade728b081f46b311ba028791cd75880a596b745ed3f7912f48ab63cbaff",
+    "retrieved_complete": true,
+    "selected": [
+      3,
+      4,
+      16,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.28571428571428575,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "double__65202_712629",
+    "repaired": false,
+    "request_hash": "ec25665f6f1beab2be2bfd68117c639b9f8911d8042f41e2b01b0d143d32a290",
+    "retrieved_complete": false,
+    "selected": [
+      3
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "1941",
+      "citations": [
+        1,
+        4
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "520b11613c8c65ef3b87cf5b1d841493d32861b65b82aa951db37dd21fcf2d01",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "fb2585079856c07353b9f858d1ad010f94258eb367e44e7d62e62cf38ae43bf8",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      3,
+      7,
+      10
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "c604ba6a7eb1f087df1c177b70f58bf45203185caabe0d213e5609cf90ecadcc",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      2,
+      7,
+      12
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1904",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "f029e8f2a8685ed1ac49151d2f4f778fb16c41eccd2a032ac7228ae0f3f368d8",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "1941",
+      "citations": [
+        1,
+        3,
+        4
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 1,
+    "fallback": false,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "58637892c904ba77ff5db651601add2773df7bab9ce9b4e7d87b6533cade020e",
+    "retrieved_complete": true,
+    "selected": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1941",
+      "citations": [
+        1,
+        4
+      ]
+    },
+    "answer_em": 1,
+    "answer_f1": 1.0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "7809c3cbeb89d896e82b3ce89362a83d2103773e24ec91d43a8743b1057ea14c",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      2,
+      4,
+      7
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "fb2585079856c07353b9f858d1ad010f94258eb367e44e7d62e62cf38ae43bf8",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      3,
+      7,
+      10
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__465684_160545_34751",
+    "repaired": false,
+    "request_hash": "29ac14f0787a1d22d28cce3170aecded543487a3e1424704482b4b31e47cddc3",
+    "retrieved_complete": false,
+    "selected": [
+      1,
+      3
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "third",
+      "citations": [
+        4,
+        5,
+        18,
+        7
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": false,
+    "request_hash": "e0f48fc8a34f983a36cb6cd4e46b9862f2657403bd96f87e35ea0dcad647f37c",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": true,
+    "request_hash": "d7ac3da9ece958df2ff730b2a5396de3f0b2e3db718fd484cf6465e7a6d6217b",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      4,
+      7,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": false,
+    "request_hash": "f7e64d0b05220bed0854737e9709e69320ef00e1e60e1ed6a30c2ff05c7f1681",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      4,
+      16,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "4th",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": false,
+    "request_hash": "eaede9306aba8a6a7dff9daff1fa3d4b0df997e30f1d10e43193eb96c9a1a7dd",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "third",
+      "citations": [
+        4,
+        5,
+        18,
+        7
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": false,
+    "request_hash": "f1cdf7633aa67b1159f32d75750e8b3e5a034eee4902fee9d2a5bff32b6e617f",
+    "retrieved_complete": true,
+    "selected": [
+      4,
+      5,
+      7,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": true,
+    "request_hash": "c040e540a9cf61c9b8a90e936ed957870b97a3b81537997bf50ae56b861ab76d",
+    "retrieved_complete": false,
+    "selected": [
+      4,
+      7,
+      16,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": true,
+    "request_hash": "d7ac3da9ece958df2ff730b2a5396de3f0b2e3db718fd484cf6465e7a6d6217b",
+    "retrieved_complete": false,
+    "selected": [
+      2,
+      4,
+      7,
+      18
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_ioh1__719125_132409_223216_35031",
+    "repaired": false,
+    "request_hash": "9a1b45423ef99f38637c5ec5281ad1754cb9fbb42fb076c330f2948aab8ae8d9",
+    "retrieved_complete": false,
+    "selected": [
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.588235294117647,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "16-bit architecture, improved graphics, and improved sound",
+      "citations": [
+        2,
+        7,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.588235294117647,
+    "arm": "all",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "ad5a03f350777548a7cad312ab8e2d95ad4275d345dc61d8880b49c36c22c121",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "improved graphics and sound",
+      "citations": [
+        7,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "d3ab6fb537b6d614cd6c644cef193329b095dda3ccf3fb8d67ac6626c2dc9333",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      3,
+      7,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.588235294117647,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "ea82769ed375bdbac9ae063455fdaabdfbbb7fa96da1d7d9f1e40c9b7fe65a6d",
+    "retrieved_complete": false,
+    "selected": [
+      3,
+      6,
+      14,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.29411764705882354,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "The Genesis offered superior graphics and sound capabilities compared to the Pinball Quest platform, which was a dedicated pinball machine with limited processing power and display resolution.",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0.29411764705882354,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "5f2c3cfa878597f3f1f4906559448c5d4aa096733b7c0406b79b1069edcbd407",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "improved graphics and sound",
+      "citations": [
+        7,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "oracle_support",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "f5a95d41774585859f0c6c5f85923d73b786160c515469ada01d1bbd541e8aef",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      7,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "improved graphics and sound",
+      "citations": [
+        7,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "8b6ee0d3228c5c3b90947197d15e271aaf5425e7772adcf9957751a4c9627d0e",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      7,
+      14,
+      16
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "improved graphics and sound",
+      "citations": [
+        7,
+        14
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "d3ab6fb537b6d614cd6c644cef193329b095dda3ccf3fb8d67ac6626c2dc9333",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      3,
+      7,
+      14
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5714285714285715,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "improved graphics and sound",
+      "citations": [
+        7
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5714285714285715,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "triple_ii__536452_15840_36002",
+    "repaired": false,
+    "request_hash": "b86e2f3b840270f075a7e55f08a59b99925979bece1ff0d5db2799c309e5ac55",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      7
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "2016 Summer Olympics",
+      "citations": [
+        7,
+        0,
+        2,
+        9
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "all",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": true,
+    "request_hash": "a68c824acfbeb73d10a243e771061419439d7831f2c6e4b49ca659f8007365d5",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "exact",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": true,
+    "request_hash": "e55fb2d8f27f011ce90827580a6d8ea62c14b68f32466503334ce54a36b32385",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      7,
+      9,
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1992",
+      "citations": [
+        0,
+        7,
+        9
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "learned_unary",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": true,
+    "request_hash": "af8c331d9138a57de07859444b767f81fde68d7baaaf4f136e83c6b862cfc1f8",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      7,
+      9,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1992",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "no_context",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": false,
+    "request_hash": "9789c71b70e82f065431dc7d727970df47685702bd134e0a7003e9a7b8ab76b1",
+    "retrieved_complete": false,
+    "selected": []
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "2016 Summer Olympics",
+      "citations": [
+        7,
+        0,
+        2,
+        9
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0.5,
+    "arm": "oracle_support",
+    "citations_complete": true,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": true,
+    "request_hash": "e908b1f0c1e8d6f31cac026b4543cf7aedefe89d7c1ffcc546b6c3fda533e4ae",
+    "retrieved_complete": true,
+    "selected": [
+      0,
+      2,
+      7,
+      9
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1992",
+      "citations": [
+        0,
+        7,
+        9
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "ordinary_1.0",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": true,
+    "request_hash": "af8c331d9138a57de07859444b767f81fde68d7baaaf4f136e83c6b862cfc1f8",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      7,
+      9,
+      17
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0.5,
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": true
+    },
+    "answer": {
+      "answer": "",
+      "citations": []
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "relaxed_swap",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": true,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": true,
+    "request_hash": "e55fb2d8f27f011ce90827580a6d8ea62c14b68f32466503334ce54a36b32385",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      7,
+      9,
+      13
+    ]
+  },
+  {
+    "after_fallback": {
+      "answer_em": 0,
+      "answer_f1": 0,
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "retrieved_complete": false
+    },
+    "answer": {
+      "answer": "1992",
+      "citations": [
+        0,
+        2,
+        7
+      ]
+    },
+    "answer_em": 0,
+    "answer_f1": 0,
+    "arm": "support_removed",
+    "citations_complete": false,
+    "citations_valid": true,
+    "complete": 0,
+    "fallback": false,
+    "id": "quadruple_iii__118068_582428_157828_162309",
+    "repaired": false,
+    "request_hash": "a43d699d87c12bab3cf914c60e074f466700f250dc774876e989468d26415650",
+    "retrieved_complete": false,
+    "selected": [
+      0,
+      2,
+      7
+    ]
+  }
+]

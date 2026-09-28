@@ -89,7 +89,10 @@ def main():
            strict_exposure_sensitivity={arm:paired(strict['exact'],strict[arm],groups) for arm in ['ordinary_1.0','learned_unary']},
            reproduction_costs=dict(training=read('.cache/phase2/verification-training/costs.json'),
                  selection=read('.cache/phase2/verification-selection/summary.json'),
-                 scaling=read('.cache/phase3-replay/summary.json')))
+                 selection_representation=read('.cache/phase2/verification-selection/representation.json'),
+                 scaling=read('.cache/phase3-replay/summary.json'),
+                 scaling_shared_representation={key:sum(r[key] for r in scaling_replay if r['method']=='exact')
+                      for key in ['feature_seconds','coefficient_forward_seconds']}))
     readerpath=ROOT/'phase2/runs/confirmation-reader/costs.json'
     if args.require_reader:assert readerpath.exists(),'Reader not complete'
     if readerpath.exists():
@@ -113,9 +116,14 @@ def main():
             final=parse(finished[full['request_hash']]['response']) if fallback else answer
             fallback_checks.append(row['after_fallback']==grade(final,by_label[row['id']],full['selected'] if fallback else row['selected']))
         checks['all_raw_reader_grades_reproduce']=all(grade_checks)
+        checks['all_recorded_reader_answers_reproduce']=all(parse(finished[r['request_hash']]['response'])==r['answer'] for r in reader)
         checks['all_fallback_grades_reproduce']=all(fallback_checks)
         checks['all_eight_arms_have_24_outcomes']=len(reader)==192 and all(sum(r['arm']==arm for r in reader)==24 for arm in {r['arm'] for r in reader})
         checks['reader_code_matches_freeze']=read('phase2/runs/confirmation-reader/costs.json')['script_sha256']==freeze['files']['scripts/phase2_reader.py']
+        original_costs=read('phase2/runs/confirmation-reader/costs.json')
+        checks['physical_reader_request_count']=original_costs['requests']==len(finished)
+        for field in ['prompt_tokens','completion_tokens']:
+            checks['physical_reader_'+field]=original_costs[field]==sum(v['response'].get('usage',{}).get(field,0) for v in finished.values())
         checks['exact_and_relaxed_reader_contexts_identical']=all(
             next(r['selected'] for r in reader if r['id']==row['id'] and r['arm']=='relaxed_swap')==row['selected']
             for row in reader if row['arm']=='exact')
@@ -143,7 +151,7 @@ def main():
             repaired=read('phase2/runs/reader-budget-diagnostic/outcomes.json')
             eligibility=read('phase2/runs/reader-budget-diagnostic/eligibility.json')['requests']
             checks['budget_all_and_only_public_length_stops']=eligibility==sorted(k for k,v in finished.items() if v['response'].get('choices',[{}])[0].get('finish_reason')=='length')
-            effective=dict(finished);actual_keys=[]
+            effective=dict(finished);actual_keys=[];prefixes=[]
             for path in budgetdir.glob('*-request.json'):
                 payload=json.loads(path.read_text());newkey=path.name.removesuffix('-request.json')
                 checks[f'budget_payload_hash_{newkey}']=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()==newkey
@@ -151,6 +159,11 @@ def main():
                 payload['max_tokens']=1024;oldkey=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()
                 actual_keys.append(oldkey)
                 effective[oldkey]=json.loads((budgetdir/f'{newkey}-response.json').read_text())
+                oldtext=finished[oldkey]['response'].get('choices',[{}])[0].get('message',{}).get('content','')
+                newtext=effective[oldkey]['response'].get('choices',[{}])[0].get('message',{}).get('content','')
+                prefix=next((i for i,(a,b) in enumerate(zip(oldtext,newtext)) if a!=b),min(len(oldtext),len(newtext)))
+                prefixes.append(dict(original_request=oldkey,old_chars=len(oldtext),new_chars=len(newtext),
+                    common_prefix_chars=prefix,exact_extension=newtext.startswith(oldtext)))
             checks['budget_requests_only_change_cap']=sorted(actual_keys)==eligibility
             valid=[];fallback_valid=[]
             for row in repaired:
@@ -161,10 +174,14 @@ def main():
                 final=parse(effective[full['request_hash']]['response']) if fallback else answer
                 fallback_valid.append(row['after_fallback']==grade(final,by_label[row['id']],full['selected'] if fallback else row['selected']))
             checks['budget_raw_grades_reproduce']=all(valid)
+            checks['budget_recorded_answers_reproduce']=all(parse(effective[r['request_hash']]['response'])==r['answer'] for r in repaired)
             checks['budget_fallback_grades_reproduce']=all(fallback_valid)
             checks['budget_selected_evidence_unchanged']=all(row['selected']==next(r['selected'] for r in reader if r['id']==row['id'] and r['arm']==row['arm']) for row in repaired)
             budgetstats={arm:{r['id']:r['complete'] for r in repaired if r['arm']==arm} for arm in {r['arm'] for r in repaired}}
             result['budget_reader_comparison']={arm:paired(budgetstats['exact'],budgetstats[arm],groups) for arm in ['ordinary_1.0','learned_unary','all']}
+            result['budget_prefix_diagnostics']=dict(exact_extensions=sum(r['exact_extension'] for r in prefixes),requests=len(prefixes),details=prefixes,
+                note='A retry may change output before the old cap despite requested seed/temperature. Such cases are not pure continuation of a fixed token sequence.')
+            checks['budget_returned_model_identity_unchanged']={effective[k]['response'].get('model') for k in eligibility}=={finished[k]['response'].get('model') for k in eligibility}
     result['all_checks_passed']=all(checks.values())
     dump(args.out,result)
     print(json.dumps({k:v for k,v in result.items() if k not in ['checks','reproduction_costs','confirmation_component_clusters']},indent=2))

@@ -1,7 +1,7 @@
 # Evidence-set memory
 
 An independent Construct-2 ancillary investigation, commissioned 28 September
-2026. **Status: phases 1–4 published locally; phase 2 reader-budget diagnosis running.
+2026. **Status: phases 1–4 and the reader-budget diagnosis published locally.
 Root scientific review remains separate.**
 
 [Phase 2 findings](phase2/FINDINGS.md) extend the work to real
@@ -12,9 +12,14 @@ frozen held-out selection and 24-case QA comparison are complete. Exact selectio
 reaches 2/24 annotation-complete answers (3 with fallback), versus full-context
 access's 6/24. A [source/label audit](phase2/LABEL_AUDIT.md) found mismatched-entity
 chains and exact-match penalties, so these are not validated counts of all genuinely
-correct tasks. Public length-stop repair is running separately. This phase is
+correct tasks. Separate length-stop repair raises full-context completion to 7/24
+but leaves learned compact completion at 2/24. This phase is
 explicitly benchmark-supervised, not continuing experience.
 The earlier [development publication](phase2/DEVELOPMENT.md) is retained unchanged.
+All eleven boundary tests and the [final integrity audit](phase2/runs/final-audit.json)
+pass. The [native cost ledger](phase2/runs/continuation-costs-v2.json) includes 262
+actual reader calls, representation construction, acquisition, search and repair.
+See [reproduction](phase2/REPRODUCE.md) and [publication hashes](continuation-manifest.json).
 
 [Phase 3 scaling findings](phase3/FINDINGS.md) test the frozen energy with up to
 160 candidates. Relaxation beats exhaustive enumeration at larger pools, but
@@ -47,8 +52,9 @@ Evidence: [protocol](PROTOCOL.md), [frozen claim](CLAIM.md),
 [actual provenance](runs/provenance.json), and
 [reproduction instructions](FINDINGS.md#reproduction-and-exact-revisions).
 Failed acquisition attempts and all raw reader responses are retained in `runs/`.
-The next bounded step concerns discovering relations in source-native prose/code;
-this phase does not retire the broader question.
+Phase 1's proposed source-native extension is now explored in phases 2–4. The
+broader question remains open, especially validated complete behavior under
+source revisions and learner-earned continuing feedback.
 
 > Can a small specialist learn from earlier experience to assemble compact,
 > sufficient evidence for later complete work, and remain useful as that evidence
