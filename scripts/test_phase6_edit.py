@@ -4,6 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import phase6_edit as study
+import phase6_prompt
 
 
 class EditBoundary(unittest.TestCase):
@@ -37,6 +38,13 @@ class EditBoundary(unittest.TestCase):
             task['hidden_test']='secret answer and desired support certificate'
             changed,_=study.select(task,rows,policy)
             self.assertEqual([r['id'] for r in original],[r['id'] for r in changed])
+
+    def test_prompt_normalization_changes_only_display_artifacts(self):
+        text='monkeypatch = <Mock object at 0x123abc>\nassert result == 10\n1 failed, 149 passed in 0.91s'
+        actual=phase6_prompt.canonical_output(text)
+        self.assertIn('object at <address>',actual)
+        self.assertIn('assert result == 10',actual)
+        self.assertTrue(actual.endswith('1 failed, 149 passed in <elapsed>'))
 
 
 if __name__=='__main__':unittest.main()

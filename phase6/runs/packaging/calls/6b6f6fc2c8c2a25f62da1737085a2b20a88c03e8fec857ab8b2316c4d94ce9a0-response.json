@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"src/dotenv/main.py\", \"old\": \"    if quote:\\n        value_out = \\\"'{}'\\\".format(value_to_set.replace(\\\"'\\\", \\\"\\\\\\\\'\\\"))\\n    else:\\n        value_out = value_to_set\", \"new\": \"    if quote:\\n        value_out = \\\"'{}'\\\".format(\\n            value_to_set.replace(\\\"'\\\", \\\"\\\\\\\\'\\\").replace(\\\"\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\")\\n        )\\n    else:\\n        value_out = value_to_set\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790621736,
+    "id": "chatcmpl-SqB9SiT5RhsOa5E5rObCTzlOES9jtXtA",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 9728,
+      "predicted_ms": 6928.611,
+      "predicted_n": 123,
+      "predicted_per_second": 17.752475929158095,
+      "predicted_per_token_ms": 56.33017073170732,
+      "prompt_ms": 39151.677,
+      "prompt_n": 6565,
+      "prompt_per_second": 167.68119536744234,
+      "prompt_per_token_ms": 5.963697943640518
+    },
+    "usage": {
+      "completion_tokens": 123,
+      "prompt_tokens": 16293,
+      "prompt_tokens_details": {
+        "cached_tokens": 9728
+      },
+      "total_tokens": 16416
+    }
+  },
+  "seconds": 46.172820916981436,
+  "timestamp": "2026-09-28T18:55:36Z"
+}

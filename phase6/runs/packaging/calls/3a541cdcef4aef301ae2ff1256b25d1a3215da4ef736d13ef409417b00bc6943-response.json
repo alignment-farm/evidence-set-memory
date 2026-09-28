@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"src/dotenv/parser.py\", \"old\": \"def decode_escapes(regex: Pattern[str], string: str) -> str:\\n    def decode_match(match: Match[str]) -> str:\\n        return codecs.decode(match.group(0), 'unicode-escape')  # type: ignore\\n\\n    return regex.sub(decode_match, string)\", \"new\": \"def decode_escapes(regex: Pattern[str], string: str) -> str:\\n    def decode_match(match: Match[str]) -> str:\\n        return codecs.decode(match.group(0), 'unicode-escape')  # type: ignore\\n\\n    return regex.sub(decode_match, string)\\n\\n\\ndef decode_single_quotes(string: str) -> str:\\n    return string.replace(\\\"\\\\\\\\\\\\\\\\\\\", \\\"\\\\\\\\\\\").replace(\\\"\\\\\\\\'\\\", \\\"'\\\")\"}]",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790621634,
+    "id": "chatcmpl-O7AivuC5IybcOPWqtmZ7CZuJBCYKVnZT",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 15395,
+      "predicted_ms": 10288.155,
+      "predicted_n": 183,
+      "predicted_per_second": 17.787445853994228,
+      "predicted_per_token_ms": 56.2194262295082,
+      "prompt_ms": 2050.741,
+      "prompt_n": 291,
+      "prompt_per_second": 141.8999278797274,
+      "prompt_per_token_ms": 7.047219931271478
+    },
+    "usage": {
+      "completion_tokens": 183,
+      "prompt_tokens": 15686,
+      "prompt_tokens_details": {
+        "cached_tokens": 15395
+      },
+      "total_tokens": 15869
+    }
+  },
+  "seconds": 12.423051542020403,
+  "timestamp": "2026-09-28T18:53:54Z"
+}

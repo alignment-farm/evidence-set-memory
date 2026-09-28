@@ -1,0 +1,194 @@
+[
+  {
+    "complete": false,
+    "features": [
+      0.9816,
+      1.0,
+      0.6875,
+      0.0,
+      1.95,
+      1.0
+    ],
+    "policy": "ordinary_files",
+    "result_sha256": "caed60be2d59c696d26ac4e460b30df32201014b860a409e86f281985a0b4cc8",
+    "source_result": "phase6/runs/packaging/dev-quoted-backslashes/ordinary_files/result.json",
+    "task": "dev-quoted-backslashes",
+    "tokens": 51676
+  },
+  {
+    "complete": false,
+    "features": [
+      1.40935,
+      1.0,
+      0.75,
+      0.0,
+      2.8,
+      1.0
+    ],
+    "policy": "all_files",
+    "result_sha256": "66d70b4a0f74f4aeddaff3a279c542e30dc274f9b15c1cb9f10555e55e69ce84",
+    "source_result": "phase6/runs/packaging/dev-quoted-backslashes/all_files/result.json",
+    "task": "dev-quoted-backslashes",
+    "tokens": 63125
+  },
+  {
+    "complete": true,
+    "features": [
+      0.6997,
+      1.0,
+      0.6875,
+      0.4,
+      0.8,
+      0.0
+    ],
+    "policy": "ordinary",
+    "result_sha256": "f51f059d86c5c0651fd21a24ae156e8bda378a8a364c02cdece962e1b8f9419f",
+    "source_result": "phase6/runs/development/dev-quoted-backslashes/ordinary/result.json",
+    "task": "dev-quoted-backslashes",
+    "tokens": 18292
+  },
+  {
+    "complete": true,
+    "features": [
+      1.40935,
+      1.0,
+      0.75,
+      0.0,
+      2.8,
+      0.0
+    ],
+    "policy": "all",
+    "result_sha256": "768e5279b30262ade44c32fd90aa74143518eaf66978dfb82d137c2dbc5e5c35",
+    "source_result": "phase6/runs/development/dev-quoted-backslashes/all/result.json",
+    "task": "dev-quoted-backslashes",
+    "tokens": 32452
+  },
+  {
+    "complete": true,
+    "features": [
+      0.29595,
+      0.6666666666666666,
+      0.625,
+      0.35,
+      0.05,
+      0.0
+    ],
+    "policy": "pointwise",
+    "result_sha256": "06c7a113c2f228ecbc5388da8866fe320b7c6f602e072f42a9be0d86bc14cb62",
+    "source_result": "phase6/runs/development/dev-quoted-backslashes/pointwise/result.json",
+    "task": "dev-quoted-backslashes",
+    "tokens": 11262
+  },
+  {
+    "complete": false,
+    "features": [
+      0.1117,
+      0.3333333333333333,
+      0.4375,
+      0.15,
+      0.0,
+      0.0
+    ],
+    "policy": "root_only",
+    "result_sha256": "a177796a428d6bb729109ec1881fad2054534818f2d801f8c8b4471bd9ef9c92",
+    "source_result": "phase6/runs/development/dev-quoted-backslashes/root_only/result.json",
+    "task": "dev-quoted-backslashes",
+    "tokens": 26749
+  },
+  {
+    "complete": true,
+    "features": [
+      0.9838,
+      1.0,
+      0.7647058823529411,
+      0.0,
+      1.95,
+      1.0
+    ],
+    "policy": "ordinary_files",
+    "result_sha256": "02d3865d157571cb679a6d6b0526df39aa304a3996456ea95d3f8f5045acc238",
+    "source_result": "phase6/runs/packaging/dev-values-precedence/ordinary_files/result.json",
+    "task": "dev-values-precedence",
+    "tokens": 8378
+  },
+  {
+    "complete": true,
+    "features": [
+      1.41155,
+      1.0,
+      0.7647058823529411,
+      0.0,
+      2.8,
+      1.0
+    ],
+    "policy": "all_files",
+    "result_sha256": "814ac1c87966f3fe08d2a5c0f7e13c8d7dd30db473a7215998cbdd8f33712a30",
+    "source_result": "phase6/runs/packaging/dev-values-precedence/all_files/result.json",
+    "task": "dev-values-precedence",
+    "tokens": 11196
+  },
+  {
+    "complete": true,
+    "features": [
+      0.5787,
+      1.0,
+      0.7058823529411765,
+      0.5,
+      0.65,
+      0.0
+    ],
+    "policy": "ordinary",
+    "result_sha256": "713d1ec7e2c685b5ca064987cd8a6b46a1ef9d25fcd409067b86edd032f87a18",
+    "source_result": "phase6/runs/development/dev-values-precedence/ordinary/result.json",
+    "task": "dev-values-precedence",
+    "tokens": 7276
+  },
+  {
+    "complete": true,
+    "features": [
+      1.41155,
+      1.0,
+      0.7647058823529411,
+      0.0,
+      2.8,
+      0.0
+    ],
+    "policy": "all",
+    "result_sha256": "27cd3e01429f7b672f49089448c0d92dc45da73b55011b33ed67eaf21efa04e4",
+    "source_result": "phase6/runs/development/dev-values-precedence/all/result.json",
+    "task": "dev-values-precedence",
+    "tokens": 15267
+  },
+  {
+    "complete": true,
+    "features": [
+      0.28455,
+      1.0,
+      0.7058823529411765,
+      0.25,
+      0.1,
+      0.0
+    ],
+    "policy": "pointwise",
+    "result_sha256": "b9fef3f152006718dff436de8fff6f78decabc54bb344ab1ec2e7fd69e0b2ccb",
+    "source_result": "phase6/runs/development/dev-values-precedence/pointwise/result.json",
+    "task": "dev-values-precedence",
+    "tokens": 4611
+  },
+  {
+    "complete": true,
+    "features": [
+      0.0944,
+      0.5,
+      0.5882352941176471,
+      0.1,
+      0.0,
+      0.0
+    ],
+    "policy": "root_only",
+    "result_sha256": "06c1638b5f8280a0196c2312149c228b663f3a08c5825647108a4dfde5004dfe",
+    "source_result": "phase6/runs/development/dev-values-precedence/root_only/result.json",
+    "task": "dev-values-precedence",
+    "tokens": 9401
+  }
+]
