@@ -1,0 +1,46 @@
+{
+  "answer": {
+    "answer": "inter-marriage and conversions",
+    "citations": [
+      3
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"inter-marriage and conversions\", \"citations\":[3]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603917,
+    "id": "chatcmpl-bP7OZbCYO8MyW9r6722ExrZ8QzJ0beQN",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 791.708,
+      "predicted_n": 16,
+      "predicted_per_second": 20.209471168663196,
+      "predicted_per_token_ms": 49.48175,
+      "prompt_ms": 2465.55,
+      "prompt_n": 442,
+      "prompt_per_second": 179.27034535904767,
+      "prompt_per_token_ms": 5.57816742081448
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 529,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 545
+    }
+  },
+  "wall_seconds": 3.3956909170374274
+}

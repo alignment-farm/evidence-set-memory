@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "Meghan McCain",
+    "citations": [
+      18,
+      8
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\": \"Meghan McCain\", \"citations\": [18, 8]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604124,
+    "id": "chatcmpl-mSwQiZqUeBnUXUGmUHP26KLzC6RetNSu",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 1009.805,
+      "predicted_n": 20,
+      "predicted_per_second": 19.805804090888838,
+      "predicted_per_token_ms": 50.490249999999996,
+      "prompt_ms": 4763.205,
+      "prompt_n": 894,
+      "prompt_per_second": 187.68875158637934,
+      "prompt_per_token_ms": 5.327969798657718
+    },
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 981,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 1001
+    }
+  },
+  "wall_seconds": 5.8590700419736095
+}

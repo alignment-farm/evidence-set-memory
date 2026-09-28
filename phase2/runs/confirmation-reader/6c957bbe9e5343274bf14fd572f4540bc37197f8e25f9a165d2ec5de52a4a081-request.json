@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"Tennessee (i/t\\u025bn\\u1d7b\\u02c8si\\u02d0/) (Cherokee: \\u13d4\\u13be\\u13cf, Tanasi) is a state located in the southeastern United States. Tennessee is the 36th largest and the 17th most populous of the 50 United States. Tennessee is bordered by Kentucky and Virginia to the north, North Carolina to the east, Georgia, Alabama, and Mississippi to the south, and Arkansas and Missouri to the west. The Appalachian Mountains dominate the eastern part of the state, and the Mississippi River forms the state's western border. Tennessee's capital and second largest city is Nashville, which has a population of 601,222. Memphis is the state's largest city, with a population of 653,450.\", \"title\": \"Tennessee\"}, {\"idx\": 14, \"text\": \"As of November 2008, there is only one person on death row facing capital punishment who has not been convicted of murder. Demarcus Sears remains under a death sentence in Georgia for the crime of \\\"kidnapping with bodily injury.\\\" Sears was convicted in 1986 for the kidnapping and bodily injury of victim Gloria Ann Wilbur. Wilbur was kidnapped and beaten in Georgia, raped in Tennessee, and murdered in Kentucky. Sears was never charged with the murder of Wilbur in Kentucky, but was sentenced to death by a jury in Georgia for \\\"kidnapping with bodily injury.\\\"\", \"title\": \"Capital punishment in the United States\"}, {\"idx\": 16, \"text\": \"The United States of America (USA), commonly known as the United States (U.S.) or America, is a federal republic composed of 50 states, a federal district, five major self - governing territories, and various possessions. At 3.8 million square miles (9.8 million km) and with over 325 million people, the United States is the world's third - or fourth - largest country by total area and the third-most populous. The capital is Washington, D.C., and the largest city by population is New York City. Forty - eight states and the capital's federal district are contiguous and located in North America between Canada and Mexico. The state of Alaska is in the northwest corner of North America, bordered by Canada to the east and across the Bering Strait from Russia to the west. The state of Hawaii is an archipelago in the mid-Pacific Ocean. The U.S. territories are scattered about the Pacific Ocean and the Caribbean Sea, stretching across nine official time zones. The extremely diverse geography, climate, and wildlife of the United States make it one of the world's 17 megadiverse countries.\", \"title\": \"United States\"}, {\"idx\": 17, \"text\": \"Detroit (/d\\u1d7b\\u02c8tr\\u0254\\u026at/) is the most populous city in the U.S. state of Michigan, the fourth-largest city in the Midwest and the largest city on the United States\\u2013Canada border. It is the seat of Wayne County, the most populous county in the state. Detroit's metropolitan area, known as Metro Detroit, is home to 5.3 million people, making it the fourteenth-most populous metropolitan area in the United States and the second-largest in the Midwestern United States (behind Chicago). It is a major port on the Detroit River, a strait that connects the Great Lakes system to the Saint Lawrence Seaway. The City of Detroit anchors the second-largest economic region in the Midwest, behind Chicago, and the thirteenth-largest in the United States.\", \"title\": \"Detroit\"}], \"question\": \"Which county shares a border with the county where the most populous city in the state that sentenced Demarcus Sears to death is located?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

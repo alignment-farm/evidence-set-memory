@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 7, \"text\": \"The York River is a river in Renfrew County, Hastings County and Haliburton County in Ontario, Canada. The river is in the Saint Lawrence River drainage basin, and flows from the southern extension of Algonquin Provincial Park to the Madawaska River.\", \"title\": \"York River (Ontario)\"}], \"question\": \"Bancroft's county borders what county?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

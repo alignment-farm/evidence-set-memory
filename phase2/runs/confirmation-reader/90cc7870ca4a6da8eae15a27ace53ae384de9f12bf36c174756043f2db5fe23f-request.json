@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 5, \"text\": \"The Toronto Coach Terminal is the central bus station for inter-city services in Toronto, Ontario, Canada. It is located at 610 Bay Street, in the city's Downtown. The terminal is owned by Toronto Coach Terminal Inc., a wholly owned subsidiary of the Toronto Transit Commission (TTC). The TTC managed the station directly until July 8, 2012, when it was leased out in its entirety to bus lines Coach Canada and Greyhound Canada for $1.2 million annually. Opened in 1931 as the Gray Coach Terminal, the Art Deco style terminal was home base for Gray Coach, an interurban bus service then owned by the TTC. It replaced an earlier open air terminal, Gray Line Terminal.\", \"title\": \"Toronto Coach Terminal\"}, {\"idx\": 6, \"text\": \"Danko Jones is a Canadian rock trio from Toronto, Ontario. The band consists of Danko Jones (vocals/guitar), John 'JC' Calabrese (bass guitar) and Rich Knox (drums). The band's rock music includes elements of punk and they are known for their humorous lyrics and energetic live shows.\", \"title\": \"Danko Jones\"}], \"question\": \"Where do Greyhound buses leave from in the city where the band that recorded the album I'm Alive and on Fire formed?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 2, \"text\": \"Sport Voetbal Centro Social Deportivo Barber is a Cura\\u00e7ao football team located in WestPunt municipality Barber, and playing in the Cura\\u00e7ao League First Division.\", \"title\": \"Centro Social Deportivo Barber\"}, {\"idx\": 6, \"text\": \"Premier League Founded 20 February 1992; 26 years ago (1992 - 02 - 20) Country England (19 teams) Other club (s) from Wales (1 team) Confederation UEFA Number of teams 20 Level on pyramid Relegation to EFL Championship Domestic cup (s) FA Cup FA Community Shield League cup (s) EFL Cup International cup (s) UEFA Champions League UEFA Europa League Current champions Manchester City (3rd title) (2017 -- 18) Most championships Manchester United (13 titles) Most appearances Gareth Barry (653) Top goalscorer Alan Shearer (260 goals) TV partners Sky Sports and BT Sport (live matches) Sky Sports and BBC (highlights) Website premierleague.com 2018 -- 19 Premier League\", \"title\": \"Premier League\"}, {\"idx\": 15, \"text\": \"Maycon Calvalho Inez (born 21 July 1986) is a Brazilian football player who currently plays for Goyang Hi FC. He is known for his pace and ability to position himself inside the 18-yard box.\", \"title\": \"Maycon Carvalho Inez\"}, {\"idx\": 17, \"text\": \"Premier League Founded 20 February 1992 Country England (19 teams) Other club (s) from Wales (1 team) Confederation UEFA Number of teams 20 Level on pyramid Relegation to EFL Championship Domestic cup (s) FA Cup FA Community Shield League cup (s) EFL Cup International cup (s) UEFA Champions League UEFA Europa League Current champions Chelsea (5th title) (2016 -- 17) Most championships Manchester United (13 titles) TV partners Sky Sports and BT Sport (live matches) Sky Sports and BBC (highlights) Website premierleague.com 2017 -- 18 Premier League\", \"title\": \"Premier League\"}], \"question\": \"What league includes the sports team that has Maycon Carvalho Inez?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

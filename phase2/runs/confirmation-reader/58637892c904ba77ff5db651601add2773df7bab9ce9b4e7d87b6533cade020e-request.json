@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Chao Phraya Bodindecha (, , 1777\\u20131849), personal name Sing Sinhaseni (), was one of the most prominent political and military figures of the early Bangkok Rattanakosin Kingdom. Bodindecha was both a top military general () and Chief Minister in charge of civilian affairs as the \\\"Akkhra Maha Senabodi\\\" () of the \\\"Samuha Nayok\\\" ) during the reign of King Rama III. He was known for putting down the Laotian Rebellion (1826\\u20131828} (\\u0e1b\\u0e23\\u0e32\\u0e1a\\u0e01\\u0e1a\\u0e0e) of Lord Anouvong of Vientiane (\\u0e40\\u0e08\\u0e49\\u0e32\\u0e2d\\u0e19\\u0e38\\u0e27\\u0e07\\u0e28\\u0e4c \\u0e40\\u0e27\\u0e35\\u0e22\\u0e07\\u0e08\\u0e31\\u0e19\\u0e17\\u0e19\\u0e4c) and for campaigns during the Siamese-Vietnamese Wars of 1831\\u20131834 and 1841\\u20131845.\", \"title\": \"Bodindecha\"}, {\"idx\": 3, \"text\": \"Bang Bon (Thai: \\u0e1a\\u0e32\\u0e07\\u0e1a\\u0e2d\\u0e19, pronounced [b\\u0101\\u02d0\\u014b b\\u0254\\u0304\\u02d0n]) is one of the 50 districts (khet) of Bangkok, Thailand. Its neighbours, clockwise from north, are Bang Khae, Phasi Charoen, Chom Thong, and Bang Khun Thian districts of Bangkok, Mueang Samut Sakhon District and Krathum Baen District of Samut Sakhon Province, and Nong Khaem District of Bangkok.\", \"title\": \"Bang Bon District\"}, {\"idx\": 4, \"text\": \"The Axis states which assisted Japan included the authoritarian government of Thailand in World War II, which quickly formed a temporary alliance with the Japanese in 1941, as the Japanese forces were already invading the peninsula of southern Thailand. The Phayap Army sent troops to invade and occupy northeastern Burma, which was former Thai territory that had been annexed by Britain much earlier. Also involved were the Japanese puppet states of Manchukuo and Mengjiang (consisting of most of Manchuria and parts of Inner Mongolia respectively), and the collaborationist Wang Jingwei regime (which controlled the coastal regions of China).\", \"title\": \"Pacific War\"}], \"question\": \"What year did the country that includes the birth city of Bodindecha form an alliance with Japan?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "inter-marriage and conversions in the time of the Roman Empire",
+    "citations": [
+      3,
+      13
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"inter-marriage and conversions in the time of the Roman Empire\", \"citations\":[3, 13]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603906,
+    "id": "chatcmpl-Z8dmNgD8rGqYBVuCITZYiArSJNlyDSXF",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 1372.89,
+      "predicted_n": 27,
+      "predicted_per_second": 19.666542840285818,
+      "predicted_per_token_ms": 50.84777777777778,
+      "prompt_ms": 4120.354,
+      "prompt_n": 728,
+      "prompt_per_second": 176.6838480382996,
+      "prompt_per_token_ms": 5.659826923076923
+    },
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 728,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 755
+    }
+  },
+  "wall_seconds": 5.925519125012215
+}

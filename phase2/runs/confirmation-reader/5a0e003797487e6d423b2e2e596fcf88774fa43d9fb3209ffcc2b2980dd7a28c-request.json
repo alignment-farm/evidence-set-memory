@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer from your existing knowledge. No sources are supplied. Return only JSON with a short answer and citations: []. If unknown use an empty answer. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [], \"question\": \"What was the old show that was named after a character that Walt Disney created in 1928 called?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

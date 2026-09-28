@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Designed to supplement Disneyland in Anaheim, California, which had opened in 1955, the complex was developed by Walt Disney in the 1960s. ``The Florida Project '', as it was known, was intended to present a distinct vision with its own diverse set of attractions. Walt Disney's original plans also called for the inclusion of an`` Experimental Prototype Community of Tomorrow'' (EPCOT), a planned community intended to serve as a test bed for new city living innovations. After extensive lobbying, the government of Florida created the Reedy Creek Improvement District, a special government district that essentially gave The Walt Disney Company the standard powers and autonomy of an incorporated city. Walt Disney died on December 15, 1966, during construction of the complex. Without Disney spearheading the construction, the company created a resort similar to Disneyland, abandoning experimental concepts for a planned community. Magic Kingdom was the first theme park to open in the complex, in 1971, followed by Epcot in 1982, Disney's Hollywood Studios in 1989, and the most recent, Disney's Animal Kingdom in 1998.\", \"title\": \"Walt Disney World\"}, {\"idx\": 2, \"text\": \"Mickey Mouse is a funny animal cartoon character and the mascot of The Walt Disney Company. He was created by Walt Disney and Ub Iwerks at the Walt Disney Studios in 1928. An anthropomorphic mouse who typically wears red shorts, large yellow shoes, and white gloves, Mickey is one of the world's most recognizable characters.\", \"title\": \"Mickey Mouse\"}, {\"idx\": 3, \"text\": \"Walt Disney Parks and Resorts plans on creating original Marvel attractions at their theme parks, with Hong Kong Disneyland becoming the first Disney theme park to feature a Marvel attraction. Due to the licensing agreement with Universal Studios, signed prior to Disney's purchase of Marvel, Walt Disney World and Tokyo Disney are barred from having Marvel characters in their parks. However, this only includes characters Universal is currently using, other characters in their \\\"families\\\" (X-Men, Avengers, Fantastic Four, etc.), and the villains associated with said characters. This clause has allowed Walt Disney World to have meet and greets, merchandise, attractions and more with other Marvel characters not associated with the characters at Islands of Adventures, such as Star-Lord and Gamora from Guardians of the Galaxy as well as Baymax and Hiro from Big Hero 6.\", \"title\": \"Marvel Comics\"}, {\"idx\": 5, \"text\": \"The Walt Disney World Resort, commonly known as Walt Disney World, or often just as Disney World, is an entertainment complex in Bay Lake and Lake Buena Vista, Florida, near Orlando and Kissimmee, Florida. Opened on October 1, 1971, the resort is owned and operated by Walt Disney Parks, Experiences and Consumer Products, a division of The Walt Disney Company. It was initially operated by Walt Disney World Company. The property covers 27,258 acres (43 sq mi; 110 km), featuring four theme parks, two water parks, twenty - seven themed resort hotels, nine non-Disney hotels, several golf courses, a camping resort, and other entertainment venues, including the outdoor shopping center Disney Springs.\", \"title\": \"Walt Disney World\"}], \"question\": \"What was the old show that was named after a character that Walt Disney created in 1928 called?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

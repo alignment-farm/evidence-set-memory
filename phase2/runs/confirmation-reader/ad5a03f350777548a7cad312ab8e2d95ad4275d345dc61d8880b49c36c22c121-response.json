@@ -1,0 +1,48 @@
+{
+  "answer": {
+    "answer": "16-bit architecture, improved graphics, and improved sound",
+    "citations": [
+      2,
+      7,
+      14
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"16-bit architecture, improved graphics, and improved sound\", \"citations\":[2, 7, 14]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604724,
+    "id": "chatcmpl-IBLPUFnenSo76DIa0TwzUNUscLb6gIQh",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 1497.14,
+      "predicted_n": 29,
+      "predicted_per_second": 19.370265973790026,
+      "predicted_per_token_ms": 51.62551724137931,
+      "prompt_ms": 16478.22,
+      "prompt_n": 3072,
+      "prompt_per_second": 186.4279030137964,
+      "prompt_per_token_ms": 5.364003906250001
+    },
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 3072,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 3101
+    }
+  },
+  "wall_seconds": 18.09514874999877
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 3, \"text\": \"Virgin Islands Flag Coat of arms Motto: ``Vigilate ''(Latin)`` Be Vigilant'' Anthem: ``God Save the Queen ''Territorial song:`` Oh, Beautiful Virgin Islands'' Location of British Virgin Islands (circled in red) Status British Overseas Territory Capital and largest city Road Town 18 \\u00b0 25.883 \\u2032 N 64 \\u00b0 37.383 \\u2032 W \\ufeff / \\ufeff 18.431383 \\u00b0 N 64.623050 \\u00b0 W \\ufeff / 18.431383; - 64.623050 Official languages English Ethnic groups 76.5% Black 7% White 5% Hispanic 5% Multiracial 2% East Indian 4.5% Other Demonym Virgin Islander Government Parliamentary dependency under constitutional monarchy Monarch Elizabeth II Governor Augustus Jaspert Deputy Governor V. Inez Archibald Premier Orlando Smith Responsible Minister (UK) Tariq Ahmad, Baron Ahmad of Wimbledon Legislature House of Assembly Established as a dependency of the United Kingdom Separate 1960 Autonomy 1967 Area Total 153 km (59 sq mi) Water (%) 1.6 Population 2010 census 28,054 (212th) Density 260 / km (673.4 / sq mi) (68th) GDP (PPP) estimate Total $853.4 million Per capita $43,366 Currency United States dollar (USD) Time zone AST (UTC - 4) Drives on the left Calling code + 1 - 284 ISO 3166 code VG Internet TLD. vg Source for all ethnic groups including labels: 2010 Census of Population For the Overseas Territories.\", \"title\": \"British Virgin Islands\"}, {\"idx\": 4, \"text\": \"Virgin Islands Creole, or Virgin Islands Creole English, is an English - based creole consisting of several varieties spoken in the Virgin Islands and the nearby SSS islands of Saba, Saint Martin and Sint Eustatius, where it is known as Saban English, Saint Martin English, and Statian English, respectively.\", \"title\": \"Virgin Islands Creole\"}, {\"idx\": 9, \"text\": \"Guapi or Huapi (Mapudungun for island) is an island in Ranco Lake, southern Chile. Administratively it belongs to the commune of Futrono in Los R\\u00edos Region.\", \"title\": \"Guapi Island\"}, {\"idx\": 17, \"text\": \"The wedding dress of Princess Elizabeth was worn by the future Queen Elizabeth II at her wedding to Philip Mountbatten, Duke of Edinburgh on 20 November 1947 in Westminster Abbey. Given the rationing of clothing at the time, she still had to purchase the material using ration coupons. The dress was designed by Norman Hartnell. Hartnell's signature was said to be embroidery, and he enjoyed \\\"working with soft, floating fabrics, particularly tulle and chiffon, and with plain, lustrous silks\\\". The dress was made of soft Damascus Prokar, with a high neckline, tailored bodice and a short train.\", \"title\": \"Wedding dress of Princess Elizabeth\"}], \"question\": \"Who is the spouse of the owner of the British Virgin Islands?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

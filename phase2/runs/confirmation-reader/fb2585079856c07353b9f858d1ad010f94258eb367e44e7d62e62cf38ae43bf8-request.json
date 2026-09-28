@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Chao Phraya Bodindecha (, , 1777\\u20131849), personal name Sing Sinhaseni (), was one of the most prominent political and military figures of the early Bangkok Rattanakosin Kingdom. Bodindecha was both a top military general () and Chief Minister in charge of civilian affairs as the \\\"Akkhra Maha Senabodi\\\" () of the \\\"Samuha Nayok\\\" ) during the reign of King Rama III. He was known for putting down the Laotian Rebellion (1826\\u20131828} (\\u0e1b\\u0e23\\u0e32\\u0e1a\\u0e01\\u0e1a\\u0e0e) of Lord Anouvong of Vientiane (\\u0e40\\u0e08\\u0e49\\u0e32\\u0e2d\\u0e19\\u0e38\\u0e27\\u0e07\\u0e28\\u0e4c \\u0e40\\u0e27\\u0e35\\u0e22\\u0e07\\u0e08\\u0e31\\u0e19\\u0e17\\u0e19\\u0e4c) and for campaigns during the Siamese-Vietnamese Wars of 1831\\u20131834 and 1841\\u20131845.\", \"title\": \"Bodindecha\"}, {\"idx\": 3, \"text\": \"Bang Bon (Thai: \\u0e1a\\u0e32\\u0e07\\u0e1a\\u0e2d\\u0e19, pronounced [b\\u0101\\u02d0\\u014b b\\u0254\\u0304\\u02d0n]) is one of the 50 districts (khet) of Bangkok, Thailand. Its neighbours, clockwise from north, are Bang Khae, Phasi Charoen, Chom Thong, and Bang Khun Thian districts of Bangkok, Mueang Samut Sakhon District and Krathum Baen District of Samut Sakhon Province, and Nong Khaem District of Bangkok.\", \"title\": \"Bang Bon District\"}, {\"idx\": 7, \"text\": \"By 1937, Japan controlled Manchuria and was ready to move deeper into China. The Marco Polo Bridge Incident on 7 July 1937 provoked full-scale war between China and Japan. The Nationalist and Communist Chinese suspended their civil war to form a nominal alliance against Japan, and the Soviet Union quickly lent support by providing large amount of materiel to Chinese troops. In August 1937, Generalissimo Chiang Kai-shek deployed his best army to fight about 300,000 Japanese troops in Shanghai, but, after three months of fighting, Shanghai fell. The Japanese continued to push the Chinese forces back, capturing the capital Nanking in December 1937 and committed which was known as Nanking Massacre. In March 1938, Nationalist forces won their first victory at Taierzhuang. but then the city of Xuzhou was taken by Japanese in May. In June 1938, Japan deployed about 350,000 troops to invade Wuhan and captured it in October. The Japanese achieved major military victories, but world opinion\\u2014in particular in the United States\\u2014condemned Japan, especially after the Panay Incident.\", \"title\": \"Pacific War\"}, {\"idx\": 10, \"text\": \"Over time, the relative power of these five nations fluctuated, which by the dawn of the 20th century had served to create an entirely different balance of power. Some, such as the United Kingdom and Prussia (as the founder of the newly formed German state), experienced continued economic growth and political power. Others, such as Russia and Austria-Hungary, stagnated. At the same time, other states were emerging and expanding in power, largely through the process of industrialization. These countries seeking to attain great power status were: Italy after the Risorgimento, Japan after the Meiji Restoration, and the United States after its civil war. By the dawn of the 20th century, the balance of world power had changed substantially since the Congress of Vienna. The Eight-Nation Alliance was a belligerent alliance of eight nations against the Boxer Rebellion in China. It formed in 1900 and consisted of the five Congress powers plus Italy, Japan, and the United States, representing the great powers at the beginning of 20th century.\", \"title\": \"Great power\"}], \"question\": \"What year did the country that includes the birth city of Bodindecha form an alliance with Japan?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

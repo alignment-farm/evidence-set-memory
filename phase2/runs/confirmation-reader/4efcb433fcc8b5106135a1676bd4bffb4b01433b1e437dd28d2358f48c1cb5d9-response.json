@@ -1,0 +1,46 @@
+{
+  "answer": {
+    "answer": "K-League",
+    "citations": [
+      15
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"K-League\", \"citations\":[15]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604285,
+    "id": "chatcmpl-WbXDFa8JEP9cvJE70EELtwISvhBN053h",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 686.282,
+      "predicted_n": 14,
+      "predicted_per_second": 20.399777351001482,
+      "predicted_per_token_ms": 49.02014285714286,
+      "prompt_ms": 2232.628,
+      "prompt_n": 352,
+      "prompt_per_second": 157.66173316826627,
+      "prompt_per_token_ms": 6.342693181818182
+    },
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 352,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 366
+    }
+  },
+  "wall_seconds": 3.271566624986008
+}

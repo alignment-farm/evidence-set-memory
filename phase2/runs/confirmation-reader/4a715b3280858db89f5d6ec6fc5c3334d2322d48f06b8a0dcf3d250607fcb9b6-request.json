@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Spain ceded Florida to the British in 1763 after the French and Indian War, and the British soon constructed the King's Road connecting St. Augustine to Georgia. The road crossed the St. Johns River at a narrow point, which the Seminole called Wacca Pilatka and the British called the Cow Ford or Cowford; these names ostensibly reflect the fact that cattle were brought across the river there. The British introduced the cultivation of sugar cane, indigo and fruits as well the export of lumber. As a result, the northeastern Florida area prospered economically more than it had under the Spanish. Britain ceded control of the territory back to Spain in 1783, after its defeat in the American Revolutionary War, and the settlement at the Cow Ford continued to grow. After Spain ceded the Florida Territory to the United States in 1821, American settlers on the north side of the Cow Ford decided to plan a town, laying out the streets and plats. They soon named the town Jacksonville, after Andrew Jackson. Led by Isaiah D. Hart, residents wrote a charter for a town government, which was approved by the Florida Legislative Council on February 9, 1832.\", \"title\": \"Jacksonville, Florida\"}, {\"idx\": 10, \"text\": \"Francisco Godia Sales, better known as Paco Godia (21 March 1921 \\u2013 28 November 1990) was a racing driver from Barcelona, Spain. He drove intermittently in Formula One between and , participating in 14 World Championship Grands Prix and numerous non-Championship races.\", \"title\": \"Paco Godia\"}, {\"idx\": 17, \"text\": \"There is often a fierce rivalry between the two strongest teams in a national league, and this is particularly the case in La Liga, where the game between Barcelona and Real Madrid is known as El Cl\\u00e1sico. From the start of national competitions the clubs were seen as representatives of two rival regions in Spain: Catalonia and Castile, as well as of the two cities. The rivalry reflects what many regard as the political and cultural tensions felt between Catalans and the Castilians, seen by one author as a re-enactment of the Spanish Civil War.\", \"title\": \"FC Barcelona\"}, {\"idx\": 19, \"text\": \"Nugent served in the naval brigade in the invasions of Martinique, Saint Lucia, and Guadaloupe during the French Revolutionary Wars and, when William Cornwallis assumed command of the blockade of Brest, Nugent was selected to serve as his Captain of the Fleet during the Napoleonic Wars. He never commanded any fleet or naval station but did rise to the highest rank in the Navy.\", \"title\": \"Charles Edmund Nugent\"}], \"question\": \"Besides areas of the country that gained control of Florida after the conflict Charles Edmund Nugent participated in, what other differences are there between Paco Godia's birthplace and Real Madrid?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

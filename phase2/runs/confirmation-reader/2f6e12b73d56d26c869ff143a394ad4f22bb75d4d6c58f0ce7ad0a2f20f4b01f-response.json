@@ -1,0 +1,48 @@
+{
+  "answer": {
+    "answer": "Toronto Coach Terminal",
+    "citations": [
+      15,
+      6,
+      5
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Toronto Coach Terminal\", \"citations\":[15, 6, 5]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602902,
+    "id": "chatcmpl-syROBho9Cld1BtRJHnSTtesJVch4T5TQ",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 1055.33,
+      "predicted_n": 21,
+      "predicted_per_second": 19.898988941847573,
+      "predicted_per_token_ms": 50.25380952380952,
+      "prompt_ms": 2090.004,
+      "prompt_n": 386,
+      "prompt_per_second": 184.68864174422635,
+      "prompt_per_token_ms": 5.414518134715026
+    },
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 473,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 494
+    }
+  },
+  "wall_seconds": 3.2600255419965833
+}

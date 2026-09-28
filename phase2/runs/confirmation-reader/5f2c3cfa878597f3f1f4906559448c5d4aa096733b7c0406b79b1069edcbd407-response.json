@@ -1,0 +1,44 @@
+{
+  "answer": {
+    "answer": "The Genesis offered superior graphics and sound capabilities compared to the Pinball Quest platform, which was a dedicated pinball machine with limited processing power and display resolution.",
+    "citations": []
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\n  \"answer\": \"The Genesis offered superior graphics and sound capabilities compared to the Pinball Quest platform, which was a dedicated pinball machine with limited processing power and display resolution.\",\n  \"citations\": []\n}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604737,
+    "id": "chatcmpl-dxN93PHEkkA2G2lKviJR4K6ycj7behGz",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 38,
+      "predicted_ms": 2475.851,
+      "predicted_n": 48,
+      "predicted_per_second": 19.387273305219093,
+      "predicted_per_token_ms": 51.58022916666667,
+      "prompt_ms": 452.294,
+      "prompt_n": 36,
+      "prompt_per_second": 79.59424622037879,
+      "prompt_per_token_ms": 12.563722222222221
+    },
+    "usage": {
+      "completion_tokens": 48,
+      "prompt_tokens": 74,
+      "prompt_tokens_details": {
+        "cached_tokens": 38
+      },
+      "total_tokens": 122
+    }
+  },
+  "wall_seconds": 3.0116706250119023
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 3, \"text\": \"Sno*Drift is a rally racing event held in Montmorency County, Michigan, annually, with headquarters in Atlanta, Michigan. The event is currently the first Rally America National Rally Championship event of the season. Currently the event is organized into three distinct rallies: the national championship event covering both days of rallying, and two regional rally events each covering one of the two days. Competitors may be entered in any or all of these events simultaneously.\", \"title\": \"Sno*Drift\"}, {\"idx\": 7, \"text\": \"The largest municipality by population in Georgia is Atlanta with 420,003 residents, and the smallest municipality by population is Edge Hill with 24 residents. The largest municipality by land area is Augusta, a consolidated city - county, which spans 302.47 sq mi (783.4 km), while Edge Hill and Santa Claus are tied for the smallest at 0.18 sq mi (0.47 km) each.\", \"title\": \"List of municipalities in Georgia (U.S. state)\"}, {\"idx\": 12, \"text\": \"Alpena Power Company is a public utility company that provides electricity to most of Alpena County, Michigan, as well as southeastern Presque Isle County and the village of Hillman, in Montmorency County. The headquarters are located in Alpena, Michigan. The company was founded in 1881 by George N. Fletcher.\", \"title\": \"Alpena Power Company\"}, {\"idx\": 14, \"text\": \"As of November 2008, there is only one person on death row facing capital punishment who has not been convicted of murder. Demarcus Sears remains under a death sentence in Georgia for the crime of \\\"kidnapping with bodily injury.\\\" Sears was convicted in 1986 for the kidnapping and bodily injury of victim Gloria Ann Wilbur. Wilbur was kidnapped and beaten in Georgia, raped in Tennessee, and murdered in Kentucky. Sears was never charged with the murder of Wilbur in Kentucky, but was sentenced to death by a jury in Georgia for \\\"kidnapping with bodily injury.\\\"\", \"title\": \"Capital punishment in the United States\"}], \"question\": \"Which county shares a border with the county where the most populous city in the state that sentenced Demarcus Sears to death is located?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

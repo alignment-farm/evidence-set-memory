@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "improved graphics and sound",
+    "citations": [
+      7,
+      14
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"improved graphics and sound\", \"citations\":[7, 14]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604741,
+    "id": "chatcmpl-dT3lSZZp29Y4cuCpVhDrxluPhPUYLfO8",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 1003.536,
+      "predicted_n": 20,
+      "predicted_per_second": 19.92952918480254,
+      "predicted_per_token_ms": 50.1768,
+      "prompt_ms": 3211.636,
+      "prompt_n": 555,
+      "prompt_per_second": 172.8091228271199,
+      "prompt_per_token_ms": 5.786731531531531
+    },
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 642,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 662
+    }
+  },
+  "wall_seconds": 4.473471540957689
+}

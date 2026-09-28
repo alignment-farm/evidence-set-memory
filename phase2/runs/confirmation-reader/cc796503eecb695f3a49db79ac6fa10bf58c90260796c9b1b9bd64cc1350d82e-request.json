@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 2, \"text\": \"Genetic studies on Jews show that most Jews worldwide bear a common genetic heritage which originates in the Middle East, and that they bear their strongest resemblance to the peoples of the Fertile Crescent. The genetic composition of different Jewish groups shows that Jews share a common genetic pool dating back 4,000 years, as a marker of their common ancestral origin. Despite their long-term separation and beside their shared genetic origin, Jews also maintained a common culture, tradition, and language.\", \"title\": \"Jews\"}, {\"idx\": 8, \"text\": \"The genome-wide genetic study carried out in 2010 by Behar et al. examined the genetic relationships among all major Jewish groups, including Ashkenazim, as well as the genetic relationship between these Jewish groups and non-Jewish ethnic populations. The study found that contemporary Jews (excluding Indian and Ethiopian Jews) have a close genetic relationship with people from the Levant. The authors explained that \\\"the most parsimonious explanation for these observations is a common genetic origin, which is consistent with an historical formulation of the Jewish people as descending from ancient Hebrew and Israelite residents of the Levant\\\".\", \"title\": \"Ashkenazi Jews\"}, {\"idx\": 13, \"text\": \"People of Irish descent form the largest single ethnic group in the city, making up 15.8% of the population, followed by Italians, accounting for 8.3% of the population. People of West Indian and Caribbean ancestry are another sizable group, at 6.0%, about half of whom are of Haitian ancestry. Over 27,000 Chinese Americans made their home in Boston city proper in 2013, and the city hosts a growing Chinatown accommodating heavily traveled Chinese-owned bus lines to and from Chinatown, Manhattan. Some neighborhoods, such as Dorchester, have received an influx of people of Vietnamese ancestry in recent decades. Neighborhoods such as Jamaica Plain and Roslindale have experienced a growing number of Dominican Americans. The city and greater area also has a growing immigrant population of South Asians, including the tenth-largest Indian community in the country.\", \"title\": \"Boston\"}, {\"idx\": 15, \"text\": \"In Israel, the term Ashkenazi is now used in a manner unrelated to its original meaning, often applied to all Jews who settled in Europe and sometimes including those whose ethnic background is actually Sephardic. Jews of any non-Ashkenazi background, including Mizrahi, Yemenite, Kurdish and others who have no connection with the Iberian Peninsula, have similarly come to be lumped together as Sephardic. Jews of mixed background are increasingly common, partly because of intermarriage between Ashkenazi and non-Ashkenazi, and partly because many do not see such historic markers as relevant to their life experiences as Jews.\", \"title\": \"Ashkenazi Jews\"}], \"question\": \"What two factors might lead to genetic similarity between Ashkenazi Jews and the city's second largest ethnic group?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

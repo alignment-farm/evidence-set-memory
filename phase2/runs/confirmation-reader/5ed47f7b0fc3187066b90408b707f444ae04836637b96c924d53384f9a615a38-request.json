@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 4, \"text\": \"Ibrahim Adamu Gumba (born 10 October 1948) is a Nigerian politician who was elected Senator for the Bauchi South constituency of Bauchi State, Nigeria in the April 2011 national elections. He ran on the People's Democratic Party (PDP) ticket.\", \"title\": \"Adamu Gumba\"}, {\"idx\": 10, \"text\": \"Obama lived with anthropologist Sheila Miyoshi Jager while he was a community organizer in Chicago in the 1980s. He proposed to her twice, but both Jager and her parents turned him down. The relationship was only made public in May 2017, several months after Obama's presidency had ended.In June 1989, Obama met Michelle Robinson when he was employed as a summer associate at the Chicago law firm of Sidley Austin. Robinson was assigned for three months as Obama's adviser at the firm, and she joined him at several group social functions but declined his initial requests to date. They began dating later that summer, became engaged in 1991, and were married on October 3, 1992. The couple's first daughter, Malia Ann, was born in 1998, followed by a second daughter, Natasha (\\\"Sasha\\\"), in 2001. The Obama daughters attended the University of Chicago Laboratory Schools. When they moved to Washington, D.C., in January 2009, the girls started at the Sidwell Friends School. The Obamas have two Portuguese Water Dogs; the first, a male named Bo, was a gift from Senator Ted Kennedy. In 2013, Bo was joined by Sunny, a female.\", \"title\": \"Barack Obama\"}, {\"idx\": 14, \"text\": \"Brandon Vick is an American politician of the Republican Party. He is a member of the Washington House of Representatives, representing the 18th district, first elected to that position in 2012. He first ran for office against Ann Rivers for the seat in 2010, but lost. He once served as chairman of The Clark County Republican Party.\", \"title\": \"Brandon Vick\"}, {\"idx\": 18, \"text\": \"The United States presidential election of 2008 was the 56th quadrennial presidential election. It was held on Tuesday, November 4, 2008. The Democratic ticket of Barack Obama, a Senator from Illinois, and Joe Biden, a long - time Senator from Delaware, defeated the Republican ticket of Senator John McCain of Arizona and Governor Sarah Palin of Alaska. Obama became the first African American ever to be elected as president.\", \"title\": \"2008 United States presidential election\"}], \"question\": \"Who is the child of Obama's opponent in his first election?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 3, \"text\": \"Sanjiang Church (\\u4e09\\u6c5f\\u57fa\\u7763\\u6559\\u5802) was a Christian church located in Yongjia County, near Wenzhou, in Zhejiang Province, China. The church was completed in December 2013. The city of Wenzhou is a port city believed to have China's largest Christian community. Local Christians claim as many as 15 percent of the residents Christians with the majority being Protestant. British missionary George Stott had set up churches in this area towards the end of the 19th century.\", \"title\": \"Sanjiang Church\"}, {\"idx\": 6, \"text\": \"Zhu Qinan (; born November 15, 1984 in Wenzhou, Zhejiang) is a male Chinese sport shooter. He won the gold medal at the 2004 Athens Olympics in the Men's 10 m Air Rifle event and a silver medal at the 2008 Beijing Olympics in the Men's 10 m Air Rifle event. Zhu currently is studying at Zhejiang University.\", \"title\": \"Zhu Qinan\"}], \"question\": \"In which county was Zhu Qinan born?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

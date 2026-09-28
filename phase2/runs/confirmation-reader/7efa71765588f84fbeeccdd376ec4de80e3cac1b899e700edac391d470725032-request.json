@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Bussen Trafikkselskap was a Norwegian bus company that operated the \\\"yellow\\\" city bus in Kristiansand and surrounding areas Vennesla, S\\u00f8gne and Songdalen. The company had about 300 employees and operates on contract with Vest-Agder Kollektivtrafikk. Nettbuss S\\u00f8r (blue buses) took over the local buses in Kristiansand 01.01.2011.\", \"title\": \"Bussen Trafikkselskap\"}, {\"idx\": 4, \"text\": \"Philadelphia is also a major hub for Greyhound Lines, which operates 24-hour service to points east of the Mississippi River. Most of Greyhound's services in Philadelphia operate to/from the Philadelphia Greyhound Terminal, located at 1001 Filbert Street in Center City Philadelphia. In 2006, the Philadelphia Greyhound Terminal was the second busiest Greyhound terminal in the United States, after the Port Authority Bus Terminal in New York. Besides Greyhound, six other bus operators provide service to the Center City Greyhound terminal: Bieber Tourways, Capitol Trailways, Martz Trailways, Peter Pan Bus Lines, Susquehanna Trailways, and the bus division for New Jersey Transit. Other services include Megabus and Bolt Bus.\", \"title\": \"Philadelphia\"}, {\"idx\": 5, \"text\": \"The Toronto Coach Terminal is the central bus station for inter-city services in Toronto, Ontario, Canada. It is located at 610 Bay Street, in the city's Downtown. The terminal is owned by Toronto Coach Terminal Inc., a wholly owned subsidiary of the Toronto Transit Commission (TTC). The TTC managed the station directly until July 8, 2012, when it was leased out in its entirety to bus lines Coach Canada and Greyhound Canada for $1.2 million annually. Opened in 1931 as the Gray Coach Terminal, the Art Deco style terminal was home base for Gray Coach, an interurban bus service then owned by the TTC. It replaced an earlier open air terminal, Gray Line Terminal.\", \"title\": \"Toronto Coach Terminal\"}, {\"idx\": 15, \"text\": \"I'm Alive and on Fire is a 2001 album by Canadian rock band Danko Jones. It collects tracks the band recorded from 1996 to 1999, including several that appeared on the EPs \\\"Danko Jones\\\" and \\\"My Love is Bold\\\".\", \"title\": \"I'm Alive and on Fire\"}], \"question\": \"Where do Greyhound buses leave from in the city where the band that recorded the album I'm Alive and on Fire formed?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

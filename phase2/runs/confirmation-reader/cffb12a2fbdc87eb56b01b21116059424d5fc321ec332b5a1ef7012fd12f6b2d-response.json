@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "answer": "Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; they are located in different cities and regions (Catalonia vs. Castile/Madrid), and they are rivals in La Liga (El Cl\u00e1sico).",
+    "citations": [
+      10,
+      13,
+      17,
+      19
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Paco Godia was born in Barcelona, Spain, while Real Madrid is based in Madrid, Spain; they are located in different cities and regions (Catalonia vs. Castile/Madrid), and they are rivals in La Liga (El Cl\u00e1sico).\", \"citations\":[10, 13, 17, 19]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603658,
+    "id": "chatcmpl-BVgnOlB0XtCpz5WfBZdEy1Tbbcg5wjLe",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 4008.071,
+      "predicted_n": 77,
+      "predicted_per_second": 19.211236527496645,
+      "predicted_per_token_ms": 52.05287012987013,
+      "prompt_ms": 3403.222,
+      "prompt_n": 591,
+      "prompt_per_second": 173.65896200718024,
+      "prompt_per_token_ms": 5.758412859560068
+    },
+    "usage": {
+      "completion_tokens": 77,
+      "prompt_tokens": 678,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 755
+    }
+  },
+  "wall_seconds": 7.570030834001955
+}

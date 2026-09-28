@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 0, \"text\": \"The name Vatican city was first used in the Lateran Treaty, signed on 11 February 1929, which established the modern city - state. The name is taken from Vatican Hill, the geographic location of the state. ``Vatican ''is derived from the name of an Etruscan settlement, Vatica or Vaticum meaning garden, located in the general area the Romans called vaticanus ager,`` Vatican territory''.\", \"title\": \"Vatican City\"}, {\"idx\": 2, \"text\": \"The Church of San Pietro in Montorio was built on the site of an earlier 9th-century church dedicated to Saint Peter on Rome's Janiculum hill. It serves as a shrine, marking the supposed site of St. Peter's crucifixion.\", \"title\": \"San Pietro in Montorio\"}, {\"idx\": 9, \"text\": \"The Bas\\u00edlica Minore del Santo Ni\\u00f1o de Ceb\\u00fa (Minor Basilica of the Holy Child of Ceb\\u00fa) commonly known as the Santo Ni\\u00f1o Basilica, is a minor basilica in Cebu City in the Philippines that was founded in the 1565 by Fray Andr\\u00e9s de Urdaneta, O.S.A. and Fray Diego de Herrera, O.S.A.. The oldest Roman Catholic church in the country, it is built on the spot where the image of the Santo Ni\\u00f1o de Ceb\\u00fa was found during the expedition of Miguel L\\u00f3pez de Legazpi. The icon, a statuette of the Child Jesus, is the same one presented by Ferdinand Magellan to the chief consort of Rajah Humabon upon the royal couple's christening on April 14, 1521. It was found by a soldier named Juan de Camuz forty years later, preserved in a wooden box, after Legazpi had razed a local village. When Pope Paul VI made the church a basilica in 1965, he declared it to be \\\"the symbol of the birth and growth of Christianity in the Philippines.\\\"\", \"title\": \"Basilica del Santo Ni\\u00f1o\"}, {\"idx\": 12, \"text\": \"Mission San Carlos Borromeo de Carmelo The fa\\u00e7ade of the capilla (chapel) at Mission San Carlos Borromeo de Carmelo. Location in the Monterey Peninsula Location 3080 Rio Rd. Carmel - by - the - Sea, California, 93923 Coordinates 36 \\u00b0 32 \\u2032 34 ''N 121 \\u00b0 55 \\u2032 7'' W \\ufeff / \\ufeff 36.54278 \\u00b0 N 121.91861 \\u00b0 W \\ufeff / 36.54278; - 121.91861 Coordinates: 36 \\u00b0 32 \\u2032 34 ''N 121 \\u00b0 55 \\u2032 7'' W \\ufeff / \\ufeff 36.54278 \\u00b0 N 121.91861 \\u00b0 W \\ufeff / 36.54278; - 121.91861 Name as founded La Misi\\u00f3n San Carlos Borromeo del R\\u00edo Carmelo English translation The Mission of Saint Charles Borromeo of the Carmel River Patron Saint Charles Borromeo Nickname (s) ``Father of the Alta California Missions ''Founding date June 3, 1770 Founding priest (s) Father Presidente Jun\\u00edpero Serra Founding Order Second Headquarters of the Alta California Mission System 1771 -- 1815; 1819 -- 1824; 1827 -- 1830 Military district Third Native tribe (s) Spanish name (s) Esselen, Ohlone Coste\\u00f1o Native place name (s) Ekheya Baptisms 3,827 Marriages 1,032 Burials 2,837 Secularized 1834 Returned to the Church 1859 Governing body Roman Catholic Diocese of Monterey Current use Parish Church / Minor Basilica U.S. National Register of Historic Places Official name: Carmel Mission Designated October 15, 1966 Reference no. 66000214 U.S. National Historic Landmark Designated October 9, 1960 California Historical Landmark Reference no. 135 Website http://carmelmission.org\", \"title\": \"Mission San Carlos Borromeo de Carmelo\"}], \"question\": \"When did the city where the Basilica that is named after the same saint as the one in San Pietro in Montorio located in become a country?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 0, \"text\": \"# Player Career Goals Caps Average David Villa 2005 -- 59 98 0.608 Ra\\u00fal 1996 -- 2006 44 102 0.431 Fernando Torres 2003 -- 2014 38 110 0.345 David Silva 2006 -- 35 117 0.299 5 Fernando Hierro 1989 -- 2002 29 89 0.326 6 Fernando Morientes 1998 -- 2007 27 47 0.574 7 Emilio Butrague\\u00f1o 1984 -- 1992 26 69 0.377 8 Alfredo Di St\\u00e9fano 1957 -- 1961 23 31 0.742 9 Julio Salinas 1986 -- 1996 22 56 0.411 10 M\\u00edchel 1985 -- 1992 21 66 0.318\", \"title\": \"Spain national football team records and statistics\"}, {\"idx\": 1, \"text\": \"La Liga's all - time top goalscorer is Barcelona's Lionel Messi, who also holds the record for most goals scored in a season with 50 goals in 2011 - 12. Athletic Bilbao's Telmo Zarra, who was the competition's all - time top scorer until 2014, was top scorer in six seasons between 1945 and 1953. Four other players -- Lionel Messi, Real Madrid's Alfredo Di St\\u00e9fano, Quini of Sporting de Gij\\u00f3n and Barcelona, and Hugo S\\u00e1nchez of Atl\\u00e9tico Madrid and Real Madrid -- each finished as top scorer in five seasons.\", \"title\": \"List of La Liga top scorers\"}, {\"idx\": 4, \"text\": \"La Liga's all - time top goalscorer is Lionel Messi, who also holds the record for most goals scored in a season with 50 goals in 2011 - 12. Athletic Bilbao's Telmo Zarra, who was the competition's all - time top scorer until 2014, was top scorer in six seasons between 1945 and 1953. Four other players -- Lionel Messi, Real Madrid's Alfredo Di St\\u00e9fano, Quini of Sporting de Gij\\u00f3n and Barcelona, and Hugo S\\u00e1nchez of Atl\\u00e9tico Madrid and Real Madrid -- each finished as top scorer in five seasons.\", \"title\": \"List of La Liga top scorers\"}, {\"idx\": 17, \"text\": \"Barcelona is one of three founding members of the Primera Divisi\\u00f3n that have never been relegated from the top division, along with Athletic Bilbao and Real Madrid. In 2009, Barcelona became the first Spanish club to win the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League, and also became the first football club to win six out of six competitions in a single year, completing the sextuple in also winning the Spanish Super Cup, UEFA Super Cup and FIFA Club World Cup. In 2011, the club became European champions again and won five trophies. This Barcelona team, which reached a record six consecutive Champions League semi-finals and won 14 trophies in just four years under Pep Guardiola, is considered by some in the sport to be the greatest team of all time. In June 2015, Barcelona became the first European club in history to achieve the continental treble twice.\", \"title\": \"FC Barcelona\"}], \"question\": \"What series of wins did the sports team that the all time highest goal scorer in spain national team was a member or achieve in 2009?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

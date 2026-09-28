@@ -1,0 +1,44 @@
+{
+  "answer": {
+    "answer": "La Liga, Copa del Rey, and UEFA Champions League",
+    "citations": []
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\n  \"answer\": \"La Liga, Copa del Rey, and UEFA Champions League\",\n  \"citations\": []\n}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603246,
+    "id": "chatcmpl-G13g4h9m0TTTvCw4aSLF0nF90MNx0XNM",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 38,
+      "predicted_ms": 1477.272,
+      "predicted_n": 29,
+      "predicted_per_second": 19.630778895152687,
+      "predicted_per_token_ms": 50.940413793103446,
+      "prompt_ms": 576.332,
+      "prompt_n": 54,
+      "prompt_per_second": 93.69599466973897,
+      "prompt_per_token_ms": 10.672814814814815
+    },
+    "usage": {
+      "completion_tokens": 29,
+      "prompt_tokens": 92,
+      "prompt_tokens_details": {
+        "cached_tokens": 38
+      },
+      "total_tokens": 121
+    }
+  },
+  "wall_seconds": 2.1421603750204667
+}

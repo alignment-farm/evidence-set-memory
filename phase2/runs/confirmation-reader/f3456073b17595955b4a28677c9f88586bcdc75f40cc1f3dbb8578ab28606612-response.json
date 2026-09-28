@@ -1,0 +1,46 @@
+{
+  "answer": {
+    "answer": "Ninghai County",
+    "citations": [
+      10
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Ninghai County\", \"citations\":[10]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603942,
+    "id": "chatcmpl-MKmksIqUAVF2skx2UhLpBGbaYwaqAwT3",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 792.95,
+      "predicted_n": 16,
+      "predicted_per_second": 20.17781701242197,
+      "predicted_per_token_ms": 49.559375,
+      "prompt_ms": 3386.276,
+      "prompt_n": 604,
+      "prompt_per_second": 178.36703210252205,
+      "prompt_per_token_ms": 5.606417218543046
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 691,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 707
+    }
+  },
+  "wall_seconds": 4.292131749971304
+}

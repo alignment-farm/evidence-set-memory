@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"In the following four years, 37 states enacted new death penalty laws aimed at overcoming the court's concerns about arbitrary imposition of the death penalty. Several statutes that mandated bifurcated trials, with separate guilt - innocence and sentencing phases, and imposing standards to guide the discretion of juries and judges in imposing capital sentences, were upheld in a series of Supreme Court decisions in 1976, led by Gregg v. Georgia. Other statutes enacted in response to Furman, such as Louisiana's which mandated imposition of the death penalty upon conviction of a certain crime, were struck down in cases of that same year.\", \"title\": \"Furman v. Georgia\"}, {\"idx\": 10, \"text\": \"In 1984, Measure 6 amended the state constitution to once more make the death penalty legal. Measure 7, a statutory measure passed in the same year, required a separate sentencing hearing before a jury in cases of aggravated murder.\", \"title\": \"Capital punishment in Oregon\"}, {\"idx\": 14, \"text\": \"As of November 2008, there is only one person on death row facing capital punishment who has not been convicted of murder. Demarcus Sears remains under a death sentence in Georgia for the crime of \\\"kidnapping with bodily injury.\\\" Sears was convicted in 1986 for the kidnapping and bodily injury of victim Gloria Ann Wilbur. Wilbur was kidnapped and beaten in Georgia, raped in Tennessee, and murdered in Kentucky. Sears was never charged with the murder of Wilbur in Kentucky, but was sentenced to death by a jury in Georgia for \\\"kidnapping with bodily injury.\\\"\", \"title\": \"Capital punishment in the United States\"}, {\"idx\": 18, \"text\": \"On July 16, 2014, federal judge Cormac J. Carney of the United States District Court ruled that California's death penalty system is unconstitutional because it is arbitrary and plagued with delay. The state has not executed a prisoner since 2006. The judge stated that the current system violates the Eighth Amendment's ban on cruel and unusual punishment by imposing a sentence that ``no rational jury or legislature could ever impose: life in prison, with the remote possibility of death. ''\", \"title\": \"Capital punishment in California\"}], \"question\": \"Which county shares a border with the county where the most populous city in the state that sentenced Demarcus Sears to death is located?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

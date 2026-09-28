@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 0, \"text\": \"The Nintendo Entertainment System (also abbreviated as NES) is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer (Japanese: \\u30d5\\u30a1\\u30df\\u30ea\\u30fc\\u30b3\\u30f3\\u30d4\\u30e5\\u30fc\\u30bf, Hepburn: Famir\\u012b Konpy\\u016bta?) (also known by the portmanteau abbreviation Famicom (\\u30d5\\u30a1\\u30df\\u30b3\\u30f3, Famikon?) and abbreviated as FC) on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy (\\ud604\\ub300 \\ucef4\\ubcf4\\uc774 Hyeondae Keomboi) and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System.\", \"title\": \"Nintendo Entertainment System\"}, {\"idx\": 7, \"text\": \"To compete with the popular Family Computer in Japan, NEC Home Electronics launched the PC Engine in 1987, and Sega Enterprises followed suit with the Mega Drive in 1988. The two platforms were later launched in North America in 1989 as the TurboGrafx-16 and the Genesis respectively. Both systems were built on 16-bit architectures and offered improved graphics and sound over the 8-bit NES. However, it took several years for Sega's system to become successful. Nintendo executives were in no rush to design a new system, but they reconsidered when they began to see their dominance in the market slipping.\", \"title\": \"Super Nintendo Entertainment System\"}, {\"idx\": 14, \"text\": \"Pinball Quest is the name of a Nintendo Entertainment System video game developed by TOSE and published by Jaleco in 1990. The game is based on the popular arcade game pinball. The role playing aspect of the game makes it unique from other pinball based video games.\", \"title\": \"Pinball Quest\"}], \"question\": \"What were the Genesis's advantages over the platform of Pinball Quest?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

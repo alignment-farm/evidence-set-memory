@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League",
+    "citations": [
+      0,
+      17
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League\", \"citations\":[0, 17]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603316,
+    "id": "chatcmpl-8ntuuedCkeQCko2mPc9I0b6jfKbVlRxs",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 1687.884,
+      "predicted_n": 33,
+      "predicted_per_second": 19.551106592633143,
+      "predicted_per_token_ms": 51.148,
+      "prompt_ms": 3222.769,
+      "prompt_n": 578,
+      "prompt_per_second": 179.34887669578555,
+      "prompt_per_token_ms": 5.57572491349481
+    },
+    "usage": {
+      "completion_tokens": 33,
+      "prompt_tokens": 665,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 698
+    }
+  },
+  "wall_seconds": 4.999372791964561
+}

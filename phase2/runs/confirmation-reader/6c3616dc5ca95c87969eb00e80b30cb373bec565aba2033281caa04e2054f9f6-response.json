@@ -1,0 +1,48 @@
+{
+  "answer": {
+    "answer": "Francisco Guterres",
+    "citations": [
+      3,
+      7,
+      17
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Francisco Guterres\", \"citations\":[3, 7, 17]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604200,
+    "id": "chatcmpl-Ugd3MiPw54rH3oLBG2gtpUhBJZ8P314x",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 1165.975,
+      "predicted_n": 23,
+      "predicted_per_second": 19.725980402667297,
+      "predicted_per_token_ms": 50.6945652173913,
+      "prompt_ms": 7416.005,
+      "prompt_n": 1343,
+      "prompt_per_second": 181.0948077839753,
+      "prompt_per_token_ms": 5.521969471332837
+    },
+    "usage": {
+      "completion_tokens": 23,
+      "prompt_tokens": 1343,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 1366
+    }
+  },
+  "wall_seconds": 8.66606854199199
+}

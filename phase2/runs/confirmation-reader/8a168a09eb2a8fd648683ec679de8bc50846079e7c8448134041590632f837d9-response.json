@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "Susilo Bambang Yudhoyono",
+    "citations": [
+      3,
+      7
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Susilo Bambang Yudhoyono\", \"citations\":[3, 7]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604220,
+    "id": "chatcmpl-hmQWNFWh5KSpHFY7JOpRZd85cRxz9664",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 1037.969,
+      "predicted_n": 21,
+      "predicted_per_second": 20.231818098613733,
+      "predicted_per_token_ms": 49.42709523809524,
+      "prompt_ms": 1807.345,
+      "prompt_n": 306,
+      "prompt_per_second": 169.30912471055606,
+      "prompt_per_token_ms": 5.906356209150327
+    },
+    "usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 393,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 414
+    }
+  },
+  "wall_seconds": 2.9364597920211963
+}

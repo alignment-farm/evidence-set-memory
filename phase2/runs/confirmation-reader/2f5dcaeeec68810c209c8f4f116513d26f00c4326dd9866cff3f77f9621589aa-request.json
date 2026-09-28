@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"Danko Jones is a Canadian rock trio from Toronto, Ontario. The band consists of Danko Jones (vocals/guitar), John 'JC' Calabrese (bass guitar) and Rich Knox (drums). The band's rock music includes elements of punk and they are known for their humorous lyrics and energetic live shows.\", \"title\": \"Danko Jones\"}, {\"idx\": 9, \"text\": \"Cerberus Shoal was a United States rock band formed in 1994 in Boston but largely based in Portland, Maine. They split up in the mid-2000s with some members going on to form Fire on Fire.\", \"title\": \"Cerberus Shoal\"}, {\"idx\": 10, \"text\": \"Escanaba Firing Line is an American rock band formed in Traverse City, Michigan in 2002, by brothers Jesse and Ryan Younce. Shortly after the bands conception they were joined by bassist Chris Davies and drummer Chad Sturdivant.\", \"title\": \"Escanaba Firing Line\"}, {\"idx\": 15, \"text\": \"I'm Alive and on Fire is a 2001 album by Canadian rock band Danko Jones. It collects tracks the band recorded from 1996 to 1999, including several that appeared on the EPs \\\"Danko Jones\\\" and \\\"My Love is Bold\\\".\", \"title\": \"I'm Alive and on Fire\"}], \"question\": \"Where do Greyhound buses leave from in the city where the band that recorded the album I'm Alive and on Fire formed?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

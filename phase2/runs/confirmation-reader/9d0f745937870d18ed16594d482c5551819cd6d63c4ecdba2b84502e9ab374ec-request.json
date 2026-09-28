@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 10, \"text\": \"Qiantong () is a town in southwestern Ninghai County in eastern Zhejiang province, China, situated along G15 Shenyang\\u2013Haikou Expressway around southwest of the county seat as the crow flies. , it has 29 villages under its administration. The town was established in the last years of the Song Dynasty, though much of its architecture dates from the Ming or Qing; a large proportion of its residents are surnamed Tong ().\", \"title\": \"Qiantong, Zhejiang\"}, {\"idx\": 13, \"text\": \"Hu was born in Ninghai (current Ninghai County of Ningbo, Zhejiang Province). He was a mid-level official under the prime minister Jia Sidao during the 1250s. After the fall of Song, he hid himself in the country, and he spent the next few years, until the end of his life, writing his influential corrections and commentaries for the \\\"Zizhi Tongjian\\\". Hu's commentaries are considered highly valuable for readers of the work.\", \"title\": \"Hu Sanxing\"}], \"question\": \"What city is located in the county containing Qiantong?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

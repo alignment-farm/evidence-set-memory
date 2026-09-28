@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 4, \"text\": \"Colquhoun's utilitarian approach to the problem \\u2013 using a cost-benefit argument to obtain support from businesses standing to benefit \\u2013 allowed him to achieve what Henry and John Fielding failed for their Bow Street detectives. Unlike the stipendiary system at Bow Street, the river police were full-time, salaried officers prohibited from taking private fees. His other contribution was the concept of preventive policing; his police were to act as a highly visible deterrent to crime by their permanent presence on the Thames. Colquhoun's innovations were a critical development leading up to Robert Peel's \\\"new\\\" police three decades later.\", \"title\": \"Police\"}], \"question\": \"Who is the father of the man who conceived of the 'new' police?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

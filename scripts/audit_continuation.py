@@ -123,6 +123,7 @@ def main():
         result['reader_comparison']={arm:paired(readerstats['exact'],readerstats[arm],groups) for arm in ['ordinary_1.0','learned_unary','all']}
         result['reader_previously_exposed_ids']=sorted(previously_exposed & set(readerstats['exact']))
         result['reader_details']=dict(unique_responses=len(finished),length_stops=length_stops,
+              returned_model_identities=sorted({str(v['response'].get('model')) for v in finished.values()}),
               reported_cached_prompt_tokens=cached_tokens,actual_cases=len({r['id'] for r in reader}),
               complete_support_not_sufficient_for_reader=sum(r['retrieved_complete'] and not r['complete'] for r in reader if r['arm']=='exact'),
               exact_correct_answer_missing_support=sum(r['answer_em'] and not r['complete'] for r in reader if r['arm']=='exact'))

@@ -54,6 +54,18 @@ uv run python scripts/phase2_reader.py --split confirmation --out .cache/new-rea
 uv run python scripts/audit_continuation.py --out .cache/new-audit.json --require-reader
 ```
 
+The separate post-freeze public length-stop diagnostic is:
+
+```sh
+uv run python scripts/phase2_reader_budget.py --out .cache/new-budget-diagnostic
+```
+
+It reads the completed **published** original run, not `.cache/new-reader`, and
+opens evaluation labels only after collecting all public-triggered retries.
+The published diagnostic is `phase2/runs/reader-budget-diagnostic`; the final
+audit checks it when present. Its changed response cap is not part of the original
+freeze and must not be relabeled as a fresh confirmation.
+
 The audit checks the **published** `phase2/runs/confirmation-reader` raw responses,
 not `.cache/new-reader`; independent new completions can differ despite requested
 temperature zero and seed. Audit first requires the three verification paths

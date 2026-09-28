@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 4, \"text\": \"He was elected to the NLF executive in the first, second and third NLF congresses, 1965-67. After South Yemen gained independence in 1967 he was appointed Minister of Culture and Yemeni Unity. In the fourth NLF congress he was instrumental in determining the progressive line of the revolution. But in March 1968 he was arrested by the right wing of the NLF and went into exile, where he drafted the program for Accomplishing National Democratic Liberation, a leftist manifesto. He undertook a leading role in the consolidation of left wing of NLF which subsequently regained power in the 22 June 1969 \\\"Correction Step.\\\"\", \"title\": \"Abdul Fattah Ismail\"}], \"question\": \"In what year did the insurgency start in the part of the country it is about?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

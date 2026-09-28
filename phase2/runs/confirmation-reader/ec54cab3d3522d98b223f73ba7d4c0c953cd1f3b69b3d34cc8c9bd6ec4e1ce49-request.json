@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Designed to supplement Disneyland in Anaheim, California, which had opened in 1955, the complex was developed by Walt Disney in the 1960s. ``The Florida Project '', as it was known, was intended to present a distinct vision with its own diverse set of attractions. Walt Disney's original plans also called for the inclusion of an`` Experimental Prototype Community of Tomorrow'' (EPCOT), a planned community intended to serve as a test bed for new city living innovations. After extensive lobbying, the government of Florida created the Reedy Creek Improvement District, a special government district that essentially gave The Walt Disney Company the standard powers and autonomy of an incorporated city. Walt Disney died on December 15, 1966, during construction of the complex. Without Disney spearheading the construction, the company created a resort similar to Disneyland, abandoning experimental concepts for a planned community. Magic Kingdom was the first theme park to open in the complex, in 1971, followed by Epcot in 1982, Disney's Hollywood Studios in 1989, and the most recent, Disney's Animal Kingdom in 1998.\", \"title\": \"Walt Disney World\"}, {\"idx\": 4, \"text\": \"Welcome to Pooh Corner is a live-action/puppet television series that aired on Disney Channel, featuring the characters from the Winnie the Pooh universe portrayed by actors in human-sized puppet suits, except Roo, who was originally a traditional puppet. The animatronic costumes used for the characters were created by Alchemy II, Inc., headed by Ken Forsse who later created Teddy Ruxpin. The show was first aired on April 18, 1983, the day The Disney Channel was launched. Its timeslot for its early run was at 8:30\\u00a0a.m. Eastern/Pacific Time, making it the third program of The Disney Channel's 16 (later 18) hour programming day. Reruns of the show aired on The Disney Channel until at least January 1997.\", \"title\": \"Welcome to Pooh Corner\"}, {\"idx\": 5, \"text\": \"The Walt Disney World Resort, commonly known as Walt Disney World, or often just as Disney World, is an entertainment complex in Bay Lake and Lake Buena Vista, Florida, near Orlando and Kissimmee, Florida. Opened on October 1, 1971, the resort is owned and operated by Walt Disney Parks, Experiences and Consumer Products, a division of The Walt Disney Company. It was initially operated by Walt Disney World Company. The property covers 27,258 acres (43 sq mi; 110 km), featuring four theme parks, two water parks, twenty - seven themed resort hotels, nine non-Disney hotels, several golf courses, a camping resort, and other entertainment venues, including the outdoor shopping center Disney Springs.\", \"title\": \"Walt Disney World\"}, {\"idx\": 13, \"text\": \"Mickey's Revue is a 1932 Walt Disney cartoon, directed by Wilfred Jackson, which features Mickey Mouse, Minnie Mouse, Horace Horsecollar and Clarabelle Cow performing a song and dance show.\", \"title\": \"Mickey's Revue\"}], \"question\": \"What was the old show that was named after a character that Walt Disney created in 1928 called?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

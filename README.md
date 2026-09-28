@@ -1,23 +1,27 @@
 # Evidence-set memory
 
 An independent Construct-2 ancillary investigation, commissioned 28 September
-2026. **Status: phase 2 experimentation underway; phase 1 published locally.
+2026. **Status: phases 1–4 published locally; phase 2 reader-budget diagnosis running.
 Root scientific review remains separate.**
 
 [Phase 2 findings](phase2/FINDINGS.md) extend the work to real
 MuSiQue prose, a small neural pairwise energy, and projected continuous selection.
 The learner improves development support recovery, while exact/beam search is
 more reliable and cheaper than the tested relaxation. The semantic diagnostic and
-frozen held-out selection are complete; the 24-case complete-QA comparison is
-running. This phase is explicitly benchmark-supervised, not continuing experience.
+frozen held-out selection and 24-case QA comparison are complete. Exact selection
+reaches 2/24 annotation-complete answers (3 with fallback), versus full-context
+access's 6/24. A [source/label audit](phase2/LABEL_AUDIT.md) found mismatched-entity
+chains and exact-match penalties, so these are not validated counts of all genuinely
+correct tasks. Public length-stop repair is running separately. This phase is
+explicitly benchmark-supervised, not continuing experience.
 The earlier [development publication](phase2/DEVELOPMENT.md) is retained unchanged.
 
 [Phase 3 scaling findings](phase3/FINDINGS.md) test the frozen energy with up to
 160 candidates. Relaxation beats exhaustive enumeration at larger pools, but
 beam search matches the optimum with less measured work. These are optimizer
 diagnostics on seen material. Phase 2's frozen held-out selection result is 26/64
-complete evidence sets versus 15/64 for ordinary hybrid access; complete QA is
-still running and must decide usefulness. The [exposure audit](phase2/EXPOSURE.md)
+complete annotated evidence sets versus 15/64 for ordinary hybrid access, without
+an established useful complete-work advantage. The [exposure audit](phase2/EXPOSURE.md)
 found one previously inspected reconnaissance question in those 64: the 63-case
 sensitivity result remains 26 versus 15. Split-disjoint component IDs do not imply
 fully disjoint source text or absence of pretrained exposure.

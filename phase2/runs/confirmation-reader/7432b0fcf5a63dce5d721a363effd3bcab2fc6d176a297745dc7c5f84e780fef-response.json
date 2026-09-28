@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "Compaq",
+    "citations": [
+      2,
+      16
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Compaq\", \"citations\":[2, 16]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602788,
+    "id": "chatcmpl-Pi40wk50Y28JDOoaE2ywDtHU8LZQFygK",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 897.725,
+      "predicted_n": 18,
+      "predicted_per_second": 20.05068367261689,
+      "predicted_per_token_ms": 49.87361111111111,
+      "prompt_ms": 3644.331,
+      "prompt_n": 585,
+      "prompt_per_second": 160.52328945971155,
+      "prompt_per_token_ms": 6.229625641025641
+    },
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 585,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 603
+    }
+  },
+  "wall_seconds": 4.64216991700232
+}

@@ -1,0 +1,46 @@
+{
+  "answer": {
+    "answer": "Oswald the Lucky Rabbit",
+    "citations": [
+      0
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Oswald the Lucky Rabbit\", \"citations\":[0]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602859,
+    "id": "chatcmpl-JlVYsxUW7ikedD4VxYpJ71liBSf0acnc",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 824.642,
+      "predicted_n": 17,
+      "predicted_per_second": 20.615006269387198,
+      "predicted_per_token_ms": 48.508352941176476,
+      "prompt_ms": 1366.316,
+      "prompt_n": 208,
+      "prompt_per_second": 152.23418301476377,
+      "prompt_per_token_ms": 6.568826923076923
+    },
+    "usage": {
+      "completion_tokens": 17,
+      "prompt_tokens": 295,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 312
+    }
+  },
+  "wall_seconds": 2.2568120840005577
+}

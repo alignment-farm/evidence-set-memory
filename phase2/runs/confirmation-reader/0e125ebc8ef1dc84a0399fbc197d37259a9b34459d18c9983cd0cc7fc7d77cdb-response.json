@@ -1,0 +1,44 @@
+{
+  "answer": {
+    "answer": "Dell",
+    "citations": []
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\n  \"answer\": \"Dell\",\n  \"citations\": []\n}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602784,
+    "id": "chatcmpl-T52Bntrb00DK0j1JFcgbR8M2IwwgXmw9",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 38,
+      "predicted_ms": 1001.838,
+      "predicted_n": 20,
+      "predicted_per_second": 19.963307440923582,
+      "predicted_per_token_ms": 50.091899999999995,
+      "prompt_ms": 566.041,
+      "prompt_n": 44,
+      "prompt_per_second": 77.73288507369607,
+      "prompt_per_token_ms": 12.864568181818184
+    },
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 82,
+      "prompt_tokens_details": {
+        "cached_tokens": 38
+      },
+      "total_tokens": 102
+    }
+  },
+  "wall_seconds": 1.6664623750257306
+}

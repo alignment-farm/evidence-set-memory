@@ -1,0 +1,44 @@
+{
+  "answer": {
+    "answer": "Xanana Gusm\u00e3o",
+    "citations": []
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\": \"Xanana Gusm\u00e3o\", \"citations\": []}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604202,
+    "id": "chatcmpl-iK4yCkyj0ymGCaWSTk4HRkZsRp1s52WC",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 38,
+      "predicted_ms": 879.356,
+      "predicted_n": 18,
+      "predicted_per_second": 20.46952542542497,
+      "predicted_per_token_ms": 48.85311111111111,
+      "prompt_ms": 572.942,
+      "prompt_n": 58,
+      "prompt_per_second": 101.23188734636315,
+      "prompt_per_token_ms": 9.878310344827586
+    },
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 96,
+      "prompt_tokens_details": {
+        "cached_tokens": 38
+      },
+      "total_tokens": 114
+    }
+  },
+  "wall_seconds": 1.5396808329969645
+}

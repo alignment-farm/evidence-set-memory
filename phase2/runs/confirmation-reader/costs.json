@@ -1,0 +1,13 @@
+{
+  "completion_tokens": 26529,
+  "errors": 0,
+  "mapped_outcomes": 192,
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "prompt_tokens": 165890,
+  "request_seconds": 2289.006571125181,
+  "requests": 166,
+  "script_sha256": "f9612370937c378399d27bafd44be652c461f9feee612abaa4fa6e68ea5c8c0b",
+  "timestamp_utc": "2026-09-28T14:16:55Z",
+  "usage_missing": 0,
+  "wall_seconds": 2291.188511834014
+}

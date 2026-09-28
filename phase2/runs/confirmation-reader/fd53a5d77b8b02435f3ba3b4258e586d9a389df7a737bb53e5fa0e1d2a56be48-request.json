@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 10, \"text\": \"Qiantong () is a town in southwestern Ninghai County in eastern Zhejiang province, China, situated along G15 Shenyang\\u2013Haikou Expressway around southwest of the county seat as the crow flies. , it has 29 villages under its administration. The town was established in the last years of the Song Dynasty, though much of its architecture dates from the Ming or Qing; a large proportion of its residents are surnamed Tong ().\", \"title\": \"Qiantong, Zhejiang\"}], \"question\": \"What city is located in the county containing Qiantong?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

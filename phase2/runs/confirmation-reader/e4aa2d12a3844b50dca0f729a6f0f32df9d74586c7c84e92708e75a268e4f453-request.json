@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Kehinde Babatunde Victor Oladipo (born May 4, 1992) is an American professional basketball player for the Indiana Pacers of the National Basketball Association (NBA). He played college basketball for the Indiana Hoosiers, where he was named the \\\"Sporting News\\\" Men's College Basketball Player of the Year, the Co-NABC Defensive Player of the Year, and a first-team All-American by the USBWA and \\\"Sporting News\\\". That year he was also named the winner of the Adolph Rupp Trophy, given annually to the top player in men's NCAA Division I basketball. Oladipo was drafted with the second overall pick in the 2013 NBA draft by the Orlando Magic and went on to be named to the NBA All-Rookie first team. He was traded to the Oklahoma City Thunder in 2016, and then traded to the Pacers in 2017. He became a first-time NBA All-Star, led the league in steals, was named to the All-Defensive First Team and the All-NBA Third Team, and won the NBA Most Improved Player Award in his first season with Indiana. Despite an injury-riddled 2018\\u201319 season, including a season-ending injury in January 2019, Oladipo was named an Eastern Conference reserve for the second year in a row.\", \"title\": \"Victor Oladipo\"}, {\"idx\": 6, \"text\": \"Every spring, each member of the association votes for two players. A shortlist of nominees is published in April and the winner of the award, along with the winners of the PFA's other annual awards, is announced at a gala event in London a few days later. The award is regarded by the players themselves as extremely prestigious, with Teddy Sheringham describing it in 2001 as ``the biggest personal award you can get in the game '', and John Terry stating in 2005 that he considered it`` the ultimate accolade to be voted for by your fellow professionals whom you play against week - in and week - out''.\", \"title\": \"PFA Players' Player of the Year\"}, {\"idx\": 8, \"text\": \"The 2018 FIFA World Cup was the 21st FIFA World Cup, an international football tournament contested by the men's national teams of the member associations of FIFA once every four years. It took place in Russia from 14 June to 15 July 2018.\", \"title\": \"2018 FIFA World Cup\"}, {\"idx\": 14, \"text\": \"The Professional Footballers' Association Players' Player of the Year (often called the PFA Players' Player of the Year, the Players' Player of the Year, or simply the Player of the Year) is an annual award given to the player who is adjudged to have been the best of the year in English football. The award has been presented since the 1973 -- 74 season and the winner is chosen by a vote amongst the members of the players' trade union, the Professional Footballers' Association (PFA). The current holder is Mohamed Salah, who won the award on 22 April 2018 for his displays throughout the 2017 -- 18 season, representing Liverpool.\", \"title\": \"PFA Players' Player of the Year\"}], \"question\": \"What team does the 2018 PFA player of the year play for?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

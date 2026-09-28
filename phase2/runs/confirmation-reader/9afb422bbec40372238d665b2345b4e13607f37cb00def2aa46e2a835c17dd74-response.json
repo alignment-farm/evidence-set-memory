@@ -1,0 +1,46 @@
+{
+  "answer": {
+    "answer": "Mickey Mouse",
+    "citations": [
+      2
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Mickey Mouse\", \"citations\":[2]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602841,
+    "id": "chatcmpl-2swCCbS4g23VOI6HYM6OcUVx8z7o3j1Y",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 689.554,
+      "predicted_n": 14,
+      "predicted_per_second": 20.302978446938166,
+      "predicted_per_token_ms": 49.25385714285714,
+      "prompt_ms": 4166.55,
+      "prompt_n": 750,
+      "prompt_per_second": 180.00504014112394,
+      "prompt_per_token_ms": 5.555400000000001
+    },
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 837,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 851
+    }
+  },
+  "wall_seconds": 4.965731458971277
+}

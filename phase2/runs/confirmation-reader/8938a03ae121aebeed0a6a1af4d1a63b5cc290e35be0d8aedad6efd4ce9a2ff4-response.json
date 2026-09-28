@@ -1,0 +1,44 @@
+{
+  "answer": {
+    "answer": "Geographic proximity and historical intermarriage",
+    "citations": []
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\": \"Geographic proximity and historical intermarriage\", \"citations\": []}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603900,
+    "id": "chatcmpl-5vIE4plxkb9gPiuR8crhROw0TMB9lR57",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 38,
+      "predicted_ms": 1001.909,
+      "predicted_n": 20,
+      "predicted_per_second": 19.96189274674646,
+      "predicted_per_token_ms": 50.09545,
+      "prompt_ms": 564.208,
+      "prompt_n": 44,
+      "prompt_per_second": 77.98542381533052,
+      "prompt_per_token_ms": 12.822909090909091
+    },
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 82,
+      "prompt_tokens_details": {
+        "cached_tokens": 38
+      },
+      "total_tokens": 102
+    }
+  },
+  "wall_seconds": 1.6838759169913828
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 2, \"text\": \"Zhu Wen, originally a salt smuggler who had served under the rebel Huang Chao, surrendered to Tang forces. By helping to defeat Huang, he was renamed Zhu Quanzhong and granted a series of rapid military promotions to military governor of Xuanwu Circuit. Zhu later conquered many circuits and became the most powerful warlord. In 903 he controlled the imperial court and forced Emperor Zhaozong of Tang moved the capital to Luoyang, preparing to take the throne himself. In 904 Zhu assassinated Emperor Zhaozong to replace him with the emperor's young son Emperor Ai of Tang. In 905 Zhu executed 9 brothers of Emperor Ai as well as many officials and Empress Dowager He. In 907 the Tang dynasty was ended when Zhu deposed the Emperor Ai and took the throne for himself (known posthumously as Emperor Taizu of Later Liang). He established the Later Liang, which inaugurated the Five Dynasties and Ten Kingdoms period. A year later Zhu had the deposed Emperor Ai poisoned to death.\", \"title\": \"Tang dynasty\"}, {\"idx\": 6, \"text\": \"Zhu Qinan (; born November 15, 1984 in Wenzhou, Zhejiang) is a male Chinese sport shooter. He won the gold medal at the 2004 Athens Olympics in the Men's 10 m Air Rifle event and a silver medal at the 2008 Beijing Olympics in the Men's 10 m Air Rifle event. Zhu currently is studying at Zhejiang University.\", \"title\": \"Zhu Qinan\"}, {\"idx\": 14, \"text\": \"Guam (i/\\u02c8\\u0261w\\u0251\\u02d0m/ or /\\u02c8\\u0261w\\u0252m/; Chamorro: Gu\\u00e5h\\u00e5n;[needs IPA] formally the Territory of Guam) is an unincorporated and organized territory of the United States. Located in the northwestern Pacific Ocean, Guam is one of five American territories with an established civilian government. The capital city is Hag\\u00e5t\\u00f1a, and the most populous city is Dededo. In 2015, 161,785 people resided on Guam. Guamanians are American citizens by birth. Guam has an area of 544 km2 (210 sq mi) and a density of 297/km\\u00b2 (770/sq mi). It is the largest and southernmost of the Mariana Islands, and the largest island in Micronesia. Among its municipalities, Mongmong-Toto-Maite has the highest density at 1,425/km\\u00b2 (3,691/sq mi), whereas Inarajan and Umatac have the lowest density at 47/km\\u00b2 (119/sq mi). The highest point is Mount Lamlam at 406 meters (1,332 ft) above sea level.\", \"title\": \"Guam\"}, {\"idx\": 16, \"text\": \"Zhu Yousong, however, fared a lot worse than his ancestor Zhu Yuanzhang three centuries earlier. Beset by factional conflicts, his regime could not offer effective resistance to Qing forces, when the Qing army, led by the Manchu prince Dodo approached Jiangnan the next spring. Days after Yangzhou fell to the Manchus in late May 1645, the Hongguang Emperor fled Nanjing, and the imperial Ming Palace was looted by local residents. On June 6, Dodo's troops approached Nanjing, and the commander of the city's garrison, Zhao the Earl of Xincheng, promptly surrendered the city to them. The Manchus soon ordered all male residents of the city to shave their heads in the Manchu queue way. They requisitioned a large section of the city for the bannermen's cantonment, and destroyed the former imperial Ming Palace, but otherwise the city was spared the mass murders and destruction that befell Yangzhou.\", \"title\": \"Nanjing\"}], \"question\": \"In which county was Zhu Qinan born?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

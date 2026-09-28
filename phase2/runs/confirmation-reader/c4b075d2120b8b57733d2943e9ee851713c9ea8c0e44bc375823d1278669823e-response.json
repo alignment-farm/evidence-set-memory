@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "John McCain's children (e.g., Meghan McCain, Jack McCain, or Cindy McCain)",
+    "citations": [
+      3,
+      18
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\": \"John McCain's children (e.g., Meghan McCain, Jack McCain, or Cindy McCain)\", \"citations\": [3, 18]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604142,
+    "id": "chatcmpl-9VogxoWWCIQ6xwhywH5hd9BWSBcB8Dor",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 1746.938,
+      "predicted_n": 34,
+      "predicted_per_second": 19.46262546238046,
+      "predicted_per_token_ms": 51.38052941176471,
+      "prompt_ms": 6465.971,
+      "prompt_n": 1179,
+      "prompt_per_second": 182.3392031916011,
+      "prompt_per_token_ms": 5.484284139100932
+    },
+    "usage": {
+      "completion_tokens": 34,
+      "prompt_tokens": 1179,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 1213
+    }
+  },
+  "wall_seconds": 8.294836000015493
+}

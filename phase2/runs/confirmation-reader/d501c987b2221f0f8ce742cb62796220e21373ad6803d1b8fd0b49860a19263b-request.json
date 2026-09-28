@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"Usually, a federation is formed at two levels: the central government and the regions (states, provinces, territories), and little to nothing is said about second or third level administrative political entities. Brazil is an exception, because the 1988 Constitution included the municipalities as autonomous political entities making the federation tripartite, encompassing the Union, the States, and the municipalities. Each state is divided into municipalities (munic\\u00edpios) with their own legislative council (c\\u00e2mara de vereadores) and a mayor (prefeito), which are partly autonomous from both Federal and State Government. Each municipality has a \\\"little constitution\\\", called \\\"organic law\\\" (lei org\\u00e2nica). Mexico is an intermediate case, in that municipalities are granted full-autonomy by the federal constitution and their existence as autonomous entities (municipio libre, \\\"free municipality\\\") is established by the federal government and cannot be revoked by the states' constitutions. Moreover, the federal constitution determines which powers and competencies belong exclusively to the municipalities and not to the constituent states. However, municipalities do not have an elected legislative assembly.\", \"title\": \"Federalism\"}, {\"idx\": 7, \"text\": \"Krasnovishersky District () is an administrative district (raion) of Perm Krai, Russia; one of the thirty-three in the krai. Municipally, it is incorporated as Krasnovishersky Municipal District. It is located in the northeast of the krai, in the valley of the Vishera River, and borders with the Komi Republic in the north, Sverdlovsk Oblast in the east, Cherdynsky District in the west, Solikamsky District in the south, and with the territory of the town of krai significance of Alexandrovsk in the southeast. The area of the district is . Its administrative center is the town of Krasnovishersk. Population: The population of Krasnovishersk accounts for 71.4% of the district's total population.\", \"title\": \"Krasnovishersky District\"}, {\"idx\": 10, \"text\": \"Qiantong () is a town in southwestern Ninghai County in eastern Zhejiang province, China, situated along G15 Shenyang\\u2013Haikou Expressway around southwest of the county seat as the crow flies. , it has 29 villages under its administration. The town was established in the last years of the Song Dynasty, though much of its architecture dates from the Ming or Qing; a large proportion of its residents are surnamed Tong ().\", \"title\": \"Qiantong, Zhejiang\"}, {\"idx\": 16, \"text\": \"Pak Tam Chung () is an area in the southern part of the Sai Kung Peninsula in the New Territories of Hong Kong. It is administratively under the Sai Kung District.\", \"title\": \"Pak Tam Chung\"}], \"question\": \"What city is located in the county containing Qiantong?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

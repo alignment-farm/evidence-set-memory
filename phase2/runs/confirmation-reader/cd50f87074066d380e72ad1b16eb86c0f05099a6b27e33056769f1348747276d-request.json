@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 4, \"text\": \"Colquhoun's utilitarian approach to the problem \\u2013 using a cost-benefit argument to obtain support from businesses standing to benefit \\u2013 allowed him to achieve what Henry and John Fielding failed for their Bow Street detectives. Unlike the stipendiary system at Bow Street, the river police were full-time, salaried officers prohibited from taking private fees. His other contribution was the concept of preventive policing; his police were to act as a highly visible deterrent to crime by their permanent presence on the Thames. Colquhoun's innovations were a critical development leading up to Robert Peel's \\\"new\\\" police three decades later.\", \"title\": \"Police\"}, {\"idx\": 5, \"text\": \"A Very Short Life () is a 2009 Hong Kong drama film written, produced and directed by Dennis Law. It is Law's fifth feature film as a writer and director. Centered on child abuse and child molestation, the film stars Maggie Shiu as a Hong Kong police commissioner who investigates the murder of an 11-year-old girl at the hands of her abusive mother (Leila Tong). The film was awarded a Category III rating in Hong Kong for its subject matter and was released in Hong Kong on 19 March 2008.\", \"title\": \"A Very Short Life\"}, {\"idx\": 13, \"text\": \"Edwin Chadwick's 1829 article, \\\"Preventive police\\\" in the London Review, argued that prevention ought to be the primary concern of a police body, which was not the case in practice. The reason, argued Chadwick, was that \\\"A preventive police would act more immediately by placing difficulties in obtaining the objects of temptation.\\\" In contrast to a deterrent of punishment, a preventive police force would deter criminality by making crime cost-ineffective - \\\"crime doesn't pay\\\". In the second draft of his 1829 Police Act, the \\\"object\\\" of the new Metropolitan Police, was changed by Robert Peel to the \\\"principal object,\\\" which was the \\\"prevention of crime.\\\" Later historians would attribute the perception of England's \\\"appearance of orderliness and love of public order\\\" to the preventive principle entrenched in Peel's police system.\", \"title\": \"Police\"}, {\"idx\": 14, \"text\": \"Peel was the second son of Arthur Peel, 1st Viscount Peel, Speaker of the House of Commons and the youngest son of Prime Minister Sir Robert Peel, Bt. His mother was Adelaide, daughter of William Stratford Dugdale. Peel sat as Member of Parliament for Uxbridge bretween 1918 and 1922. He was also a Colonel in the British Army. In 1936 he was created a Baronet, of Eyeworth in the County of Bedford.\", \"title\": \"Sidney Peel\"}], \"question\": \"Who is the father of the man who conceived of the 'new' police?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

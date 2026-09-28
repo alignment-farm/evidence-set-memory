@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "Toronto, Ontario",
+    "citations": [
+      15,
+      6
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Toronto, Ontario\", \"citations\":[15, 6]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602905,
+    "id": "chatcmpl-KF4YXSlrSYEldMQX8NytxTU5Jb6vouYN",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 896.282,
+      "predicted_n": 18,
+      "predicted_per_second": 20.082964959689026,
+      "predicted_per_token_ms": 49.79344444444445,
+      "prompt_ms": 2083.983,
+      "prompt_n": 362,
+      "prompt_per_second": 173.7058315734821,
+      "prompt_per_token_ms": 5.7568591160221
+    },
+    "usage": {
+      "completion_tokens": 18,
+      "prompt_tokens": 449,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 467
+    }
+  },
+  "wall_seconds": 3.0672189579927363
+}

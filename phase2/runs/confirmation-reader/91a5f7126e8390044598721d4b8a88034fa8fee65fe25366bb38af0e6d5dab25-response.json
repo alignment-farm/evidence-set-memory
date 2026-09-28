@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "Renfrew County",
+    "citations": [
+      7,
+      8
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\": \"Renfrew County\", \"citations\": [7, 8]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602993,
+    "id": "chatcmpl-DpgOakFvhvcNK9DMwGJcE1cwcv2wdHNV",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 1002.569,
+      "predicted_n": 20,
+      "predicted_per_second": 19.948751656993185,
+      "predicted_per_token_ms": 50.12845,
+      "prompt_ms": 1936.216,
+      "prompt_n": 288,
+      "prompt_per_second": 148.7437352030972,
+      "prompt_per_token_ms": 6.7229722222222215
+    },
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 288,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 308
+    }
+  },
+  "wall_seconds": 3.1071056249784306
+}

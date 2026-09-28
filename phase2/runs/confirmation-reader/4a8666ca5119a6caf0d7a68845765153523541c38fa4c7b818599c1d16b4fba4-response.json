@@ -1,0 +1,44 @@
+{
+  "answer": {
+    "answer": "Bancroft is a village in the county of Cheshire, England. It borders the counties of Staffordshire and Shropshire.",
+    "citations": []
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\n  \"answer\": \"Bancroft is a village in the county of Cheshire, England. It borders the counties of Staffordshire and Shropshire.\",\n  \"citations\": []\n}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602990,
+    "id": "chatcmpl-8JayRTZ68tjyfZNtpLw1m2VYfjZiT5hH",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 38,
+      "predicted_ms": 2316.915,
+      "predicted_n": 45,
+      "predicted_per_second": 19.422378464466757,
+      "predicted_per_token_ms": 51.487,
+      "prompt_ms": 441.138,
+      "prompt_n": 32,
+      "prompt_per_second": 72.53965879157997,
+      "prompt_per_token_ms": 13.7855625
+    },
+    "usage": {
+      "completion_tokens": 45,
+      "prompt_tokens": 70,
+      "prompt_tokens_details": {
+        "cached_tokens": 38
+      },
+      "total_tokens": 115
+    }
+  },
+  "wall_seconds": 2.8531541249831207
+}

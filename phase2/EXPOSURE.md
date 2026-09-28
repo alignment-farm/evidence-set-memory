@@ -31,6 +31,6 @@ decompositions and answers; labels remain separately supplied training/evaluatio
 data. The imported encoder and reader may also have encountered benchmark seed
 material during pretraining; their provenance cannot exclude that.
 
-The final reader audit will identify whether the previously inspected row enters
-the prespecified first-24 reader subset. No-context and omitted-support controls
+The completed reader audit confirms that the previously inspected row does not
+enter the prespecified first-24 reader subset. No-context and omitted-support controls
 are diagnostics, not certificates that a particular answer required its sources.

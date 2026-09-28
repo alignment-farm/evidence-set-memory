@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 2, \"text\": \"The Church of San Pietro in Montorio was built on the site of an earlier 9th-century church dedicated to Saint Peter on Rome's Janiculum hill. It serves as a shrine, marking the supposed site of St. Peter's crucifixion.\", \"title\": \"San Pietro in Montorio\"}, {\"idx\": 7, \"text\": \"Antonio Tosti (4 October 1776 \\u2013 20 March 1866) was Catholic Cardinal-Priest of San Pietro in Montorio in Rome and later Camerlengo of the Sacred College of Cardinals and Librarian of the Vatican Library.\", \"title\": \"Antonio Tosti\"}, {\"idx\": 9, \"text\": \"The Bas\\u00edlica Minore del Santo Ni\\u00f1o de Ceb\\u00fa (Minor Basilica of the Holy Child of Ceb\\u00fa) commonly known as the Santo Ni\\u00f1o Basilica, is a minor basilica in Cebu City in the Philippines that was founded in the 1565 by Fray Andr\\u00e9s de Urdaneta, O.S.A. and Fray Diego de Herrera, O.S.A.. The oldest Roman Catholic church in the country, it is built on the spot where the image of the Santo Ni\\u00f1o de Ceb\\u00fa was found during the expedition of Miguel L\\u00f3pez de Legazpi. The icon, a statuette of the Child Jesus, is the same one presented by Ferdinand Magellan to the chief consort of Rajah Humabon upon the royal couple's christening on April 14, 1521. It was found by a soldier named Juan de Camuz forty years later, preserved in a wooden box, after Legazpi had razed a local village. When Pope Paul VI made the church a basilica in 1965, he declared it to be \\\"the symbol of the birth and growth of Christianity in the Philippines.\\\"\", \"title\": \"Basilica del Santo Ni\\u00f1o\"}, {\"idx\": 14, \"text\": \"The Papal Basilica of St. Peter in the Vatican (Italian: Basilica Papale di San Pietro in Vaticano), or simply St. Peter's Basilica (Latin: Basilica Sancti Petri), is an Italian Renaissance church in Vatican City, the papal enclave within the city of Rome.\", \"title\": \"St. Peter's Basilica\"}], \"question\": \"When did the city where the Basilica that is named after the same saint as the one in San Pietro in Montorio located in become a country?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

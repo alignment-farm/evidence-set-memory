@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "Yongjia County",
+    "citations": [
+      6,
+      3
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Yongjia County\", \"citations\":[6, 3]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603019,
+    "id": "chatcmpl-peCHeEqo60rZ9y2SEXzvDXw9gPfg0k7x",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 947.392,
+      "predicted_n": 19,
+      "predicted_per_second": 20.055056407484965,
+      "predicted_per_token_ms": 49.862736842105264,
+      "prompt_ms": 19107.218,
+      "prompt_n": 3571,
+      "prompt_per_second": 186.89272294899234,
+      "prompt_per_token_ms": 5.3506631195743495
+    },
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 3571,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 3590
+    }
+  },
+  "wall_seconds": 20.145713834033813
+}

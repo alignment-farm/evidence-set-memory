@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League (and also the Spanish Super Cup, UEFA Super Cup and FIFA Club World Cup, completing the sextuple)",
+    "citations": [
+      0,
+      17
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League (and also the Spanish Super Cup, UEFA Super Cup and FIFA Club World Cup, completing the sextuple)\", \"citations\":[0, 17]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603184,
+    "id": "chatcmpl-SRBBcLqSKSymg8i8tgKuvH5CPmWHNaNW",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 2804.932,
+      "predicted_n": 54,
+      "predicted_per_second": 19.25180360878624,
+      "predicted_per_token_ms": 51.94318518518518,
+      "prompt_ms": 4944.208,
+      "prompt_n": 912,
+      "prompt_per_second": 184.45825903764566,
+      "prompt_per_token_ms": 5.421280701754386
+    },
+    "usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 999,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 1053
+    }
+  },
+  "wall_seconds": 7.840466166031547
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 14, \"text\": \"The Professional Footballers' Association Players' Player of the Year (often called the PFA Players' Player of the Year, the Players' Player of the Year, or simply the Player of the Year) is an annual award given to the player who is adjudged to have been the best of the year in English football. The award has been presented since the 1973 -- 74 season and the winner is chosen by a vote amongst the members of the players' trade union, the Professional Footballers' Association (PFA). The current holder is Mohamed Salah, who won the award on 22 April 2018 for his displays throughout the 2017 -- 18 season, representing Liverpool.\", \"title\": \"PFA Players' Player of the Year\"}], \"question\": \"What team does the 2018 PFA player of the year play for?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

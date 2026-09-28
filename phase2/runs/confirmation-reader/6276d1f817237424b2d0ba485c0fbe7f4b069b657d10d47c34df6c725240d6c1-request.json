@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 10, \"text\": \"The Mississippi River is the chief river of the second - largest drainage system on the North American continent, second only to the Hudson Bay drainage system. Flowing entirely in the United States (although its drainage basin reaches into Canada), it rises in northern Minnesota and meanders slowly southwards for 2,320 miles (3,730 km) to the Mississippi River Delta at the Gulf of Mexico. With its many tributaries, the Mississippi's watershed drains all or parts of 31 U.S. states and 2 Canadian provinces between the Rocky and Appalachian Mountains. The Mississippi ranks as the fourth - longest and fifteenth - largest river in the world by discharge. The river either borders or passes through the states of Minnesota, Wisconsin, Iowa, Illinois, Missouri, Kentucky, Tennessee, Arkansas, Mississippi, and Louisiana.\", \"title\": \"Mississippi River\"}, {\"idx\": 11, \"text\": \"The Minikahda Club is a golf club and course located in southwest Minneapolis, Minnesota, just west of Lake Calhoun. The course hosted the U.S. Open in 1916, the U.S. Amateur in 1927, and the Walker Cup in 1957.\", \"title\": \"The Minikahda Club\"}, {\"idx\": 17, \"text\": \"Minneapolis lies on both banks of the Mississippi River, just north of the river's confluence with the Minnesota River, and adjoins Saint Paul, the state's capital. The city is abundantly rich in water, with 13 lakes, wetlands, the Mississippi River, creeks and waterfalls; many connected by parkways in the Chain of Lakes and the Grand Rounds National Scenic Byway. It was once the world's flour milling capital and a hub for timber. The city and surrounding region is the primary business center between Chicago and Seattle. As of 2018, Minneapolis was home to 6 Fortune 500 companies, and the Twin Cities were the fifth-largest hub of major corporate headquarters in the United States. As an integral link to the global economy, Minneapolis is categorized as a global city.\", \"title\": \"Minneapolis\"}, {\"idx\": 18, \"text\": \"Contoocook Lake () is a water body located in Cheshire County in southwestern New Hampshire, United States, in the towns of Jaffrey and Rindge. The lake, along with Pool Pond, forms the headwaters of the Contoocook River, which flows north to the Merrimack River in Penacook, New Hampshire.\", \"title\": \"Contoocook Lake\"}], \"question\": \"What is the direction of flow of the body of water by the city where The Minikahda Club is located?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"The Econlockhatchee River (Econ River for short) is an north-flowing blackwater tributary of the St. Johns River, the longest river in the U.S. state of Florida. The Econ River flows through Osceola, Orange, and Seminole counties in Central Florida, just east of the Orlando Metropolitan Area (east of State Road 417). It is a designated Outstanding Florida Waters.\", \"title\": \"Econlockhatchee River\"}, {\"idx\": 10, \"text\": \"The Mississippi River is the chief river of the second - largest drainage system on the North American continent, second only to the Hudson Bay drainage system. Flowing entirely in the United States (although its drainage basin reaches into Canada), it rises in northern Minnesota and meanders slowly southwards for 2,320 miles (3,730 km) to the Mississippi River Delta at the Gulf of Mexico. With its many tributaries, the Mississippi's watershed drains all or parts of 31 U.S. states and 2 Canadian provinces between the Rocky and Appalachian Mountains. The Mississippi ranks as the fourth - longest and fifteenth - largest river in the world by discharge. The river either borders or passes through the states of Minnesota, Wisconsin, Iowa, Illinois, Missouri, Kentucky, Tennessee, Arkansas, Mississippi, and Louisiana.\", \"title\": \"Mississippi River\"}, {\"idx\": 11, \"text\": \"The Minikahda Club is a golf club and course located in southwest Minneapolis, Minnesota, just west of Lake Calhoun. The course hosted the U.S. Open in 1916, the U.S. Amateur in 1927, and the Walker Cup in 1957.\", \"title\": \"The Minikahda Club\"}, {\"idx\": 13, \"text\": \"The flow of cold, gray mountain water continues for some distance into the lake. The cold water flows near the surface and at first doesn't mix with the warmer, green waters of Upper Lake. But then, at the so-called Rheinbrech, the Rhine water abruptly falls into the depths because of the greater density of cold water. The flow reappears on the surface at the northern (German) shore of the lake, off the island of Lindau. The water then follows the northern shore until Hagnau am Bodensee. A small fraction of the flow is diverted off the island of Mainau into Lake \\u00dcberlingen. Most of the water flows via the Constance hopper into the Rheinrinne (\\\"Rhine Gutter\\\") and Seerhein. Depending on the water level, this flow of the Rhine water is clearly visible along the entire length of the lake.\", \"title\": \"Rhine\"}], \"question\": \"What is the direction of flow of the body of water by the city where The Minikahda Club is located?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

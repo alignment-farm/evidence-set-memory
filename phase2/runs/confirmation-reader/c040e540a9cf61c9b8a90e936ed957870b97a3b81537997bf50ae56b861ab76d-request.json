@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 4, \"text\": \"\\\"Scars\\\" is the second single from the band Papa Roach's fourth album, \\\"Getting Away with Murder\\\", and seventh released single in total. As with several of their other songs, Papa Roach has performed \\\"Scars\\\" live with Spanish lyrics.\", \"title\": \"Scars (Papa Roach song)\"}, {\"idx\": 7, \"text\": \"The city had a population of 1,307,402 according to the 2010 census, distributed over a land area of 372.1 square miles (963.7 km2). The urban area of San Diego extends beyond the administrative city limits and had a total population of 2,956,746, making it the third-largest urban area in the state, after that of the Los Angeles metropolitan area and San Francisco metropolitan area. They, along with the Riverside\\u2013San Bernardino, form those metropolitan areas in California larger than the San Diego metropolitan area, with a total population of 3,095,313 at the 2010 census.\", \"title\": \"San Diego\"}, {\"idx\": 16, \"text\": \"Southern California consists of a heavily developed urban environment, home to some of the largest urban areas in the state, along with vast areas that have been left undeveloped. It is the third most populated megalopolis in the United States, after the Great Lakes Megalopolis and the Northeastern megalopolis. Much of southern California is famous for its large, spread-out, suburban communities and use of automobiles and highways. The dominant areas are Los Angeles, Orange County, San Diego, and Riverside-San Bernardino, each of which is the center of its respective metropolitan area, composed of numerous smaller cities and communities. The urban area is also host to an international metropolitan region in the form of San Diego\\u2013Tijuana, created by the urban area spilling over into Baja California.\", \"title\": \"Southern California\"}, {\"idx\": 18, \"text\": \"Pathology is an American death metal band from San Diego, California, formed in 2006 by drummer Dave Astor (previously with The Locust and Cattle Decapitation). The band were signed to Victory Records for an over three-year period, but now are currently signed to Sevared Records, an independent New York-based death metal label.\", \"title\": \"Pathology (band)\"}], \"question\": \"In the top five largest urban areas in the US state in which the band performing Scars was formed, where does the city having Pathology rank?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

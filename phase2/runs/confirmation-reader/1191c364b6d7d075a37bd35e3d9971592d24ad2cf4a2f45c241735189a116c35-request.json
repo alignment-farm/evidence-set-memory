@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"In the shrinking PC industry, Dell continued to lose market share, as it dropped below Lenovo in 2011 to fall to number three in the world. Dell and fellow American contemporary Hewlett Packard came under pressure from Asian PC manufacturers Lenovo, Asus, and Acer, all of which had lower production costs and willing to accept lower profit margins. In addition, while the Asian PC vendors had been improving their quality and design, for instance Lenovo's ThinkPad series was winning corporate customers away from Dell's laptops, Dell's customer service and reputation had been slipping. Dell remained the second-most profitable PC vendor, as it took 13 percent of operating profits in the PC industry during Q4 2012, behind Apple Inc.'s Macintosh that took 45 percent, seven percent at Hewlett Packard, six percent at Lenovo and Asus, and one percent for Acer.\", \"title\": \"Dell\"}, {\"idx\": 6, \"text\": \"The Macintosh (/ \\u02c8m\\u00e6k\\u026an\\u02cct\\u0252\\u0283 / MAK - in - tosh; branded as Mac since 1998) is a family of personal computers (PCs) designed, developed, and marketed by Apple Inc. Steve Jobs introduced the original Macintosh computer on January 24, 1984. This was the company's first mass - market personal computer featuring an integral graphical user interface and mouse. This first model was later renamed to ``Macintosh 128k ''for uniqueness amongst a populous family of subsequently updated models which are also based on Apple's same proprietary architecture. Since 1998, Apple has largely phased out the Macintosh name in favor of`` Mac'', though the product family has been nicknamed ``Mac ''or`` the Mac'' since the development of the first model.\", \"title\": \"Macintosh\"}, {\"idx\": 14, \"text\": \"In 1984, the company produced the first computer of its own design -- the ``Turbo PC '', sold for US $795 -- containing an Intel 8088 - compatible processor running at a speed of 8 MHz. PC's Limited advertised the systems in national computer magazines for sale directly to consumers, and custom assembled each ordered unit according to a selection of options. This offered buyers prices lower than those of retail brands, but with greater convenience than assembling the components themselves. Although not the first company to use this model, PC's Limited became one of the first to succeed with it. The company grossed more than $73 million in its first year of trading.\", \"title\": \"History of Dell\"}, {\"idx\": 17, \"text\": \"Compaq, who had previously held the third place spot among PC manufacturers during the 1980s and early-mid 1990s, initiated a successful price war in 1994 that vaulted them to the biggest by the year end, overtaking a struggling IBM and relegating Apple to third place. Apple's market share further struggled due to the release of the Windows 95 operating system, which unified Microsoft's formerly separate MS-DOS and Windows products. Windows 95 significantly enhanced the multimedia capability and performance of IBM PC compatible computers, and brought the capabilities of Windows to parity with the Mac OS GUI.\", \"title\": \"Macintosh\"}], \"question\": \"In 2002, what company merged with the top PC manufacturer from 1994?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

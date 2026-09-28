@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 10, \"text\": \"Francisco Godia Sales, better known as Paco Godia (21 March 1921 \\u2013 28 November 1990) was a racing driver from Barcelona, Spain. He drove intermittently in Formula One between and , participating in 14 World Championship Grands Prix and numerous non-Championship races.\", \"title\": \"Paco Godia\"}, {\"idx\": 15, \"text\": \"He played for FC Barcelona and Real Madrid. When playing for Real, he did not give up his attachment to Barcelona. He was the first footballer to play for the two rivals.\", \"title\": \"Jos\\u00e9 Quirante\"}, {\"idx\": 17, \"text\": \"There is often a fierce rivalry between the two strongest teams in a national league, and this is particularly the case in La Liga, where the game between Barcelona and Real Madrid is known as El Cl\\u00e1sico. From the start of national competitions the clubs were seen as representatives of two rival regions in Spain: Catalonia and Castile, as well as of the two cities. The rivalry reflects what many regard as the political and cultural tensions felt between Catalans and the Castilians, seen by one author as a re-enactment of the Spanish Civil War.\", \"title\": \"FC Barcelona\"}, {\"idx\": 19, \"text\": \"Nugent served in the naval brigade in the invasions of Martinique, Saint Lucia, and Guadaloupe during the French Revolutionary Wars and, when William Cornwallis assumed command of the blockade of Brest, Nugent was selected to serve as his Captain of the Fleet during the Napoleonic Wars. He never commanded any fleet or naval station but did rise to the highest rank in the Navy.\", \"title\": \"Charles Edmund Nugent\"}], \"question\": \"Besides areas of the country that gained control of Florida after the conflict Charles Edmund Nugent participated in, what other differences are there between Paco Godia's birthplace and Real Madrid?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

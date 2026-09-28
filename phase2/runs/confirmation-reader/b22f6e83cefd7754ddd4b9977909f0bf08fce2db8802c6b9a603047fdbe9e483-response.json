@@ -1,0 +1,44 @@
+{
+  "answer": {
+    "answer": "Jiangyin County",
+    "citations": []
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\": \"Jiangyin County\", \"citations\": []}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790603031,
+    "id": "chatcmpl-FmVzArTMUXZTBbSjR6zoNEwmCoFGIksc",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 38,
+      "predicted_ms": 773.258,
+      "predicted_n": 16,
+      "predicted_per_second": 20.691670826554656,
+      "predicted_per_token_ms": 48.328625,
+      "prompt_ms": 453.827,
+      "prompt_n": 31,
+      "prompt_per_second": 68.30796757354675,
+      "prompt_per_token_ms": 14.63958064516129
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 69,
+      "prompt_tokens_details": {
+        "cached_tokens": 38
+      },
+      "total_tokens": 85
+    }
+  },
+  "wall_seconds": 1.2902731249923818
+}

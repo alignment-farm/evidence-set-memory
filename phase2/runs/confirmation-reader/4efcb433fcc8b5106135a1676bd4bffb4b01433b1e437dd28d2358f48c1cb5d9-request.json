@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 1024,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 13, \"text\": \"He began his club career in South Korea with K-League side FC Seoul. He made his debut in the Hauzen Cup, a league cup competition operated by the K-League, in May 2008 however he moved on loan to Czech Republic side FK Viktoria \\u017di\\u017ekov later that year. Bae made his regular league debut for FC Seoul in May 2011 in a home game against Gyeongnam FC when he came on as a substitute. He would go on to make two further substitute appearances in the league as well as a start in the league cup competition that season before he left the club.\", \"title\": \"Bae Hae-min\"}, {\"idx\": 15, \"text\": \"Maycon Calvalho Inez (born 21 July 1986) is a Brazilian football player who currently plays for Goyang Hi FC. He is known for his pace and ability to position himself inside the 18-yard box.\", \"title\": \"Maycon Carvalho Inez\"}], \"question\": \"What league includes the sports team that has Maycon Carvalho Inez?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,0 +1,46 @@
+{
+  "answer": {
+    "answer": "Sarah Palin",
+    "citations": [
+      18
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Sarah Palin\", \"citations\":[18]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790604129,
+    "id": "chatcmpl-W6N9rXbD3zISeinRbmauEM3XG9ywzo1i",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 690.237,
+      "predicted_n": 14,
+      "predicted_per_second": 20.282888341250906,
+      "predicted_per_token_ms": 49.30264285714286,
+      "prompt_ms": 3556.858,
+      "prompt_n": 622,
+      "prompt_per_second": 174.87344167239738,
+      "prompt_per_token_ms": 5.718421221864952
+    },
+    "usage": {
+      "completion_tokens": 14,
+      "prompt_tokens": 709,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 723
+    }
+  },
+  "wall_seconds": 4.329020750010386
+}
