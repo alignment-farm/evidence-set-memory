@@ -1,0 +1,25 @@
+{
+  "actual_selection_gradients": 107520,
+  "checkpoint_sha256": "debd6a05ab946d6a07330d1f4846a5d529ff338780a7a41bc43f05a297854f21",
+  "checks": {
+    "binary_energy_invariance": true,
+    "gradient_matches_autograd": true
+  },
+  "created_utc": "2026-09-28T13:45:51Z",
+  "note": "Refined counts include their rounded predecessor; do not double-count shared work.",
+  "protocol_sha256": "39b9f3e8c9961db2baf64a4834d92b3ae0661cb25a18b98af3249ff30d8ad20a",
+  "representation": {
+    "encoder_cost_ledger": "phase2/runs/encoding-development.json",
+    "excluded_non20_ids": [],
+    "input_bytes": 550314,
+    "pair_rows": 9120,
+    "paragraphs": 960,
+    "questions": 48,
+    "seconds": 0.26118666701950133,
+    "semantic_feature_seconds": 0.011428333993535489,
+    "unary_rows": 960
+  },
+  "script_sha256": "4e6f78d2a4f09de6924c41af94ad450cd612bc383ed0445948f26cf9a18fc526",
+  "source": "Seen development, no new weights or encoder calls or reader calls",
+  "zero_extension_matches_phase2": true
+}

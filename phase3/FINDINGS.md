@@ -51,8 +51,8 @@ would need to beat beam search on quality and total work, not just beat enumerat
 No search recipe was tuned after observing these results.
 
 Reproduction: after rebuilding phase-2 development inputs/embeddings, run
-`uv run python scripts/phase3_scaling.py` in a fresh worktree without the published
-`phase3/runs/scaling` output directory. Existing runs are intentionally write-once.
+`uv run python scripts/phase3_scaling.py --out .cache/phase3-replay` with a new
+output-directory name. Existing runs are intentionally write-once.
 Source pool lineage, code/protocol/checkpoint hashes, all outcomes and costs are
-preserved under [runs/scaling](runs/scaling). A subsequent reproduction option
-should write a new output directory; do not delete published evidence to rerun.
+preserved under [runs/scaling](runs/scaling). The original execution code is in
+commit dda88d9; the subsequent CLI-only change permits alternative output paths.

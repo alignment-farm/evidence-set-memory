@@ -18,6 +18,12 @@ diagnostics on seen material. Phase 2's frozen fresh selection result is 26/64
 complete evidence sets versus 15/64 for ordinary hybrid access; complete QA is
 still running and must decide usefulness.
 
+[Phase 4 findings](phase4/FINDINGS.md) show that continuous inference is sensitive
+to terms that vanish on every discrete evidence set: one such extension changes
+41/48 rounded selections despite identical discrete energies. Discrete repair
+reduces the sensitivity. This is an inference-method diagnostic, not new learning
+or an additional fresh-task sample.
+
 The [phase 1 findings](FINDINGS.md) report an eight-coefficient set learner trained
 on earlier executed attempts in an explicitly authored quote/revision workload.
 After diagnosis and a claim freeze, ordinary dependency closure and exact learned

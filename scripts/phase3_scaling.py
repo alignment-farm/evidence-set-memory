@@ -1,4 +1,5 @@
 """Frozen-energy scaling on augmented, already-seen natural-text development pools."""
+import argparse
 from collections import Counter
 import itertools
 import json
@@ -89,7 +90,9 @@ def search(u,v,method):
 
 
 def main():
-    out=ROOT/'phase3/runs/scaling'
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--out',type=Path,default=ROOT/'phase3/runs/scaling')
+    args=parser.parse_args();out=args.out
     if out.exists():raise RuntimeError('Write-once scaling run')
     out.mkdir(parents=True)
     examples=json.loads((ROOT/'.cache/phase2/partitions/development-inputs.json').read_text())
