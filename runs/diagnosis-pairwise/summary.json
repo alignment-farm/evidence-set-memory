@@ -1,0 +1,102 @@
+{
+  "energy_swap": {
+    "accepted_moves": 20,
+    "cache_hit": 4,
+    "candidate_bytes": 30351,
+    "complete": 16,
+    "delivered_bytes": 8995,
+    "fallback": 4,
+    "fallback_delivered_bytes": 1800,
+    "fallback_tool_calls": 4,
+    "feature_evaluations": 860,
+    "index_record_visits": 200,
+    "n": 20,
+    "repaired_complete": 20,
+    "selection_seconds": 0.0034767109609674662,
+    "stages": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 0,
+      "4": 4
+    },
+    "stale_records": 4,
+    "sufficient": 16,
+    "tool_calls": 16
+  },
+  "exact": {
+    "accepted_moves": 0,
+    "cache_hit": 4,
+    "candidate_bytes": 30351,
+    "complete": 20,
+    "delivered_bytes": 8996,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 2472,
+    "index_record_visits": 200,
+    "n": 20,
+    "repaired_complete": 20,
+    "selection_seconds": 0.007437752006808296,
+    "stages": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4
+    },
+    "stale_records": 0,
+    "sufficient": 20,
+    "tool_calls": 16
+  },
+  "ordinary": {
+    "accepted_moves": 0,
+    "cache_hit": 4,
+    "candidate_bytes": 30351,
+    "complete": 20,
+    "delivered_bytes": 8996,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "index_record_visits": 200,
+    "n": 20,
+    "repaired_complete": 20,
+    "selection_seconds": 4.9002032028511167e-05,
+    "stages": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4
+    },
+    "stale_records": 0,
+    "sufficient": 20,
+    "tool_calls": 16
+  },
+  "pointwise": {
+    "accepted_moves": 0,
+    "cache_hit": 4,
+    "candidate_bytes": 30351,
+    "complete": 4,
+    "delivered_bytes": 7932,
+    "fallback": 16,
+    "fallback_delivered_bytes": 7197,
+    "fallback_tool_calls": 16,
+    "feature_evaluations": 2472,
+    "index_record_visits": 200,
+    "n": 20,
+    "repaired_complete": 20,
+    "selection_seconds": 0.007369456929154694,
+    "stages": {
+      "0": 0,
+      "1": 4,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "stale_records": 4,
+    "sufficient": 0,
+    "tool_calls": 16
+  }
+}

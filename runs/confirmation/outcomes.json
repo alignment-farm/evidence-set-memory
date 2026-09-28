@@ -1,0 +1,5420 @@
+[
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 3.542023478075862e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "contract-confirmation-0-456121-1@1",
+      "contract-confirmation-0-456121-2@1"
+    ],
+    "selection_seconds": 0.0002506250166334212,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.00023941698600538075,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.00015420900308527052,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.00023637499543838203,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 5.0000089686363935e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "zero",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 545,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "contract-confirmation-0-456121-1@1",
+      "contract-confirmation-0-456121-2@1"
+    ],
+    "selection_seconds": 0.00023629199131391943,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.00023695899290032685,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.00014333301805891097,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@1",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 6,
+      "subtotal_cents": 2172,
+      "tax_cents": 81,
+      "total_cents": 2253
+    },
+    "arm": "pointwise",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 397,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.0002404589904472232,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@2",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 7,
+      "subtotal_cents": 3619,
+      "tax_cents": 136,
+      "total_cents": 3755
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@2",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 1.8329883459955454e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "contract-confirmation-0-456121-0@2",
+      "contract-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.00033850001636892557,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@2",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 7,
+      "subtotal_cents": 3619,
+      "tax_cents": 136,
+      "total_cents": 3755
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 120,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@2",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.0003361669951118529,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@2",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 7,
+      "subtotal_cents": 3619,
+      "tax_cents": 136,
+      "total_cents": 3755
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 43,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@2",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.00016658302047289908,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.00033400001120753586,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-2@1",
+        "item-confirmation-0-456121-0@2",
+        "tax-confirmation-0-456121-2@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 11,
+      "subtotal_cents": 25135,
+      "tax_cents": 943,
+      "total_cents": 26078
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-2@1",
+      "item-confirmation-0-456121-0@2",
+      "tax-confirmation-0-456121-2@1"
+    ],
+    "selection_seconds": 1.374981366097927e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "contract-confirmation-0-456121-0@2",
+      "contract-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.0004639160179067403,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-2@1",
+        "item-confirmation-0-456121-0@2",
+        "tax-confirmation-0-456121-2@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 11,
+      "subtotal_cents": 25135,
+      "tax_cents": 943,
+      "total_cents": 26078
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-2@1",
+      "item-confirmation-0-456121-0@2",
+      "tax-confirmation-0-456121-2@1"
+    ],
+    "selection_seconds": 0.0004622500273399055,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-0@2",
+        "item-confirmation-0-456121-0@1",
+        "tax-confirmation-0-456121-0@1"
+      ],
+      "item": "item-confirmation-0-456121-0",
+      "quantity": 11,
+      "subtotal_cents": 5687,
+      "tax_cents": 213,
+      "total_cents": 5900
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 457,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 49,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@2",
+      "item-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.00019175000488758087,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 431,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-0-456121-0@1",
+      "item-confirmation-0-456121-0@2",
+      "tax-confirmation-0-456121-0@1"
+    ],
+    "selection_seconds": 0.00045891699846833944,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-1@1",
+        "item-confirmation-0-456121-1@1",
+        "tax-confirmation-0-456121-1@1"
+      ],
+      "item": "item-confirmation-0-456121-1",
+      "quantity": 16,
+      "subtotal_cents": 24608,
+      "tax_cents": 2399,
+      "total_cents": 27007
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-1@1",
+      "item-confirmation-0-456121-1@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 1.6249832697212696e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-0@1",
+      "contract-confirmation-0-456121-0@2",
+      "contract-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.0004597500083036721,
+    "stage": 4,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-1@1",
+        "item-confirmation-0-456121-1@1",
+        "tax-confirmation-0-456121-1@1"
+      ],
+      "item": "item-confirmation-0-456121-1",
+      "quantity": 16,
+      "subtotal_cents": 24608,
+      "tax_cents": 2399,
+      "total_cents": 27007
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-1@1",
+      "item-confirmation-0-456121-1@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.0004701249999925494,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-0-456121-1@1",
+        "item-confirmation-0-456121-1@1",
+        "tax-confirmation-0-456121-1@1"
+      ],
+      "item": "item-confirmation-0-456121-1",
+      "quantity": 16,
+      "subtotal_cents": 24608,
+      "tax_cents": 2399,
+      "total_cents": 27007
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-0-456121-1@1",
+      "item-confirmation-0-456121-1@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.0001869160041678697,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-0-456121",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-0-456121-1@1",
+      "tax-confirmation-0-456121-0@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "selection_seconds": 0.00045966700417920947,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 1.1250085663050413e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "contract-confirmation-1-639657-1@1",
+      "contract-confirmation-1-639657-2@1"
+    ],
+    "selection_seconds": 0.00023854197934269905,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.0002423750120215118,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.0001431669807061553,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.00023758297902531922,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 3.542023478075862e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "zero",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 544,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "contract-confirmation-1-639657-1@1",
+      "contract-confirmation-1-639657-2@1"
+    ],
+    "selection_seconds": 0.00023616600083187222,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.00023695800337009132,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.00013908400433138013,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@1",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 2,
+      "subtotal_cents": 4336,
+      "tax_cents": 163,
+      "total_cents": 4499
+    },
+    "arm": "pointwise",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 397,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.00023345800582319498,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@2",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 9,
+      "subtotal_cents": 20151,
+      "tax_cents": 756,
+      "total_cents": 20907
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@2",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 1.3750104699283838e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "contract-confirmation-1-639657-0@2",
+      "contract-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.00033737500780262053,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@2",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 9,
+      "subtotal_cents": 20151,
+      "tax_cents": 756,
+      "total_cents": 20907
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 120,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@2",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.000334834010573104,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@2",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 9,
+      "subtotal_cents": 20151,
+      "tax_cents": 756,
+      "total_cents": 20907
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 43,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@2",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.00016554200556129217,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.0003320419928058982,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-2@1",
+        "item-confirmation-1-639657-0@2",
+        "tax-confirmation-1-639657-2@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 13,
+      "subtotal_cents": 9854,
+      "tax_cents": 616,
+      "total_cents": 10470
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-2@1",
+      "item-confirmation-1-639657-0@2",
+      "tax-confirmation-1-639657-2@1"
+    ],
+    "selection_seconds": 1.374981366097927e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "contract-confirmation-1-639657-0@2",
+      "contract-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.0004771249950863421,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-2@1",
+        "item-confirmation-1-639657-0@2",
+        "tax-confirmation-1-639657-2@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 13,
+      "subtotal_cents": 9854,
+      "tax_cents": 616,
+      "total_cents": 10470
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-2@1",
+      "item-confirmation-1-639657-0@2",
+      "tax-confirmation-1-639657-2@1"
+    ],
+    "selection_seconds": 0.00046666699927300215,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-0@2",
+        "item-confirmation-1-639657-0@1",
+        "tax-confirmation-1-639657-0@1"
+      ],
+      "item": "item-confirmation-1-639657-0",
+      "quantity": 13,
+      "subtotal_cents": 29107,
+      "tax_cents": 1092,
+      "total_cents": 30199
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 458,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 49,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@2",
+      "item-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.0001872910070233047,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 431,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-1-639657-0@1",
+      "item-confirmation-1-639657-0@2",
+      "tax-confirmation-1-639657-0@1"
+    ],
+    "selection_seconds": 0.00046895802370272577,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-1@1",
+        "item-confirmation-1-639657-1@1",
+        "tax-confirmation-1-639657-1@1"
+      ],
+      "item": "item-confirmation-1-639657-1",
+      "quantity": 16,
+      "subtotal_cents": 12512,
+      "tax_cents": 1220,
+      "total_cents": 13732
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-1@1",
+      "item-confirmation-1-639657-1@1",
+      "tax-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 1.4170072972774506e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-0@1",
+      "contract-confirmation-1-639657-0@2",
+      "contract-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.0004601250111591071,
+    "stage": 4,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-1@1",
+        "item-confirmation-1-639657-1@1",
+        "tax-confirmation-1-639657-1@1"
+      ],
+      "item": "item-confirmation-1-639657-1",
+      "quantity": 16,
+      "subtotal_cents": 12512,
+      "tax_cents": 1220,
+      "total_cents": 13732
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-1@1",
+      "item-confirmation-1-639657-1@1",
+      "tax-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.00046045801718719304,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-1-639657-1@1",
+        "item-confirmation-1-639657-1@1",
+        "tax-confirmation-1-639657-1@1"
+      ],
+      "item": "item-confirmation-1-639657-1",
+      "quantity": 16,
+      "subtotal_cents": 12512,
+      "tax_cents": 1220,
+      "total_cents": 13732
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-1-639657-1@1",
+      "item-confirmation-1-639657-1@1",
+      "tax-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.00018458400154486299,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-1-639657",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-1-639657-1@1",
+      "tax-confirmation-1-639657-0@1",
+      "tax-confirmation-1-639657-1@1"
+    ],
+    "selection_seconds": 0.00045700001646764576,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 1.00000761449337e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "contract-confirmation-2-561701-1@1",
+      "contract-confirmation-2-561701-2@1"
+    ],
+    "selection_seconds": 0.00023758300812914968,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.00023458298528566957,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.0001379589957650751,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.00023270898964256048,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 3.1249946914613247e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "zero",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 545,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "contract-confirmation-2-561701-1@1",
+      "contract-confirmation-2-561701-2@1"
+    ],
+    "selection_seconds": 0.0002332500007469207,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.00023337500169873238,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.00013699999544769526,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@1",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 9,
+      "subtotal_cents": 6543,
+      "tax_cents": 638,
+      "total_cents": 7181
+    },
+    "arm": "pointwise",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 397,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.000231999991228804,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@2",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 8,
+      "subtotal_cents": 6672,
+      "tax_cents": 651,
+      "total_cents": 7323
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@2",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 1.2920063454657793e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "contract-confirmation-2-561701-0@2",
+      "contract-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.00033562499447725713,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@2",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 8,
+      "subtotal_cents": 6672,
+      "tax_cents": 651,
+      "total_cents": 7323
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 120,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@2",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.00034316699020564556,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@2",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 8,
+      "subtotal_cents": 6672,
+      "tax_cents": 651,
+      "total_cents": 7323
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 43,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@2",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.00016220900579355657,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.0003348330210428685,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-2@1",
+        "item-confirmation-2-561701-0@2",
+        "tax-confirmation-2-561701-2@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 3,
+      "subtotal_cents": 6810,
+      "tax_cents": 562,
+      "total_cents": 7372
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-2@1",
+      "item-confirmation-2-561701-0@2",
+      "tax-confirmation-2-561701-2@1"
+    ],
+    "selection_seconds": 1.2919772416353226e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "contract-confirmation-2-561701-0@2",
+      "contract-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.00045937500544823706,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-2@1",
+        "item-confirmation-2-561701-0@2",
+        "tax-confirmation-2-561701-2@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 3,
+      "subtotal_cents": 6810,
+      "tax_cents": 562,
+      "total_cents": 7372
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-2@1",
+      "item-confirmation-2-561701-0@2",
+      "tax-confirmation-2-561701-2@1"
+    ],
+    "selection_seconds": 0.0004691669892054051,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-0@2",
+        "item-confirmation-2-561701-0@1",
+        "tax-confirmation-2-561701-0@1"
+      ],
+      "item": "item-confirmation-2-561701-0",
+      "quantity": 3,
+      "subtotal_cents": 2502,
+      "tax_cents": 244,
+      "total_cents": 2746
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 457,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 49,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@2",
+      "item-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.00018500001169741154,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 431,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-2-561701-0@1",
+      "item-confirmation-2-561701-0@2",
+      "tax-confirmation-2-561701-0@1"
+    ],
+    "selection_seconds": 0.0004633750068023801,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-1@1",
+        "item-confirmation-2-561701-1@1",
+        "tax-confirmation-2-561701-1@1"
+      ],
+      "item": "item-confirmation-2-561701-1",
+      "quantity": 12,
+      "subtotal_cents": 16140,
+      "tax_cents": 1574,
+      "total_cents": 17714
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-1@1",
+      "item-confirmation-2-561701-1@1",
+      "tax-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 1.2909877113997936e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-0@1",
+      "contract-confirmation-2-561701-0@2",
+      "contract-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.0004553329781629145,
+    "stage": 4,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-1@1",
+        "item-confirmation-2-561701-1@1",
+        "tax-confirmation-2-561701-1@1"
+      ],
+      "item": "item-confirmation-2-561701-1",
+      "quantity": 12,
+      "subtotal_cents": 16140,
+      "tax_cents": 1574,
+      "total_cents": 17714
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-1@1",
+      "item-confirmation-2-561701-1@1",
+      "tax-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.000457124988315627,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-2-561701-1@1",
+        "item-confirmation-2-561701-1@1",
+        "tax-confirmation-2-561701-1@1"
+      ],
+      "item": "item-confirmation-2-561701-1",
+      "quantity": 12,
+      "subtotal_cents": 16140,
+      "tax_cents": 1574,
+      "total_cents": 17714
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-2-561701-1@1",
+      "item-confirmation-2-561701-1@1",
+      "tax-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.00018241599900647998,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-2-561701",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-2-561701-1@1",
+      "tax-confirmation-2-561701-0@1",
+      "tax-confirmation-2-561701-1@1"
+    ],
+    "selection_seconds": 0.00045370799489319324,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 1.167005393654108e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "contract-confirmation-3-468299-1@1",
+      "contract-confirmation-3-468299-2@1"
+    ],
+    "selection_seconds": 0.00023900001542642713,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.00023599999258294702,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.00013904200750403106,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.00023487501312047243,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 3.3339892979711294e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "zero",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 545,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "contract-confirmation-3-468299-1@1",
+      "contract-confirmation-3-468299-2@1"
+    ],
+    "selection_seconds": 0.0002344170061405748,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.0002350830181967467,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.00013745800242759287,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@1",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 17,
+      "subtotal_cents": 23035,
+      "tax_cents": 2246,
+      "total_cents": 25281
+    },
+    "arm": "pointwise",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 397,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.00023516698274761438,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@2",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 8,
+      "subtotal_cents": 12272,
+      "tax_cents": 1197,
+      "total_cents": 13469
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1555,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@2",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 1.4169781934469938e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1555,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "contract-confirmation-3-468299-0@2",
+      "contract-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.00033633297425694764,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@2",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 8,
+      "subtotal_cents": 12272,
+      "tax_cents": 1197,
+      "total_cents": 13469
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1555,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 120,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@2",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.00033645800431258976,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@2",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 8,
+      "subtotal_cents": 12272,
+      "tax_cents": 1197,
+      "total_cents": 13469
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1555,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 43,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@2",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.00016545801190659404,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1555,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.0003350420156493783,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-2@1",
+        "item-confirmation-3-468299-0@2",
+        "tax-confirmation-3-468299-2@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 3,
+      "subtotal_cents": 4635,
+      "tax_cents": 174,
+      "total_cents": 4809
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-2@1",
+      "item-confirmation-3-468299-0@2",
+      "tax-confirmation-3-468299-2@1"
+    ],
+    "selection_seconds": 1.4159886632114649e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "contract-confirmation-3-468299-0@2",
+      "contract-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.00046312500489875674,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-2@1",
+        "item-confirmation-3-468299-0@2",
+        "tax-confirmation-3-468299-2@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 3,
+      "subtotal_cents": 4635,
+      "tax_cents": 174,
+      "total_cents": 4809
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-2@1",
+      "item-confirmation-3-468299-0@2",
+      "tax-confirmation-3-468299-2@1"
+    ],
+    "selection_seconds": 0.00046291699982248247,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-0@2",
+        "item-confirmation-3-468299-0@1",
+        "tax-confirmation-3-468299-0@1"
+      ],
+      "item": "item-confirmation-3-468299-0",
+      "quantity": 3,
+      "subtotal_cents": 4602,
+      "tax_cents": 449,
+      "total_cents": 5051
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 458,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 49,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@2",
+      "item-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.00018558301962912083,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 431,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-3-468299-0@1",
+      "item-confirmation-3-468299-0@2",
+      "tax-confirmation-3-468299-0@1"
+    ],
+    "selection_seconds": 0.00046558299800381064,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-1@1",
+        "item-confirmation-3-468299-1@1",
+        "tax-confirmation-3-468299-1@1"
+      ],
+      "item": "item-confirmation-3-468299-1",
+      "quantity": 19,
+      "subtotal_cents": 16739,
+      "tax_cents": 628,
+      "total_cents": 17367
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-1@1",
+      "item-confirmation-3-468299-1@1",
+      "tax-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 1.4170072972774506e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-0@1",
+      "contract-confirmation-3-468299-0@2",
+      "contract-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.00045808401773683727,
+    "stage": 4,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-3-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-1@1",
+        "item-confirmation-3-468299-1@1",
+        "tax-confirmation-3-468299-1@1"
+      ],
+      "item": "item-confirmation-3-468299-1",
+      "quantity": 19,
+      "subtotal_cents": 16739,
+      "tax_cents": 628,
+      "total_cents": 17367
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-1@1",
+      "item-confirmation-3-468299-1@1",
+      "tax-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.0004587079747579992,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-3-468299-1@1",
+        "item-confirmation-3-468299-1@1",
+        "tax-confirmation-3-468299-1@1"
+      ],
+      "item": "item-confirmation-3-468299-1",
+      "quantity": 19,
+      "subtotal_cents": 16739,
+      "tax_cents": 628,
+      "total_cents": 17367
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-3-468299-1@1",
+      "item-confirmation-3-468299-1@1",
+      "tax-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.00018474998068995774,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-3-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1710,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-3-468299",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-3-468299-1@1",
+      "tax-confirmation-3-468299-0@1",
+      "tax-confirmation-3-468299-1@1"
+    ],
+    "selection_seconds": 0.00046358301187865436,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-3-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 1.167005393654108e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "contract-confirmation-4-463067-1@1",
+      "contract-confirmation-4-463067-2@1"
+    ],
+    "selection_seconds": 0.00023908299044705927,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-4-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.00023758300812914968,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.00013920798664912581,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.0002366660046391189,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-4-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 3.082997864112258e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "zero",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 544,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "contract-confirmation-4-463067-1@1",
+      "contract-confirmation-4-463067-2@1"
+    ],
+    "selection_seconds": 0.00023758297902531922,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-4-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.00024054100504145026,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.00013866700464859605,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@1",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 9,
+      "subtotal_cents": 5238,
+      "tax_cents": 196,
+      "total_cents": 5434
+    },
+    "arm": "pointwise",
+    "cache_hit": 1,
+    "candidate_bytes": 1372,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 397,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.00023716699797660112,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-4-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@2",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 8,
+      "subtotal_cents": 6080,
+      "tax_cents": 228,
+      "total_cents": 6308
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1553,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@2",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 1.4170072972774506e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1553,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "contract-confirmation-4-463067-0@2",
+      "contract-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.0003368329780641943,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-4-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@2",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 8,
+      "subtotal_cents": 6080,
+      "tax_cents": 228,
+      "total_cents": 6308
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1553,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 120,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@2",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.0003359580005053431,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@2",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 8,
+      "subtotal_cents": 6080,
+      "tax_cents": 228,
+      "total_cents": 6308
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1553,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 43,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@2",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.00016212498303502798,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1553,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.0003343750140629709,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-4-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-2@1",
+        "item-confirmation-4-463067-0@2",
+        "tax-confirmation-4-463067-2@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 18,
+      "subtotal_cents": 14184,
+      "tax_cents": 532,
+      "total_cents": 14716
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-2@1",
+      "item-confirmation-4-463067-0@2",
+      "tax-confirmation-4-463067-2@1"
+    ],
+    "selection_seconds": 1.4169781934469938e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "contract-confirmation-4-463067-0@2",
+      "contract-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.00046320800902321935,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-4-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-2@1",
+        "item-confirmation-4-463067-0@2",
+        "tax-confirmation-4-463067-2@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 18,
+      "subtotal_cents": 14184,
+      "tax_cents": 532,
+      "total_cents": 14716
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-2@1",
+      "item-confirmation-4-463067-0@2",
+      "tax-confirmation-4-463067-2@1"
+    ],
+    "selection_seconds": 0.00046429099165834486,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-0@2",
+        "item-confirmation-4-463067-0@1",
+        "tax-confirmation-4-463067-0@1"
+      ],
+      "item": "item-confirmation-4-463067-0",
+      "quantity": 18,
+      "subtotal_cents": 13680,
+      "tax_cents": 513,
+      "total_cents": 14193
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 457,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 49,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@2",
+      "item-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.00018541701138019562,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-4-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 431,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-4-463067-0@1",
+      "item-confirmation-4-463067-0@2",
+      "tax-confirmation-4-463067-0@1"
+    ],
+    "selection_seconds": 0.00046129198744893074,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-4-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-1@1",
+        "item-confirmation-4-463067-1@1",
+        "tax-confirmation-4-463067-1@1"
+      ],
+      "item": "item-confirmation-4-463067-1",
+      "quantity": 15,
+      "subtotal_cents": 16080,
+      "tax_cents": 1327,
+      "total_cents": 17407
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-1@1",
+      "item-confirmation-4-463067-1@1",
+      "tax-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 1.334003172814846e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-0@1",
+      "contract-confirmation-4-463067-0@2",
+      "contract-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.0004742500022985041,
+    "stage": 4,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-4-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-1@1",
+        "item-confirmation-4-463067-1@1",
+        "tax-confirmation-4-463067-1@1"
+      ],
+      "item": "item-confirmation-4-463067-1",
+      "quantity": 15,
+      "subtotal_cents": 16080,
+      "tax_cents": 1327,
+      "total_cents": 17407
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-1@1",
+      "item-confirmation-4-463067-1@1",
+      "tax-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.0004704160091932863,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-4-463067-1@1",
+        "item-confirmation-4-463067-1@1",
+        "tax-confirmation-4-463067-1@1"
+      ],
+      "item": "item-confirmation-4-463067-1",
+      "quantity": 15,
+      "subtotal_cents": 16080,
+      "tax_cents": 1327,
+      "total_cents": 17407
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-4-463067-1@1",
+      "item-confirmation-4-463067-1@1",
+      "tax-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.0001829169923439622,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-4-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1708,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-4-463067",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-4-463067-1@1",
+      "tax-confirmation-4-463067-0@1",
+      "tax-confirmation-4-463067-1@1"
+    ],
+    "selection_seconds": 0.0004573749902192503,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-4-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 1.1249794624745846e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 545,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "contract-confirmation-5-717421-1@1",
+      "contract-confirmation-5-717421-2@1"
+    ],
+    "selection_seconds": 0.0002417079813312739,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-5-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.000237083004321903,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.00013845899957232177,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 84,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.00023499998496845365,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-5-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 3.1249946914613247e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "zero",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 545,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "contract-confirmation-5-717421-1@1",
+      "contract-confirmation-5-717421-2@1"
+    ],
+    "selection_seconds": 0.00023449998116120696,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-5-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.00023566701565869153,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.0001372499973513186,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@1",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 6309,
+      "tax_cents": 394,
+      "total_cents": 6703
+    },
+    "arm": "pointwise",
+    "cache_hit": 1,
+    "candidate_bytes": 1373,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 397,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.00023391700233332813,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-5-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@2",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 6,
+      "subtotal_cents": 4824,
+      "tax_cents": 302,
+      "total_cents": 5126
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@2",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 1.5420082490891218e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "contract-confirmation-5-717421-0@2",
+      "contract-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.0003342500131111592,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-5-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@2",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 6,
+      "subtotal_cents": 4824,
+      "tax_cents": 302,
+      "total_cents": 5126
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 120,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@2",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.0003342500131111592,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@2",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 6,
+      "subtotal_cents": 4824,
+      "tax_cents": 302,
+      "total_cents": 5126
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 457,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 43,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@2",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.0001610000035725534,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1554,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 457,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.0003319999959785491,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-5-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-2@1",
+        "item-confirmation-5-717421-0@2",
+        "tax-confirmation-5-717421-2@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 13581,
+      "tax_cents": 1120,
+      "total_cents": 14701
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-2@1",
+      "item-confirmation-5-717421-0@2",
+      "tax-confirmation-5-717421-2@1"
+    ],
+    "selection_seconds": 3.3339892979711294e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "contract-confirmation-5-717421-0@2",
+      "contract-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.0004675840027630329,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-5-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-2@1",
+        "item-confirmation-5-717421-0@2",
+        "tax-confirmation-5-717421-2@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 13581,
+      "tax_cents": 1120,
+      "total_cents": 14701
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-2@1",
+      "item-confirmation-5-717421-0@2",
+      "tax-confirmation-5-717421-2@1"
+    ],
+    "selection_seconds": 0.00046537499292753637,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-0@2",
+        "item-confirmation-5-717421-0@1",
+        "tax-confirmation-5-717421-0@1"
+      ],
+      "item": "item-confirmation-5-717421-0",
+      "quantity": 9,
+      "subtotal_cents": 7236,
+      "tax_cents": 452,
+      "total_cents": 7688
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 457,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 49,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@2",
+      "item-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.00018462500884197652,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-5-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 431,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-5-717421-0@1",
+      "item-confirmation-5-717421-0@2",
+      "tax-confirmation-5-717421-0@1"
+    ],
+    "selection_seconds": 0.00046049998491071165,
+    "stage": 3,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-5-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-1@1",
+        "item-confirmation-5-717421-1@1",
+        "tax-confirmation-5-717421-1@1"
+      ],
+      "item": "item-confirmation-5-717421-1",
+      "quantity": 14,
+      "subtotal_cents": 21686,
+      "tax_cents": 2114,
+      "total_cents": 23800
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-1@1",
+      "item-confirmation-5-717421-1@1",
+      "tax-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 1.500011421740055e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "zero",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 544,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-0@1",
+      "contract-confirmation-5-717421-0@2",
+      "contract-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.0004598330124281347,
+    "stage": 4,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "confirmation-5-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-1@1",
+        "item-confirmation-5-717421-1@1",
+        "tax-confirmation-5-717421-1@1"
+      ],
+      "item": "item-confirmation-5-717421-1",
+      "quantity": 14,
+      "subtotal_cents": 21686,
+      "tax_cents": 2114,
+      "total_cents": 23800
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-1@1",
+      "item-confirmation-5-717421-1@1",
+      "tax-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.0004605000140145421,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-confirmation-5-717421-1@1",
+        "item-confirmation-5-717421-1@1",
+        "tax-confirmation-5-717421-1@1"
+      ],
+      "item": "item-confirmation-5-717421-1",
+      "quantity": 14,
+      "subtotal_cents": 21686,
+      "tax_cents": 2114,
+      "total_cents": 23800
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 458,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-confirmation-5-717421-1@1",
+      "item-confirmation-5-717421-1@1",
+      "tax-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.00018350000027567148,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "confirmation-5-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "error": "missing dependency"
+    },
+    "arm": "pointwise",
+    "cache_hit": 0,
+    "candidate_bytes": 1709,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 397,
+    "fallback": 1,
+    "fallback_delivered_bytes": 458,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "confirmation-5-717421",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "item-confirmation-5-717421-1@1",
+      "tax-confirmation-5-717421-0@1",
+      "tax-confirmation-5-717421-1@1"
+    ],
+    "selection_seconds": 0.00045829100417904556,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": false,
+    "task_id": "confirmation-5-s4",
+    "tool_calls": 1
+  }
+]

@@ -1,0 +1,910 @@
+{
+  "all_repaired_complete": true,
+  "details": [
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "arm": "ordinary",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [],
+      "sufficient": true,
+      "task_id": "confirmation-0-s0"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "arm": "exact",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [],
+      "sufficient": true,
+      "task_id": "confirmation-0-s0"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "arm": "energy_swap",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [],
+      "sufficient": true,
+      "task_id": "confirmation-0-s0"
+    },
+    {
+      "answer": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 293,
+        "total_cents": 2465
+      },
+      "arm": "all_current",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s0"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 0,
+        "total_cents": 2172
+      },
+      "arm": "omit_tax",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s0"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "arm": "ordinary",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [],
+      "sufficient": true,
+      "task_id": "confirmation-0-s1"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "arm": "exact",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [],
+      "sufficient": true,
+      "task_id": "confirmation-0-s1"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "arm": "energy_swap",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [],
+      "sufficient": true,
+      "task_id": "confirmation-0-s1"
+    },
+    {
+      "answer": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 296,
+        "total_cents": 2468
+      },
+      "arm": "all_current",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s1"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 0,
+        "total_cents": 2172
+      },
+      "arm": "omit_tax",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 6,
+        "subtotal_cents": 2172,
+        "tax_cents": 81,
+        "total_cents": 2253
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s1"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 140,
+        "total_cents": 3759
+      },
+      "arm": "ordinary",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@2",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 136,
+        "total_cents": 3755
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s2"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 140,
+        "total_cents": 3759
+      },
+      "arm": "exact",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@2",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 136,
+        "total_cents": 3755
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s2"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 140,
+        "total_cents": 3759
+      },
+      "arm": "energy_swap",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@2",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 136,
+        "total_cents": 3755
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s2"
+    },
+    {
+      "answer": {
+        "citations": [
+          "contract-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-0@1",
+          "item-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 105,
+        "total_cents": 3724
+      },
+      "arm": "all_current",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@2",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 136,
+        "total_cents": 3755
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s2"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-0"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 18,
+        "total_cents": 3637
+      },
+      "arm": "omit_tax",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@2",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 136,
+        "total_cents": 3755
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s2"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 2534,
+        "tax_cents": 95,
+        "total_cents": 2629
+      },
+      "arm": "stale",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-0@2",
+          "item-confirmation-0-456121-0@1",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 7,
+        "subtotal_cents": 3619,
+        "tax_cents": 136,
+        "total_cents": 3755
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "subtotal_cents",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s2"
+    },
+    {
+      "answer": {
+        "error": "invalid JSON"
+      },
+      "arm": "ordinary",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-2@1",
+          "item-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-2@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 943,
+        "total_cents": 26078
+      },
+      "invalid_json": true,
+      "mismatches": [
+        "citations",
+        "item",
+        "quantity",
+        "subtotal_cents",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s3"
+    },
+    {
+      "answer": {
+        "error": "invalid JSON"
+      },
+      "arm": "exact",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-2@1",
+          "item-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-2@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 943,
+        "total_cents": 26078
+      },
+      "invalid_json": true,
+      "mismatches": [
+        "citations",
+        "item",
+        "quantity",
+        "subtotal_cents",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s3"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 5687,
+        "tax_cents": 215,
+        "total_cents": 5902
+      },
+      "arm": "energy_swap",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-2@1",
+          "item-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-2@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 943,
+        "total_cents": 26078
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "subtotal_cents",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s3"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@2",
+          "contract-confirmation-0-456121-2@1",
+          "tax-confirmation-0-456121-2@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 990,
+        "total_cents": 26125
+      },
+      "arm": "all_current",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-2@1",
+          "item-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-2@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 943,
+        "total_cents": 26078
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s3"
+    },
+    {
+      "answer": {
+        "citations": [
+          "contract-confirmation-0-456121-2@1",
+          "item-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-2"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 552,
+        "total_cents": 25687
+      },
+      "arm": "omit_tax",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-2@1",
+          "item-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-2@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 943,
+        "total_cents": 26078
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s3"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-0@1",
+          "contract-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-0@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 5687,
+        "tax_cents": 215,
+        "total_cents": 5902
+      },
+      "arm": "stale",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-2@1",
+          "item-confirmation-0-456121-0@2",
+          "tax-confirmation-0-456121-2@1"
+        ],
+        "item": "item-confirmation-0-456121-0",
+        "quantity": 11,
+        "subtotal_cents": 25135,
+        "tax_cents": 943,
+        "total_cents": 26078
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "subtotal_cents",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s3"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-1@1",
+          "contract-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2413,
+        "total_cents": 27021
+      },
+      "arm": "ordinary",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-1@1",
+          "item-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2399,
+        "total_cents": 27007
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s4"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-1@1",
+          "contract-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2413,
+        "total_cents": 27021
+      },
+      "arm": "exact",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-1@1",
+          "item-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2399,
+        "total_cents": 27007
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s4"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-1@1",
+          "contract-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2413,
+        "total_cents": 27021
+      },
+      "arm": "energy_swap",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-1@1",
+          "item-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2399,
+        "total_cents": 27007
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s4"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-1@1",
+          "contract-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24592,
+        "tax_cents": 2403,
+        "total_cents": 27000
+      },
+      "arm": "all_current",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-1@1",
+          "item-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2399,
+        "total_cents": 27007
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "subtotal_cents",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": true,
+      "task_id": "confirmation-0-s4"
+    },
+    {
+      "answer": {
+        "citations": [
+          "item-confirmation-0-456121-1@1",
+          "contract-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 38,
+        "total_cents": 24646
+      },
+      "arm": "omit_tax",
+      "expected": {
+        "citations": [
+          "contract-confirmation-0-456121-1@1",
+          "item-confirmation-0-456121-1@1",
+          "tax-confirmation-0-456121-1@1"
+        ],
+        "item": "item-confirmation-0-456121-1",
+        "quantity": 16,
+        "subtotal_cents": 24608,
+        "tax_cents": 2399,
+        "total_cents": 27007
+      },
+      "invalid_json": false,
+      "mismatches": [
+        "citations",
+        "tax_cents",
+        "total_cents"
+      ],
+      "sufficient": false,
+      "task_id": "confirmation-0-s4"
+    }
+  ],
+  "note": "27 mapped outcomes share 17 unique LLM calls; duplicates are not independent observations.",
+  "total_controller_validation_record_visits": 271,
+  "total_controller_validation_tool_calls": 27
+}

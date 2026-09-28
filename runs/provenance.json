@@ -1,0 +1,47 @@
+{
+  "commission_date": "2026-09-28",
+  "investigator": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "medium",
+    "provider": "openai",
+    "harness": "codex-tui",
+    "cli_version": "0.158.0",
+    "session_id": "01a0e7e4-68e2-7fb2-9a5d-2ea6873b86b8",
+    "provenance": "session_meta and turn_context fields read from active local rollout; not inferred from policy",
+    "backend_build": null,
+    "monetary_cost": null
+  },
+  "starting_revision": "5a0e8f78ab9ee570dd69b80928f39aae4b72f481",
+  "starting_worktree": "clean",
+  "runtime": {
+    "uv": "0.12.13 (0ebbd9274 2026-09-10 aarch64-apple-darwin)",
+    "python": "3.14.7, Clang 22.1.3",
+    "os": "macOS 27.0 build 26A428 arm64",
+    "hardware_model": "Mac13,2",
+    "memory_bytes": 68719476736,
+    "python_dependencies": "standard library only"
+  },
+  "serving_probe": {
+    "available_models": ["docker.io/ai/qwen3:8B-Q4_K_M", "docker.io/ai/qwen3.8:27b-q4_K_M"],
+    "selected_reader_model_digest": "sha256:79fa56c07429f64f41950fe2f524937cf3ae9ea9bd3d7ada72170b036ea3cc85",
+    "reader_architecture": "qwen3",
+    "reader_parameters": "8.19 B",
+    "reported_quantization": "IQ2_XXS/Q4_K_M",
+    "reported_model_bytes": "4.68 GiB",
+    "docker_client_server": "29.8.0",
+    "backend": "llama.cpp b9879-metal (sha256:b70706f473b4043ca3e0c32704a7fda3412b83bceef0564684187b8011230de8) 72874f5",
+    "coordination": "Asked user asynchronously about reservation; no response before bounded probe. docker model ps showed no loaded model and process inspection found no concurrent inference. Proceeded with predeclared at-most-24 serial requests, no heavy job or remote training. No formal cross-study lease protocol was found.",
+    "mutable_state": "CPU specialist coefficients updated locally; no claim of gradient access to served LLM",
+    "downloaded_weights": false
+  },
+  "review": "same-investigator code/evidence audit; independent root scientific review pending",
+  "interventions": [
+    "authored workload and exact dependency-closure comparator",
+    "random exploration then closure-plus-perturbation exploration",
+    "classification 1000 versus 10000 steps on the same 760 attempt outcomes",
+    "within-task pairwise objective on the same outcomes",
+    "pointwise feature ablation",
+    "freeze before new confirmation identities and values",
+    "no confirmation retraining or method tuning"
+  ]
+}

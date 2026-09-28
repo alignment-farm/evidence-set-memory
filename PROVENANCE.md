@@ -1,5 +1,9 @@
 # Preparation provenance
 
+For executed phase 1 investigator, learner, reader and environment provenance,
+see [runs/provenance.json](runs/provenance.json). The records below describe
+preparation, not the subsequent experiments.
+
 28 September 2026. Root researcher `gpt-6-astra`, reasoning `xhigh`, OpenAI
 provider, Codex Desktop `0.158.0-alpha.2.1`. These identifiers were read from the
 active session metadata and turn context, not inferred from the investigator

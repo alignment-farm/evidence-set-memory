@@ -1,0 +1,40 @@
+{
+  "arms": {
+    "all_current": {
+      "complete": 0,
+      "n": 5,
+      "repairs": 5
+    },
+    "energy_swap": {
+      "complete": 2,
+      "n": 5,
+      "repairs": 3
+    },
+    "exact": {
+      "complete": 2,
+      "n": 5,
+      "repairs": 3
+    },
+    "omit_tax": {
+      "complete": 0,
+      "n": 5,
+      "repairs": 5
+    },
+    "ordinary": {
+      "complete": 2,
+      "n": 5,
+      "repairs": 3
+    },
+    "stale": {
+      "complete": 0,
+      "n": 2,
+      "repairs": 2
+    }
+  },
+  "mapped_outcomes": 27,
+  "reported_completion_tokens": 2122,
+  "reported_prompt_tokens": 8879,
+  "total_request_seconds": 45.28532275205362,
+  "unique_requests": 17,
+  "usage_missing": 0
+}

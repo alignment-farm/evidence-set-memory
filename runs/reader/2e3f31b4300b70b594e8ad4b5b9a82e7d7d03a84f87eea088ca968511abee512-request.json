@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Prepare the requested quote from these source records. Follow the item ref\nto its contract and the contract ref to its tax record. Revisions are authoritative:\nfor any key use its highest available revision. subtotal_cents = quantity *\nunit_cents; tax_cents = floor((subtotal_cents * bps + 5000)/10000);\ntotal_cents = subtotal_cents + tax_cents. Return only a JSON object with item,\nquantity, subtotal_cents, tax_cents, total_cents and citations (three record IDs).\nIf a dependency is missing return {\"error\":\"missing dependency\"}. Do not invent\nrecords, values, or citations. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"records\": [{\"id\": \"contract-confirmation-0-456121-0@2\", \"key\": \"contract-confirmation-0-456121-0\", \"kind\": \"contract\", \"ref\": \"tax-confirmation-0-456121-0\", \"revision\": 2, \"unit_cents\": 517}, {\"id\": \"item-confirmation-0-456121-0@1\", \"key\": \"item-confirmation-0-456121-0\", \"kind\": \"item\", \"ref\": \"contract-confirmation-0-456121-0\", \"revision\": 1}, {\"bps\": 375, \"id\": \"tax-confirmation-0-456121-0@1\", \"key\": \"tax-confirmation-0-456121-0\", \"kind\": \"tax\", \"revision\": 1}], \"request\": {\"item\": \"item-confirmation-0-456121-0\", \"quantity\": 7, \"task_id\": \"confirmation-0-s2\"}}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3:8B-Q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

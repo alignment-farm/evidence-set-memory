@@ -1,0 +1,15 @@
+{
+  "confirmation_seed": 28102026,
+  "created_utc": "2026-09-28T12:11:30Z",
+  "files": {
+    "CLAIM.md": "224652739a25533a9a9bd2bb46ac751f8c8a4e6a2e353b2d2e203fc50339edcf",
+    "PROTOCOL.md": "402c14001d5f3d9aa2fa8cc421a81df29a1b939522ef032f1bca0c504624de56",
+    "runs/diagnosis-pairwise/checkpoint.json": "9ff99a5c87dcaf73d0672f4179dde175fdc15dcfda2c59607b41b4b17dfd0bee",
+    "runs/diagnosis-pairwise/pointwise-checkpoint.json": "188e353ed2be4baac2d1f9db3ec4cb7f16440623b323f97077b7771706a07b65",
+    "runs/diagnosis-pairwise/summary.json": "7537f4f1399ac363e2799a563d00b5b88aa6d113dbb07b6843adf638d9a15229",
+    "scripts/quote_study.py": "7ee7434cd725bc7d873e73a666cbbccc9bc6b0f869690aa64ada8af91f2dd12c",
+    "scripts/reader_check.py": "04f00de8aafa207c1759686ca01d86adcf3f7122bb5eee45874cfcd188c8fd7b"
+  },
+  "histories": 6,
+  "weights_frozen": true
+}

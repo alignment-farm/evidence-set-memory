@@ -1,0 +1,7425 @@
+[
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-2@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "item-development-0-511043-1@1",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-1@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-2@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-2@1",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-2@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-0@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-0@1",
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-2@1",
+      "item-development-0-511043-1@1",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-0@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "y": 1
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-1@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@1",
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "contract-development-0-511043-1@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-1@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@2",
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-2@1",
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "contract-development-0-511043-0@2",
+      "item-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-1@1",
+      "contract-development-0-511043-0@2"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "tax-development-0-511043-0@1",
+      "item-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@1",
+      "contract-development-0-511043-0@1",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "tax-development-0-511043-2@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "tax-development-0-511043-0@1",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "item-development-0-511043-0@2",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-1@1",
+      "contract-development-0-511043-2@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@1",
+      "contract-development-0-511043-0@2",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-2@1",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@2",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-2@1",
+      "item-development-0-511043-2@1",
+      "item-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@1",
+      "contract-development-0-511043-0@2",
+      "item-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-0@2",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "tax-development-0-511043-2@1",
+      "contract-development-0-511043-0@2"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-2@1",
+      "contract-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@2",
+      "contract-development-0-511043-0@2",
+      "tax-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "item-development-0-511043-0@2",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "citations": [
+        "contract-development-0-511043-1@1",
+        "item-development-0-511043-1@1",
+        "tax-development-0-511043-1@1"
+      ],
+      "item": "item-development-0-511043-1",
+      "quantity": 11,
+      "subtotal_cents": 23331,
+      "tax_cents": 2275,
+      "total_cents": 25606
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "y": 1
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-2@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-0@2",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@2",
+      "item-development-0-511043-0@1",
+      "contract-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-1@1",
+      "contract-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-2@1",
+      "item-development-0-511043-1@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-2@1",
+      "tax-development-0-511043-0@1",
+      "item-development-0-511043-0@2"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@2",
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-0-511043-1@1",
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-0@2"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-0-511043-0@1",
+      "tax-development-0-511043-1@1",
+      "item-development-0-511043-0@2"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "item-development-0-511043-0@2",
+      "item-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "contract-development-0-511043-0@1",
+      "tax-development-0-511043-2@1"
+    ],
+    "task_id": "development-0-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "tax-development-1-127167-2@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "contract-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "tax-development-1-127167-0@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-1@1",
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@1",
+      "item-development-1-127167-2@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-1@1",
+      "contract-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "item-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-1@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "tax-development-1-127167-2@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-1@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1",
+      "item-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@1",
+      "contract-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "tax-development-1-127167-1@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@1",
+      "contract-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "y": 1
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "tax-development-1-127167-2@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-1@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "tax-development-1-127167-2@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-0@1",
+      "contract-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-2@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "contract-development-1-127167-2@1",
+      "contract-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-1@1",
+      "contract-development-1-127167-2@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "tax-development-1-127167-2@1",
+      "contract-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "citations": [
+        "contract-development-1-127167-0@2",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 5,
+      "subtotal_cents": 9665,
+      "tax_cents": 942,
+      "total_cents": 10607
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "y": 1
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-1@1",
+      "item-development-1-127167-2@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "item-development-1-127167-0@1",
+      "item-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1",
+      "contract-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-0@2",
+      "item-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "contract-development-1-127167-2@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-2@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@2",
+      "tax-development-1-127167-1@1",
+      "item-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "item-development-1-127167-1@1",
+      "item-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "tax-development-1-127167-2@1",
+      "item-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "tax-development-1-127167-1@1",
+      "contract-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-0@2",
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@1",
+      "item-development-1-127167-0@2",
+      "item-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      2.0,
+      0.6666666666666666,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "item-development-1-127167-0@2",
+      "contract-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@2",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      2.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "tax-development-1-127167-0@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@2",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-0@2",
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "item-development-1-127167-0@1",
+      "item-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-1@1",
+      "contract-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-2@1",
+      "item-development-1-127167-0@2",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "tax-development-1-127167-1@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-2@1",
+      "contract-development-1-127167-2@1",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-2@1",
+      "contract-development-1-127167-1@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-1@1",
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@1",
+      "contract-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-0@2",
+      "item-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "contract-development-1-127167-0@2",
+      "tax-development-1-127167-2@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-1-127167-1@1",
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@2"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "item-development-1-127167-1@1",
+      "item-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-1-127167-0@1",
+      "contract-development-1-127167-0@2",
+      "contract-development-1-127167-0@1"
+    ],
+    "task_id": "development-1-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-2@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "item-development-2-989498-2@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "tax-development-2-989498-0@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-2@1",
+      "tax-development-2-989498-0@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "item-development-2-989498-1@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-0@1",
+      "tax-development-2-989498-2@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "contract-development-2-989498-1@1",
+      "item-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "item-development-2-989498-1@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-2@1",
+      "item-development-2-989498-1@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "item-development-2-989498-0@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-2@1",
+      "item-development-2-989498-1@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "item-development-2-989498-0@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-0@1",
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-0@1",
+      "contract-development-2-989498-0@1",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "contract-development-2-989498-1@1",
+      "tax-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-2@1",
+      "tax-development-2-989498-1@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "item-development-2-989498-2@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-2@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "contract-development-2-989498-2@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "tax-development-2-989498-0@1",
+      "item-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "contract-development-2-989498-0@1",
+      "tax-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "contract-development-2-989498-2@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-2@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "tax-development-2-989498-1@1",
+      "item-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "tax-development-2-989498-0@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-2@1",
+      "contract-development-2-989498-2@1",
+      "tax-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-2@1",
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "contract-development-2-989498-1@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "tax-development-2-989498-2@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "tax-development-2-989498-0@1",
+      "item-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-2@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-2@1",
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "contract-development-2-989498-2@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-2@1",
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "tax-development-2-989498-0@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-2@1",
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-2@1",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-2@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-2@1",
+      "contract-development-2-989498-0@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "contract-development-2-989498-1@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@2",
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "item-development-2-989498-2@1",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "contract-development-2-989498-0@2",
+      "tax-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "item-development-2-989498-0@2",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-1@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@2",
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 16,
+      "subtotal_cents": 20944,
+      "tax_cents": 785,
+      "total_cents": 21729
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-0@2",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "item-development-2-989498-1@1",
+      "item-development-2-989498-0@2"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "contract-development-2-989498-1@1",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@2",
+      "item-development-2-989498-1@1",
+      "item-development-2-989498-0@2"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "item-development-2-989498-2@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-2@1",
+      "item-development-2-989498-0@2",
+      "contract-development-2-989498-0@2"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "contract-development-2-989498-1@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-2@1",
+      "item-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@2",
+      "contract-development-2-989498-0@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-0@1",
+      "item-development-2-989498-0@2"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-2@1",
+      "tax-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-2@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-0@1",
+      "contract-development-2-989498-0@2",
+      "tax-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "contract-development-2-989498-2@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-1@1",
+      "tax-development-2-989498-0@1",
+      "contract-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "contract-development-2-989498-1@1",
+      "contract-development-2-989498-2@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-0@1",
+      "contract-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-2-989498-0@2",
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-2-989498-2@1",
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-1@1"
+    ],
+    "task_id": "development-2-s4",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-1@1",
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-2@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "contract-development-3-950321-2@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "tax-development-3-950321-0@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "tax-development-3-950321-0@1",
+      "tax-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "tax-development-3-950321-1@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-1@1",
+      "tax-development-3-950321-0@1",
+      "contract-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "tax-development-3-950321-1@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-0@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "item-development-3-950321-1@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s0",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-2@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "tax-development-3-950321-2@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-1@1",
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-1@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-1@1",
+      "item-development-3-950321-1@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-1@1",
+      "tax-development-3-950321-1@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-1@1",
+      "contract-development-3-950321-2@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "contract-development-3-950321-0@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-0@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-2@1",
+      "tax-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-1@1",
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-1@1",
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s1",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 7,
+      "subtotal_cents": 826,
+      "tax_cents": 68,
+      "total_cents": 894
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1",
+      "contract-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "tax-development-3-950321-0@1",
+      "contract-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "tax-development-3-950321-2@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-1@1",
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-1@1",
+      "tax-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "contract-development-3-950321-0@2",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-1@1",
+      "contract-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-2@1",
+      "contract-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-1@1",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-2@1",
+      "tax-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-0@2",
+      "item-development-3-950321-0@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-1@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "contract-development-3-950321-0@1",
+      "contract-development-3-950321-0@2"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-0@2",
+      "tax-development-3-950321-0@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-0@2",
+      "tax-development-3-950321-1@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s2",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "item-development-3-950321-1@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "tax-development-3-950321-1@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "item-development-3-950321-0@2",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      2.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "tax-development-3-950321-1@1",
+      "tax-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-0@2",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "tax-development-3-950321-1@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "item-development-3-950321-1@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@2",
+      "tax-development-3-950321-0@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-0@2",
+      "tax-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-2@1",
+      "tax-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-1@1",
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@2"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-0@2",
+      "tax-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-0@2",
+      "item-development-3-950321-0@2",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s3",
+    "x": [
+      1.0,
+      2.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "contract-development-3-950321-0@2",
+      "tax-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "contract-development-3-950321-0@2",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@1",
+      "contract-development-3-950321-0@1",
+      "contract-development-3-950321-0@2"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-1@1",
+      "contract-development-3-950321-0@2",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-1@1",
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "tax-development-3-950321-1@1",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "item-development-3-950321-0@2",
+      "item-development-3-950321-0@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-0@1",
+      "tax-development-3-950321-1@1",
+      "item-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "tax-development-3-950321-2@1",
+      "contract-development-3-950321-1@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-0@2",
+      "contract-development-3-950321-0@1",
+      "contract-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "tax-development-3-950321-0@1",
+      "contract-development-3-950321-1@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-2@1"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      1.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-2@1",
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@2"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      0.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  },
+  {
+    "outcome": {
+      "error": "missing dependency"
+    },
+    "recipe": "random",
+    "selected": [
+      "item-development-3-950321-1@1",
+      "tax-development-3-950321-1@1",
+      "item-development-3-950321-0@2"
+    ],
+    "task_id": "development-3-s4",
+    "x": [
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "y": 0
+  }
+]

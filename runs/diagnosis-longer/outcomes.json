@@ -1,0 +1,2342 @@
+[
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-0-511043",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 5.66698145121336e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-0-511043",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.00028533401200547814,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-0-511043",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.00016674998914822936,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-0-511043",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 7.292022928595543e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-0-511043",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.00025941699277609587,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-0-511043",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.00015504099428653717,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@2",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 7,
+      "subtotal_cents": 15981,
+      "tax_cents": 1318,
+      "total_cents": 17299
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1529,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-0-511043",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@2",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 2.2500171326100826e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 7,
+      "subtotal_cents": 15183,
+      "tax_cents": 1253,
+      "total_cents": 16436
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1529,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "development-0-511043",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.00036870798794552684,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 7,
+      "subtotal_cents": 15183,
+      "tax_cents": 1253,
+      "total_cents": 16436
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1529,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 64,
+    "history": "development-0-511043",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.000260959001025185,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-0-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-2@1",
+        "item-development-0-511043-0@2",
+        "tax-development-0-511043-2@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 16900,
+      "tax_cents": 1648,
+      "total_cents": 18548
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-0-511043",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-2@1",
+      "item-development-0-511043-0@2",
+      "tax-development-0-511043-2@1"
+    ],
+    "selection_seconds": 4.04199818149209e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "development-0-511043",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.0005014160124119371,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-0@1",
+        "item-development-0-511043-0@1",
+        "tax-development-0-511043-0@1"
+      ],
+      "item": "item-development-0-511043-0",
+      "quantity": 13,
+      "subtotal_cents": 28197,
+      "tax_cents": 2326,
+      "total_cents": 30523
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 73,
+    "history": "development-0-511043",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-0@1",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selection_seconds": 0.00029579197871498764,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-0-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-1@1",
+        "item-development-0-511043-1@1",
+        "tax-development-0-511043-1@1"
+      ],
+      "item": "item-development-0-511043-1",
+      "quantity": 11,
+      "subtotal_cents": 23331,
+      "tax_cents": 2275,
+      "total_cents": 25606
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-0-511043",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "selection_seconds": 2.042012056335807e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-1@1",
+        "item-development-0-511043-1@1",
+        "tax-development-0-511043-1@1"
+      ],
+      "item": "item-development-0-511043-1",
+      "quantity": 11,
+      "subtotal_cents": 23331,
+      "tax_cents": 2275,
+      "total_cents": 25606
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "development-0-511043",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "selection_seconds": 0.0004910000134259462,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-0-511043-1@1",
+        "item-development-0-511043-1@1",
+        "tax-development-0-511043-1@1"
+      ],
+      "item": "item-development-0-511043-1",
+      "quantity": 11,
+      "subtotal_cents": 23331,
+      "tax_cents": 2275,
+      "total_cents": 25606
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "development-0-511043",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-0-511043-1@1",
+      "item-development-0-511043-1@1",
+      "tax-development-0-511043-1@1"
+    ],
+    "selection_seconds": 0.00019650001195259392,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-0-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-1-127167",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 1.2500095181167126e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-1-127167",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.0002488750033080578,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-1-127167",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.0001475409953854978,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-1-127167",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 3.7080026231706142e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-1-127167",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.00024804199347272515,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-1-127167",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.00014399999054148793,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@2",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 5,
+      "subtotal_cents": 9665,
+      "tax_cents": 942,
+      "total_cents": 10607
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1528,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-1-127167",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@2",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 1.333013642579317e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 5,
+      "subtotal_cents": 9335,
+      "tax_cents": 910,
+      "total_cents": 10245
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1528,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "development-1-127167",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.0003525000065565109,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 5,
+      "subtotal_cents": 9335,
+      "tax_cents": 910,
+      "total_cents": 10245
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1528,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 64,
+    "history": "development-1-127167",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.0002506669843569398,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-1-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-2@1",
+        "item-development-1-127167-0@2",
+        "tax-development-1-127167-2@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 30515,
+      "tax_cents": 1907,
+      "total_cents": 32422
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1680,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-1-127167",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-2@1",
+      "item-development-1-127167-0@2",
+      "tax-development-1-127167-2@1"
+    ],
+    "selection_seconds": 3.4590193536132574e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1680,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "development-1-127167",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.0004892080032732338,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-0@1",
+        "item-development-1-127167-0@1",
+        "tax-development-1-127167-0@1"
+      ],
+      "item": "item-development-1-127167-0",
+      "quantity": 17,
+      "subtotal_cents": 31739,
+      "tax_cents": 3095,
+      "total_cents": 34834
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1680,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 73,
+    "history": "development-1-127167",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-0@1",
+      "item-development-1-127167-0@1",
+      "tax-development-1-127167-0@1"
+    ],
+    "selection_seconds": 0.00028925001970492303,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-1-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-1@1",
+        "item-development-1-127167-1@1",
+        "tax-development-1-127167-1@1"
+      ],
+      "item": "item-development-1-127167-1",
+      "quantity": 8,
+      "subtotal_cents": 2792,
+      "tax_cents": 272,
+      "total_cents": 3064
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1680,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-1-127167",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "selection_seconds": 1.6669800970703363e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-1@1",
+        "item-development-1-127167-1@1",
+        "tax-development-1-127167-1@1"
+      ],
+      "item": "item-development-1-127167-1",
+      "quantity": 8,
+      "subtotal_cents": 2792,
+      "tax_cents": 272,
+      "total_cents": 3064
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1680,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "development-1-127167",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "selection_seconds": 0.00048754201270639896,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-1-127167-1@1",
+        "item-development-1-127167-1@1",
+        "tax-development-1-127167-1@1"
+      ],
+      "item": "item-development-1-127167-1",
+      "quantity": 8,
+      "subtotal_cents": 2792,
+      "tax_cents": 272,
+      "total_cents": 3064
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1680,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "development-1-127167",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-1-127167-1@1",
+      "item-development-1-127167-1@1",
+      "tax-development-1-127167-1@1"
+    ],
+    "selection_seconds": 0.0001948749995790422,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-1-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 11,
+      "subtotal_cents": 14399,
+      "tax_cents": 540,
+      "total_cents": 14939
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-2-989498",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 1.2499804142862558e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 11,
+      "subtotal_cents": 14399,
+      "tax_cents": 540,
+      "total_cents": 14939
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-2-989498",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.0002503329887986183,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 11,
+      "subtotal_cents": 14399,
+      "tax_cents": 540,
+      "total_cents": 14939
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-2-989498",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.0001455830060876906,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 11,
+      "subtotal_cents": 14399,
+      "tax_cents": 540,
+      "total_cents": 14939
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-2-989498",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 3.4999975468963385e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 11,
+      "subtotal_cents": 14399,
+      "tax_cents": 540,
+      "total_cents": 14939
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-2-989498",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.0002491670020390302,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 11,
+      "subtotal_cents": 14399,
+      "tax_cents": 540,
+      "total_cents": 14939
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1350,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-2-989498",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.00014383302186615765,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@2",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 13,
+      "subtotal_cents": 18382,
+      "tax_cents": 689,
+      "total_cents": 19071
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1529,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-2-989498",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@2",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 1.5839759726077318e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 13,
+      "subtotal_cents": 17017,
+      "tax_cents": 638,
+      "total_cents": 17655
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1529,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "development-2-989498",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.00035462502273730934,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 13,
+      "subtotal_cents": 17017,
+      "tax_cents": 638,
+      "total_cents": 17655
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1529,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 64,
+    "history": "development-2-989498",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.00025891599943861365,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-2-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-2@1",
+        "item-development-2-989498-0@2",
+        "tax-development-2-989498-2@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 16,
+      "subtotal_cents": 22256,
+      "tax_cents": 835,
+      "total_cents": 23091
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-2-989498",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-2@1",
+      "item-development-2-989498-0@2",
+      "tax-development-2-989498-2@1"
+    ],
+    "selection_seconds": 1.5829864423722029e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 16,
+      "subtotal_cents": 20944,
+      "tax_cents": 785,
+      "total_cents": 21729
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "development-2-989498",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.0004929159767925739,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-0@1",
+        "item-development-2-989498-0@1",
+        "tax-development-2-989498-0@1"
+      ],
+      "item": "item-development-2-989498-0",
+      "quantity": 16,
+      "subtotal_cents": 20944,
+      "tax_cents": 785,
+      "total_cents": 21729
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 450,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 73,
+    "history": "development-2-989498",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-0@1",
+      "item-development-2-989498-0@1",
+      "tax-development-2-989498-0@1"
+    ],
+    "selection_seconds": 0.0002924590080510825,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-2-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-1@1",
+        "item-development-2-989498-1@1",
+        "tax-development-2-989498-1@1"
+      ],
+      "item": "item-development-2-989498-1",
+      "quantity": 10,
+      "subtotal_cents": 10020,
+      "tax_cents": 977,
+      "total_cents": 10997
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-2-989498",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "selection_seconds": 1.6669800970703363e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-1@1",
+        "item-development-2-989498-1@1",
+        "tax-development-2-989498-1@1"
+      ],
+      "item": "item-development-2-989498-1",
+      "quantity": 10,
+      "subtotal_cents": 10020,
+      "tax_cents": 977,
+      "total_cents": 10997
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "development-2-989498",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "selection_seconds": 0.0004875830200035125,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-2-989498-1@1",
+        "item-development-2-989498-1@1",
+        "tax-development-2-989498-1@1"
+      ],
+      "item": "item-development-2-989498-1",
+      "quantity": 10,
+      "subtotal_cents": 10020,
+      "tax_cents": 977,
+      "total_cents": 10997
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1681,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "development-2-989498",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-2-989498-1@1",
+      "item-development-2-989498-1@1",
+      "tax-development-2-989498-1@1"
+    ],
+    "selection_seconds": 0.00019324998720549047,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-2-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 18,
+      "subtotal_cents": 2124,
+      "tax_cents": 175,
+      "total_cents": 2299
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-3-950321",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 1.2500095181167126e-06,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 18,
+      "subtotal_cents": 2124,
+      "tax_cents": 175,
+      "total_cents": 2299
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-3-950321",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.0002478339883964509,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 18,
+      "subtotal_cents": 2124,
+      "tax_cents": 175,
+      "total_cents": 2299
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-3-950321",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.00014395901234820485,
+    "stage": 0,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s0",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 18,
+      "subtotal_cents": 2124,
+      "tax_cents": 175,
+      "total_cents": 2299
+    },
+    "arm": "ordinary",
+    "cache_hit": 1,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-3-950321",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 3.7080026231706142e-06,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 18,
+      "subtotal_cents": 2124,
+      "tax_cents": 175,
+      "total_cents": 2299
+    },
+    "arm": "exact",
+    "cache_hit": 1,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 84,
+    "history": "development-3-950321",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.00024675001623108983,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 18,
+      "subtotal_cents": 2124,
+      "tax_cents": 175,
+      "total_cents": 2299
+    },
+    "arm": "energy_swap",
+    "cache_hit": 1,
+    "candidate_bytes": 1349,
+    "candidate_records": 9,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 37,
+    "history": "development-3-950321",
+    "index_record_visits": 9,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.00014300001203082502,
+    "stage": 1,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s1",
+    "tool_calls": 0
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@2",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 7,
+      "subtotal_cents": 1225,
+      "tax_cents": 101,
+      "total_cents": 1326
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1527,
+    "candidate_records": 10,
+    "complete": true,
+    "delivered_bytes": 449,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-3-950321",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@2",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 1.4169781934469938e-06,
+    "stage": 2,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 7,
+      "subtotal_cents": 826,
+      "tax_cents": 68,
+      "total_cents": 894
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1527,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 449,
+    "fallback": 1,
+    "fallback_delivered_bytes": 449,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 120,
+    "history": "development-3-950321",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.0003521250037010759,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 7,
+      "subtotal_cents": 826,
+      "tax_cents": 68,
+      "total_cents": 894
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1527,
+    "candidate_records": 10,
+    "complete": false,
+    "delivered_bytes": 449,
+    "fallback": 1,
+    "fallback_delivered_bytes": 449,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 64,
+    "history": "development-3-950321",
+    "index_record_visits": 10,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.0002496250090189278,
+    "stage": 2,
+    "stale_records": 1,
+    "sufficient": false,
+    "task_id": "development-3-s2",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-2@1",
+        "item-development-3-950321-0@2",
+        "tax-development-3-950321-2@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 14,
+      "subtotal_cents": 34524,
+      "tax_cents": 1295,
+      "total_cents": 35819
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1679,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-3-950321",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-2@1",
+      "item-development-3-950321-0@2",
+      "tax-development-3-950321-2@1"
+    ],
+    "selection_seconds": 1.4590041246265173e-06,
+    "stage": 3,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 14,
+      "subtotal_cents": 1652,
+      "tax_cents": 136,
+      "total_cents": 1788
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1679,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 449,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 165,
+    "history": "development-3-950321",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.0004873329889960587,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 2,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-0@1",
+        "item-development-3-950321-0@1",
+        "tax-development-3-950321-0@1"
+      ],
+      "item": "item-development-3-950321-0",
+      "quantity": 14,
+      "subtotal_cents": 1652,
+      "tax_cents": 136,
+      "total_cents": 1788
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1679,
+    "candidate_records": 11,
+    "complete": false,
+    "delivered_bytes": 449,
+    "fallback": 1,
+    "fallback_delivered_bytes": 450,
+    "fallback_tool_calls": 1,
+    "feature_evaluations": 73,
+    "history": "development-3-950321",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-0@1",
+      "item-development-3-950321-0@1",
+      "tax-development-3-950321-0@1"
+    ],
+    "selection_seconds": 0.000291000003926456,
+    "stage": 3,
+    "stale_records": 2,
+    "sufficient": false,
+    "task_id": "development-3-s3",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-1@1",
+        "item-development-3-950321-1@1",
+        "tax-development-3-950321-1@1"
+      ],
+      "item": "item-development-3-950321-1",
+      "quantity": 2,
+      "subtotal_cents": 2938,
+      "tax_cents": 184,
+      "total_cents": 3122
+    },
+    "arm": "ordinary",
+    "cache_hit": 0,
+    "candidate_bytes": 1679,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 0,
+    "history": "development-3-950321",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-1@1",
+      "tax-development-3-950321-1@1"
+    ],
+    "selection_seconds": 1.4579854905605316e-06,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 0,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-1@1",
+        "item-development-3-950321-1@1",
+        "tax-development-3-950321-1@1"
+      ],
+      "item": "item-development-3-950321-1",
+      "quantity": 2,
+      "subtotal_cents": 2938,
+      "tax_cents": 184,
+      "total_cents": 3122
+    },
+    "arm": "exact",
+    "cache_hit": 0,
+    "candidate_bytes": 1679,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 165,
+    "history": "development-3-950321",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-1@1",
+      "tax-development-3-950321-1@1"
+    ],
+    "selection_seconds": 0.0004875000158790499,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s4",
+    "tool_calls": 1
+  },
+  {
+    "accepted_moves": 1,
+    "answer": {
+      "citations": [
+        "contract-development-3-950321-1@1",
+        "item-development-3-950321-1@1",
+        "tax-development-3-950321-1@1"
+      ],
+      "item": "item-development-3-950321-1",
+      "quantity": 2,
+      "subtotal_cents": 2938,
+      "tax_cents": 184,
+      "total_cents": 3122
+    },
+    "arm": "energy_swap",
+    "cache_hit": 0,
+    "candidate_bytes": 1679,
+    "candidate_records": 11,
+    "complete": true,
+    "delivered_bytes": 450,
+    "fallback": 0,
+    "fallback_delivered_bytes": 0,
+    "fallback_tool_calls": 0,
+    "feature_evaluations": 49,
+    "history": "development-3-950321",
+    "index_record_visits": 11,
+    "repaired_complete": true,
+    "selected": [
+      "contract-development-3-950321-1@1",
+      "item-development-3-950321-1@1",
+      "tax-development-3-950321-1@1"
+    ],
+    "selection_seconds": 0.0001919170026667416,
+    "stage": 4,
+    "stale_records": 0,
+    "sufficient": true,
+    "task_id": "development-3-s4",
+    "tool_calls": 1
+  }
+]

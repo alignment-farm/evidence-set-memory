@@ -1,0 +1,45 @@
+{
+  "features": [
+    "bias",
+    "query_item",
+    "current_fraction",
+    "item_fraction",
+    "contract_fraction",
+    "tax_fraction",
+    "resolved_edges",
+    "root_edge"
+  ],
+  "interactions": false,
+  "training": {
+    "epochs": 1000,
+    "example_gradient_evaluations": 760000,
+    "examples": 760,
+    "losses": [
+      {
+        "binary_loss": 0.6931471805599579,
+        "epoch": 1
+      },
+      {
+        "binary_loss": 0.5952490163109149,
+        "epoch": 100
+      },
+      {
+        "binary_loss": 0.4736284339907072,
+        "epoch": 1000
+      }
+    ],
+    "positives": 24,
+    "scalar_parameter_count": 8,
+    "seconds": 0.85904937502346
+  },
+  "weights": [
+    -2.368956778152261,
+    3.490676712434284,
+    0.35678256933639707,
+    -3.1589481041753005,
+    0.008824639084114405,
+    0.78116668693892,
+    0.0,
+    0.0
+  ]
+}

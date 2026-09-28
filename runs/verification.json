@@ -1,0 +1,15 @@
+{
+  "boundary_tests": {"passed": 4, "failed": 0},
+  "audit": "runs/audit.json",
+  "full_cpu_reproduction": {
+    "command": "uv run --no-project python scripts/reproduce_phase1.py --out .cache/phase1-reproduction",
+    "fitted_checkpoint_reproduced": true,
+    "confirmation_reproduced": true,
+    "additional_gradient_example_evaluations": 12384000,
+    "additional_measured_training_seconds": 13.993098374048714,
+    "additional_attempt_executions": 1080,
+    "llm_calls": 0,
+    "timing_fields_excluded_from_equality": true
+  },
+  "independent_review": "pending root scientific review"
+}

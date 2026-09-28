@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://mac-studio-7hr7.taile71f88.ts.net/engines/v1/chat/completions",
+  "finished_utc": "2026-09-28T12:13:06Z",
+  "model": "docker.io/ai/qwen3:8B-Q4_K_M",
+  "provider": "Docker Model Runner",
+  "requested_max_tokens": 512,
+  "requested_seed": 761,
+  "requested_thinking": false,
+  "script_sha256": "04f00de8aafa207c1759686ca01d86adcf3f7122bb5eee45874cfcd188c8fd7b",
+  "server_setting_compliance": "not independently verified",
+  "temperature": 0
+}

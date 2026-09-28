@@ -1,0 +1,46 @@
+{
+  "features": [
+    "bias",
+    "query_item",
+    "current_fraction",
+    "item_fraction",
+    "contract_fraction",
+    "tax_fraction",
+    "resolved_edges",
+    "root_edge"
+  ],
+  "interactions": false,
+  "objective": "within-task pairwise logistic on observed outcome differences",
+  "training": {
+    "epochs": 1000,
+    "example_gradient_evaluations": 1472000,
+    "examples": 1472,
+    "losses": [
+      {
+        "binary_loss": 0.6931471805599188,
+        "epoch": 1
+      },
+      {
+        "binary_loss": 0.42976937633272877,
+        "epoch": 100
+      },
+      {
+        "binary_loss": 0.28042200685159246,
+        "epoch": 1000
+      }
+    ],
+    "positives": 736,
+    "scalar_parameter_count": 8,
+    "seconds": 1.694010375009384
+  },
+  "weights": [
+    0.0,
+    3.9642713098149094,
+    2.9521966428662756,
+    -3.1769051968297055,
+    1.3699410436034667,
+    1.806964153226238,
+    0.0,
+    0.0
+  ]
+}

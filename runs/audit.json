@@ -1,0 +1,178 @@
+{
+  "acquisition_costs": {
+    "actual_cpu_seconds": null,
+    "embedding_calls": 0,
+    "executed_attempts": 1080,
+    "final_recipe_attempts": 760,
+    "investigator_cost": null,
+    "note": "320 random attempts were re-executed inside the 760-attempt recipe; not independent extra evidence.",
+    "pairwise_rows": 1472,
+    "teacher_calls": 0,
+    "total_example_gradient_evaluations": 12384000,
+    "total_training_wall_seconds": 13.959423875028733,
+    "training_runs": {
+      "runs/development/closure_exploration-checkpoint.json": {
+        "epochs": 1000,
+        "example_gradient_evaluations": 760000,
+        "examples": 760,
+        "losses": [
+          {
+            "binary_loss": 0.6931471805599579,
+            "epoch": 1
+          },
+          {
+            "binary_loss": 0.3257576424764126,
+            "epoch": 100
+          },
+          {
+            "binary_loss": 0.12033637034214618,
+            "epoch": 1000
+          }
+        ],
+        "positives": 24,
+        "scalar_parameter_count": 8,
+        "seconds": 0.8464492920029443
+      },
+      "runs/development/pointwise-checkpoint.json": {
+        "epochs": 1000,
+        "example_gradient_evaluations": 760000,
+        "examples": 760,
+        "losses": [
+          {
+            "binary_loss": 0.6931471805599579,
+            "epoch": 1
+          },
+          {
+            "binary_loss": 0.5952490163109149,
+            "epoch": 100
+          },
+          {
+            "binary_loss": 0.4736284339907072,
+            "epoch": 1000
+          }
+        ],
+        "positives": 24,
+        "scalar_parameter_count": 8,
+        "seconds": 0.85904937502346
+      },
+      "runs/development/random-checkpoint.json": {
+        "epochs": 1000,
+        "example_gradient_evaluations": 320000,
+        "examples": 320,
+        "losses": [
+          {
+            "binary_loss": 0.6931471805599492,
+            "epoch": 1
+          },
+          {
+            "binary_loss": 0.23802477956635154,
+            "epoch": 100
+          },
+          {
+            "binary_loss": 0.09440254118703806,
+            "epoch": 1000
+          }
+        ],
+        "positives": 4,
+        "scalar_parameter_count": 8,
+        "seconds": 0.3552193749928847
+      },
+      "runs/diagnosis-longer/checkpoint.json": {
+        "epochs": 10000,
+        "example_gradient_evaluations": 7600000,
+        "examples": 760,
+        "losses": [
+          {
+            "binary_loss": 0.6931471805599579,
+            "epoch": 1
+          },
+          {
+            "binary_loss": 0.3257576424764126,
+            "epoch": 100
+          },
+          {
+            "binary_loss": 0.06379343481821322,
+            "epoch": 10000
+          }
+        ],
+        "positives": 24,
+        "scalar_parameter_count": 8,
+        "seconds": 8.52147999999579
+      },
+      "runs/diagnosis-pairwise/checkpoint.json": {
+        "epochs": 1000,
+        "example_gradient_evaluations": 1472000,
+        "examples": 1472,
+        "losses": [
+          {
+            "binary_loss": 0.6931471805599188,
+            "epoch": 1
+          },
+          {
+            "binary_loss": 0.09858165241922166,
+            "epoch": 100
+          },
+          {
+            "binary_loss": 0.024382224569262378,
+            "epoch": 1000
+          }
+        ],
+        "positives": 736,
+        "scalar_parameter_count": 8,
+        "seconds": 1.6832154580042697
+      },
+      "runs/diagnosis-pairwise/pointwise-checkpoint.json": {
+        "epochs": 1000,
+        "example_gradient_evaluations": 1472000,
+        "examples": 1472,
+        "losses": [
+          {
+            "binary_loss": 0.6931471805599188,
+            "epoch": 1
+          },
+          {
+            "binary_loss": 0.42976937633272877,
+            "epoch": 100
+          },
+          {
+            "binary_loss": 0.28042200685159246,
+            "epoch": 1000
+          }
+        ],
+        "positives": 736,
+        "scalar_parameter_count": 8,
+        "seconds": 1.694010375009384
+      }
+    },
+    "unique_positive_vs_negative_contrasts": 736
+  },
+  "all_passed": true,
+  "checks": {
+    "CLAIM.md": true,
+    "PROTOCOL.md": true,
+    "all_candidates_reachable": true,
+    "all_confirmation_outcomes_replay": true,
+    "development_generation_replay": true,
+    "development_local_optimum_suboptimal": true,
+    "disjoint_source_identifiers": true,
+    "fresh_generation_replay": true,
+    "initial_implementation_snapshot": true,
+    "runs/diagnosis-pairwise/checkpoint.json": true,
+    "runs/diagnosis-pairwise/pointwise-checkpoint.json": true,
+    "runs/diagnosis-pairwise/summary.json": true,
+    "scripts/quote_study.py": true,
+    "scripts/reader_check.py": true
+  },
+  "development_local_optimum": {
+    "best_one_swap_score": 8.265635327097389,
+    "global_best_score": 8.840829216168249,
+    "neighbors": 24,
+    "selected": [
+      "contract-development-0-511043-0@2",
+      "item-development-0-511043-0@1",
+      "tax-development-0-511043-0@1"
+    ],
+    "selected_score": 8.553232271632819,
+    "task_id": "development-0-s3"
+  }
+}

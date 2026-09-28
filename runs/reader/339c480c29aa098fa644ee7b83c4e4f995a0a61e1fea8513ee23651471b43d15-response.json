@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "citations": [
+      "item-confirmation-0-456121-1@1",
+      "contract-confirmation-0-456121-1@1",
+      "tax-confirmation-0-456121-1@1"
+    ],
+    "item": "item-confirmation-0-456121-1",
+    "quantity": 16,
+    "subtotal_cents": 24592,
+    "tax_cents": 2403,
+    "total_cents": 27000
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\n  \"item\": \"item-confirmation-0-456121-1\",\n  \"quantity\": 16,\n  \"subtotal_cents\": 24592,\n  \"tax_cents\": 2403,\n  \"total_cents\": 27000,\n  \"citations\": [\"item-confirmation-0-456121-1@1\", \"contract-confirmation-0-456121-1@1\", \"tax-confirmation-0-456121-1@1\"]\n}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790597583,
+    "id": "chatcmpl-kygdhgCUVJ9oHb4GIzjHWVHoSmjNBlXS",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/79fa56c07429f64f41950fe2f524937cf3ae9ea9bd3d7ada72170b036ea3cc85/model/model.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 812,
+      "predicted_ms": 2680.417,
+      "predicted_n": 128,
+      "predicted_per_second": 47.75376368676964,
+      "predicted_per_token_ms": 20.9407578125,
+      "prompt_ms": 83.706,
+      "prompt_n": 29,
+      "prompt_per_second": 346.45067259216785,
+      "prompt_per_token_ms": 2.8864137931034484
+    },
+    "usage": {
+      "completion_tokens": 128,
+      "prompt_tokens": 841,
+      "prompt_tokens_details": {
+        "cached_tokens": 812
+      },
+      "total_tokens": 969
+    }
+  },
+  "wall_seconds": 2.8263481250032783
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "scripts/quote_study.py",
+    "develop",
+    "--out",
+    "runs/development"
+  ],
+  "finished_utc": "2026-09-28T12:07:28Z",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7 (main, Sep  1 2026, 14:05:28) [Clang 22.1.3 ]",
+  "script_sha256": "3b94adecb6ec7cd486d22a2c31d2a694a66505c3d67aa96740bd8e5785045719",
+  "seconds": 2.1207363749854267
+}

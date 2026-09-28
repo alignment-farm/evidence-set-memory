@@ -1,9 +1,26 @@
 # Evidence-set memory
 
 An independent Construct-2 ancillary investigation, commissioned 28 September
-2026. **Status: prepared for bounded workload and acquisition development.**
-Preparation includes public-asset reconnaissance; no specialist training or
-downstream model result has been established.
+2026. **Status: first bounded acquisition/diagnosis phase completed locally;
+root scientific review pending.**
+
+The [phase 1 findings](FINDINGS.md) report an eight-coefficient set learner trained
+on earlier executed attempts in an explicitly authored quote/revision workload.
+After diagnosis and a claim freeze, ordinary dependency closure and exact learned
+selection each complete 30/30 fresh executable tasks. One-swap optimization of
+the same negative score completes 24/30 before ordinary repair. The fixed-reader
+diagnostic completes only 2/5 compact-context cases without tool repair. This is
+a functioning small learner and an explained ordinary-method advantage, not an
+EBM advantage or a natural-workload memory result.
+
+Evidence: [protocol](PROTOCOL.md), [frozen claim](CLAIM.md),
+[confirmation outcomes](runs/confirmation/summary.json),
+[reader outcomes](runs/reader/summary.json), [audit](runs/audit.json),
+[actual provenance](runs/provenance.json), and
+[reproduction instructions](FINDINGS.md#reproduction-and-exact-revisions).
+Failed acquisition attempts and all raw reader responses are retained in `runs/`.
+The next bounded step concerns discovering relations in source-native prose/code;
+this phase does not retire the broader question.
 
 > Can a small specialist learn from earlier experience to assemble compact,
 > sufficient evidence for later complete work, and remain useful as that evidence

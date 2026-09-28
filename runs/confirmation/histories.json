@@ -1,0 +1,2900 @@
+[
+  {
+    "id": "confirmation-0-456121",
+    "stages": [
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-0-456121-0@1",
+            "item-confirmation-0-456121-0@1",
+            "tax-confirmation-0-456121-0@1"
+          ],
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 6,
+          "subtotal_cents": 2172,
+          "tax_cents": 81,
+          "total_cents": 2253
+        },
+        "records": [
+          {
+            "id": "item-confirmation-0-456121-2@1",
+            "key": "item-confirmation-0-456121-2",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-2",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-0@1",
+            "key": "tax-confirmation-0-456121-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-0-456121-1@1",
+            "key": "contract-confirmation-0-456121-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-1",
+            "revision": 1,
+            "unit_cents": 1538
+          },
+          {
+            "id": "item-confirmation-0-456121-0@1",
+            "key": "item-confirmation-0-456121-0",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-0",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-2@1",
+            "key": "tax-confirmation-0-456121-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-0-456121-1@1",
+            "key": "tax-confirmation-0-456121-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-1@1",
+            "key": "item-confirmation-0-456121-1",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@1",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 1,
+            "unit_cents": 362
+          },
+          {
+            "id": "contract-confirmation-0-456121-2@1",
+            "key": "contract-confirmation-0-456121-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-2",
+            "revision": 1,
+            "unit_cents": 2285
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 6,
+          "task_id": "confirmation-0-s0"
+        },
+        "stage": 0
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-0-456121-0@1",
+            "item-confirmation-0-456121-0@1",
+            "tax-confirmation-0-456121-0@1"
+          ],
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 6,
+          "subtotal_cents": 2172,
+          "tax_cents": 81,
+          "total_cents": 2253
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-0-456121-1@1",
+            "key": "contract-confirmation-0-456121-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-1",
+            "revision": 1,
+            "unit_cents": 1538
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-0-456121-1@1",
+            "key": "tax-confirmation-0-456121-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-2@1",
+            "key": "tax-confirmation-0-456121-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@1",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 1,
+            "unit_cents": 362
+          },
+          {
+            "id": "item-confirmation-0-456121-1@1",
+            "key": "item-confirmation-0-456121-1",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-0-456121-2@1",
+            "key": "contract-confirmation-0-456121-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-2",
+            "revision": 1,
+            "unit_cents": 2285
+          },
+          {
+            "id": "item-confirmation-0-456121-0@1",
+            "key": "item-confirmation-0-456121-0",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-0",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-0@1",
+            "key": "tax-confirmation-0-456121-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-2@1",
+            "key": "item-confirmation-0-456121-2",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-2",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 6,
+          "task_id": "confirmation-0-s1"
+        },
+        "stage": 1
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-0-456121-0@2",
+            "item-confirmation-0-456121-0@1",
+            "tax-confirmation-0-456121-0@1"
+          ],
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 7,
+          "subtotal_cents": 3619,
+          "tax_cents": 136,
+          "total_cents": 3755
+        },
+        "records": [
+          {
+            "bps": 975,
+            "id": "tax-confirmation-0-456121-1@1",
+            "key": "tax-confirmation-0-456121-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-2@1",
+            "key": "tax-confirmation-0-456121-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-2@1",
+            "key": "item-confirmation-0-456121-2",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-2",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-0@1",
+            "key": "tax-confirmation-0-456121-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-0@1",
+            "key": "item-confirmation-0-456121-0",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-0-456121-2@1",
+            "key": "contract-confirmation-0-456121-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-2",
+            "revision": 1,
+            "unit_cents": 2285
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@2",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 2,
+            "unit_cents": 517
+          },
+          {
+            "id": "contract-confirmation-0-456121-1@1",
+            "key": "contract-confirmation-0-456121-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-1",
+            "revision": 1,
+            "unit_cents": 1538
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@1",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 1,
+            "unit_cents": 362
+          },
+          {
+            "id": "item-confirmation-0-456121-1@1",
+            "key": "item-confirmation-0-456121-1",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-1",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 7,
+          "task_id": "confirmation-0-s2"
+        },
+        "stage": 2
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-0-456121-2@1",
+            "item-confirmation-0-456121-0@2",
+            "tax-confirmation-0-456121-2@1"
+          ],
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 11,
+          "subtotal_cents": 25135,
+          "tax_cents": 943,
+          "total_cents": 26078
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-2@1",
+            "key": "tax-confirmation-0-456121-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-0@1",
+            "key": "item-confirmation-0-456121-0",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@2",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 2,
+            "unit_cents": 517
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@1",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 1,
+            "unit_cents": 362
+          },
+          {
+            "id": "item-confirmation-0-456121-2@1",
+            "key": "item-confirmation-0-456121-2",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-0-456121-2@1",
+            "key": "contract-confirmation-0-456121-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-2",
+            "revision": 1,
+            "unit_cents": 2285
+          },
+          {
+            "id": "contract-confirmation-0-456121-1@1",
+            "key": "contract-confirmation-0-456121-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-1",
+            "revision": 1,
+            "unit_cents": 1538
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-0@1",
+            "key": "tax-confirmation-0-456121-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-0-456121-1@1",
+            "key": "tax-confirmation-0-456121-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-1@1",
+            "key": "item-confirmation-0-456121-1",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-0@2",
+            "key": "item-confirmation-0-456121-0",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-2",
+            "revision": 2
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-0-456121-0",
+          "quantity": 11,
+          "task_id": "confirmation-0-s3"
+        },
+        "stage": 3
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-0-456121-1@1",
+            "item-confirmation-0-456121-1@1",
+            "tax-confirmation-0-456121-1@1"
+          ],
+          "item": "item-confirmation-0-456121-1",
+          "quantity": 16,
+          "subtotal_cents": 24608,
+          "tax_cents": 2399,
+          "total_cents": 27007
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-0-456121-1@1",
+            "key": "contract-confirmation-0-456121-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-1",
+            "revision": 1,
+            "unit_cents": 1538
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@1",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 1,
+            "unit_cents": 362
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-0-456121-1@1",
+            "key": "tax-confirmation-0-456121-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-0@1",
+            "key": "item-confirmation-0-456121-0",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-0",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-0@2",
+            "key": "item-confirmation-0-456121-0",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-2",
+            "revision": 2
+          },
+          {
+            "id": "contract-confirmation-0-456121-2@1",
+            "key": "contract-confirmation-0-456121-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-2",
+            "revision": 1,
+            "unit_cents": 2285
+          },
+          {
+            "id": "contract-confirmation-0-456121-0@2",
+            "key": "contract-confirmation-0-456121-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-0-456121-0",
+            "revision": 2,
+            "unit_cents": 517
+          },
+          {
+            "id": "item-confirmation-0-456121-2@1",
+            "key": "item-confirmation-0-456121-2",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-2",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-2@1",
+            "key": "tax-confirmation-0-456121-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-0-456121-1@1",
+            "key": "item-confirmation-0-456121-1",
+            "kind": "item",
+            "ref": "contract-confirmation-0-456121-1",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-0-456121-0@1",
+            "key": "tax-confirmation-0-456121-0",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-0-456121-1",
+          "quantity": 16,
+          "task_id": "confirmation-0-s4"
+        },
+        "stage": 4
+      }
+    ]
+  },
+  {
+    "id": "confirmation-1-639657",
+    "stages": [
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-1-639657-0@1",
+            "item-confirmation-1-639657-0@1",
+            "tax-confirmation-1-639657-0@1"
+          ],
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 2,
+          "subtotal_cents": 4336,
+          "tax_cents": 163,
+          "total_cents": 4499
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-1-639657-0@1",
+            "key": "tax-confirmation-1-639657-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-1-639657-2@1",
+            "key": "tax-confirmation-1-639657-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-2@1",
+            "key": "item-confirmation-1-639657-2",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-0@1",
+            "key": "item-confirmation-1-639657-0",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-0",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-1-639657-1@1",
+            "key": "tax-confirmation-1-639657-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-2@1",
+            "key": "contract-confirmation-1-639657-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-2",
+            "revision": 1,
+            "unit_cents": 758
+          },
+          {
+            "id": "item-confirmation-1-639657-1@1",
+            "key": "item-confirmation-1-639657-1",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@1",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 1,
+            "unit_cents": 2168
+          },
+          {
+            "id": "contract-confirmation-1-639657-1@1",
+            "key": "contract-confirmation-1-639657-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-1",
+            "revision": 1,
+            "unit_cents": 782
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 2,
+          "task_id": "confirmation-1-s0"
+        },
+        "stage": 0
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-1-639657-0@1",
+            "item-confirmation-1-639657-0@1",
+            "tax-confirmation-1-639657-0@1"
+          ],
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 2,
+          "subtotal_cents": 4336,
+          "tax_cents": 163,
+          "total_cents": 4499
+        },
+        "records": [
+          {
+            "bps": 625,
+            "id": "tax-confirmation-1-639657-2@1",
+            "key": "tax-confirmation-1-639657-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-2@1",
+            "key": "contract-confirmation-1-639657-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-2",
+            "revision": 1,
+            "unit_cents": 758
+          },
+          {
+            "id": "item-confirmation-1-639657-0@1",
+            "key": "item-confirmation-1-639657-0",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-0",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-1-639657-0@1",
+            "key": "tax-confirmation-1-639657-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-1@1",
+            "key": "item-confirmation-1-639657-1",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@1",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 1,
+            "unit_cents": 2168
+          },
+          {
+            "id": "contract-confirmation-1-639657-1@1",
+            "key": "contract-confirmation-1-639657-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-1",
+            "revision": 1,
+            "unit_cents": 782
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-1-639657-1@1",
+            "key": "tax-confirmation-1-639657-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-2@1",
+            "key": "item-confirmation-1-639657-2",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-2",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 2,
+          "task_id": "confirmation-1-s1"
+        },
+        "stage": 1
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-1-639657-0@2",
+            "item-confirmation-1-639657-0@1",
+            "tax-confirmation-1-639657-0@1"
+          ],
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 9,
+          "subtotal_cents": 20151,
+          "tax_cents": 756,
+          "total_cents": 20907
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-1-639657-0@1",
+            "key": "tax-confirmation-1-639657-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-0@1",
+            "key": "item-confirmation-1-639657-0",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@2",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 2,
+            "unit_cents": 2239
+          },
+          {
+            "id": "item-confirmation-1-639657-2@1",
+            "key": "item-confirmation-1-639657-2",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-1@1",
+            "key": "item-confirmation-1-639657-1",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-1@1",
+            "key": "contract-confirmation-1-639657-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-1",
+            "revision": 1,
+            "unit_cents": 782
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@1",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 1,
+            "unit_cents": 2168
+          },
+          {
+            "id": "contract-confirmation-1-639657-2@1",
+            "key": "contract-confirmation-1-639657-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-2",
+            "revision": 1,
+            "unit_cents": 758
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-1-639657-1@1",
+            "key": "tax-confirmation-1-639657-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-1-639657-2@1",
+            "key": "tax-confirmation-1-639657-2",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 9,
+          "task_id": "confirmation-1-s2"
+        },
+        "stage": 2
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-1-639657-2@1",
+            "item-confirmation-1-639657-0@2",
+            "tax-confirmation-1-639657-2@1"
+          ],
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 13,
+          "subtotal_cents": 9854,
+          "tax_cents": 616,
+          "total_cents": 10470
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-1-639657-0@1",
+            "key": "tax-confirmation-1-639657-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@2",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 2,
+            "unit_cents": 2239
+          },
+          {
+            "id": "item-confirmation-1-639657-0@2",
+            "key": "item-confirmation-1-639657-0",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-2",
+            "revision": 2
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@1",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 1,
+            "unit_cents": 2168
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-1-639657-1@1",
+            "key": "tax-confirmation-1-639657-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-0@1",
+            "key": "item-confirmation-1-639657-0",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-2@1",
+            "key": "contract-confirmation-1-639657-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-2",
+            "revision": 1,
+            "unit_cents": 758
+          },
+          {
+            "id": "contract-confirmation-1-639657-1@1",
+            "key": "contract-confirmation-1-639657-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-1",
+            "revision": 1,
+            "unit_cents": 782
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-1-639657-2@1",
+            "key": "tax-confirmation-1-639657-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-2@1",
+            "key": "item-confirmation-1-639657-2",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-1@1",
+            "key": "item-confirmation-1-639657-1",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-1",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-1-639657-0",
+          "quantity": 13,
+          "task_id": "confirmation-1-s3"
+        },
+        "stage": 3
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-1-639657-1@1",
+            "item-confirmation-1-639657-1@1",
+            "tax-confirmation-1-639657-1@1"
+          ],
+          "item": "item-confirmation-1-639657-1",
+          "quantity": 16,
+          "subtotal_cents": 12512,
+          "tax_cents": 1220,
+          "total_cents": 13732
+        },
+        "records": [
+          {
+            "id": "item-confirmation-1-639657-1@1",
+            "key": "item-confirmation-1-639657-1",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-2@1",
+            "key": "contract-confirmation-1-639657-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-2",
+            "revision": 1,
+            "unit_cents": 758
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@1",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 1,
+            "unit_cents": 2168
+          },
+          {
+            "id": "contract-confirmation-1-639657-0@2",
+            "key": "contract-confirmation-1-639657-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-0",
+            "revision": 2,
+            "unit_cents": 2239
+          },
+          {
+            "id": "item-confirmation-1-639657-2@1",
+            "key": "item-confirmation-1-639657-2",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-0@1",
+            "key": "item-confirmation-1-639657-0",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-0",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-1-639657-0@1",
+            "key": "tax-confirmation-1-639657-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-1-639657-1@1",
+            "key": "contract-confirmation-1-639657-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-1-639657-1",
+            "revision": 1,
+            "unit_cents": 782
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-1-639657-2@1",
+            "key": "tax-confirmation-1-639657-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-1-639657-0@2",
+            "key": "item-confirmation-1-639657-0",
+            "kind": "item",
+            "ref": "contract-confirmation-1-639657-2",
+            "revision": 2
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-1-639657-1@1",
+            "key": "tax-confirmation-1-639657-1",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-1-639657-1",
+          "quantity": 16,
+          "task_id": "confirmation-1-s4"
+        },
+        "stage": 4
+      }
+    ]
+  },
+  {
+    "id": "confirmation-2-561701",
+    "stages": [
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-2-561701-0@1",
+            "item-confirmation-2-561701-0@1",
+            "tax-confirmation-2-561701-0@1"
+          ],
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 9,
+          "subtotal_cents": 6543,
+          "tax_cents": 638,
+          "total_cents": 7181
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-2-561701-0@1",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 1,
+            "unit_cents": 727
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-0@1",
+            "key": "tax-confirmation-2-561701-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-0@1",
+            "key": "item-confirmation-2-561701-0",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-0",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-2@1",
+            "key": "item-confirmation-2-561701-2",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-2@1",
+            "key": "contract-confirmation-2-561701-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-2",
+            "revision": 1,
+            "unit_cents": 2270
+          },
+          {
+            "id": "item-confirmation-2-561701-1@1",
+            "key": "item-confirmation-2-561701-1",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-1",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-1@1",
+            "key": "tax-confirmation-2-561701-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-2-561701-2@1",
+            "key": "tax-confirmation-2-561701-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-1@1",
+            "key": "contract-confirmation-2-561701-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-1",
+            "revision": 1,
+            "unit_cents": 1345
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 9,
+          "task_id": "confirmation-2-s0"
+        },
+        "stage": 0
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-2-561701-0@1",
+            "item-confirmation-2-561701-0@1",
+            "tax-confirmation-2-561701-0@1"
+          ],
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 9,
+          "subtotal_cents": 6543,
+          "tax_cents": 638,
+          "total_cents": 7181
+        },
+        "records": [
+          {
+            "id": "item-confirmation-2-561701-1@1",
+            "key": "item-confirmation-2-561701-1",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-1",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-0@1",
+            "key": "tax-confirmation-2-561701-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-2@1",
+            "key": "contract-confirmation-2-561701-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-2",
+            "revision": 1,
+            "unit_cents": 2270
+          },
+          {
+            "id": "item-confirmation-2-561701-0@1",
+            "key": "item-confirmation-2-561701-0",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-0@1",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 1,
+            "unit_cents": 727
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-2-561701-2@1",
+            "key": "tax-confirmation-2-561701-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-2@1",
+            "key": "item-confirmation-2-561701-2",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-2",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-1@1",
+            "key": "tax-confirmation-2-561701-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-1@1",
+            "key": "contract-confirmation-2-561701-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-1",
+            "revision": 1,
+            "unit_cents": 1345
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 9,
+          "task_id": "confirmation-2-s1"
+        },
+        "stage": 1
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-2-561701-0@2",
+            "item-confirmation-2-561701-0@1",
+            "tax-confirmation-2-561701-0@1"
+          ],
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 8,
+          "subtotal_cents": 6672,
+          "tax_cents": 651,
+          "total_cents": 7323
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-2-561701-1@1",
+            "key": "contract-confirmation-2-561701-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-1",
+            "revision": 1,
+            "unit_cents": 1345
+          },
+          {
+            "id": "contract-confirmation-2-561701-0@2",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 2,
+            "unit_cents": 834
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-0@1",
+            "key": "tax-confirmation-2-561701-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-2@1",
+            "key": "contract-confirmation-2-561701-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-2",
+            "revision": 1,
+            "unit_cents": 2270
+          },
+          {
+            "id": "item-confirmation-2-561701-0@1",
+            "key": "item-confirmation-2-561701-0",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-0",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-1@1",
+            "key": "tax-confirmation-2-561701-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-2-561701-2@1",
+            "key": "tax-confirmation-2-561701-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-2@1",
+            "key": "item-confirmation-2-561701-2",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-0@1",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 1,
+            "unit_cents": 727
+          },
+          {
+            "id": "item-confirmation-2-561701-1@1",
+            "key": "item-confirmation-2-561701-1",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-1",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 8,
+          "task_id": "confirmation-2-s2"
+        },
+        "stage": 2
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-2-561701-2@1",
+            "item-confirmation-2-561701-0@2",
+            "tax-confirmation-2-561701-2@1"
+          ],
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 3,
+          "subtotal_cents": 6810,
+          "tax_cents": 562,
+          "total_cents": 7372
+        },
+        "records": [
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-0@1",
+            "key": "tax-confirmation-2-561701-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-2@1",
+            "key": "contract-confirmation-2-561701-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-2",
+            "revision": 1,
+            "unit_cents": 2270
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-2-561701-2@1",
+            "key": "tax-confirmation-2-561701-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-1@1",
+            "key": "tax-confirmation-2-561701-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-0@1",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 1,
+            "unit_cents": 727
+          },
+          {
+            "id": "contract-confirmation-2-561701-1@1",
+            "key": "contract-confirmation-2-561701-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-1",
+            "revision": 1,
+            "unit_cents": 1345
+          },
+          {
+            "id": "item-confirmation-2-561701-0@1",
+            "key": "item-confirmation-2-561701-0",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-0",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-1@1",
+            "key": "item-confirmation-2-561701-1",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-2@1",
+            "key": "item-confirmation-2-561701-2",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-0@2",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 2,
+            "unit_cents": 834
+          },
+          {
+            "id": "item-confirmation-2-561701-0@2",
+            "key": "item-confirmation-2-561701-0",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-2",
+            "revision": 2
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-2-561701-0",
+          "quantity": 3,
+          "task_id": "confirmation-2-s3"
+        },
+        "stage": 3
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-2-561701-1@1",
+            "item-confirmation-2-561701-1@1",
+            "tax-confirmation-2-561701-1@1"
+          ],
+          "item": "item-confirmation-2-561701-1",
+          "quantity": 12,
+          "subtotal_cents": 16140,
+          "tax_cents": 1574,
+          "total_cents": 17714
+        },
+        "records": [
+          {
+            "bps": 825,
+            "id": "tax-confirmation-2-561701-2@1",
+            "key": "tax-confirmation-2-561701-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-1@1",
+            "key": "item-confirmation-2-561701-1",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-1@1",
+            "key": "contract-confirmation-2-561701-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-1",
+            "revision": 1,
+            "unit_cents": 1345
+          },
+          {
+            "id": "contract-confirmation-2-561701-0@1",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 1,
+            "unit_cents": 727
+          },
+          {
+            "id": "item-confirmation-2-561701-0@2",
+            "key": "item-confirmation-2-561701-0",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-2",
+            "revision": 2
+          },
+          {
+            "id": "contract-confirmation-2-561701-2@1",
+            "key": "contract-confirmation-2-561701-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-2",
+            "revision": 1,
+            "unit_cents": 2270
+          },
+          {
+            "id": "item-confirmation-2-561701-0@1",
+            "key": "item-confirmation-2-561701-0",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-0",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-2-561701-2@1",
+            "key": "item-confirmation-2-561701-2",
+            "kind": "item",
+            "ref": "contract-confirmation-2-561701-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-2-561701-0@2",
+            "key": "contract-confirmation-2-561701-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-2-561701-0",
+            "revision": 2,
+            "unit_cents": 834
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-0@1",
+            "key": "tax-confirmation-2-561701-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-2-561701-1@1",
+            "key": "tax-confirmation-2-561701-1",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-2-561701-1",
+          "quantity": 12,
+          "task_id": "confirmation-2-s4"
+        },
+        "stage": 4
+      }
+    ]
+  },
+  {
+    "id": "confirmation-3-468299",
+    "stages": [
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-3-468299-0@1",
+            "item-confirmation-3-468299-0@1",
+            "tax-confirmation-3-468299-0@1"
+          ],
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 17,
+          "subtotal_cents": 23035,
+          "tax_cents": 2246,
+          "total_cents": 25281
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-1@1",
+            "key": "tax-confirmation-3-468299-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-1@1",
+            "key": "item-confirmation-3-468299-1",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-0@1",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 1,
+            "unit_cents": 1355
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-2@1",
+            "key": "tax-confirmation-3-468299-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-0@1",
+            "key": "item-confirmation-3-468299-0",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-2@1",
+            "key": "contract-confirmation-3-468299-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-2",
+            "revision": 1,
+            "unit_cents": 1545
+          },
+          {
+            "id": "item-confirmation-3-468299-2@1",
+            "key": "item-confirmation-3-468299-2",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-1@1",
+            "key": "contract-confirmation-3-468299-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-1",
+            "revision": 1,
+            "unit_cents": 881
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-3-468299-0@1",
+            "key": "tax-confirmation-3-468299-0",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 17,
+          "task_id": "confirmation-3-s0"
+        },
+        "stage": 0
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-3-468299-0@1",
+            "item-confirmation-3-468299-0@1",
+            "tax-confirmation-3-468299-0@1"
+          ],
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 17,
+          "subtotal_cents": 23035,
+          "tax_cents": 2246,
+          "total_cents": 25281
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-1@1",
+            "key": "tax-confirmation-3-468299-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-1@1",
+            "key": "contract-confirmation-3-468299-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-1",
+            "revision": 1,
+            "unit_cents": 881
+          },
+          {
+            "id": "contract-confirmation-3-468299-2@1",
+            "key": "contract-confirmation-3-468299-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-2",
+            "revision": 1,
+            "unit_cents": 1545
+          },
+          {
+            "id": "item-confirmation-3-468299-1@1",
+            "key": "item-confirmation-3-468299-1",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-0@1",
+            "key": "item-confirmation-3-468299-0",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-0",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-2@1",
+            "key": "tax-confirmation-3-468299-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-3-468299-0@1",
+            "key": "tax-confirmation-3-468299-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-2@1",
+            "key": "item-confirmation-3-468299-2",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-0@1",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 1,
+            "unit_cents": 1355
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 17,
+          "task_id": "confirmation-3-s1"
+        },
+        "stage": 1
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-3-468299-0@2",
+            "item-confirmation-3-468299-0@1",
+            "tax-confirmation-3-468299-0@1"
+          ],
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 8,
+          "subtotal_cents": 12272,
+          "tax_cents": 1197,
+          "total_cents": 13469
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-1@1",
+            "key": "tax-confirmation-3-468299-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-2@1",
+            "key": "item-confirmation-3-468299-2",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-2@1",
+            "key": "contract-confirmation-3-468299-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-2",
+            "revision": 1,
+            "unit_cents": 1545
+          },
+          {
+            "id": "item-confirmation-3-468299-0@1",
+            "key": "item-confirmation-3-468299-0",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-0",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-3-468299-0@1",
+            "key": "tax-confirmation-3-468299-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-1@1",
+            "key": "contract-confirmation-3-468299-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-1",
+            "revision": 1,
+            "unit_cents": 881
+          },
+          {
+            "id": "contract-confirmation-3-468299-0@2",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 2,
+            "unit_cents": 1534
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-2@1",
+            "key": "tax-confirmation-3-468299-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-1@1",
+            "key": "item-confirmation-3-468299-1",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-0@1",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 1,
+            "unit_cents": 1355
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 8,
+          "task_id": "confirmation-3-s2"
+        },
+        "stage": 2
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-3-468299-2@1",
+            "item-confirmation-3-468299-0@2",
+            "tax-confirmation-3-468299-2@1"
+          ],
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 3,
+          "subtotal_cents": 4635,
+          "tax_cents": 174,
+          "total_cents": 4809
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-3-468299-0@1",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 1,
+            "unit_cents": 1355
+          },
+          {
+            "id": "contract-confirmation-3-468299-2@1",
+            "key": "contract-confirmation-3-468299-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-2",
+            "revision": 1,
+            "unit_cents": 1545
+          },
+          {
+            "id": "item-confirmation-3-468299-0@1",
+            "key": "item-confirmation-3-468299-0",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-0",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-2@1",
+            "key": "item-confirmation-3-468299-2",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-1@1",
+            "key": "contract-confirmation-3-468299-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-1",
+            "revision": 1,
+            "unit_cents": 881
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-3-468299-0@1",
+            "key": "tax-confirmation-3-468299-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-2@1",
+            "key": "tax-confirmation-3-468299-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-1@1",
+            "key": "tax-confirmation-3-468299-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-0@2",
+            "key": "item-confirmation-3-468299-0",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-2",
+            "revision": 2
+          },
+          {
+            "id": "item-confirmation-3-468299-1@1",
+            "key": "item-confirmation-3-468299-1",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-0@2",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 2,
+            "unit_cents": 1534
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-3-468299-0",
+          "quantity": 3,
+          "task_id": "confirmation-3-s3"
+        },
+        "stage": 3
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-3-468299-1@1",
+            "item-confirmation-3-468299-1@1",
+            "tax-confirmation-3-468299-1@1"
+          ],
+          "item": "item-confirmation-3-468299-1",
+          "quantity": 19,
+          "subtotal_cents": 16739,
+          "tax_cents": 628,
+          "total_cents": 17367
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-3-468299-1@1",
+            "key": "contract-confirmation-3-468299-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-1",
+            "revision": 1,
+            "unit_cents": 881
+          },
+          {
+            "id": "item-confirmation-3-468299-0@1",
+            "key": "item-confirmation-3-468299-0",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-0",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-3-468299-0@1",
+            "key": "tax-confirmation-3-468299-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-1@1",
+            "key": "tax-confirmation-3-468299-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-3-468299-2@1",
+            "key": "contract-confirmation-3-468299-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-2",
+            "revision": 1,
+            "unit_cents": 1545
+          },
+          {
+            "id": "contract-confirmation-3-468299-0@1",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 1,
+            "unit_cents": 1355
+          },
+          {
+            "id": "contract-confirmation-3-468299-0@2",
+            "key": "contract-confirmation-3-468299-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-3-468299-0",
+            "revision": 2,
+            "unit_cents": 1534
+          },
+          {
+            "id": "item-confirmation-3-468299-0@2",
+            "key": "item-confirmation-3-468299-0",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-2",
+            "revision": 2
+          },
+          {
+            "id": "item-confirmation-3-468299-2@1",
+            "key": "item-confirmation-3-468299-2",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-2",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-3-468299-2@1",
+            "key": "tax-confirmation-3-468299-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-3-468299-1@1",
+            "key": "item-confirmation-3-468299-1",
+            "kind": "item",
+            "ref": "contract-confirmation-3-468299-1",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-3-468299-1",
+          "quantity": 19,
+          "task_id": "confirmation-3-s4"
+        },
+        "stage": 4
+      }
+    ]
+  },
+  {
+    "id": "confirmation-4-463067",
+    "stages": [
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-4-463067-0@1",
+            "item-confirmation-4-463067-0@1",
+            "tax-confirmation-4-463067-0@1"
+          ],
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 9,
+          "subtotal_cents": 5238,
+          "tax_cents": 196,
+          "total_cents": 5434
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-0@1",
+            "key": "tax-confirmation-4-463067-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-1@1",
+            "key": "contract-confirmation-4-463067-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-1",
+            "revision": 1,
+            "unit_cents": 1072
+          },
+          {
+            "id": "item-confirmation-4-463067-0@1",
+            "key": "item-confirmation-4-463067-0",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-0",
+            "revision": 1
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-4-463067-1@1",
+            "key": "tax-confirmation-4-463067-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-2@1",
+            "key": "item-confirmation-4-463067-2",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-1@1",
+            "key": "item-confirmation-4-463067-1",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-1",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-2@1",
+            "key": "tax-confirmation-4-463067-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@1",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 1,
+            "unit_cents": 582
+          },
+          {
+            "id": "contract-confirmation-4-463067-2@1",
+            "key": "contract-confirmation-4-463067-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-2",
+            "revision": 1,
+            "unit_cents": 788
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 9,
+          "task_id": "confirmation-4-s0"
+        },
+        "stage": 0
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-4-463067-0@1",
+            "item-confirmation-4-463067-0@1",
+            "tax-confirmation-4-463067-0@1"
+          ],
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 9,
+          "subtotal_cents": 5238,
+          "tax_cents": 196,
+          "total_cents": 5434
+        },
+        "records": [
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-0@1",
+            "key": "tax-confirmation-4-463067-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@1",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 1,
+            "unit_cents": 582
+          },
+          {
+            "id": "contract-confirmation-4-463067-1@1",
+            "key": "contract-confirmation-4-463067-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-1",
+            "revision": 1,
+            "unit_cents": 1072
+          },
+          {
+            "id": "item-confirmation-4-463067-1@1",
+            "key": "item-confirmation-4-463067-1",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-1",
+            "revision": 1
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-4-463067-1@1",
+            "key": "tax-confirmation-4-463067-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-2@1",
+            "key": "item-confirmation-4-463067-2",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-0@1",
+            "key": "item-confirmation-4-463067-0",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-0",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-2@1",
+            "key": "tax-confirmation-4-463067-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-2@1",
+            "key": "contract-confirmation-4-463067-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-2",
+            "revision": 1,
+            "unit_cents": 788
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 9,
+          "task_id": "confirmation-4-s1"
+        },
+        "stage": 1
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-4-463067-0@2",
+            "item-confirmation-4-463067-0@1",
+            "tax-confirmation-4-463067-0@1"
+          ],
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 8,
+          "subtotal_cents": 6080,
+          "tax_cents": 228,
+          "total_cents": 6308
+        },
+        "records": [
+          {
+            "bps": 825,
+            "id": "tax-confirmation-4-463067-1@1",
+            "key": "tax-confirmation-4-463067-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-0@1",
+            "key": "tax-confirmation-4-463067-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-2@1",
+            "key": "tax-confirmation-4-463067-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-2@1",
+            "key": "contract-confirmation-4-463067-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-2",
+            "revision": 1,
+            "unit_cents": 788
+          },
+          {
+            "id": "item-confirmation-4-463067-1@1",
+            "key": "item-confirmation-4-463067-1",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-2@1",
+            "key": "item-confirmation-4-463067-2",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@2",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 2,
+            "unit_cents": 760
+          },
+          {
+            "id": "item-confirmation-4-463067-0@1",
+            "key": "item-confirmation-4-463067-0",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@1",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 1,
+            "unit_cents": 582
+          },
+          {
+            "id": "contract-confirmation-4-463067-1@1",
+            "key": "contract-confirmation-4-463067-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-1",
+            "revision": 1,
+            "unit_cents": 1072
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 8,
+          "task_id": "confirmation-4-s2"
+        },
+        "stage": 2
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-4-463067-2@1",
+            "item-confirmation-4-463067-0@2",
+            "tax-confirmation-4-463067-2@1"
+          ],
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 18,
+          "subtotal_cents": 14184,
+          "tax_cents": 532,
+          "total_cents": 14716
+        },
+        "records": [
+          {
+            "id": "item-confirmation-4-463067-0@2",
+            "key": "item-confirmation-4-463067-0",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-2",
+            "revision": 2
+          },
+          {
+            "id": "contract-confirmation-4-463067-2@1",
+            "key": "contract-confirmation-4-463067-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-2",
+            "revision": 1,
+            "unit_cents": 788
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@2",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 2,
+            "unit_cents": 760
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-4-463067-1@1",
+            "key": "tax-confirmation-4-463067-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-1@1",
+            "key": "contract-confirmation-4-463067-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-1",
+            "revision": 1,
+            "unit_cents": 1072
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-0@1",
+            "key": "tax-confirmation-4-463067-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-1@1",
+            "key": "item-confirmation-4-463067-1",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-2@1",
+            "key": "item-confirmation-4-463067-2",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-0@1",
+            "key": "item-confirmation-4-463067-0",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@1",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 1,
+            "unit_cents": 582
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-2@1",
+            "key": "tax-confirmation-4-463067-2",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-4-463067-0",
+          "quantity": 18,
+          "task_id": "confirmation-4-s3"
+        },
+        "stage": 3
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-4-463067-1@1",
+            "item-confirmation-4-463067-1@1",
+            "tax-confirmation-4-463067-1@1"
+          ],
+          "item": "item-confirmation-4-463067-1",
+          "quantity": 15,
+          "subtotal_cents": 16080,
+          "tax_cents": 1327,
+          "total_cents": 17407
+        },
+        "records": [
+          {
+            "bps": 825,
+            "id": "tax-confirmation-4-463067-1@1",
+            "key": "tax-confirmation-4-463067-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@2",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 2,
+            "unit_cents": 760
+          },
+          {
+            "id": "contract-confirmation-4-463067-0@1",
+            "key": "contract-confirmation-4-463067-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-0",
+            "revision": 1,
+            "unit_cents": 582
+          },
+          {
+            "id": "item-confirmation-4-463067-1@1",
+            "key": "item-confirmation-4-463067-1",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-0@1",
+            "key": "item-confirmation-4-463067-0",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-4-463067-2@1",
+            "key": "contract-confirmation-4-463067-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-2",
+            "revision": 1,
+            "unit_cents": 788
+          },
+          {
+            "id": "contract-confirmation-4-463067-1@1",
+            "key": "contract-confirmation-4-463067-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-4-463067-1",
+            "revision": 1,
+            "unit_cents": 1072
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-0@1",
+            "key": "tax-confirmation-4-463067-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-2@1",
+            "key": "item-confirmation-4-463067-2",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-4-463067-0@2",
+            "key": "item-confirmation-4-463067-0",
+            "kind": "item",
+            "ref": "contract-confirmation-4-463067-2",
+            "revision": 2
+          },
+          {
+            "bps": 375,
+            "id": "tax-confirmation-4-463067-2@1",
+            "key": "tax-confirmation-4-463067-2",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-4-463067-1",
+          "quantity": 15,
+          "task_id": "confirmation-4-s4"
+        },
+        "stage": 4
+      }
+    ]
+  },
+  {
+    "id": "confirmation-5-717421",
+    "stages": [
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-5-717421-0@1",
+            "item-confirmation-5-717421-0@1",
+            "tax-confirmation-5-717421-0@1"
+          ],
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 9,
+          "subtotal_cents": 6309,
+          "tax_cents": 394,
+          "total_cents": 6703
+        },
+        "records": [
+          {
+            "bps": 825,
+            "id": "tax-confirmation-5-717421-2@1",
+            "key": "tax-confirmation-5-717421-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-1@1",
+            "key": "contract-confirmation-5-717421-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-1",
+            "revision": 1,
+            "unit_cents": 1549
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-5-717421-1@1",
+            "key": "tax-confirmation-5-717421-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-0@1",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 1,
+            "unit_cents": 701
+          },
+          {
+            "id": "item-confirmation-5-717421-0@1",
+            "key": "item-confirmation-5-717421-0",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-2@1",
+            "key": "contract-confirmation-5-717421-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-2",
+            "revision": 1,
+            "unit_cents": 1509
+          },
+          {
+            "id": "item-confirmation-5-717421-1@1",
+            "key": "item-confirmation-5-717421-1",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-2@1",
+            "key": "item-confirmation-5-717421-2",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-2",
+            "revision": 1
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-5-717421-0@1",
+            "key": "tax-confirmation-5-717421-0",
+            "kind": "tax",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 9,
+          "task_id": "confirmation-5-s0"
+        },
+        "stage": 0
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-5-717421-0@1",
+            "item-confirmation-5-717421-0@1",
+            "tax-confirmation-5-717421-0@1"
+          ],
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 9,
+          "subtotal_cents": 6309,
+          "tax_cents": 394,
+          "total_cents": 6703
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-5-717421-0@1",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 1,
+            "unit_cents": 701
+          },
+          {
+            "id": "item-confirmation-5-717421-0@1",
+            "key": "item-confirmation-5-717421-0",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-0",
+            "revision": 1
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-5-717421-1@1",
+            "key": "tax-confirmation-5-717421-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-2@1",
+            "key": "contract-confirmation-5-717421-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-2",
+            "revision": 1,
+            "unit_cents": 1509
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-5-717421-0@1",
+            "key": "tax-confirmation-5-717421-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-5-717421-2@1",
+            "key": "tax-confirmation-5-717421-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-1@1",
+            "key": "contract-confirmation-5-717421-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-1",
+            "revision": 1,
+            "unit_cents": 1549
+          },
+          {
+            "id": "item-confirmation-5-717421-2@1",
+            "key": "item-confirmation-5-717421-2",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-2",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-1@1",
+            "key": "item-confirmation-5-717421-1",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-1",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 9,
+          "task_id": "confirmation-5-s1"
+        },
+        "stage": 1
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-5-717421-0@2",
+            "item-confirmation-5-717421-0@1",
+            "tax-confirmation-5-717421-0@1"
+          ],
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 6,
+          "subtotal_cents": 4824,
+          "tax_cents": 302,
+          "total_cents": 5126
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-5-717421-1@1",
+            "key": "contract-confirmation-5-717421-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-1",
+            "revision": 1,
+            "unit_cents": 1549
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-5-717421-1@1",
+            "key": "tax-confirmation-5-717421-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-0@1",
+            "key": "item-confirmation-5-717421-0",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-0",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-2@1",
+            "key": "item-confirmation-5-717421-2",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-2",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-0@1",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 1,
+            "unit_cents": 701
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-5-717421-0@1",
+            "key": "tax-confirmation-5-717421-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-0@2",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 2,
+            "unit_cents": 804
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-5-717421-2@1",
+            "key": "tax-confirmation-5-717421-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-2@1",
+            "key": "contract-confirmation-5-717421-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-2",
+            "revision": 1,
+            "unit_cents": 1509
+          },
+          {
+            "id": "item-confirmation-5-717421-1@1",
+            "key": "item-confirmation-5-717421-1",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-1",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 6,
+          "task_id": "confirmation-5-s2"
+        },
+        "stage": 2
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-5-717421-2@1",
+            "item-confirmation-5-717421-0@2",
+            "tax-confirmation-5-717421-2@1"
+          ],
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 9,
+          "subtotal_cents": 13581,
+          "tax_cents": 1120,
+          "total_cents": 14701
+        },
+        "records": [
+          {
+            "bps": 975,
+            "id": "tax-confirmation-5-717421-1@1",
+            "key": "tax-confirmation-5-717421-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-2@1",
+            "key": "item-confirmation-5-717421-2",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-2",
+            "revision": 1
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-5-717421-0@1",
+            "key": "tax-confirmation-5-717421-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-5-717421-2@1",
+            "key": "tax-confirmation-5-717421-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-0@2",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 2,
+            "unit_cents": 804
+          },
+          {
+            "id": "contract-confirmation-5-717421-0@1",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 1,
+            "unit_cents": 701
+          },
+          {
+            "id": "item-confirmation-5-717421-1@1",
+            "key": "item-confirmation-5-717421-1",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-1",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-0@1",
+            "key": "item-confirmation-5-717421-0",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-0",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-2@1",
+            "key": "contract-confirmation-5-717421-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-2",
+            "revision": 1,
+            "unit_cents": 1509
+          },
+          {
+            "id": "item-confirmation-5-717421-0@2",
+            "key": "item-confirmation-5-717421-0",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-2",
+            "revision": 2
+          },
+          {
+            "id": "contract-confirmation-5-717421-1@1",
+            "key": "contract-confirmation-5-717421-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-1",
+            "revision": 1,
+            "unit_cents": 1549
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-5-717421-0",
+          "quantity": 9,
+          "task_id": "confirmation-5-s3"
+        },
+        "stage": 3
+      },
+      {
+        "expected": {
+          "citations": [
+            "contract-confirmation-5-717421-1@1",
+            "item-confirmation-5-717421-1@1",
+            "tax-confirmation-5-717421-1@1"
+          ],
+          "item": "item-confirmation-5-717421-1",
+          "quantity": 14,
+          "subtotal_cents": 21686,
+          "tax_cents": 2114,
+          "total_cents": 23800
+        },
+        "records": [
+          {
+            "id": "contract-confirmation-5-717421-0@1",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 1,
+            "unit_cents": 701
+          },
+          {
+            "bps": 975,
+            "id": "tax-confirmation-5-717421-1@1",
+            "key": "tax-confirmation-5-717421-1",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "bps": 825,
+            "id": "tax-confirmation-5-717421-2@1",
+            "key": "tax-confirmation-5-717421-2",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-2@1",
+            "key": "contract-confirmation-5-717421-2",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-2",
+            "revision": 1,
+            "unit_cents": 1509
+          },
+          {
+            "id": "contract-confirmation-5-717421-0@2",
+            "key": "contract-confirmation-5-717421-0",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-0",
+            "revision": 2,
+            "unit_cents": 804
+          },
+          {
+            "id": "item-confirmation-5-717421-1@1",
+            "key": "item-confirmation-5-717421-1",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-1",
+            "revision": 1
+          },
+          {
+            "id": "contract-confirmation-5-717421-1@1",
+            "key": "contract-confirmation-5-717421-1",
+            "kind": "contract",
+            "ref": "tax-confirmation-5-717421-1",
+            "revision": 1,
+            "unit_cents": 1549
+          },
+          {
+            "id": "item-confirmation-5-717421-0@1",
+            "key": "item-confirmation-5-717421-0",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-0",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-0@2",
+            "key": "item-confirmation-5-717421-0",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-2",
+            "revision": 2
+          },
+          {
+            "bps": 625,
+            "id": "tax-confirmation-5-717421-0@1",
+            "key": "tax-confirmation-5-717421-0",
+            "kind": "tax",
+            "revision": 1
+          },
+          {
+            "id": "item-confirmation-5-717421-2@1",
+            "key": "item-confirmation-5-717421-2",
+            "kind": "item",
+            "ref": "contract-confirmation-5-717421-2",
+            "revision": 1
+          }
+        ],
+        "request": {
+          "item": "item-confirmation-5-717421-1",
+          "quantity": 14,
+          "task_id": "confirmation-5-s4"
+        },
+        "stage": 4
+      }
+    ]
+  }
+]
