@@ -288,11 +288,11 @@ def acquire(data):
                          proposal_policy='24 random + ordinary closure + all omissions and single supersets')
 
 
-def fit(data, attempts, grammar):
+def fit(data, attempts, grammar, balanced=False):
     start=time.perf_counter(); by_episode={}
     for attempt in attempts:
         by_episode.setdefault(attempt['episode'], []).append(attempt)
-    differences=[]; pair_types={'complete_over_failed':0,'shorter_success':0}
+    differences=[]; kinds=[]; pair_types={'complete_over_failed':0,'shorter_success':0}
     for history in data:
         for ep in history['episodes']:
             rep=represent(ep['request'],ep['records'],grammar)
@@ -309,8 +309,9 @@ def fit(data, attempts, grammar):
                 for j,b in enumerate(rows):
                     kind = 'complete_over_failed' if not b['complete'] else 'shorter_success'
                     if not b['complete'] or a['size'] < b['size']:
-                        differences.append(features[i]-features[j]); pair_types[kind]+=1
+                        differences.append(features[i]-features[j]); pair_types[kind]+=1;kinds.append(kind)
     x=torch.tensor(np.array(differences),dtype=torch.float64)
+    pair_weight=torch.tensor([len(kinds)/(2*pair_types[k]) if balanced else 1. for k in kinds],dtype=torch.float64)
     # Four coefficients: smallest functioning structured specialist, no pretraining.
     initial=np.random.default_rng(23).normal(0,.2,4)
     w=torch.tensor(initial,dtype=torch.float64,requires_grad=True)
@@ -318,11 +319,11 @@ def fit(data, attempts, grammar):
     trace=[]
     for step in range(400):
         optimizer.zero_grad()
-        loss=torch.nn.functional.softplus(x@w + 1).mean()+.0001*w.square().sum()
+        loss=(pair_weight*torch.nn.functional.softplus(x@w + 1)).mean()+.0001*w.square().sum()
         loss.backward(); optimizer.step()
         if step in [0,49,99,199,399]:
             trace.append(dict(step=step+1,loss=float(loss.detach()),weights=w.detach().tolist()))
-    return dict(grammar=grammar,weights=w.detach().tolist(),initial=initial.tolist(),
+    return dict(grammar=grammar,balanced_pair_classes=balanced,weights=w.detach().tolist(),initial=initial.tolist(),
                 train=dict(seconds=time.perf_counter()-start,optimizer_steps=400,
                            pairs=len(differences),pair_types=pair_types,
                            pair_presentations=400*len(differences),trace=trace))
@@ -334,14 +335,20 @@ def evaluate(data, model, grammar, methods):
         for history in data:
             cache={}
             for ep in history['episodes']:
-                rep=represent(ep['request'],ep['records'],grammar)
+                # Cache validation/full execution do not need a dependency graph.
+                eligibility_start=time.perf_counter()
+                pool=eligible(ep['request'],ep['records'])
+                eligibility_seconds=time.perf_counter()-eligibility_start
                 key=json.dumps(ep['request'],sort_keys=True)
-                current_ids={r['id'] for r in rep['pool']}
+                current_ids={r['id'] for r in pool}
                 entry=cache.get(key)
                 hit=entry is not None and set(entry['ids']) <= current_ids
                 invalidated=entry is not None and not hit
                 work=dict(seconds=0.,discrete_evaluations=0,gradient_steps=0)
-                rep_seconds=rep['seconds']
+                rep=dict(pool=pool,seconds=0.,option_characters_scanned=0)
+                if not hit and method!='all':
+                    rep=represent(ep['request'],ep['records'],grammar)
+                rep_seconds=rep['seconds']+eligibility_seconds
                 if hit:
                     rows=[r for r in rep['pool'] if r['id'] in entry['ids']]
                     answer=dict(value=entry['value'],seconds=0.)
@@ -406,6 +413,18 @@ def evaluate(data, model, grammar, methods):
     return outcomes,summary
 
 
+def refit(out, development):
+    out=fresh(out); source=Path(development)
+    data=load(source/'histories.json');attempts=load(source/'attempts.json')
+    model=fit(data,attempts,'native_syntax',balanced=True)
+    dump(out/'native_syntax-model.json',model)
+    rows,summary=evaluate(data,model,'native_syntax',['ordinary','all','untrained','exact','relax','relax_flip'])
+    dump(out/'outcomes.json',rows);dump(out/'summary.json',summary)
+    dump(out/'provenance.json',dict(provenance(),reused_feedback={str(p.relative_to(ROOT)):sha(p)
+                      for p in [source/'histories.json',source/'attempts.json']},new_label_executions=0))
+    print(json.dumps(summary,indent=2))
+
+
 def provenance():
     return dict(python=sys.version,torch=torch.__version__,numpy=np.__version__,platform=platform.platform(),
                 configparser_sha256=sha(configparser.__file__),configparser_path=configparser.__file__,
@@ -460,10 +479,11 @@ def confirm(out, frozen):
 
 if __name__=='__main__':
     torch.set_num_threads(2)
-    parser=argparse.ArgumentParser();parser.add_argument('command',choices=['develop','freeze','confirm'])
+    parser=argparse.ArgumentParser();parser.add_argument('command',choices=['develop','refit','freeze','confirm'])
     parser.add_argument('--out',required=True);parser.add_argument('--development',default=str(ROOT/'phase5/runs/development'))
     parser.add_argument('--freeze',default=str(ROOT/'phase5/freeze.json'))
     args=parser.parse_args()
     if args.command=='develop':develop(args.out)
+    elif args.command=='refit':refit(args.out,args.development)
     elif args.command=='freeze':freeze(args.out,args.development)
     else:confirm(args.out,args.freeze)
