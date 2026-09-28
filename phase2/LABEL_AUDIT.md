@@ -6,6 +6,8 @@ support text and answer for **all 13 annotated-support-control cases that failed
 answer exact match**. This is outcome-selected, unblinded diagnostic reading by
 the same gpt-6-astra/high investigator, not independent adjudication or an estimate
 of dataset-wide error prevalence. No scores, selection, weights or labels change.
+A subsequent check read the remaining eleven control source bundles too, to look
+for problems among EM passes; that extension remains post-hoc and unblinded.
 All claims below concern the supplied historical text, not current real-world facts.
 
 ## Concrete source-link failures
@@ -22,6 +24,17 @@ These observations do not allege an error in every occurrence of these entities
 or establish how frequent the problem is in MuSiQue. They are enough to reject
 “annotated support implies genuinely sufficient evidence” as an assumption for
 all cases in this adopted slice.
+
+The follow-up finds that EM passes can also have unsupported bridges:
+
+- `double__825727_584042`: Maycon's paragraph names Goyang Hi FC; the supposed league support discusses another player's FC Seoul career. Matching the gold `K-League` does not validate that cross-team link.
+- `double__144763_599630`: Zhu's birthplace is Wenzhou; a separate church is in Yongjia County **near** Wenzhou. Proximity of that church does not establish the athlete's county of birth.
+- `double__636597_480615`: sources put Qiantong in Ninghai County of Ningbo, while the composed question asks for a city **inside** the county. The containment direction is reversed in the question.
+
+Other bundles have a coherent visible connection, for example the Mickey Mouse
+creation/show pair and the Saint Peter/basilica/Vatican chain. The conclusion is
+not that every row is unusable. It is that neither benchmark success nor failure
+can uniformly stand in for validated complete behavior in the adopted slice.
 
 ## Answer strings and citation requirements also differ from semantic quality
 

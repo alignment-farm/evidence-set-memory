@@ -71,3 +71,20 @@ arms and must not be confused with free deployment computation. Monetary cost,
 machine power and actual backend build fingerprint beyond reported llama.cpp
 remain unknown. Existing phase-1 artifact hashes refer to the ad01b74 publication;
 the current README may subsequently change as new findings are published.
+
+Continuation of the reader diagnosis: the original 24-case run finished with 166
+physical requests and 13 unique server-reported length stops. A separate protocol
+committed at ef1f1e5 defines all-and-only length-stop retries at 4,096 tokens; its
+code remains unchanged during execution. This policy was declared after observing
+development and partial confirmation finish-status failures, so it is post-freeze
+diagnosis, not fresh confirmation. Source/label review began after the original
+run finished and does not supply any correction to the running retry program.
+That program opens labels only after collecting its public-triggered responses.
+
+The local primary-source review found entity-link and answer-metric limitations;
+see LABEL_AUDIT.md for exact IDs, source implications and the unblinded inspection
+boundary. No external factual adjudication, independent reviewer, updated gold,
+or official-format bundle download is implied. Raw and official equivalence is
+an author README statement; the pinned converter's field mapping was inspected.
+Published request artifacts contain source text from the attributed MuSiQue
+dataset, even though the full downloaded archive and weights remain ignored.

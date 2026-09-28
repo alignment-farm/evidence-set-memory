@@ -131,7 +131,7 @@ def main():
             length_stops=sum(finished[r['request_hash']]['response'].get('choices',[{}])[0].get('finish_reason')=='length' for r in reader if r['arm']==arm),
             parse_failures=sum(bool(r['answer'].get('parse_error')) for r in reader if r['arm']==arm),
             selection_missing_support=sum(not r['retrieved_complete'] for r in reader if r['arm']==arm),
-            selected_all_support_but_wrong_answer=sum(r['retrieved_complete'] and not r['answer_em'] for r in reader if r['arm']==arm),
+            selected_all_support_but_answer_em_failure=sum(r['retrieved_complete'] and not r['answer_em'] for r in reader if r['arm']==arm),
             selected_all_support_correct_answer_but_citation_failure=sum(r['retrieved_complete'] and r['answer_em'] and not r['complete'] for r in reader if r['arm']==arm),
             complete=sum(r['complete'] for r in reader if r['arm']==arm)) for arm in ['all','ordinary_1.0','learned_unary','exact','relaxed_swap','oracle_support']}
         for arm,counts in result['reader_failure_attribution'].items():

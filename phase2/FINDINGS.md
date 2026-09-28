@@ -85,6 +85,8 @@ Neither diagnostic adds fresh downstream tasks or demonstrates an EBM advantage.
 The prespecified first 24 cases contain none of the previously inspected
 reconnaissance questions. All 24 have every annotated support paragraph available
 in their candidate pool. They occupy 24 separate component-connected clusters.
+This establishes annotation reachability, not the presence of a valid factual
+chain for every question; the label audit finds counterexamples to that inference.
 One fixed reader/tag and interface serves every arm; no selector or checkpoint
 changes after the freeze. These are annotation-based scores, qualified below.
 
@@ -118,6 +120,9 @@ unchanged. The table is benchmark answer/citation quality, **not a validated cou
 of all genuinely correct complete tasks**. Even the annotated-support control is
 not a truth oracle. Some source-supported answers are scored wrong, and requiring
 every annotated citation can penalize a legitimate alternative evidence set.
+The subsequent review of the eleven EM-passing support controls finds unsupported
+bridges there too. All 24 control source bundles were eventually inspected, but
+the review was post-hoc and unblinded, not an independently validated new scorer.
 
 The original 1,024-token response cap yields 13 unique length stops, including
 five all-source calls and three exact-set calls (some payloads map to multiple
