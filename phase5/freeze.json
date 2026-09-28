@@ -1,0 +1,36 @@
+{
+  "confirmation_histories": 12,
+  "confirmation_seed": 28092659,
+  "development": "phase5/runs/balanced-final",
+  "files": {
+    "phase5/CLAIM.md": "893411ebc9c690ec5671740c730fc16c151f74c7981f45196801028707e177b8",
+    "phase5/PROTOCOL.md": "f2a05d226686f7c3770b5192b3c861a8877a41cfb01bcca624e30800d5aa488d",
+    "phase5/runs/balanced-final/native_syntax-model.json": "29d91028cf4ff63b137adbed7a67f2ade49b499026be21b0b453529a7949ac02",
+    "phase5/runs/constraint-energy/native_syntax-model.json": "385ca3f4eaf73e9eac9fcce05fed4e83b5a6bd4cf10041a57cdc5ce537a3a2a5",
+    "pyproject.toml": "3d59ad4e755afa6df6d12fda59f5fe4fe0f13d527bdc569082e3be664b51759b",
+    "scripts/phase5_config.py": "6e5bfa985cf1f8aa87806f6a0fe27022515c0d3dffe6ce9c64d33671dc670b00",
+    "scripts/test_phase5_config.py": "4d2e73534a4f6d1dc0650fb102bc580539c02cf525aada9c8fc43671f9626297",
+    "uv.lock": "f28f088f86fb610b217a46c17b5214593bacd0b9856c98473dd5f503cf5294c1"
+  },
+  "provenance": {
+    "configparser_path": "/Users/macos-user/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/configparser.py",
+    "configparser_sha256": "cf5318e0c45a2e206b4ec74d4d66493185ed26c3736a86b0ebdf8f3a3e365a1a",
+    "git_head": "d263f867734063fb3e2b273caed4fa804145c789",
+    "implementation_sha256": "6e5bfa985cf1f8aa87806f6a0fe27022515c0d3dffe6ce9c64d33671dc670b00",
+    "investigator": {
+      "backend_fingerprint": null,
+      "model": "gpt-6-astra",
+      "monetary_cost": null,
+      "provider": "OpenAI",
+      "reasoning": "high",
+      "session": "01a0e7e4-68e2-7fb2-9a5d-2ea6873b86b8",
+      "source": "observed turn_context"
+    },
+    "numpy": "2.5.3",
+    "platform": "macOS-27.0-arm64-arm-64bit",
+    "python": "3.12.14 (main, Sep  1 2026, 14:09:38) [Clang 22.1.3 ]",
+    "timestamp_utc": "2026-09-28T17:47:16Z",
+    "torch": "2.14.0",
+    "torch_threads": 2
+  }
+}

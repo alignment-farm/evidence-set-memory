@@ -61,5 +61,33 @@ class ConfigStudy(unittest.TestCase):
         x=study.vertices(9);energy=study.feature(x,rep)@w
         self.assertEqual(int(np.argmin(energy)),int(np.argmax(-energy)))
 
+    def test_hard_energy_equals_ordinary_without_learned_parameters(self):
+        for h in self.data:
+            for ep in h['episodes']:
+                rep=study.represent(ep['request'],ep['records'],'native_syntax')
+                indices,_=study.search(rep,np.zeros(4),'hard')
+                self.assertEqual(indices,study.closure(rep))
+
+    def test_longer_chain_constructor_preserves_native_result(self):
+        expanded=study.extend_chains(self.data)
+        for h in expanded:
+            for ep in h['episodes']:
+                rep=study.represent(ep['request'],ep['records'],'native_syntax')
+                self.assertEqual(study.render(ep['request'],rep['pool'])['value'],ep['expected'])
+                indices,_=study.search(rep,np.zeros(4),'hard')
+                self.assertEqual(indices,study.closure(rep))
+
+    def test_cache_invalidation_and_repair_do_not_use_hidden_grade(self):
+        model={'weights':[20.,1.,10.,0.],'initial':[0.,0.,0.,0.]}
+        rows,summary=study.evaluate(self.data[:1],model,'native_syntax',['ordinary'])
+        self.assertEqual(summary['ordinary']['cache_hits'],2)
+        self.assertEqual(summary['ordinary']['cache_invalidations'],2)
+        self.assertEqual(summary['ordinary']['repairs'],0)
+        self.data[0]['episodes'][0]['expected']='examiner-only corruption'
+        rows,summary=study.evaluate(self.data[:1],model,'native_syntax',['ordinary'])
+        self.assertFalse(rows[0]['first_complete'])
+        self.assertIsNone(rows[0]['repair'])
+        self.assertTrue(rows[1]['cache_hit'])
+
 
 if __name__=='__main__':unittest.main()

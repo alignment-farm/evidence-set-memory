@@ -1,0 +1,278 @@
+{
+  "all": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 12,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 71576,
+    "discrete_evaluations": 0,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 72,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 12,
+    "parser_executions": 48,
+    "parser_seconds": 0.0028342907899059355,
+    "raw_records_scanned": 948,
+    "repair_selection_seconds": 0,
+    "repairs": 0,
+    "representation_option_characters": 0,
+    "representation_seconds": 0.00014874717453494668,
+    "selected_record_uses": 432,
+    "selection_seconds": 0.0
+  },
+  "exact": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 8,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 8,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 31456,
+    "discrete_evaluations": 24576,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 64,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 8,
+    "parser_executions": 56,
+    "parser_seconds": 0.002397292060777545,
+    "raw_records_scanned": 948,
+    "repair_selection_seconds": 0.00016058393521234393,
+    "repairs": 8,
+    "representation_option_characters": 10496,
+    "representation_seconds": 0.000936745258513838,
+    "selected_record_uses": 146,
+    "selection_seconds": 0.0020600829157046974
+  },
+  "ordinary": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 12,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 28704,
+    "discrete_evaluations": 0,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 72,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 12,
+    "parser_executions": 48,
+    "parser_seconds": 0.0021916680852882564,
+    "raw_records_scanned": 948,
+    "repair_selection_seconds": 0,
+    "repairs": 0,
+    "representation_option_characters": 10496,
+    "representation_seconds": 0.0012650361750274897,
+    "selected_record_uses": 170,
+    "selection_seconds": 8.299987530335784e-05
+  },
+  "relax": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 8,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 8,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 31456,
+    "discrete_evaluations": 384,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 64,
+    "gradient_steps": 11520,
+    "histories_all_first_complete": 8,
+    "parser_executions": 56,
+    "parser_seconds": 0.0027719169156625867,
+    "raw_records_scanned": 948,
+    "repair_selection_seconds": 0.00022616685600951314,
+    "repairs": 8,
+    "representation_option_characters": 10496,
+    "representation_seconds": 0.001119794964324683,
+    "selected_record_uses": 146,
+    "selection_seconds": 0.07806245697429404
+  },
+  "relax_flip": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 8,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 8,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 31456,
+    "discrete_evaluations": 864,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 64,
+    "gradient_steps": 11520,
+    "histories_all_first_complete": 8,
+    "parser_executions": 56,
+    "parser_seconds": 0.0022051259293220937,
+    "raw_records_scanned": 948,
+    "repair_selection_seconds": 0.00016629102174192667,
+    "repairs": 8,
+    "representation_option_characters": 10496,
+    "representation_seconds": 0.0013051270507276058,
+    "selected_record_uses": 146,
+    "selection_seconds": 0.07876854325877503
+  },
+  "untrained": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 0,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 0,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 0,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 0,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 37558,
+    "discrete_evaluations": 24576,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 24,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 0,
+    "parser_executions": 96,
+    "parser_seconds": 0.0033769148867577314,
+    "raw_records_scanned": 948,
+    "repair_selection_seconds": 0.0009082516771741211,
+    "repairs": 48,
+    "representation_option_characters": 10496,
+    "representation_seconds": 0.0016160033410415053,
+    "selected_record_uses": 48,
+    "selection_seconds": 0.002227914228569716
+  }
+}

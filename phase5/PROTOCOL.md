@@ -21,8 +21,8 @@ Unlike fixed four-passage QA, required evidence cardinality can change. Deliver
 whole sections, then render the requested value through the native interpreter.
 Completion requires exact rendered output and eligible current-scope records.
 Private expected strings are evaluation-only; no evaluator dependency certificate
-is given to selection, representation or acquisition. Authored expected values
-are released as feedback only for already executed development attempts.
+is given to selection, representation or acquisition. Only binary completion
+feedback from already executed development attempts enters the training loss.
 
 ## Workload and access
 
@@ -100,3 +100,30 @@ Starting context includes phases 1–4 results, source-label audit, README, STAR
 AGENTS, FEASIBILITY and linked Construct-2 selection/source ledger. No other study
 is modified. Prior publication manifests describe their original commits and are
 not regenerated to conceal later README changes.
+
+## Pre-confirmation refinement after development
+
+The preserved explicit-only, unbalanced, balanced and constraint-only development
+runs separate syntax omission, objective weighting and a finite-penalty limit.
+The balanced four-coefficient energy completes all development episodes but can
+reward irrelevant connected sections; removing the resolved-edge reward produces
+a three-coefficient energy whose finite omission penalty can be cheaper than a
+required chain. These are different functions, not scorer/energy renamings.
+
+Freeze seven policies: ordinary parser-aware closure, full eligible context,
+untrained same-initialization four-coefficient energy, balanced trained energy
+with exact and projected-gradient search, the trained three-coefficient energy
+with exact search, and hard logical feasibility plus minimum record count.
+The last policy has no learned weights: it forbids a missing request or unresolved
+edge and enumerates feasible sets. It is an explicit constrained optimization
+control, not a learned guarantee and not the same function as the soft energies.
+Single-flip repair added nothing in development; do not spend a fresh arm on it.
+
+Of the 12 fresh histories, six use the existing template families and six add two
+transparent intermediate sections to a required branch (11 rather than 9 eligible
+records). This construction extends dependency depth without changing the native
+rendered string. No confirmation seed has been materialized before the freeze.
+Unit tests use separate seed 100 only. Report these strata separately: fresh values
+and IDs alone are modest transfer, while longer chains test the diagnosed penalty
+boundary. Template families are authored, six types repeated across strata; no
+independent natural population or statistical generalization claim is planned.

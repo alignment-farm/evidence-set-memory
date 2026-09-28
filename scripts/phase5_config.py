@@ -117,6 +117,34 @@ def eligible(request, records):
     return [index[k] for k in sorted(index)]
 
 
+def extend_chains(data):
+    """Prospective structural transfer: add two transparent native dependencies.
+
+    All authored expected strings remain unchanged; no parser/evaluator output is
+    used to construct the extra records. Only the latter half of fresh histories.
+    """
+    for h in data:
+        h['transfer_regime']='same_templates'
+    for h in data[len(data)//2:]:
+        h['transfer_regime']='two_extra_chain_sections'
+        first=h['episodes'][0]
+        index={r['section']:r for r in eligible(first['request'],first['records'])}
+        root=index[first['request']['section']]
+        branch=NAIVE.findall(root['options']['value'])[0]
+        leaf=NAIVE.findall(index[branch]['options']['value'])[0]
+        bridges=[f'bridge_{h["id"]}_{i}' for i in range(2)]
+        for ep in h['episodes']:
+            for record in ep['records']:
+                if record['section']==branch and record['scope']=='production':
+                    record['options']['value']=f'${{{bridges[0]}:value}}'
+            for i,name in enumerate(bridges):
+                target=bridges[i+1] if i==0 else leaf
+                ep['records'].append(dict(id=f'{h["id"]}/production/{name}@1',section=name,
+                    revision=1,scope='production',options={'value':f'${{{target}:value}}'}))
+            random.Random(ep['id']).shuffle(ep['records'])
+    return data
+
+
 def dependencies(record, index, grammar):
     """Public syntax representation, not a necessity label or examiner certificate.
 
@@ -231,8 +259,12 @@ def byte_count(rows):
 def search(rep, weights, method, seed=87):
     start = time.perf_counter(); n = len(rep['pool'])
     work = dict(discrete_evaluations=0, gradient_steps=0)
-    if method == 'exact':
+    if method in ['exact','hard']:
         z = vertices(n); scores = feature(z, rep) @ weights
+        if method=='hard':
+            f=feature(z,rep)
+            # Public logical constraints plus record count; no learned reward.
+            scores=np.where((f[:,0]==0)&(f[:,2]==0),f[:,1],np.inf)
         best = z[int(np.argmin(scores))]
         work['discrete_evaluations'] = len(z)
     else:
@@ -263,7 +295,8 @@ def search(rep, weights, method, seed=87):
                 if winner == 0:
                     break
                 best = proposals[winner]
-    work.update(seconds=time.perf_counter()-start, energy=float(feature(best, rep)@weights))
+    work.update(seconds=time.perf_counter()-start,
+                energy=float(best.sum() if method=='hard' else feature(best, rep)@weights))
     return np.flatnonzero(best).tolist(), work
 
 
@@ -288,7 +321,7 @@ def acquire(data):
                          proposal_policy='24 random + ordinary closure + all omissions and single supersets')
 
 
-def fit(data, attempts, grammar, balanced=False):
+def fit(data, attempts, grammar, balanced=False, constraint_only=False):
     start=time.perf_counter(); by_episode={}
     for attempt in attempts:
         by_episode.setdefault(attempt['episode'], []).append(attempt)
@@ -314,16 +347,21 @@ def fit(data, attempts, grammar, balanced=False):
     pair_weight=torch.tensor([len(kinds)/(2*pair_types[k]) if balanced else 1. for k in kinds],dtype=torch.float64)
     # Four coefficients: smallest functioning structured specialist, no pretraining.
     initial=np.random.default_rng(23).normal(0,.2,4)
+    if constraint_only:
+        initial[3]=0.
     w=torch.tensor(initial,dtype=torch.float64,requires_grad=True)
+    mask=torch.tensor([1.,1.,1.,0. if constraint_only else 1.],dtype=torch.float64)
     optimizer=torch.optim.Adam([w],lr=.05)
     trace=[]
     for step in range(400):
         optimizer.zero_grad()
-        loss=(pair_weight*torch.nn.functional.softplus(x@w + 1)).mean()+.0001*w.square().sum()
+        loss=(pair_weight*torch.nn.functional.softplus(x@(w*mask) + 1)).mean()+.0001*w.square().sum()
         loss.backward(); optimizer.step()
         if step in [0,49,99,199,399]:
             trace.append(dict(step=step+1,loss=float(loss.detach()),weights=w.detach().tolist()))
-    return dict(grammar=grammar,balanced_pair_classes=balanced,weights=w.detach().tolist(),initial=initial.tolist(),
+    return dict(grammar=grammar,balanced_pair_classes=balanced,constraint_only=constraint_only,
+                trainable_parameters=3 if constraint_only else 4,
+                weights=(w*mask).detach().tolist(),initial=initial.tolist(),
                 train=dict(seconds=time.perf_counter()-start,optimizer_steps=400,
                            pairs=len(differences),pair_types=pair_types,
                            pair_presentations=400*len(differences),trace=trace))
@@ -382,6 +420,7 @@ def evaluate(data, model, grammar, methods):
                 native=represent(ep['request'],ep['records'],'native_syntax')
                 sufficient_ids={native['pool'][i]['id'] for i in closure(native)}
                 outcomes.append(dict(method=method,history=history['id'],episode=ep['id'],stage=ep['stage'],
+                    transfer_regime=history.get('transfer_regime','development'),
                     syntax_family=history['syntax_family'],cache_hit=hit,cache_invalidated=invalidated,
                     selected_ids=first_ids,answer=first_answer,first_complete=first_complete,
                     final_complete=grade(ep,rows,answer),repair=repair,executions=executions,
@@ -413,10 +452,10 @@ def evaluate(data, model, grammar, methods):
     return outcomes,summary
 
 
-def refit(out, development):
-    out=fresh(out); source=Path(development)
+def refit(out, development, constraint_only=False):
+    out=fresh(out); source=Path(development).resolve()
     data=load(source/'histories.json');attempts=load(source/'attempts.json')
-    model=fit(data,attempts,'native_syntax',balanced=True)
+    model=fit(data,attempts,'native_syntax',balanced=True,constraint_only=constraint_only)
     dump(out/'native_syntax-model.json',model)
     rows,summary=evaluate(data,model,'native_syntax',['ordinary','all','untrained','exact','relax','relax_flip'])
     dump(out/'outcomes.json',rows);dump(out/'summary.json',summary)
@@ -457,9 +496,10 @@ def freeze(out, development):
     if out.exists():raise FileExistsError(out)
     files=[ROOT/'scripts/phase5_config.py',ROOT/'scripts/test_phase5_config.py',
            ROOT/'phase5/PROTOCOL.md',ROOT/'phase5/CLAIM.md',ROOT/'uv.lock',ROOT/'pyproject.toml',
-           Path(development)/'native_syntax-model.json']
+           Path(development).resolve()/'native_syntax-model.json',
+           ROOT/'phase5/runs/constraint-energy/native_syntax-model.json']
     dump(out,dict(files={str(p.relative_to(ROOT)):sha(p) for p in files},provenance=provenance(),
-                  development=str(Path(development).relative_to(ROOT)),confirmation_seed=28092659,
+                  development=str(Path(development).resolve().relative_to(ROOT)),confirmation_seed=28092659,
                   confirmation_histories=12))
 
 
@@ -469,21 +509,26 @@ def confirm(out, frozen):
         assert sha(ROOT/p)==digest,p
     out=fresh(out)
     # Only now, after validating the freeze, materialize later tasks and evaluator values.
-    data=histories(freeze_data['confirmation_seed'],freeze_data['confirmation_histories'],'transfer')
+    data=extend_chains(histories(freeze_data['confirmation_seed'],freeze_data['confirmation_histories'],'transfer'))
     dump(out/'histories.json',data)
     model=load(ROOT/freeze_data['development']/'native_syntax-model.json')
-    rows,summary=evaluate(data,model,'native_syntax',['ordinary','all','untrained','exact','relax','relax_flip'])
+    rows,summary=evaluate(data,model,'native_syntax',['ordinary','all','untrained','exact','relax','hard'])
+    diagnostic=load(ROOT/'phase5/runs/constraint-energy/native_syntax-model.json')
+    diagnostic_rows,diagnostic_summary=evaluate(data,diagnostic,'native_syntax',['exact'])
+    for row in diagnostic_rows:row['method']='constraint_exact'
+    rows+=diagnostic_rows;summary['constraint_exact']=diagnostic_summary['exact']
     dump(out/'outcomes.json',rows);dump(out/'summary.json',summary);dump(out/'provenance.json',provenance())
     print(json.dumps(summary,indent=2))
 
 
 if __name__=='__main__':
     torch.set_num_threads(2)
-    parser=argparse.ArgumentParser();parser.add_argument('command',choices=['develop','refit','freeze','confirm'])
+    parser=argparse.ArgumentParser();parser.add_argument('command',choices=['develop','refit','compact','freeze','confirm'])
     parser.add_argument('--out',required=True);parser.add_argument('--development',default=str(ROOT/'phase5/runs/development'))
     parser.add_argument('--freeze',default=str(ROOT/'phase5/freeze.json'))
     args=parser.parse_args()
     if args.command=='develop':develop(args.out)
     elif args.command=='refit':refit(args.out,args.development)
+    elif args.command=='compact':refit(args.out,args.development,constraint_only=True)
     elif args.command=='freeze':freeze(args.out,args.development)
     else:confirm(args.out,args.freeze)
