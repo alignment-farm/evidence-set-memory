@@ -38,6 +38,20 @@ and rounding. It cannot follow solely from a learned discrete set ranking or fro
 renaming that ranking an energy. This is a local methodological finding and an
 algebraic identity, not a novelty claim about structured prediction generally.
 
+Additional algebraic check, after the original diagnostic: this ambiguity also
+exists within the zero-diagonal quadratic family on a fixed-cardinality domain.
+For score `s(z)=u'z + 0.5 z'Vz`, `sum(z)=k`, set each unary coefficient to
+`u_i + (k-1)*lambda` and each off-diagonal pair coefficient to
+`V_ij - 2*lambda`. The resulting score is
+`s(z) - lambda * sum(z_i*(1-z_i))`. Every binary size-k set is unchanged; the
+fractional extension is exactly the phase-4 energy perturbation with its sign
+reversed for scoring. Zeroing the matrix diagonal alone does not remove this
+fixed-cardinality ambiguity. A model-class convention, regularizer or inference-
+aware objective may select an extension, but binary rankings alone do not.
+`scripts/test_energy_gauge.py` checks all 4,845 size-four subsets and 50 fractional
+points for seven lambda values with random coefficients, without benchmark labels.
+This checks the identity, not a newly trained model or a novelty claim.
+
 Binary invariance and the added analytical gradient were checked against autograd.
 The lambda-zero outputs reproduce phase 2 exactly. There were 107,520 selection
 gradient steps in total, 80 steps × four starts × seven lambdas × 48 questions.

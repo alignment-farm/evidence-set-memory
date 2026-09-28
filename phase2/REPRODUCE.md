@@ -35,6 +35,7 @@ uv run python scripts/phase2_energy.py evaluate --split confirmation --checkpoin
 uv run python scripts/phase3_scaling.py --out .cache/phase3-replay
 uv run python scripts/phase4_relaxation.py --out .cache/phase4-replay
 uv run python -m unittest discover -s scripts -p 'test_phase2_*.py'
+uv run python -m unittest discover -s scripts -p 'test_energy_gauge.py'
 ```
 
 The fixed ordinary policy is not retrained. To reproduce the unary specialist,

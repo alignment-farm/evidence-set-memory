@@ -28,7 +28,7 @@ def main():
     for pattern in ['phase2*.py','phase3*.py','phase4*.py','test_phase2*.py']:
         paths.extend((ROOT/'scripts').glob(pattern))
     paths.extend(ROOT/p for p in ['README.md','pyproject.toml','uv.lock',
-        'scripts/audit_continuation.py','scripts/continuation_costs.py','scripts/manifest_continuation.py',
+        'scripts/audit_continuation.py','scripts/continuation_costs.py','scripts/manifest_continuation.py','scripts/test_energy_gauge.py',
         'scripts/snapshots/phase2_energy-lexical.py','scripts/snapshots/phase2_reader-v1.py','scripts/snapshots/phase2_reader-v2.py'])
     result=dict(parent_commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),
         note='Local publication hashes, not an independent scientific review or signed timestamp. Cache/weights/environment excluded.',
