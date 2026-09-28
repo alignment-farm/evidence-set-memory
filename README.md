@@ -4,6 +4,11 @@ An independent Construct-2 ancillary investigation, commissioned 28 September
 2026. **Status: phases 1–4 and the reader-budget diagnosis published locally.
 Root scientific review remains separate.**
 
+[Phase 5 development](phase5/DEVELOPMENT.md) is now testing an explicitly
+authored, versioned INI workload with native CPython execution. Initial results
+separate missed default/escape semantics from energy-search failures. No fresh
+phase-5 confirmation has run yet; compactness acquisition is being diagnosed.
+
 [Phase 2 findings](phase2/FINDINGS.md) extend the work to real
 MuSiQue prose, a small neural pairwise energy, and projected continuous selection.
 The learner improves development support recovery, while exact/beam search is

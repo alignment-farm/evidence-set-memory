@@ -1,0 +1,5378 @@
+[
+  {
+    "answer": {
+      "seconds": 5.7917030062526464e-05,
+      "value": "v284196985/v330675779"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 667,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 200,
+    "representation_seconds": 2.037500962615013e-05,
+    "selected_ids": [
+      "development-0-962350/production/s_42663716@1",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_792660047@1",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.625049091875553e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v284196985/v330675779"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 200,
+    "representation_seconds": 1.4209013897925615e-05,
+    "selected_ids": [
+      "development-0-962350/production/s_42663716@1",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_792660047@1",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.700000863522291e-05,
+      "value": "corrected945535748/v330675779"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 675,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.308403443545103e-05,
+    "selected_ids": [
+      "development-0-962350/production/s_42663716@1",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_792660047@2",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.500011421740055e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.549997927621007e-05,
+      "value": "v462140926/${s_64765513:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 343,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.3624958228319883e-05,
+    "selected_ids": [
+      "development-0-962350/production/s_42663716@2",
+      "development-0-962350/production/s_720581910@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.333013642579317e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v462140926/${s_64765513:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.2792006600648165e-05,
+    "selected_ids": [
+      "development-0-962350/production/s_42663716@2",
+      "development-0-962350/production/s_720581910@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.312499029561877e-05,
+      "value": "old/v462140926"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.2749980669468641e-05,
+    "selected_ids": [
+      "development-0-962350/production/s_425089183@1",
+      "development-0-962350/production/s_720581910@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.2080417945981026e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.75830165669322e-05,
+      "value": "v77414830/v584926391/v109907691"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 824,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.6082951333373785e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_418192311@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.9589864425361156e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v77414830/v584926391/v109907691"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.4082994312047958e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_418192311@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.854099825024605e-05,
+      "value": "v77414830/corrected62008772/v109907691"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 831,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 215,
+    "representation_seconds": 1.3125012628734112e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_418192311@2",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.0420411601662636e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.7666020691394806e-05,
+      "value": "v77414830/corrected62008772/v814133600/v77414830"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 839,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.54580338858068e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_418192311@2",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@2"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.374988980591297e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v77414830/corrected62008772/v814133600/v77414830"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 7.624999852851033e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_418192311@2",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@2"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.2875046599656343e-05,
+      "value": "old/v814133600"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.4750054106116295e-05,
+    "selected_ids": [
+      "development-1-302306/production/s_643331246@1",
+      "development-1-302306/production/s_794309001@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.416949089616537e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.374998388811946e-05,
+      "value": "v945248510/v591527504/v972535123"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 697,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.4749995898455381e-05,
+    "selected_ids": [
+      "development-2-204201/production/s_132432239@1",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.0830193534493446e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v945248510/v591527504/v972535123"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.333298860117793e-05,
+    "selected_ids": [
+      "development-2-204201/production/s_132432239@1",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.549999721348286e-05,
+      "value": "v945248510/corrected508330135/v972535123"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 705,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 231,
+    "representation_seconds": 0.00010970799485221505,
+    "selected_ids": [
+      "development-2-204201/production/s_132432239@2",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.416949089616537e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.1958974432200193e-05,
+      "value": "v851771788/${s_498836205:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 344,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.3166980352252722e-05,
+    "selected_ids": [
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_40964606@2"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.2080417945981026e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v851771788/${s_498836205:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.2707954738289118e-05,
+    "selected_ids": [
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_40964606@2"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.0208961106836796e-05,
+      "value": "old/v851771788"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.2625008821487427e-05,
+    "selected_ids": [
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_556005915@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.207983586937189e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.070805152878165e-05,
+      "value": "v591368771/v885103525"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 669,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 7.083301898092031e-05,
+    "selected_ids": [
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_663439215@1",
+      "development-3-314526/production/s_731671285@1",
+      "development-3-314526/production/s_784742066@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.00001522898674e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v591368771/v885103525"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.3041950296610594e-05,
+    "selected_ids": [
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_663439215@1",
+      "development-3-314526/production/s_731671285@1",
+      "development-3-314526/production/s_784742066@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.150002496317029e-05,
+      "value": "corrected601871118/v885103525"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 677,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.3375014532357454e-05,
+    "selected_ids": [
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_663439215@1",
+      "development-3-314526/production/s_731671285@2",
+      "development-3-314526/production/s_784742066@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.374981366097927e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 9.950000094249845e-05,
+      "value": "corrected601871118/v488291618/v386443474"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 833,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.5792029444128275e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_663439215@2",
+      "development-3-314526/production/s_731671285@2",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.2500171326100826e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "corrected601871118/v488291618/v386443474"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.4582998119294643e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_663439215@2",
+      "development-3-314526/production/s_731671285@2",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.091699909418821e-05,
+      "value": "old/v488291618"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.3999990187585354e-05,
+    "selected_ids": [
+      "development-3-314526/production/s_240874305@1",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.4579854905605316e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.412501584738493e-05,
+      "value": "v690170438/v452669425/v875885222"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 825,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.4542019926011562e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_124777625@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.6249908842146397e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v690170438/v452669425/v875885222"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 7.24170240573585e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_124777625@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.616699879989028e-05,
+      "value": "v690170438/corrected650026802/v875885222"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 833,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.387501833960414e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_124777625@2",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.667009200900793e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.108300734311342e-05,
+      "value": "v357074523/${s_116650973:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 346,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.4124962035566568e-05,
+    "selected_ids": [
+      "development-4-977798/production/s_510393215@2",
+      "development-4-977798/production/s_675655642@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.374981366097927e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v357074523/${s_116650973:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.4082994312047958e-05,
+    "selected_ids": [
+      "development-4-977798/production/s_510393215@2",
+      "development-4-977798/production/s_675655642@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.091699909418821e-05,
+      "value": "old/v357074523"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 7.204199209809303e-05,
+    "selected_ids": [
+      "development-4-977798/production/s_309670255@1",
+      "development-4-977798/production/s_675655642@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.207983586937189e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.26670303568244e-05,
+      "value": "v175506269/v696539223/v762446896"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 694,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 222,
+    "representation_seconds": 1.5541038010269403e-05,
+    "selected_ids": [
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@1",
+      "development-5-516385/production/s_841971488@1",
+      "development-5-516385/production/s_90039640@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.1249870769679546e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v175506269/v696539223/v762446896"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 222,
+    "representation_seconds": 1.3291952200233936e-05,
+    "selected_ids": [
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@1",
+      "development-5-516385/production/s_841971488@1",
+      "development-5-516385/production/s_90039640@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.1624996811151505e-05,
+      "value": "v175506269/corrected989406180/v762446896"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 702,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 230,
+    "representation_seconds": 1.2959004379808903e-05,
+    "selected_ids": [
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@1",
+      "development-5-516385/production/s_841971488@2",
+      "development-5-516385/production/s_90039640@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.2909877113997936e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.6083005145192146e-05,
+      "value": "v175506269/corrected989406180/v821960080/v382425771"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 858,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.5792029444128275e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_40572799@2",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_841971488@2",
+      "development-5-516385/production/s_90039640@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.3750471882522106e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v175506269/corrected989406180/v821960080/v382425771"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.49579718708992e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_40572799@2",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_841971488@2",
+      "development-5-516385/production/s_90039640@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.004097379744053e-05,
+      "value": "old/v821960080"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.4749995898455381e-05,
+    "selected_ids": [
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_981053612@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.374981366097927e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 9.787495946511626e-05,
+      "value": "v497178733/v586111770"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 669,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.333298860117793e-05,
+    "selected_ids": [
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@1",
+      "development-6-543643/production/s_731692620@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.0830193534493446e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v497178733/v586111770"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.2457952834665775e-05,
+    "selected_ids": [
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@1",
+      "development-6-543643/production/s_731692620@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.8457976188510656e-05,
+      "value": "corrected907888496/v586111770"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 677,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.2542004697024822e-05,
+    "selected_ids": [
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@2",
+      "development-6-543643/production/s_731692620@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.500011421740055e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.0333991162478924e-05,
+      "value": "v934762080/${s_105272217:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 346,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 210,
+    "representation_seconds": 1.287501072511077e-05,
+    "selected_ids": [
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_731692620@2"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.207983586937189e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v934762080/${s_105272217:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 210,
+    "representation_seconds": 6.987497908994555e-05,
+    "selected_ids": [
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_731692620@2"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 2.9957969672977924e-05,
+      "value": "old/v934762080"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 210,
+    "representation_seconds": 1.1958007235080004e-05,
+    "selected_ids": [
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_782449385@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.125037670135498e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.4291955418884754e-05,
+      "value": "v463569562/v269428999/v261877172"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 819,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 206,
+    "representation_seconds": 1.4999997802078724e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@1",
+      "development-7-407996/production/s_947963592@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.707995008677244e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v463569562/v269428999/v261877172"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 206,
+    "representation_seconds": 1.7291982658207417e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@1",
+      "development-7-407996/production/s_947963592@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.4584041461348534e-05,
+      "value": "v463569562/corrected168543251/v261877172"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 827,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 214,
+    "representation_seconds": 7.216603262349963e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@1",
+      "development-7-407996/production/s_947963592@2"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.0420411601662636e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.6667002607136965e-05,
+      "value": "v463569562/corrected168543251/v61226750/v463569562"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 840,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 224,
+    "representation_seconds": 1.570902531966567e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_603023230@2",
+      "development-7-407996/production/s_947963592@2"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.2919848561286926e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v463569562/corrected168543251/v61226750/v463569562"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 224,
+    "representation_seconds": 1.4999997802078724e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_603023230@2",
+      "development-7-407996/production/s_947963592@2"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.0207971576601267e-05,
+      "value": "old/v61226750"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 327,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 224,
+    "representation_seconds": 1.4749995898455381e-05,
+    "selected_ids": [
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_888528702@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.4170072972774506e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.2249972466379404e-05,
+      "value": "v943254440/v339169756/v633674258"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 699,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.5125027857720852e-05,
+    "selected_ids": [
+      "development-8-693074/production/s_137954003@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_822821763@1",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.0840088836848736e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v943254440/v339169756/v633674258"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.3749988283962011e-05,
+    "selected_ids": [
+      "development-8-693074/production/s_137954003@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_822821763@1",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.216597881168127e-05,
+      "value": "v943254440/corrected840688968/v633674258"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 707,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 231,
+    "representation_seconds": 1.3750046491622925e-05,
+    "selected_ids": [
+      "development-8-693074/production/s_137954003@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_822821763@2",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.500011421740055e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 8.73749959282577e-05,
+      "value": "v861520020/${s_389016289:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 346,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.3582990504801273e-05,
+    "selected_ids": [
+      "development-8-693074/production/s_137954003@2",
+      "development-8-693074/production/s_759749535@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.2080417945981026e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v861520020/${s_389016289:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.3208016753196716e-05,
+    "selected_ids": [
+      "development-8-693074/production/s_137954003@2",
+      "development-8-693074/production/s_759749535@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 2.97910301014781e-05,
+      "value": "old/v861520020"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 328,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.3040960766375065e-05,
+    "selected_ids": [
+      "development-8-693074/production/s_328770817@1",
+      "development-8-693074/production/s_759749535@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.167005393654108e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.870902583003044e-05,
+      "value": "v136099551/v220718659"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 669,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.329201040789485e-05,
+    "selected_ids": [
+      "development-9-314449/production/s_458807915@1",
+      "development-9-314449/production/s_653448649@1",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_891353022@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.00001522898674e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v136099551/v220718659"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 6.979104364290833e-05,
+    "selected_ids": [
+      "development-9-314449/production/s_458807915@1",
+      "development-9-314449/production/s_653448649@1",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_891353022@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.970798570662737e-05,
+      "value": "corrected845393494/v220718659"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 677,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.2959004379808903e-05,
+    "selected_ids": [
+      "development-9-314449/production/s_458807915@1",
+      "development-9-314449/production/s_653448649@2",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_891353022@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.2500095181167126e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.358298610895872e-05,
+      "value": "corrected845393494/v928539761/v674410116"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 833,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.4332996215671301e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@2",
+      "development-9-314449/production/s_653448649@2",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.333021257072687e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "corrected845393494/v928539761/v674410116"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.383305061608553e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@2",
+      "development-9-314449/production/s_653448649@2",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.15000070258975e-05,
+      "value": "old/v928539761"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 326,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 0.00011416594497859478,
+    "selected_ids": [
+      "development-9-314449/production/s_56872332@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.4160177670419216e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.2791012674570084e-05,
+      "value": "v850666511/v306132046/v379887747"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 830,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.4499993994832039e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.707995008677244e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v850666511/v306132046/v379887747"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.395796425640583e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.387501394376159e-05,
+      "value": "v850666511/corrected474863430/v379887747"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 838,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.4374963939189911e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@2"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.7909915186464787e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.058405127376318e-05,
+      "value": "v798900273/${s_830859509:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 348,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.4124962035566568e-05,
+    "selected_ids": [
+      "development-10-167305/production/s_183791610@2",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.0829535312950611e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v798900273/${s_830859509:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.329201040789485e-05,
+    "selected_ids": [
+      "development-10-167305/production/s_183791610@2",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.0750001315027475e-05,
+      "value": "old/v798900273"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 330,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.2832984793931246e-05,
+    "selected_ids": [
+      "development-10-167305/production/s_208954601@1",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.2500095181167126e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 9.891600348055363e-05,
+      "value": "v458414057/v362164122/v910990512"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 703,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.4124962035566568e-05,
+    "selected_ids": [
+      "development-11-493597/production/s_102775648@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@1",
+      "development-11-493597/production/s_596952572@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.8329592421650887e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v458414057/v362164122/v910990512"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.4082994312047958e-05,
+    "selected_ids": [
+      "development-11-493597/production/s_102775648@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@1",
+      "development-11-493597/production/s_596952572@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.3625012040138245e-05,
+      "value": "v458414057/corrected31301532/v910990512"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 710,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "ordinary",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 230,
+    "representation_seconds": 1.3042008504271507e-05,
+    "selected_ids": [
+      "development-11-493597/production/s_102775648@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@2",
+      "development-11-493597/production/s_596952572@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.374981366097927e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.6083005145192146e-05,
+      "value": "v458414057/corrected31301532/v388263719/v325989927"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 867,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.4749995898455381e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@2",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@2",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 2.334010787308216e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v458414057/corrected31301532/v388263719/v325989927"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "ordinary",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 7.12500186637044e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@2",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@2",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 3.0499999411404133e-05,
+      "value": "old/v388263719"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 330,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "ordinary",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.3749988283962011e-05,
+    "selected_ids": [
+      "development-11-493597/production/s_719683409@1",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 1.2080417945981026e-06
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.145795876160264e-05,
+      "value": "v284196985/v330675779"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1466,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 200,
+    "representation_seconds": 1.4042016118764877e-05,
+    "selected_ids": [
+      "development-0-962350/production/DEFAULT@1",
+      "development-0-962350/production/s_230285778@1",
+      "development-0-962350/production/s_425089183@1",
+      "development-0-962350/production/s_42663716@1",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_64765513@1",
+      "development-0-962350/production/s_720581910@1",
+      "development-0-962350/production/s_792660047@1",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v284196985/v330675779"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 200,
+    "representation_seconds": 1.2749980669468641e-05,
+    "selected_ids": [
+      "development-0-962350/production/DEFAULT@1",
+      "development-0-962350/production/s_230285778@1",
+      "development-0-962350/production/s_425089183@1",
+      "development-0-962350/production/s_42663716@1",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_64765513@1",
+      "development-0-962350/production/s_720581910@1",
+      "development-0-962350/production/s_792660047@1",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.141698056831956e-05,
+      "value": "corrected945535748/v330675779"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1474,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.3832992408424616e-05,
+    "selected_ids": [
+      "development-0-962350/production/DEFAULT@1",
+      "development-0-962350/production/s_230285778@1",
+      "development-0-962350/production/s_425089183@1",
+      "development-0-962350/production/s_42663716@1",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_64765513@1",
+      "development-0-962350/production/s_720581910@1",
+      "development-0-962350/production/s_792660047@2",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.695897223427892e-05,
+      "value": "v462140926/${s_64765513:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1474,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.183303538709879e-05,
+    "selected_ids": [
+      "development-0-962350/production/DEFAULT@1",
+      "development-0-962350/production/s_230285778@1",
+      "development-0-962350/production/s_425089183@1",
+      "development-0-962350/production/s_42663716@2",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_64765513@1",
+      "development-0-962350/production/s_720581910@1",
+      "development-0-962350/production/s_792660047@2",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v462140926/${s_64765513:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.2125005014240742e-05,
+    "selected_ids": [
+      "development-0-962350/production/DEFAULT@1",
+      "development-0-962350/production/s_230285778@1",
+      "development-0-962350/production/s_425089183@1",
+      "development-0-962350/production/s_42663716@2",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_64765513@1",
+      "development-0-962350/production/s_720581910@1",
+      "development-0-962350/production/s_792660047@2",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.0083035603165627e-05,
+      "value": "old/v462140926"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1474,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-0-962350/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-0-962350",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 6.762502016499639e-05,
+    "selected_ids": [
+      "development-0-962350/production/DEFAULT@1",
+      "development-0-962350/production/s_230285778@1",
+      "development-0-962350/production/s_425089183@1",
+      "development-0-962350/production/s_42663716@2",
+      "development-0-962350/production/s_511427402@1",
+      "development-0-962350/production/s_64765513@1",
+      "development-0-962350/production/s_720581910@1",
+      "development-0-962350/production/s_792660047@2",
+      "development-0-962350/production/s_799704294@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.2292016334831715e-05,
+      "value": "v77414830/v584926391/v109907691"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1478,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.4541961718350649e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_131334018@1",
+      "development-1-302306/production/s_418192311@1",
+      "development-1-302306/production/s_643331246@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_866310786@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v77414830/v584926391/v109907691"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 208,
+    "representation_seconds": 1.3749988283962011e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_131334018@1",
+      "development-1-302306/production/s_418192311@1",
+      "development-1-302306/production/s_643331246@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_866310786@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.266699008643627e-05,
+      "value": "v77414830/corrected62008772/v109907691"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1485,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 215,
+    "representation_seconds": 7.18749943189323e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_131334018@1",
+      "development-1-302306/production/s_418192311@2",
+      "development-1-302306/production/s_643331246@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_866310786@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.4458039812743664e-05,
+      "value": "v77414830/corrected62008772/v814133600/v77414830"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1493,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.47090177051723e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_131334018@1",
+      "development-1-302306/production/s_418192311@2",
+      "development-1-302306/production/s_643331246@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_866310786@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@2"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v77414830/corrected62008772/v814133600/v77414830"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.466704998165369e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_131334018@1",
+      "development-1-302306/production/s_418192311@2",
+      "development-1-302306/production/s_643331246@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_866310786@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@2"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.00010475004091858864,
+      "value": "old/v814133600"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1493,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-1-302306/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-1-302306",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.3499986380338669e-05,
+    "selected_ids": [
+      "development-1-302306/production/DEFAULT@1",
+      "development-1-302306/production/s_131334018@1",
+      "development-1-302306/production/s_418192311@2",
+      "development-1-302306/production/s_643331246@1",
+      "development-1-302306/production/s_741629794@1",
+      "development-1-302306/production/s_794309001@1",
+      "development-1-302306/production/s_866310786@1",
+      "development-1-302306/production/s_904465694@1",
+      "development-1-302306/production/s_923561196@2"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.3499999921768904e-05,
+      "value": "v945248510/v591527504/v972535123"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1499,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.4332996215671301e-05,
+    "selected_ids": [
+      "development-2-204201/production/DEFAULT@1",
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_132432239@1",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@1",
+      "development-2-204201/production/s_441767398@1",
+      "development-2-204201/production/s_498836205@1",
+      "development-2-204201/production/s_556005915@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v945248510/v591527504/v972535123"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.3790966477245092e-05,
+    "selected_ids": [
+      "development-2-204201/production/DEFAULT@1",
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_132432239@1",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@1",
+      "development-2-204201/production/s_441767398@1",
+      "development-2-204201/production/s_498836205@1",
+      "development-2-204201/production/s_556005915@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.00010462501086294651,
+      "value": "v945248510/corrected508330135/v972535123"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1507,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 231,
+    "representation_seconds": 1.3375014532357454e-05,
+    "selected_ids": [
+      "development-2-204201/production/DEFAULT@1",
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_132432239@2",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@1",
+      "development-2-204201/production/s_441767398@1",
+      "development-2-204201/production/s_498836205@1",
+      "development-2-204201/production/s_556005915@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.591699689626694e-05,
+      "value": "v851771788/${s_498836205:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1508,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.3125012628734112e-05,
+    "selected_ids": [
+      "development-2-204201/production/DEFAULT@1",
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_132432239@2",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@2",
+      "development-2-204201/production/s_441767398@1",
+      "development-2-204201/production/s_498836205@1",
+      "development-2-204201/production/s_556005915@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v851771788/${s_498836205:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.3083044905215502e-05,
+    "selected_ids": [
+      "development-2-204201/production/DEFAULT@1",
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_132432239@2",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@2",
+      "development-2-204201/production/s_441767398@1",
+      "development-2-204201/production/s_498836205@1",
+      "development-2-204201/production/s_556005915@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 9.56250005401671e-05,
+      "value": "old/v851771788"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1508,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-2-204201/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-2-204201",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.2167030945420265e-05,
+    "selected_ids": [
+      "development-2-204201/production/DEFAULT@1",
+      "development-2-204201/production/s_130437384@1",
+      "development-2-204201/production/s_132432239@2",
+      "development-2-204201/production/s_367044182@1",
+      "development-2-204201/production/s_40964606@2",
+      "development-2-204201/production/s_441767398@1",
+      "development-2-204201/production/s_498836205@1",
+      "development-2-204201/production/s_556005915@1",
+      "development-2-204201/production/s_617270427@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.879100015386939e-05,
+      "value": "v591368771/v885103525"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1471,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.3375014532357454e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_164088361@1",
+      "development-3-314526/production/s_240874305@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_433604174@1",
+      "development-3-314526/production/s_663439215@1",
+      "development-3-314526/production/s_731671285@1",
+      "development-3-314526/production/s_784742066@1",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v591368771/v885103525"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.2833974324166775e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_164088361@1",
+      "development-3-314526/production/s_240874305@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_433604174@1",
+      "development-3-314526/production/s_663439215@1",
+      "development-3-314526/production/s_731671285@1",
+      "development-3-314526/production/s_784742066@1",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.112495273351669e-05,
+      "value": "corrected601871118/v885103525"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1479,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.2249976862221956e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_164088361@1",
+      "development-3-314526/production/s_240874305@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_433604174@1",
+      "development-3-314526/production/s_663439215@1",
+      "development-3-314526/production/s_731671285@2",
+      "development-3-314526/production/s_784742066@1",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.22919581271708e-05,
+      "value": "corrected601871118/v488291618/v386443474"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1487,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.4165998436510563e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_164088361@1",
+      "development-3-314526/production/s_240874305@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_433604174@1",
+      "development-3-314526/production/s_663439215@2",
+      "development-3-314526/production/s_731671285@2",
+      "development-3-314526/production/s_784742066@1",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "corrected601871118/v488291618/v386443474"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.3334036339074373e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_164088361@1",
+      "development-3-314526/production/s_240874305@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_433604174@1",
+      "development-3-314526/production/s_663439215@2",
+      "development-3-314526/production/s_731671285@2",
+      "development-3-314526/production/s_784742066@1",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.8874993808567524e-05,
+      "value": "old/v488291618"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1487,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-3-314526/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-3-314526",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.3499986380338669e-05,
+    "selected_ids": [
+      "development-3-314526/production/DEFAULT@1",
+      "development-3-314526/production/s_164088361@1",
+      "development-3-314526/production/s_240874305@1",
+      "development-3-314526/production/s_418929363@1",
+      "development-3-314526/production/s_433604174@1",
+      "development-3-314526/production/s_663439215@2",
+      "development-3-314526/production/s_731671285@2",
+      "development-3-314526/production/s_784742066@1",
+      "development-3-314526/production/s_846255061@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.1416049245744944e-05,
+      "value": "v690170438/v452669425/v875885222"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1479,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.3999990187585354e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_116650973@1",
+      "development-4-977798/production/s_124777625@1",
+      "development-4-977798/production/s_309670255@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@1",
+      "development-4-977798/production/s_675655642@1",
+      "development-4-977798/production/s_870852872@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v690170438/v452669425/v875885222"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.3165990822017193e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_116650973@1",
+      "development-4-977798/production/s_124777625@1",
+      "development-4-977798/production/s_309670255@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@1",
+      "development-4-977798/production/s_675655642@1",
+      "development-4-977798/production/s_870852872@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.216599674895406e-05,
+      "value": "v690170438/corrected650026802/v875885222"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1487,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.291598891839385e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_116650973@1",
+      "development-4-977798/production/s_124777625@2",
+      "development-4-977798/production/s_309670255@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@1",
+      "development-4-977798/production/s_675655642@1",
+      "development-4-977798/production/s_870852872@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.6290981117635965e-05,
+      "value": "v357074523/${s_116650973:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1488,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 0.00013950001448392868,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_116650973@1",
+      "development-4-977798/production/s_124777625@2",
+      "development-4-977798/production/s_309670255@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@2",
+      "development-4-977798/production/s_675655642@1",
+      "development-4-977798/production/s_870852872@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v357074523/${s_116650973:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.2582982890307903e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_116650973@1",
+      "development-4-977798/production/s_124777625@2",
+      "development-4-977798/production/s_309670255@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@2",
+      "development-4-977798/production/s_675655642@1",
+      "development-4-977798/production/s_870852872@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.620797699317336e-05,
+      "value": "old/v357074523"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1488,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-4-977798/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-4-977798",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.2625008821487427e-05,
+    "selected_ids": [
+      "development-4-977798/production/DEFAULT@1",
+      "development-4-977798/production/s_116650973@1",
+      "development-4-977798/production/s_124777625@2",
+      "development-4-977798/production/s_309670255@1",
+      "development-4-977798/production/s_383683574@1",
+      "development-4-977798/production/s_510393215@2",
+      "development-4-977798/production/s_675655642@1",
+      "development-4-977798/production/s_870852872@1",
+      "development-4-977798/production/s_881506474@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.58749889023602e-05,
+      "value": "v175506269/v696539223/v762446896"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1496,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 222,
+    "representation_seconds": 6.954098353162408e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@1",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_616594477@1",
+      "development-5-516385/production/s_782256300@1",
+      "development-5-516385/production/s_841971488@1",
+      "development-5-516385/production/s_90039640@1",
+      "development-5-516385/production/s_981053612@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v175506269/v696539223/v762446896"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 222,
+    "representation_seconds": 1.3165990822017193e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@1",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_616594477@1",
+      "development-5-516385/production/s_782256300@1",
+      "development-5-516385/production/s_841971488@1",
+      "development-5-516385/production/s_90039640@1",
+      "development-5-516385/production/s_981053612@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.420803790912032e-05,
+      "value": "v175506269/corrected989406180/v762446896"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1504,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 230,
+    "representation_seconds": 1.3125012628734112e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@1",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_616594477@1",
+      "development-5-516385/production/s_782256300@1",
+      "development-5-516385/production/s_841971488@2",
+      "development-5-516385/production/s_90039640@1",
+      "development-5-516385/production/s_981053612@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.00011295796139165759,
+      "value": "v175506269/corrected989406180/v821960080/v382425771"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1512,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.4792021829634905e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@2",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_616594477@1",
+      "development-5-516385/production/s_782256300@1",
+      "development-5-516385/production/s_841971488@2",
+      "development-5-516385/production/s_90039640@1",
+      "development-5-516385/production/s_981053612@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v175506269/corrected989406180/v821960080/v382425771"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.5208963304758072e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@2",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_616594477@1",
+      "development-5-516385/production/s_782256300@1",
+      "development-5-516385/production/s_841971488@2",
+      "development-5-516385/production/s_90039640@1",
+      "development-5-516385/production/s_981053612@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.024997517466545e-05,
+      "value": "old/v821960080"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1512,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-5-516385/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-5-516385",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.3999990187585354e-05,
+    "selected_ids": [
+      "development-5-516385/production/DEFAULT@1",
+      "development-5-516385/production/s_141444861@1",
+      "development-5-516385/production/s_40572799@2",
+      "development-5-516385/production/s_439325916@1",
+      "development-5-516385/production/s_616594477@1",
+      "development-5-516385/production/s_782256300@1",
+      "development-5-516385/production/s_841971488@2",
+      "development-5-516385/production/s_90039640@1",
+      "development-5-516385/production/s_981053612@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.00010145804844796658,
+      "value": "v497178733/v586111770"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1469,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.3000040780752897e-05,
+    "selected_ids": [
+      "development-6-543643/production/DEFAULT@1",
+      "development-6-543643/production/s_105272217@1",
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@1",
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_65638626@1",
+      "development-6-543643/production/s_731692620@1",
+      "development-6-543643/production/s_782449385@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v497178733/v586111770"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.2583972420543432e-05,
+    "selected_ids": [
+      "development-6-543643/production/DEFAULT@1",
+      "development-6-543643/production/s_105272217@1",
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@1",
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_65638626@1",
+      "development-6-543643/production/s_731692620@1",
+      "development-6-543643/production/s_782449385@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.941702354699373e-05,
+      "value": "corrected907888496/v586111770"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1477,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.2791017070412636e-05,
+    "selected_ids": [
+      "development-6-543643/production/DEFAULT@1",
+      "development-6-543643/production/s_105272217@1",
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@2",
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_65638626@1",
+      "development-6-543643/production/s_731692620@1",
+      "development-6-543643/production/s_782449385@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 9.358400711789727e-05,
+      "value": "v934762080/${s_105272217:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1478,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 210,
+    "representation_seconds": 1.2541946489363909e-05,
+    "selected_ids": [
+      "development-6-543643/production/DEFAULT@1",
+      "development-6-543643/production/s_105272217@1",
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@2",
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_65638626@1",
+      "development-6-543643/production/s_731692620@2",
+      "development-6-543643/production/s_782449385@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v934762080/${s_105272217:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 210,
+    "representation_seconds": 1.2082979083061218e-05,
+    "selected_ids": [
+      "development-6-543643/production/DEFAULT@1",
+      "development-6-543643/production/s_105272217@1",
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@2",
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_65638626@1",
+      "development-6-543643/production/s_731692620@2",
+      "development-6-543643/production/s_782449385@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.504097159951925e-05,
+      "value": "old/v934762080"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1478,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-6-543643/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-6-543643",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 210,
+    "representation_seconds": 1.229101326316595e-05,
+    "selected_ids": [
+      "development-6-543643/production/DEFAULT@1",
+      "development-6-543643/production/s_105272217@1",
+      "development-6-543643/production/s_139642904@1",
+      "development-6-543643/production/s_255529144@2",
+      "development-6-543643/production/s_400333764@1",
+      "development-6-543643/production/s_65638626@1",
+      "development-6-543643/production/s_731692620@2",
+      "development-6-543643/production/s_782449385@1",
+      "development-6-543643/production/s_824255497@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 9.958300506696105e-05,
+      "value": "v463569562/v269428999/v261877172"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1472,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 206,
+    "representation_seconds": 1.4833989553153515e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@1",
+      "development-7-407996/production/s_657271791@1",
+      "development-7-407996/production/s_882322522@1",
+      "development-7-407996/production/s_888528702@1",
+      "development-7-407996/production/s_947963592@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v463569562/v269428999/v261877172"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 206,
+    "representation_seconds": 1.3791956007480621e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@1",
+      "development-7-407996/production/s_657271791@1",
+      "development-7-407996/production/s_882322522@1",
+      "development-7-407996/production/s_888528702@1",
+      "development-7-407996/production/s_947963592@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.2374962251633406e-05,
+      "value": "v463569562/corrected168543251/v261877172"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1480,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 214,
+    "representation_seconds": 1.3749988283962011e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@1",
+      "development-7-407996/production/s_657271791@1",
+      "development-7-407996/production/s_882322522@1",
+      "development-7-407996/production/s_888528702@1",
+      "development-7-407996/production/s_947963592@2"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.304196383804083e-05,
+      "value": "v463569562/corrected168543251/v61226750/v463569562"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1490,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 224,
+    "representation_seconds": 1.4707969967275858e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@2",
+      "development-7-407996/production/s_657271791@1",
+      "development-7-407996/production/s_882322522@1",
+      "development-7-407996/production/s_888528702@1",
+      "development-7-407996/production/s_947963592@2"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v463569562/corrected168543251/v61226750/v463569562"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 224,
+    "representation_seconds": 1.4708028174936771e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@2",
+      "development-7-407996/production/s_657271791@1",
+      "development-7-407996/production/s_882322522@1",
+      "development-7-407996/production/s_888528702@1",
+      "development-7-407996/production/s_947963592@2"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.675000673159957e-05,
+      "value": "old/v61226750"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1490,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-7-407996/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-7-407996",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 224,
+    "representation_seconds": 1.4208955690264702e-05,
+    "selected_ids": [
+      "development-7-407996/production/DEFAULT@1",
+      "development-7-407996/production/s_133462941@1",
+      "development-7-407996/production/s_165578362@1",
+      "development-7-407996/production/s_2095157@1",
+      "development-7-407996/production/s_603023230@2",
+      "development-7-407996/production/s_657271791@1",
+      "development-7-407996/production/s_882322522@1",
+      "development-7-407996/production/s_888528702@1",
+      "development-7-407996/production/s_947963592@2"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.270796827971935e-05,
+      "value": "v943254440/v339169756/v633674258"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1501,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.4249992091208696e-05,
+    "selected_ids": [
+      "development-8-693074/production/DEFAULT@1",
+      "development-8-693074/production/s_137954003@1",
+      "development-8-693074/production/s_328770817@1",
+      "development-8-693074/production/s_389016289@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_749633095@1",
+      "development-8-693074/production/s_759749535@1",
+      "development-8-693074/production/s_822821763@1",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v943254440/v339169756/v633674258"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.3749988283962011e-05,
+    "selected_ids": [
+      "development-8-693074/production/DEFAULT@1",
+      "development-8-693074/production/s_137954003@1",
+      "development-8-693074/production/s_328770817@1",
+      "development-8-693074/production/s_389016289@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_749633095@1",
+      "development-8-693074/production/s_759749535@1",
+      "development-8-693074/production/s_822821763@1",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.299999611452222e-05,
+      "value": "v943254440/corrected840688968/v633674258"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1509,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 231,
+    "representation_seconds": 1.3499986380338669e-05,
+    "selected_ids": [
+      "development-8-693074/production/DEFAULT@1",
+      "development-8-693074/production/s_137954003@1",
+      "development-8-693074/production/s_328770817@1",
+      "development-8-693074/production/s_389016289@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_749633095@1",
+      "development-8-693074/production/s_759749535@1",
+      "development-8-693074/production/s_822821763@2",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.754099063575268e-05,
+      "value": "v861520020/${s_389016289:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1510,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.3666984159499407e-05,
+    "selected_ids": [
+      "development-8-693074/production/DEFAULT@1",
+      "development-8-693074/production/s_137954003@2",
+      "development-8-693074/production/s_328770817@1",
+      "development-8-693074/production/s_389016289@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_749633095@1",
+      "development-8-693074/production/s_759749535@1",
+      "development-8-693074/production/s_822821763@2",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v861520020/${s_389016289:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 7.062498480081558e-05,
+    "selected_ids": [
+      "development-8-693074/production/DEFAULT@1",
+      "development-8-693074/production/s_137954003@2",
+      "development-8-693074/production/s_328770817@1",
+      "development-8-693074/production/s_389016289@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_749633095@1",
+      "development-8-693074/production/s_759749535@1",
+      "development-8-693074/production/s_822821763@2",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.6459026634693146e-05,
+      "value": "old/v861520020"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1510,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-8-693074/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-8-693074",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 232,
+    "representation_seconds": 1.2791017070412636e-05,
+    "selected_ids": [
+      "development-8-693074/production/DEFAULT@1",
+      "development-8-693074/production/s_137954003@2",
+      "development-8-693074/production/s_328770817@1",
+      "development-8-693074/production/s_389016289@1",
+      "development-8-693074/production/s_617243283@1",
+      "development-8-693074/production/s_749633095@1",
+      "development-8-693074/production/s_759749535@1",
+      "development-8-693074/production/s_822821763@2",
+      "development-8-693074/production/s_973440345@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.850002005696297e-05,
+      "value": "v136099551/v220718659"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1469,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 1.3000040780752897e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@1",
+      "development-9-314449/production/s_492955560@1",
+      "development-9-314449/production/s_56872332@1",
+      "development-9-314449/production/s_653448649@1",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_765136254@1",
+      "development-9-314449/production/s_891353022@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v136099551/v220718659"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 201,
+    "representation_seconds": 6.854103412479162e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@1",
+      "development-9-314449/production/s_492955560@1",
+      "development-9-314449/production/s_56872332@1",
+      "development-9-314449/production/s_653448649@1",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_765136254@1",
+      "development-9-314449/production/s_891353022@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.1042006816715e-05,
+      "value": "corrected845393494/v220718659"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1477,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.2958014849573374e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@1",
+      "development-9-314449/production/s_492955560@1",
+      "development-9-314449/production/s_56872332@1",
+      "development-9-314449/production/s_653448649@2",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_765136254@1",
+      "development-9-314449/production/s_891353022@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.0374947022646666e-05,
+      "value": "corrected845393494/v928539761/v674410116"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1485,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.391599653288722e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@2",
+      "development-9-314449/production/s_492955560@1",
+      "development-9-314449/production/s_56872332@1",
+      "development-9-314449/production/s_653448649@2",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_765136254@1",
+      "development-9-314449/production/s_891353022@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "corrected845393494/v928539761/v674410116"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.3499986380338669e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@2",
+      "development-9-314449/production/s_492955560@1",
+      "development-9-314449/production/s_56872332@1",
+      "development-9-314449/production/s_653448649@2",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_765136254@1",
+      "development-9-314449/production/s_891353022@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.6083005145192146e-05,
+      "value": "old/v928539761"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1485,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-9-314449/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-9-314449",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.3583980035036802e-05,
+    "selected_ids": [
+      "development-9-314449/production/DEFAULT@1",
+      "development-9-314449/production/s_458807915@2",
+      "development-9-314449/production/s_492955560@1",
+      "development-9-314449/production/s_56872332@1",
+      "development-9-314449/production/s_653448649@2",
+      "development-9-314449/production/s_756006106@1",
+      "development-9-314449/production/s_765136254@1",
+      "development-9-314449/production/s_891353022@1",
+      "development-9-314449/production/s_944782033@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 0,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.1125010941177607e-05,
+      "value": "v850666511/v306132046/v379887747"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1488,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.3832992408424616e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@1",
+      "development-10-167305/production/s_208954601@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@1",
+      "development-10-167305/production/s_690736546@1",
+      "development-10-167305/production/s_830859509@1",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v850666511/v306132046/v379887747"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 209,
+    "representation_seconds": 1.3249984476715326e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@1",
+      "development-10-167305/production/s_208954601@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@1",
+      "development-10-167305/production/s_690736546@1",
+      "development-10-167305/production/s_830859509@1",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.374994361773133e-05,
+      "value": "v850666511/corrected474863430/v379887747"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1496,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 217,
+    "representation_seconds": 1.333397813141346e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@1",
+      "development-10-167305/production/s_208954601@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@2",
+      "development-10-167305/production/s_690736546@1",
+      "development-10-167305/production/s_830859509@1",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.5124965254217386e-05,
+      "value": "v798900273/${s_830859509:value}"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1497,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.3458949979394674e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@2",
+      "development-10-167305/production/s_208954601@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@2",
+      "development-10-167305/production/s_690736546@1",
+      "development-10-167305/production/s_830859509@1",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v798900273/${s_830859509:value}"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 1.287501072511077e-05,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@2",
+      "development-10-167305/production/s_208954601@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@2",
+      "development-10-167305/production/s_690736546@1",
+      "development-10-167305/production/s_830859509@1",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.63749747723341e-05,
+      "value": "old/v798900273"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1497,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-10-167305/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-10-167305",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 218,
+    "representation_seconds": 0.00014720798935741186,
+    "selected_ids": [
+      "development-10-167305/production/DEFAULT@1",
+      "development-10-167305/production/s_183791610@2",
+      "development-10-167305/production/s_208954601@1",
+      "development-10-167305/production/s_530629992@1",
+      "development-10-167305/production/s_586957571@1",
+      "development-10-167305/production/s_624223795@2",
+      "development-10-167305/production/s_690736546@1",
+      "development-10-167305/production/s_830859509@1",
+      "development-10-167305/production/s_844684840@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 1,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.366699770092964e-05,
+      "value": "v458414057/v362164122/v910990512"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1508,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/0",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.3749988283962011e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@1",
+      "development-11-493597/production/s_18327487@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@1",
+      "development-11-493597/production/s_596952572@1",
+      "development-11-493597/production/s_719683409@1",
+      "development-11-493597/production/s_761213399@1",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "initial",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v458414057/v362164122/v910990512"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/1",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 12,
+    "repair": null,
+    "representation_option_characters": 223,
+    "representation_seconds": 1.3417040463536978e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@1",
+      "development-11-493597/production/s_18327487@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@1",
+      "development-11-493597/production/s_596952572@1",
+      "development-11-493597/production/s_719683409@1",
+      "development-11-493597/production/s_761213399@1",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.420803790912032e-05,
+      "value": "v458414057/corrected31301532/v910990512"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1515,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/2",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "all",
+    "minimum_dependency_count": 4,
+    "raw_candidate_count": 13,
+    "repair": null,
+    "representation_option_characters": 230,
+    "representation_seconds": 7.24170240573585e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@1",
+      "development-11-493597/production/s_18327487@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@2",
+      "development-11-493597/production/s_596952572@1",
+      "development-11-493597/production/s_719683409@1",
+      "development-11-493597/production/s_761213399@1",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "value_correction",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 5.508295726031065e-05,
+      "value": "v458414057/corrected31301532/v388263719/v325989927"
+    },
+    "cache_hit": false,
+    "cache_invalidated": true,
+    "delivery_bytes": 1523,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/3",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.487502595409751e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@2",
+      "development-11-493597/production/s_18327487@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@2",
+      "development-11-493597/production/s_596952572@1",
+      "development-11-493597/production/s_719683409@1",
+      "development-11-493597/production/s_761213399@1",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "dependency_revision",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 0.0,
+      "value": "v458414057/corrected31301532/v388263719/v325989927"
+    },
+    "cache_hit": true,
+    "cache_invalidated": false,
+    "delivery_bytes": 0,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/4",
+    "executions": 0,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "all",
+    "minimum_dependency_count": 5,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 1.4833989553153515e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@2",
+      "development-11-493597/production/s_18327487@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@2",
+      "development-11-493597/production/s_596952572@1",
+      "development-11-493597/production/s_719683409@1",
+      "development-11-493597/production/s_761213399@1",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "revised_repeat",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  },
+  {
+    "answer": {
+      "seconds": 4.7707988414913416e-05,
+      "value": "old/v388263719"
+    },
+    "cache_hit": false,
+    "cache_invalidated": false,
+    "delivery_bytes": 1523,
+    "dependency_complete": true,
+    "eligible_count": 9,
+    "episode": "development-11-493597/5",
+    "executions": 1,
+    "final_complete": true,
+    "first_complete": true,
+    "history": "development-11-493597",
+    "method": "all",
+    "minimum_dependency_count": 2,
+    "raw_candidate_count": 14,
+    "repair": null,
+    "representation_option_characters": 238,
+    "representation_seconds": 7.166701834648848e-05,
+    "selected_ids": [
+      "development-11-493597/production/DEFAULT@1",
+      "development-11-493597/production/s_102775648@2",
+      "development-11-493597/production/s_18327487@1",
+      "development-11-493597/production/s_456305595@1",
+      "development-11-493597/production/s_499490737@2",
+      "development-11-493597/production/s_596952572@1",
+      "development-11-493597/production/s_719683409@1",
+      "development-11-493597/production/s_761213399@1",
+      "development-11-493597/production/s_947695284@1"
+    ],
+    "stage": "old_valid_obligation",
+    "syntax_family": 2,
+    "work": {
+      "discrete_evaluations": 0,
+      "gradient_steps": 0,
+      "seconds": 0.0
+    }
+  }
+]
