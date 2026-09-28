@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 3, \"text\": \"37 ``Girl with Guitar ''Liev Schreiber David Hollander June 20, 2016 (2016 - 06 - 20) (online) June 26, 2016 (2016 - 06 - 26) (Showtime) 1.11\", \"title\": \"List of Ray Donovan episodes\"}, {\"idx\": 6, \"text\": \"\\\"The Bag or the Bat\\\" is the pilot episode of the Showtime original series \\\"Ray Donovan\\\", and premiered on June 30, 2013. The series premiere was directed by Allen Coulter and written by series creator Ann Biderman. Prior to the premiere television airing, the episode was uploaded to YouTube by Showtime and was previewed over 150,000 times.\", \"title\": \"The Bag or the Bat\"}, {\"idx\": 7, \"text\": \"Ty Cobb holds the record for highest career batting average with. 366, 9 points higher than Rogers Hornsby who has the second highest average in history at. 358. The record for lowest career batting average for a player with more than 2,500 at - bats belongs to Bill Bergen, a catcher who played from 1901 to 1911 and recorded a. 170 average in 3,028 career at - bats. The modern - era record for highest batting average for a season is held by Napoleon Lajoie, who hit. 426 in 1901, the first year of play for the American League. The modern - era record for lowest batting average for a player that qualified for the batting title is held by Rob Deer, who hit. 179 in 1991. While finishing six plate appearances short of qualifying for the batting title, Adam Dunn of the Chicago White Sox hit. 159 for the 2011 season, twenty points (and 11.2%) lower than the record. The highest batting average for a rookie was. 408 in 1911 by Shoeless Joe Jackson.\", \"title\": \"Batting average\"}, {\"idx\": 8, \"text\": \"The sixth and final season of the HBO drama series The Sopranos was broadcast in two parts, the first beginning on March 12, 2006 and ending after twelve episodes on June 4, 2006. The first of the final nine episodes premiered on April 8, 2007 with the series finale airing on June 10, 2007. The season was initially meant to consist of twenty episodes, but creator David Chase asked for one more to properly round out the story. The first part was released on DVD in region 1 on November 7, 2006, and on Blu - ray on December 19, 2006. The second part was released on DVD and Blu - ray on October 23, 2007.\", \"title\": \"The Sopranos (season 6)\"}], \"question\": \"When does season 4 of the series that The Bag or the Bat is a part of come out?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

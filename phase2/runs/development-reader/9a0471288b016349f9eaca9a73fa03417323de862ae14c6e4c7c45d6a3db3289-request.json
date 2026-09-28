@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 14, \"text\": \"\\\"War of the Coprophages\\\" was Darin Morgan's third episode, after the second-season episode \\\"Humbug\\\" and season three's \\\"Clyde Bruckman's Final Repose\\\". In order to achieve the effect of a cockroach infestation, the show used around three hundred cockroaches for the episode in addition to extremely detailed rubber cockroach props and \\\"piles and piles\\\" of faux-dung. The episode's title is a reference to the famous novel \\\"The War of the Worlds\\\" by H.G. Wells, as well as its 1938 radio adaptation by Orson Welles. The character Dr. Berenbaum is named for entomologist May Berenbaum.\", \"title\": \"War of the Coprophages\"}, {\"idx\": 16, \"text\": \"\\\"Blood\\\" was inspired by writer Glen Morgan's own hematophobia as well as controversy over malathion spraying in Southern California. The episode marked the second appearance of the Lone Gunmen in the series, as well as a guest appearance by pornographic actress Ashlyn Gere.\", \"title\": \"Blood (The X-Files)\"}], \"question\": \"Who is the sibling of the screenwriter of War of the Coprophages?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"Muhammad Shobran (born July 6, 1983 in Palembang, South Sumatra) is an Indonesian footballer that currently plays for Sriwijaya in the Indonesia Super League.\", \"title\": \"Muhammad Shobran\"}, {\"idx\": 19, \"text\": \"The Battle of Palembang was a battle of the Pacific theatre of World War II. It occurred near Palembang, on Sumatra, on 13\\u201315 February 1942. The Royal Dutch Shell oil refineries at nearby Pladju (or Pladjoe) were the major objectives for the Empire of Japan in the Pacific War, because of an oil embargo imposed on Japan by the United States, the Netherlands, and the United Kingdom. With the area's abundant fuel supply and airfield, Palembang offered significant potential as a military base to both the Allies and the Japanese.\", \"title\": \"Battle of Palembang\"}], \"question\": \"On what date was the battle where Muhammad Shobran was born?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

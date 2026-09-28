@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 3, \"text\": \"37 ``Girl with Guitar ''Liev Schreiber David Hollander June 20, 2016 (2016 - 06 - 20) (online) June 26, 2016 (2016 - 06 - 26) (Showtime) 1.11\", \"title\": \"List of Ray Donovan episodes\"}, {\"idx\": 6, \"text\": \"\\\"The Bag or the Bat\\\" is the pilot episode of the Showtime original series \\\"Ray Donovan\\\", and premiered on June 30, 2013. The series premiere was directed by Allen Coulter and written by series creator Ann Biderman. Prior to the premiere television airing, the episode was uploaded to YouTube by Showtime and was previewed over 150,000 times.\", \"title\": \"The Bag or the Bat\"}, {\"idx\": 10, \"text\": \"Bat Masterson is an American Western television series which showed a fictionalized account of the life of real - life marshal / gambler / dandy Bat Masterson. The title character was played by Gene Barry and the half - hour black - and - white shows ran on NBC from 1958 to 1961. The series was produced by Ziv Television Productions.\", \"title\": \"Bat Masterson (TV series)\"}, {\"idx\": 12, \"text\": \"Bat Masterson is an American Western television series which showed a fictionalized account of the life of real - life marshal / gambler / dandy Bat Masterson. The title character was played by Gene Barry and the half - hour black - and - white shows ran on NBC from 1958 to 1961. The series was produced by Ziv Television Productions. Bat is a nickname for Masterson's first name, Bartholemew.\", \"title\": \"Bat Masterson (TV series)\"}], \"question\": \"When does season 4 of the series that The Bag or the Bat is a part of come out?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

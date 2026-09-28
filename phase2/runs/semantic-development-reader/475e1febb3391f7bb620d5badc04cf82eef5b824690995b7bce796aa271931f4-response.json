@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+    "citations": [
+      1,
+      7
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"to stem the flow of merchant shipping that enabled Britain to keep fighting\", \"citations\":[1, 7]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602678,
+    "id": "chatcmpl-h6CIveb8kX4QmOwo8kKhnaStNj7CH1A0",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 1339.151,
+      "predicted_n": 27,
+      "predicted_per_second": 20.162028031192897,
+      "predicted_per_token_ms": 49.59818518518519,
+      "prompt_ms": 2798.634,
+      "prompt_n": 502,
+      "prompt_per_second": 179.3732227936915,
+      "prompt_per_token_ms": 5.57496812749004
+    },
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 589,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 616
+    }
+  },
+  "wall_seconds": 4.180313791031949
+}

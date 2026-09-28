@@ -1,0 +1,11 @@
+{
+  "checkpoint_sha256": "debd6a05ab946d6a07330d1f4846a5d529ff338780a7a41bc43f05a297854f21",
+  "concurrent_work": "Phase-2 serial reader on same host; timing is illustrative, not isolated benchmark",
+  "created_utc": "2026-09-28T13:41:23Z",
+  "new_encoder_calls": 0,
+  "new_training_updates": 0,
+  "protocol_sha256": "d607f2196439a65729ed74337641ff3e5fb08253cab6e00017f16314d76eaf9c",
+  "reader_calls": 0,
+  "script_sha256": "4ed722c4f8a1ea8f813100dc7796c3a7b8c59624a1623e48ee8b29f22c0566a0",
+  "source_split": "seen development indices 12:16"
+}

@@ -1,0 +1,1108 @@
+{
+  "inference_calls": 0,
+  "intervention": "Deterministic final-JSON extraction only; original responses unchanged",
+  "rows": [
+    {
+      "answer": {
+        "answer": "13\u201315 February 1942",
+        "citations": [
+          6,
+          19
+        ]
+      },
+      "answer_em": 0,
+      "answer_f1": 0.6666666666666666,
+      "arm": "all",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": true,
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "exact",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": false,
+      "selected": [
+        4,
+        6,
+        11,
+        14
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "learned_unary",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": false,
+      "selected": [
+        6,
+        9,
+        12,
+        18
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "no_context",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": false,
+      "selected": []
+    },
+    {
+      "answer": {
+        "answer": "13\u201315 February 1942",
+        "citations": [
+          6,
+          19
+        ]
+      },
+      "answer_em": 0,
+      "answer_f1": 0.6666666666666666,
+      "arm": "oracle_support",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": true,
+      "selected": [
+        6,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "ordinary_1.0",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": false,
+      "selected": [
+        0,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "relaxed_swap",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": false,
+      "selected": [
+        4,
+        6,
+        11,
+        14
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "support_removed",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__829474_123956",
+      "retrieved_complete": false,
+      "selected": [
+        6
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": [],
+        "parse_error": true
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "all",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": true,
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": [],
+        "parse_error": true
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "exact",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": false,
+      "selected": [
+        0,
+        6,
+        8,
+        15
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "learned_unary",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": false,
+      "selected": [
+        0,
+        2,
+        8,
+        16
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "no_context",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": false,
+      "selected": []
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": [],
+        "parse_error": true
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "oracle_support",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": true,
+      "selected": [
+        3,
+        8,
+        10,
+        15
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "ordinary_1.0",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": false,
+      "selected": [
+        1,
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": [],
+        "parse_error": true
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "relaxed_swap",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": false,
+      "selected": [
+        0,
+        6,
+        8,
+        15
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": [],
+        "parse_error": true
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "support_removed",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "quadruple_iii__473563_309800_355213_203322",
+      "retrieved_complete": false,
+      "selected": [
+        3,
+        8,
+        10
+      ]
+    },
+    {
+      "answer": {
+        "answer": "April 4, 2014",
+        "citations": [
+          6,
+          19
+        ]
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "all",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": true,
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "exact",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": true,
+      "selected": [
+        3,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "learned_unary",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": false,
+      "selected": [
+        6,
+        7,
+        10,
+        12
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "no_context",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": false,
+      "selected": []
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "oracle_support",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": true,
+      "selected": [
+        3,
+        6
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "ordinary_1.0",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": false,
+      "selected": [
+        6,
+        8,
+        13,
+        14
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "relaxed_swap",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": true,
+      "selected": [
+        3,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "support_removed",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__153532_72380",
+      "retrieved_complete": false,
+      "selected": [
+        3
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "all",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__820739_250752",
+      "retrieved_complete": true,
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "exact",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__820739_250752",
+      "retrieved_complete": false,
+      "selected": [
+        5,
+        8,
+        12,
+        14
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "learned_unary",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__820739_250752",
+      "retrieved_complete": true,
+      "selected": [
+        4,
+        8,
+        14,
+        16
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "no_context",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__820739_250752",
+      "retrieved_complete": false,
+      "selected": []
+    },
+    {
+      "answer": {
+        "answer": "Glen Morgan",
+        "citations": [
+          14,
+          16
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "oracle_support",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "id": "double__820739_250752",
+      "retrieved_complete": true,
+      "selected": [
+        14,
+        16
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "ordinary_1.0",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__820739_250752",
+      "retrieved_complete": false,
+      "selected": [
+        6,
+        10,
+        13,
+        14
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "relaxed_swap",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__820739_250752",
+      "retrieved_complete": false,
+      "selected": [
+        5,
+        8,
+        12,
+        14
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "support_removed",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__820739_250752",
+      "retrieved_complete": false,
+      "selected": [
+        14
+      ]
+    },
+    {
+      "answer": {
+        "answer": "1843",
+        "citations": [
+          18
+        ]
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "all",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__451574_120065",
+      "retrieved_complete": true,
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "1738",
+        "citations": [
+          18,
+          19
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "exact",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "id": "double__451574_120065",
+      "retrieved_complete": true,
+      "selected": [
+        2,
+        15,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "1738",
+        "citations": [
+          18,
+          19
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "learned_unary",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "id": "double__451574_120065",
+      "retrieved_complete": true,
+      "selected": [
+        5,
+        7,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "no_context",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__451574_120065",
+      "retrieved_complete": false,
+      "selected": []
+    },
+    {
+      "answer": {
+        "answer": "1738",
+        "citations": [
+          18,
+          19
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "oracle_support",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "id": "double__451574_120065",
+      "retrieved_complete": true,
+      "selected": [
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "1738",
+        "citations": [
+          18,
+          19
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "ordinary_1.0",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "id": "double__451574_120065",
+      "retrieved_complete": true,
+      "selected": [
+        3,
+        15,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "1738",
+        "citations": [
+          18,
+          19
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "relaxed_swap",
+      "citations_complete": true,
+      "citations_valid": true,
+      "complete": 1,
+      "id": "double__451574_120065",
+      "retrieved_complete": true,
+      "selected": [
+        2,
+        15,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "support_removed",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "double__451574_120065",
+      "retrieved_complete": false,
+      "selected": [
+        18
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": [],
+        "parse_error": true
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "all",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": true,
+      "selected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+        "citations": [
+          1,
+          7
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "exact",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": true,
+      "selected": [
+        1,
+        6,
+        7,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+        "citations": [
+          1,
+          7
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "learned_unary",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": true,
+      "selected": [
+        1,
+        6,
+        7,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "no_context",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": false,
+      "selected": []
+    },
+    {
+      "answer": {
+        "answer": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+        "citations": [
+          1,
+          7
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "oracle_support",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": true,
+      "selected": [
+        1,
+        7,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "",
+        "citations": []
+      },
+      "answer_em": 0,
+      "answer_f1": 0,
+      "arm": "ordinary_1.0",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": false,
+      "selected": [
+        7,
+        9,
+        13,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+        "citations": [
+          1,
+          7
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "relaxed_swap",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": true,
+      "selected": [
+        1,
+        6,
+        7,
+        19
+      ]
+    },
+    {
+      "answer": {
+        "answer": "to stem the flow of merchant shipping that enabled Britain to keep fighting",
+        "citations": [
+          1,
+          7
+        ]
+      },
+      "answer_em": 1,
+      "answer_f1": 1.0,
+      "arm": "support_removed",
+      "citations_complete": false,
+      "citations_valid": true,
+      "complete": 0,
+      "id": "triple_ii__128516_30587_83479",
+      "retrieved_complete": false,
+      "selected": [
+        1,
+        7
+      ]
+    }
+  ],
+  "summary": {
+    "all": {
+      "answer_em": 0,
+      "complete": 0,
+      "n": 6,
+      "parse_errors": 2
+    },
+    "exact": {
+      "answer_em": 2,
+      "complete": 1,
+      "n": 6,
+      "parse_errors": 1
+    },
+    "learned_unary": {
+      "answer_em": 2,
+      "complete": 1,
+      "n": 6,
+      "parse_errors": 0
+    },
+    "no_context": {
+      "answer_em": 0,
+      "complete": 0,
+      "n": 6,
+      "parse_errors": 0
+    },
+    "oracle_support": {
+      "answer_em": 3,
+      "complete": 2,
+      "n": 6,
+      "parse_errors": 1
+    },
+    "ordinary_1.0": {
+      "answer_em": 1,
+      "complete": 1,
+      "n": 6,
+      "parse_errors": 0
+    },
+    "relaxed_swap": {
+      "answer_em": 2,
+      "complete": 1,
+      "n": 6,
+      "parse_errors": 1
+    },
+    "support_removed": {
+      "answer_em": 1,
+      "complete": 0,
+      "n": 6,
+      "parse_errors": 1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"\\\"The Bag or the Bat\\\" is the pilot episode of the Showtime original series \\\"Ray Donovan\\\", and premiered on June 30, 2013. The series premiere was directed by Allen Coulter and written by series creator Ann Biderman. Prior to the premiere television airing, the episode was uploaded to YouTube by Showtime and was previewed over 150,000 times.\", \"title\": \"The Bag or the Bat\"}, {\"idx\": 8, \"text\": \"The sixth and final season of the HBO drama series The Sopranos was broadcast in two parts, the first beginning on March 12, 2006 and ending after twelve episodes on June 4, 2006. The first of the final nine episodes premiered on April 8, 2007 with the series finale airing on June 10, 2007. The season was initially meant to consist of twenty episodes, but creator David Chase asked for one more to properly round out the story. The first part was released on DVD in region 1 on November 7, 2006, and on Blu - ray on December 19, 2006. The second part was released on DVD and Blu - ray on October 23, 2007.\", \"title\": \"The Sopranos (season 6)\"}, {\"idx\": 10, \"text\": \"Bat Masterson is an American Western television series which showed a fictionalized account of the life of real - life marshal / gambler / dandy Bat Masterson. The title character was played by Gene Barry and the half - hour black - and - white shows ran on NBC from 1958 to 1961. The series was produced by Ziv Television Productions.\", \"title\": \"Bat Masterson (TV series)\"}, {\"idx\": 12, \"text\": \"Bat Masterson is an American Western television series which showed a fictionalized account of the life of real - life marshal / gambler / dandy Bat Masterson. The title character was played by Gene Barry and the half - hour black - and - white shows ran on NBC from 1958 to 1961. The series was produced by Ziv Television Productions. Bat is a nickname for Masterson's first name, Bartholemew.\", \"title\": \"Bat Masterson (TV series)\"}], \"question\": \"When does season 4 of the series that The Bag or the Bat is a part of come out?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

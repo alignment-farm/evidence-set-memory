@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"Muhammad Shobran (born July 6, 1983 in Palembang, South Sumatra) is an Indonesian footballer that currently plays for Sriwijaya in the Indonesia Super League.\", \"title\": \"Muhammad Shobran\"}, {\"idx\": 8, \"text\": \"Muslims believe that the Quran was verbally revealed by God to Muhammad through the angel Gabriel (Jibril), gradually over a period of approximately 23 years, beginning on 22 December 609 CE, when Muhammad was 40, and concluding in 632, the year of his death. Muslims regard the Quran as the most important miracle of Muhammad, a proof of his prophethood, and the culmination of a series of divine messages that started with the messages revealed to Adam and ended with Muhammad. The word ``Quran ''occurs some 70 times in the text of the Quran, although different names and words are also said to be references to the Quran.\", \"title\": \"Quran\"}, {\"idx\": 10, \"text\": \"The Battle of New Orleans was fought on Sunday, January 8, 1815, between the British Army under Major General Sir Edward Pakenham, and the United States Army under Brevet Major General Andrew Jackson. It took place approximately 5 miles (8.0 kilometres) south of the city of New Orleans, close to the present - day town of Chalmette, Louisiana, and was an American victory. The battle effectively marked the end of the War of 1812.\", \"title\": \"Battle of New Orleans\"}, {\"idx\": 12, \"text\": \"Muhammad's first revelation was an event described in Islam as taking place in 610 AD, during which the Islamic prophet, Muhammad was visited by the archangel Jibr\\u012bl, who revealed to him the beginnings of what would later become the Quran. The event took place in a cave called Hira, located on the mountain Jabal an - Nour, near Mecca.\", \"title\": \"Muhammad's first revelation\"}], \"question\": \"On what date was the battle where Muhammad Shobran was born?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

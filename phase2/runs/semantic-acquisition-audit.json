@@ -1,0 +1,67 @@
+{
+  "cost": {
+    "development": {
+      "encoder_cost_ledger": "phase2/runs/encoding-development.json",
+      "excluded_non20_ids": [],
+      "input_bytes": 550314,
+      "pair_rows": 9120,
+      "paragraphs": 960,
+      "questions": 48,
+      "seconds": 0.261403959011659,
+      "semantic_feature_seconds": 0.011133417021483183,
+      "unary_rows": 960
+    },
+    "train": {
+      "encoder_cost_ledger": "phase2/runs/encoding-train.json",
+      "excluded_non20_ids": [
+        "triple_ii__639955_834494_34099",
+        "triple_ii__102087_214799_259594",
+        "triple_ii__532517_214799_259594"
+      ],
+      "input_bytes": 3138853,
+      "pair_rows": 48070,
+      "paragraphs": 5060,
+      "questions": 253,
+      "seconds": 1.455412916955538,
+      "semantic_feature_seconds": 0.05480295896995813,
+      "unary_rows": 5060
+    }
+  },
+  "diagnostics": "same acquisition pairs plus development; not fresh evaluation",
+  "rows": [
+    {
+      "complete": 61,
+      "margin_satisfied": 0.0,
+      "mean_recall": 0.5556653491436098,
+      "model": "initial",
+      "n": 253,
+      "pair_order_accuracy": 0.6841650009155273,
+      "split": "train"
+    },
+    {
+      "complete": 127,
+      "margin_satisfied": 0.7240612506866455,
+      "mean_recall": 0.7315546772068514,
+      "model": "learned",
+      "n": 253,
+      "pair_order_accuracy": 0.8674654364585876,
+      "split": "train"
+    },
+    {
+      "complete": 6,
+      "mean_recall": 0.5381944444444444,
+      "model": "initial",
+      "n": 48,
+      "split": "development"
+    },
+    {
+      "complete": 21,
+      "mean_recall": 0.7447916666666666,
+      "model": "learned",
+      "n": 48,
+      "split": "development"
+    }
+  ],
+  "script_sha256": "ee9998328e00b78f7ebd20d5522dc397abfae82fd1c9a0d34141251ab0108b59",
+  "wall_seconds": 2.3025642079883255
+}

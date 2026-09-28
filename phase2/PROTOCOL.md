@@ -64,3 +64,15 @@ that first prompt/response version. Reader cohort is six development questions a
 up to 24 confirmation questions; additional diagnostic development calls remain
 charged. Adjust the cumulative call cap to 300 to accommodate the preserved first
 development pass and revised development pass, with no parallel serving.
+
+Reader development diagnosis: the 256-token free-text route sometimes ignored
+the JSON instruction and truncated an explanation before its final answer.
+Preserve that run; use supported JSON-object response formatting and 512 output
+tokens in the next development pass. Freeze this interface before confirmation.
+
+Second reader diagnosis: the serving route accepted but did not reliably enforce
+JSON mode. Some complete responses contain valid final JSON after explanation.
+The final reader extracts the last schema-valid answer/citations object without
+interpreting prose; malformed/truncated objects still fail. Increase the final
+allowance to 1,024 tokens. Preserve original responses and strict-parser results,
+and check this public formatting repair on development before freezing.

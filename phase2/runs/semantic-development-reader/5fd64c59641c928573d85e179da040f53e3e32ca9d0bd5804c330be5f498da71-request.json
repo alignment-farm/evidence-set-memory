@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 3, \"text\": \"Willard M. Huyck (January 11, 1917 - November 3, 2018) served in the California legislature and during World War II he served in the United States Army. His son Willard Huyck is an American screenwriter, director and producer,\", \"title\": \"Willard M. Huyck\"}, {\"idx\": 4, \"text\": \"When a virus that is carried by rainfall wipes out almost all humans in Scandinavia, Danish siblings Simone and Rasmus take shelter in a bunker. Six years later, they emerge to search for their father, a scientist who left them in the bunker but never returned. Along the way they join a group of young survivors and together they travel across Denmark and Sweden, searching for a safe place, and for the siblings' father, who may be able to provide the answers and the cure.\", \"title\": \"The Rain (TV series)\"}, {\"idx\": 5, \"text\": \"Film U.S. release date Director (s) Screenwriter (s) Producer (s) Status Star Wars: The Force Awakens December 18, 2015 (2015 - 12 - 18) J.J. Abrams Lawrence Kasdan, J.J. Abrams and Michael Arndt Kathleen Kennedy, J.J. Abrams and Bryan Burk Released Star Wars: The Last Jedi December 15, 2017 (2017 - 12 - 15) Rian Johnson Kathleen Kennedy and Ram Bergman Star Wars: Episode IX December 20, 2019 (2019 - 12 - 20) J.J. Abrams J.J. Abrams & Chris Terrio Kathleen Kennedy, J.J. Abrams and Michelle Rejwan Filming\", \"title\": \"Star Wars sequel trilogy\"}, {\"idx\": 14, \"text\": \"\\\"War of the Coprophages\\\" was Darin Morgan's third episode, after the second-season episode \\\"Humbug\\\" and season three's \\\"Clyde Bruckman's Final Repose\\\". In order to achieve the effect of a cockroach infestation, the show used around three hundred cockroaches for the episode in addition to extremely detailed rubber cockroach props and \\\"piles and piles\\\" of faux-dung. The episode's title is a reference to the famous novel \\\"The War of the Worlds\\\" by H.G. Wells, as well as its 1938 radio adaptation by Orson Welles. The character Dr. Berenbaum is named for entomologist May Berenbaum.\", \"title\": \"War of the Coprophages\"}], \"question\": \"Who is the sibling of the screenwriter of War of the Coprophages?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

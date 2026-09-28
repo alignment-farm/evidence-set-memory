@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"Otto (German: Otto Wilhelm Luitpold Adalbert Waldemar; 27 April 1848 \\u2013 11 October 1916) was King of Bavaria from 1886 to 1913. However, he never actively ruled because of alleged severe mental illness. His uncle, Luitpold, and his cousin, Ludwig, served as regents.\", \"title\": \"Otto of Bavaria\"}, {\"idx\": 15, \"text\": \"Otto Ludwig (February 11, 1813 \\u2013 February 25, 1865) was a German dramatist, novelist and critic born in Eisfeld in Thuringia. He was one of Germany's first modern realists and one of the most notable dramatists of the period.\", \"title\": \"Otto Ludwig (writer)\"}, {\"idx\": 18, \"text\": \"Ludwig Friedrich Otto Baumgarten-Crusius (31 July 1788 \\u2013 May 31, 1843), was a German Protestant theologian and divine born in Merseburg. He was the brother of philologist Detlev Karl Wilhelm Baumgarten-Crusius (1786-1845).\", \"title\": \"Ludwig Friedrich Otto Baumgarten-Crusius\"}, {\"idx\": 19, \"text\": \"From 1657 to 1738 Merseburg was the residence of the Dukes of Saxe-Merseburg, after which it fell to the Electorate of Saxony. In 1815 following the Napoleonic Wars, the town became part of the Prussian Province of Saxony.\", \"title\": \"Merseburg\"}], \"question\": \"What year did Ludwig Friedrich Otto Baumgarten-Crusius's birthplace end?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

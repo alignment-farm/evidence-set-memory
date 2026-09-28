@@ -1,0 +1,13 @@
+{
+  "encoder_cost_ledger": "phase2/runs/encoding-confirmation.json",
+  "excluded_non20_ids": [],
+  "input_bytes": 811966,
+  "pair_rows": 12160,
+  "pairwise_forward_seconds": 0.0027077500126324594,
+  "paragraphs": 1280,
+  "questions": 64,
+  "seconds": 0.38373704196419567,
+  "semantic_feature_seconds": 0.015020125021692365,
+  "unary_forward_seconds": 0.00021104200277477503,
+  "unary_rows": 1280
+}

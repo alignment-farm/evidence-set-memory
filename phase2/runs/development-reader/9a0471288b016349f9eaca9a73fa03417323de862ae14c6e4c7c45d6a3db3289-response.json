@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "Glen Morgan",
+    "citations": [
+      14,
+      16
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"Glen Morgan\", \"citations\":[14, 16]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602162,
+    "id": "chatcmpl-YjrLd6hwSRcIbq53Vtg4kqrXOkNSIV2L",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 949.36,
+      "predicted_n": 19,
+      "predicted_per_second": 20.013482767337994,
+      "predicted_per_token_ms": 49.96631578947368,
+      "prompt_ms": 1671.825,
+      "prompt_n": 283,
+      "prompt_per_second": 169.2760904999028,
+      "prompt_per_token_ms": 5.907508833922262
+    },
+    "usage": {
+      "completion_tokens": 19,
+      "prompt_tokens": 370,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 389
+    }
+  },
+  "wall_seconds": 2.685101375041995
+}

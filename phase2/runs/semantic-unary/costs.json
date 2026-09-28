@@ -1,0 +1,41 @@
+{
+  "code_sha256": "b78ef50fd5370a6585490b12176a525fb2b4c5c959965db94099746b418ed8a8",
+  "contrast_presentations": 485760,
+  "created_utc": "2026-09-28T13:31:44Z",
+  "development_representation": {
+    "encoder_cost_ledger": "phase2/runs/encoding-development.json",
+    "excluded_non20_ids": [],
+    "input_bytes": 550314,
+    "pair_rows": 9120,
+    "paragraphs": 960,
+    "questions": 48,
+    "seconds": 0.25435570802073926,
+    "unary_rows": 960
+  },
+  "device": "cpu",
+  "epochs": 60,
+  "numpy": "2.5.3",
+  "optimizer_updates": 960,
+  "parameter_count": 321,
+  "representation": {
+    "encoder_cost_ledger": "phase2/runs/encoding-train.json",
+    "excluded_non20_ids": [
+      "triple_ii__639955_834494_34099",
+      "triple_ii__102087_214799_259594",
+      "triple_ii__532517_214799_259594"
+    ],
+    "input_bytes": 3138853,
+    "pair_rows": 48070,
+    "paragraphs": 5060,
+    "questions": 253,
+    "seconds": 1.426806709030643,
+    "unary_rows": 5060
+  },
+  "seed": 11,
+  "set_contrasts": 8096,
+  "threads": 2,
+  "torch": "2.14.0",
+  "train_cpu_seconds": 0.6414780000000002,
+  "train_wall_seconds": 0.6173932090168819,
+  "training_questions": 253
+}

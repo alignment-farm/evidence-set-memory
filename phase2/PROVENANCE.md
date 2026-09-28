@@ -36,8 +36,13 @@ selection energy with small nonlinear coefficient networks. It does not reproduc
 those papers' architectures or imply a new set-retrieval method. No arXiv discovery
 or metadata calls occurred. PyTorch's official [autograd documentation](https://docs.pytorch.org/docs/2.14/generated/torch.autograd.grad.html)
 was checked; an analytical selection-gradient equality test was executed.
-SentenceTransformer documentation was inspected as a possible representation
-route but no sentence encoder is used in the initial comparison.
+SentenceTransformer documentation was inspected and a semantic representation
+diagnostic was subsequently adopted. The frozen encoder is all-MiniLM-L6-v2 at
+revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41, 22,713,216 frozen parameters,
+384 dimensions and a 256-token input limit. Its imported pretraining is distinct
+from our learned specialist, and its token/caching/truncation costs are recorded.
+The model card lists QA-related pretraining sources; no absence of contamination
+is claimed. This is not a 674-parameter end-to-end system.
 
 Python 3.12.14, NumPy 2.5.3 and PyTorch 2.14.0 are locked by uv.lock. Parameters
 are actually updated through torch CPU autograd/AdamW. Relaxed selection uses the
@@ -52,7 +57,12 @@ Model inspection reports GGUF but no architecture/parameter/quantization fields;
 27b and q4_K_M are tag descriptions, not independently verified metadata. Use
 raw completion responses for actual returned model identity. Reader context resets
 each request; temperature 0, seed 761, max_tokens 256 and thinking disabled are
-requested, not independently certified. No weight download is required.
+requested, not independently certified. No reader weight download is required.
+The pretrained encoder was downloaded separately. The reader's final cap is 1,024
+after two preserved development interface revisions; raw requests are authoritative.
+Docker's API documentation says JSON-object mode is supported, but observed
+responses did not consistently obey it. Final schema-object extraction is a
+deterministic public formatting repair, fixed before confirmation.
 
 Costs include representation construction, training plus checkpoint-selection
 validation, all search work, actual reader requests and counterfactual per-policy

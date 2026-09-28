@@ -1,0 +1,47 @@
+{
+  "answer": {
+    "answer": "1738",
+    "citations": [
+      18,
+      19
+    ]
+  },
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"answer\":\"1738\", \"citations\":[18, 19]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790602193,
+    "id": "chatcmpl-tQwlrHXvfIfOJSncCNqlhE09Werakq1E",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 87,
+      "predicted_ms": 981.865,
+      "predicted_n": 20,
+      "predicted_per_second": 20.36939905180447,
+      "predicted_per_token_ms": 49.09325,
+      "prompt_ms": 2808.884,
+      "prompt_n": 487,
+      "prompt_per_second": 173.37846632328,
+      "prompt_per_token_ms": 5.767728952772074
+    },
+    "usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 574,
+      "prompt_tokens_details": {
+        "cached_tokens": 87
+      },
+      "total_tokens": 594
+    }
+  },
+  "wall_seconds": 4.252125667000655
+}

@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 0, \"text\": \"Yang Meng was the third son of Yang Xingmi, a major warlord at the end of Tang Dynasty as the military governor (\\\"Jiedushi\\\") of Huainan Circuit (\\u6dee\\u5357, headquartered in modern Yangzhou, Jiangsu). It is not known when he was born, although his immediately older brother Yang Longyan was born in 897 and his immediately younger brother Yang Pu was born in 900, placing a timeframe on his birth date. His mother's name was not recorded in history.\", \"title\": \"Yang Meng\"}, {\"idx\": 6, \"text\": \"Muhammad Shobran (born July 6, 1983 in Palembang, South Sumatra) is an Indonesian footballer that currently plays for Sriwijaya in the Indonesia Super League.\", \"title\": \"Muhammad Shobran\"}, {\"idx\": 7, \"text\": \"Pir Syed Muhammad Binyamin Rizvi (Urdu: \\u067e\\u06cc\\u0631 \\u0633\\u06cc\\u062f \\u0645\\u062d\\u0645\\u062f \\u0628\\u0646\\u06cc\\u0627\\u0645\\u06cc\\u0646 \\u0631\\u0636\\u0648\\u06cc)date of Birth 15 Aug 1959 date of Death 24 June 2004) was a Pakistani politician. He was the oldest son of Pir Syed Mohammad Yaqoob Shah (a famous spiritual and religious scholar, and member of provincial assembly who died on 31 August 1991). On 24 June 2004 he was brutally murdered in Lahore near his House. He is buried next to his father late Pir Syed Mohammad Yaqoob Shah in his home town Phalia.\", \"title\": \"Pir Syed Muhammad Binyamin Rizvi\"}, {\"idx\": 11, \"text\": \"Ali was born inside the sacred sanctuary of the Kaaba in Mecca, the holiest place in Islam, to Abu Talib and Fatimah bint Asad. He was the first male who accepted Islam, and, according to some authors, the first Muslim. Ali protected Muhammad from an early age and took part in almost all the battles fought by the nascent Muslim community. After migrating to Medina, he married Muhammad's daughter Fatimah. He was appointed caliph by Muhammad's companions in 656, after Caliph Uthman ibn Affan was assassinated. Ali's reign saw civil wars and in 661, he was attacked and assassinated by a Kharijite while praying in the Great Mosque of Kufa, being martyred two days later.Ali is important to both Shias and Sunnis, politically and spiritually. The numerous biographical sources about Ali are often biased according to sectarian lines, but they agree that he was a pious Muslim, devoted to the cause of Islam and a just ruler in accordance with the Qur'an and the Sunnah. While Sunnis consider Ali the fourth and final of the Rashidun (rightly guided) caliphs, Shia Muslims regard Ali as the first Imam after Muhammad due to their interpretation of the events at Ghadir Khumm. Shia Muslims also believe that Ali and the other Shia Imams (all of whom are from the Ahl al-Bayt, Muhammad's household) are the rightful successors to Muhammad. Ali has also received recognition from a variety of non-Muslim organizations, such as the United Nations and the World Organization for Human Rights, for his governance and social justice.\", \"title\": \"Ali\"}], \"question\": \"On what date was the battle where Muhammad Shobran was born?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

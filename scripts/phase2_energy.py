@@ -93,6 +93,9 @@ def load(split,semantic=False):
               excluded_non20_ids=excluded)
     x=np.stack([f[0] for f in features]);p=np.stack([f[1] for f in features])
     if semantic:
+        semantic_start=time.perf_counter()
+        encoding=json.loads((ROOT/f'phase2/runs/encoding-{split}.json').read_text())
+        assert sha(ROOT/f'.cache/phase2/semantic/{split}.npz')==encoding['embeddings_sha256']
         cached=np.load(ROOT/f'.cache/phase2/semantic/{split}.npz')
         assert list(cached['ids'])==[e['id'] for e in examples]
         q,d,titles=cached['query'],cached['documents'],cached['titles']
@@ -100,6 +103,7 @@ def load(split,semantic=False):
         x=np.concatenate([x,sim[...,None],tsim[...,None]],axis=-1)
         p=np.concatenate([p,np.einsum('bni,bmi->bnm',d,d)[...,None]],axis=-1)
         cost['encoder_cost_ledger']=f'phase2/runs/encoding-{split}.json'
+        cost['semantic_feature_seconds']=time.perf_counter()-semantic_start
     return examples,labels,x,p,cost
 
 
@@ -297,9 +301,12 @@ def evaluate(split,out,checkpoint,unary_checkpoint,ordinary_weight=None):
     out.mkdir(parents=True)
     model=load_model(checkpoint); unary=load_model(unary_checkpoint)
     examples,labels,x,p,representation=load(split,model.semantic)
-    with torch.no_grad():
-        us,vs=model(torch.from_numpy(x),torch.from_numpy(p))
-        pu,_=unary(torch.from_numpy(x),torch.from_numpy(p))
+    forward_start=time.perf_counter()
+    with torch.no_grad():us,vs=model(torch.from_numpy(x),torch.from_numpy(p))
+    representation['pairwise_forward_seconds']=time.perf_counter()-forward_start
+    forward_start=time.perf_counter()
+    with torch.no_grad():pu,_=unary(torch.from_numpy(x),torch.from_numpy(p))
+    representation['unary_forward_seconds']=time.perf_counter()-forward_start
     us,vs,pu=us.numpy(),vs.numpy(),pu.numpy()
     weights=[0.,.25,.5,1.] if ordinary_weight is None else [ordinary_weight]
     rows=[]

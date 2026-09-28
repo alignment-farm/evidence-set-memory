@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 7, \"text\": \"WEDR (99.1 FM, \\\"99 Jamz\\\") is an urban-formatted radio station serving the South Florida region and licensed to Miami, Florida. WEDR has an unusually wide music selection for a mainstream urban-formatted radio station that ranges from typical hip-hop and R&B to reggaeton. This is because South Florida is a very diversified region that has various music tastes. WEDR's studio is located in Hollywood, Florida. The station is owned by Cox Media Group alongside sister stations WHQT, WFEZ and WFLC.\", \"title\": \"WEDR\"}, {\"idx\": 9, \"text\": \"San Francisco is located on the West Coast of the United States at the north end of the San Francisco Peninsula and includes significant stretches of the Pacific Ocean and San Francisco Bay within its boundaries. Several picturesque islands\\u2014Alcatraz, Treasure Island and the adjacent Yerba Buena Island, and small portions of Alameda Island, Red Rock Island, and Angel Island\\u2014are part of the city. Also included are the uninhabited Farallon Islands, offshore in the Pacific Ocean. The mainland within the city limits roughly forms a \\\"seven-by-seven-mile square\\\", a common local colloquialism referring to the city's shape, though its total area, including water, is nearly .\", \"title\": \"San Francisco\"}, {\"idx\": 13, \"text\": \"Mesquite is a U.S. city in Clark County, Nevada, adjacent to the Arizona state line and 80 miles (130 km) northeast of Las Vegas on Interstate 15. As of 2015, the United States Census estimates that the city had a population of 17,496. The city is located in the Virgin River valley adjacent to the Virgin Mountains in the northeastern part of the Mojave Desert. It is home to a growing retirement community, as well as several casino resorts and golf courses.\", \"title\": \"Mesquite, Nevada\"}, {\"idx\": 19, \"text\": \"Cuban immigrants in the 1960s brought the Cuban sandwich, medianoche, Cuban espresso, and croquetas, all of which have grown in popularity to all Miamians, and have become symbols of the city's varied cuisine. Today, these are part of the local culture, and can be found throughout the city in window caf\\u00e9s, particularly outside of supermarkets and restaurants. Restaurants such as Versailles restaurant in Little Havana is a landmark eatery of Miami. Located on the Atlantic Ocean, and with a long history as a seaport, Miami is also known for its seafood, with many seafood restaurants located along the Miami River, and in and around Biscayne Bay. Miami is also the home of restaurant chains such as Burger King, Tony Roma's and Benihana.\", \"title\": \"Miami\"}], \"question\": \"What was Germany's main goal in the battle of the ocean adjacent to the US city having WEDR?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

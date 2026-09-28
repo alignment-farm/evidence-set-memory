@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"\\\"The Bag or the Bat\\\" is the pilot episode of the Showtime original series \\\"Ray Donovan\\\", and premiered on June 30, 2013. The series premiere was directed by Allen Coulter and written by series creator Ann Biderman. Prior to the premiere television airing, the episode was uploaded to YouTube by Showtime and was previewed over 150,000 times.\", \"title\": \"The Bag or the Bat\"}, {\"idx\": 8, \"text\": \"The sixth and final season of the HBO drama series The Sopranos was broadcast in two parts, the first beginning on March 12, 2006 and ending after twelve episodes on June 4, 2006. The first of the final nine episodes premiered on April 8, 2007 with the series finale airing on June 10, 2007. The season was initially meant to consist of twenty episodes, but creator David Chase asked for one more to properly round out the story. The first part was released on DVD in region 1 on November 7, 2006, and on Blu - ray on December 19, 2006. The second part was released on DVD and Blu - ray on October 23, 2007.\", \"title\": \"The Sopranos (season 6)\"}, {\"idx\": 13, \"text\": \"B\\u01b0\\u1edbc nh\\u1ea3y ho\\u00e0n v\\u0169 (literally \\\"Universal Steps\\\") is a reality show produced by Vietnam Television and C\\u00e1t Ti\\u00ean Sa Production. The show originates from the BBC series \\\"Strictly Come Dancing\\\" and is a part of the international \\\"Dancing with the Stars\\\" franchise. The first season aired from April 11 to June 20, 2010 with 8 pairs of celebrities and professional dancers. The show returned for its second season on April 17, 2011 and the third season on mid March, 2012.\", \"title\": \"B\\u01b0\\u1edbc nh\\u1ea3y ho\\u00e0n v\\u0169\"}, {\"idx\": 14, \"text\": \"The sixth and final season of the HBO drama series \\\"The Sopranos\\\" was broadcast in two parts, the first beginning on March 12, 2006 and ending after twelve episodes on June 4, 2006. The first of the final nine episodes premiered on April 8, 2007 with the series finale airing on June 10, 2007. The season was initially meant to consist of twenty episodes, but creator David Chase asked for one more to properly round out the story. The first part was released on DVD in region 1 on November 7, 2006, and on Blu-ray on December 19, 2006. The second part was released on DVD and Blu-ray on October 23, 2007.\", \"title\": \"The Sopranos (season 6)\"}], \"question\": \"When does season 4 of the series that The Bag or the Bat is a part of come out?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

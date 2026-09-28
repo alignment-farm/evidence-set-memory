@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-28T13:37:46Z",
+  "files": {
+    "phase2/CLAIM.md": "974d07ef1e55f57a0341113d4fb3e6407929cf22b1fdcac2612ec729d2a5cc84",
+    "phase2/PROTOCOL.md": "e0d8e4de14ad48f6f87e2f3733249bebbb2d94e6cb50d4830dbf341d791a70a1",
+    "phase2/data/confirmation-manifest.json": "b328de159db425c6dd61cefb7a4f0e6ee1a17f96efea62e747e20037a61a649f",
+    "phase2/data/development-manifest.json": "459c6b15efd500fa074b090302618042e8a1ec29ccd97e911cfcbfb78565132e",
+    "phase2/data/train-manifest.json": "a135c17144ecea31051f0807e85c9546b040fe3aa7e010ef06d0e918eb51a98d",
+    "phase2/encoder.json": "2536727dcae556af288e26ae38401fcb29e33f15cb6650d2ae88458c9e310b74",
+    "phase2/runs/semantic-pairwise/checkpoint.json": "debd6a05ab946d6a07330d1f4846a5d529ff338780a7a41bc43f05a297854f21",
+    "phase2/runs/semantic-unary/checkpoint.json": "7fbbc81cdc17f440bda2ff3eaa3f8a6522a1751cc57e4e88eab5c9f00e39dba5",
+    "pyproject.toml": "3d59ad4e755afa6df6d12fda59f5fe4fe0f13d527bdc569082e3be664b51759b",
+    "scripts/phase2_encode.py": "2d966525c2d25431ecf39d3ac8cdce3cacabd7956d1ae550fcf4d35eb39bd8f7",
+    "scripts/phase2_energy.py": "14b387e15b8b1fb7bb874f6c06c8e66a17d1a5755bf835c0f2e8e0e7b22caf25",
+    "scripts/phase2_reader.py": "f9612370937c378399d27bafd44be652c461f9feee612abaa4fa6e68ea5c8c0b",
+    "uv.lock": "f28f088f86fb610b217a46c17b5214593bacd0b9856c98473dd5f503cf5294c1"
+  },
+  "ordinary_weight": 1.0,
+  "pairwise_checkpoint": "phase2/runs/semantic-pairwise/checkpoint.json",
+  "provenance": "Development choices only; confirmation embeddings/inference not run yet",
+  "reader_cases": 24,
+  "reader_model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "unary_checkpoint": "phase2/runs/semantic-unary/checkpoint.json"
+}

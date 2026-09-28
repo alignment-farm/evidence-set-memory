@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"Muhammad Shobran (born July 6, 1983 in Palembang, South Sumatra) is an Indonesian footballer that currently plays for Sriwijaya in the Indonesia Super League.\", \"title\": \"Muhammad Shobran\"}, {\"idx\": 9, \"text\": \"The Battle of Puebla (Spanish: Batalla de Puebla; French: Bataille de Puebla) took place on 5 May 1862, near Puebla City during the Second French intervention in Mexico. The battle ended in a victory for the Mexican Army over the occupying French soldiers. The French eventually overran the Mexicans in subsequent battles, but the Mexican victory at Puebla against a much better equipped and larger French army provided a significant morale boost to the Mexican army and also helped slow the French army's advance towards Mexico City.\", \"title\": \"Battle of Puebla\"}, {\"idx\": 12, \"text\": \"Muhammad's first revelation was an event described in Islam as taking place in 610 AD, during which the Islamic prophet, Muhammad was visited by the archangel Jibr\\u012bl, who revealed to him the beginnings of what would later become the Quran. The event took place in a cave called Hira, located on the mountain Jabal an - Nour, near Mecca.\", \"title\": \"Muhammad's first revelation\"}, {\"idx\": 18, \"text\": \"The Battle of Leuven was a battle of the Ten Days' Campaign during the Belgian Revolution. The battle took place on 12 August and officially ended on 13 August 1831. The Dutch army defeated the Belgian rebels, but were forced to withdraw in order to avoid war with France, as a large French army under Mar\\u00e9chal G\\u00e9rard had crossed the border to support the Belgian rebels. They concluded a truce with the Belgians, allowing them to take the city for a few hours on 13 August.\", \"title\": \"Battle of Leuven (1831)\"}], \"question\": \"On what date was the battle where Muhammad Shobran was born?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

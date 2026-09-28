@@ -1,0 +1,130 @@
+{
+  "160": {
+    "beam": {
+      "cases": 4,
+      "complete": 2,
+      "cpu_seconds": 0.017820000000002167,
+      "global_optima": 4,
+      "score_evaluations": 29767,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 0.017819002037867904
+    },
+    "exact": {
+      "cases": 4,
+      "complete": 2,
+      "cpu_seconds": 25.457932000000003,
+      "global_optima": 4,
+      "score_evaluations": 105177440,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 25.45736575097544
+    },
+    "relaxed_swap": {
+      "cases": 4,
+      "complete": 2,
+      "cpu_seconds": 0.14425399999999655,
+      "global_optima": 4,
+      "score_evaluations": 3152,
+      "selection_gradients": 1280,
+      "swaps": 1,
+      "wall_seconds": 0.1442534570232965
+    }
+  },
+  "20": {
+    "beam": {
+      "cases": 4,
+      "complete": 2,
+      "cpu_seconds": 0.0017039999999988176,
+      "global_optima": 4,
+      "score_evaluations": 2374,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 0.0017045840504579246
+    },
+    "exact": {
+      "cases": 4,
+      "complete": 2,
+      "cpu_seconds": 0.0052760000000005025,
+      "global_optima": 4,
+      "score_evaluations": 19380,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 0.005277166026644409
+    },
+    "relaxed_swap": {
+      "cases": 4,
+      "complete": 2,
+      "cpu_seconds": 0.11843299999999779,
+      "global_optima": 4,
+      "score_evaluations": 416,
+      "selection_gradients": 1280,
+      "swaps": 2,
+      "wall_seconds": 0.11843324900837615
+    }
+  },
+  "40": {
+    "beam": {
+      "cases": 4,
+      "complete": 1,
+      "cpu_seconds": 0.004001999999998951,
+      "global_optima": 4,
+      "score_evaluations": 6276,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 0.004002792004030198
+    },
+    "exact": {
+      "cases": 4,
+      "complete": 1,
+      "cpu_seconds": 0.08960699999999955,
+      "global_optima": 4,
+      "score_evaluations": 365560,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 0.08961300097871572
+    },
+    "relaxed_swap": {
+      "cases": 4,
+      "complete": 1,
+      "cpu_seconds": 0.12055799999999794,
+      "global_optima": 3,
+      "score_evaluations": 1040,
+      "selection_gradients": 1280,
+      "swaps": 3,
+      "wall_seconds": 0.12055820901878178
+    }
+  },
+  "80": {
+    "beam": {
+      "cases": 4,
+      "complete": 1,
+      "cpu_seconds": 0.008193000000003448,
+      "global_optima": 4,
+      "score_evaluations": 14098,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 0.008192209003027529
+    },
+    "exact": {
+      "cases": 4,
+      "complete": 1,
+      "cpu_seconds": 1.5276430000000025,
+      "global_optima": 4,
+      "score_evaluations": 6326320,
+      "selection_gradients": 0,
+      "swaps": 0,
+      "wall_seconds": 1.5276726249721833
+    },
+    "relaxed_swap": {
+      "cases": 4,
+      "complete": 1,
+      "cpu_seconds": 0.12648999999999555,
+      "global_optima": 4,
+      "score_evaluations": 1856,
+      "selection_gradients": 1280,
+      "swaps": 2,
+      "wall_seconds": 0.12648945796536282
+    }
+  }
+}

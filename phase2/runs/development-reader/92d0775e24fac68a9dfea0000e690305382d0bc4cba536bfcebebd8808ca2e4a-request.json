@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 3, \"text\": \"Gold Hill is a small unincorporated community in southeastern Rowan County, North Carolina near the Cabarrus County line. It is situated near the Yadkin River and is served by U.S. Highway 52 and Old Beatty Ford Road. Gold was found in this small town outside Salisbury in the 19th century.\", \"title\": \"Gold Hill, North Carolina\"}, {\"idx\": 8, \"text\": \"Let the Good Times Roll is a 1973 rockumentary / concert film directed by Robert Abel and Sidney Levin. It features numerous stars from the American pop and rock music scene of the 1950s.\", \"title\": \"Let the Good Times Roll (film)\"}, {\"idx\": 10, \"text\": \"Cleveland is a town in the Cleveland Township of Rowan County, North Carolina, United States. The population was 871 at the 2010 census.\", \"title\": \"Cleveland, North Carolina\"}], \"question\": \"Which county shares border with the county having the birth city of the director of Let the Good Times Roll?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

@@ -1,4 +1,5 @@
 """Acquisition and inference audit using development/training only."""
+import argparse
 import json
 from pathlib import Path
 import time
@@ -8,13 +9,14 @@ from phase2_energy import load,load_model,Energy,search,metrics,make_attempts,sc
 from phase2_assets import dump
 
 ROOT=Path(__file__).resolve().parents[1]
-out=ROOT/'phase2/runs/acquisition-audit.json'
+parser=argparse.ArgumentParser();parser.add_argument('--semantic',action='store_true');args=parser.parse_args()
+out=ROOT/('phase2/runs/semantic-acquisition-audit.json' if args.semantic else 'phase2/runs/acquisition-audit.json')
 if out.exists(): raise RuntimeError('Existing audit')
-torch.manual_seed(23);initial=Energy(True)
-learned=load_model(ROOT/'phase2/runs/pairwise-seed23/checkpoint.json')
+torch.manual_seed(23);initial=Energy(True,args.semantic)
+learned=load_model(ROOT/('phase2/runs/semantic-pairwise/checkpoint.json' if args.semantic else 'phase2/runs/pairwise-seed23/checkpoint.json'))
 rows=[];cost={};start=time.perf_counter()
 for split in ['train','development']:
-    examples,labels,x,p,rep=load(split);cost[split]=rep
+    examples,labels,x,p,rep=load(split,args.semantic);cost[split]=rep
     for name,model in [('initial',initial),('learned',learned)]:
         with torch.no_grad():u,v=model(torch.from_numpy(x),torch.from_numpy(p))
         complete=0;recall=0

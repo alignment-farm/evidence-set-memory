@@ -1,0 +1,22 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 512,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 1, \"text\": \"The battle was fought on Saturday, 22 December 624 (7 Shawwal AH 3 in the Islamic calendar) at the valley located in front of Mount Uhud. It occurred between a force from the Muslim community of Medina led by the Islamic prophet Muhammad, and a force led by Abu Sufyan ibn Harb from Mecca, the town from which many of the Muslims had previously emigrated. The Battle of Uhud was the second military encounter between the Meccans and the Muslims, preceded by the Battle of Badr in 624, where a small Muslim army had defeated a larger Meccan army.\", \"title\": \"Battle of Uhud\"}, {\"idx\": 4, \"text\": \"The Battle of Badr was a key battle in the early days of Islam and a turning point in Muhammad's struggle with his opponents among the Quraysh in Mecca. In the spring of 624, Muhammad received word from his intelligence sources that a trade caravan, commanded by Abu Sufyan ibn Harb, Chieftain of the Meccan Quraysh, and guarded by thirty to forty men, was travelling from Syria back to Mecca. Muhammad gathered an army of 313 men, the largest army the Muslims had put in the field yet. However, many early Muslim sources, including the Quran, indicate that no serious fighting was expected, and the future Caliph Uthman ibn Affan stayed behind to care for his sick wife.\", \"title\": \"Medina\"}, {\"idx\": 6, \"text\": \"Muhammad Shobran (born July 6, 1983 in Palembang, South Sumatra) is an Indonesian footballer that currently plays for Sriwijaya in the Indonesia Super League.\", \"title\": \"Muhammad Shobran\"}, {\"idx\": 14, \"text\": \"While the Umayyads and the Hashimites may have had bitterness between the two clans before Muhammad, the rivalry turned into a severe case of tribal animosity after the Battle of Badr. The battle saw three top leaders of the Umayyad clan (Utba ibn Rabi'ah, Walid ibn Utbah and Shaybah) killed by Hashimites (Ali, Hamza ibn \\u2018Abd al-Muttalib and Ubaydah ibn al-Harith) in a three-on-three melee. This fueled the opposition of Abu Sufyan ibn Harb, the grandson of Umayya, to Muhammad and to Islam. Abu Sufyan sought to exterminate the adherents of the new religion by waging another battle with Muslims based in Medina only a year after the Battle of Badr. He did this to avenge the defeat at Badr. The Battle of Uhud is generally believed by scholars to be the first defeat for the Muslims, as they had incurred greater losses than the Meccans. After the battle, Abu Sufyan's wife Hind, who was also the daughter of Utba ibn Rabi'ah, is reported to have cut open the corpse of Hamza, taking out his liver which she then attempted to eat. Within five years after his defeat in the Battle of Uhud, however, Muhammad took control of Mecca and announced a general amnesty for all. Abu Sufyan and his wife Hind embraced Islam on the eve of the conquest of Mecca, as did their son (the future caliph Muawiyah I).\", \"title\": \"Umayyad Caliphate\"}], \"question\": \"On what date was the battle where Muhammad Shobran was born?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "response_format": {
+    "type": "json_object"
+  },
+  "seed": 761,
+  "temperature": 0
+}

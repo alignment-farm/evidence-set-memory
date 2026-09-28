@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-28T13:30:47Z",
+  "dimensions": 384,
+  "embedding_bytes": 2702437,
+  "embeddings_sha256": "ad2eff016389cb5acd82a875c4806a6612099aa27109b00a88603d492c3bdc71",
+  "encoded_tokens": 100153,
+  "encoding_cpu_seconds": 10.923102,
+  "encoding_wall_seconds": 4.621044208004605,
+  "input_sha256": "25110bf18490f0609e43f45a76960f5c9ca1c7026e04326b3f8e65e8003528d6",
+  "load_seconds": 0.7335417080321349,
+  "logical_texts": 1968,
+  "max_sequence_length": 256,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_parameters": 22713216,
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "truncated_texts": 26,
+  "unique_texts": 1747,
+  "untruncated_tokens": 101456
+}

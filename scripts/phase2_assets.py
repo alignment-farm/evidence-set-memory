@@ -1,4 +1,5 @@
 """Acquire full author-linked raw MuSiQue dev; split without component leakage."""
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -16,10 +17,14 @@ def dump(path, value):
 
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--rebuild-cache',action='store_true')
+    args=parser.parse_args()
     dest = ROOT/'.cache/phase2/musique-raw-dev.jsonl'
     out = ROOT/'phase2/data'
-    if out.exists():
+    if out.exists() and not args.rebuild_cache:
         raise RuntimeError('Existing partition is immutable')
+    expected=json.loads((out/'acquisition.json').read_text()) if args.rebuild_cache else None
     dest.parent.mkdir(parents=True, exist_ok=True)
     t = time.perf_counter()
     downloaded = 0
@@ -33,6 +38,8 @@ def main():
             json.loads(line)
         dest.write_bytes(payload)
         downloaded = len(payload)
+    if expected:
+        assert hashlib.sha256(dest.read_bytes()).hexdigest()==expected['sha256'],'Source changed; cached bytes preserved for diagnosis'
     raw = [json.loads(line) for line in dest.read_text().splitlines()]
     rng = random.Random(28092602)
     rng.shuffle(raw)
@@ -76,13 +83,17 @@ def main():
         cache = ROOT/'.cache/phase2/partitions'
         dump(cache/f'{name}-inputs.json',inputs)
         dump(cache/f'{name}-labels.json',labels)
-        dump(out/f'{name}-manifest.json',dict(ids=[r['id'] for r in inputs],
+        manifest=dict(ids=[r['id'] for r in inputs],
              components=component_sets[name],count=len(rows),
              inputs_sha256=hashlib.sha256((cache/f'{name}-inputs.json').read_bytes()).hexdigest(),
-             labels_sha256=hashlib.sha256((cache/f'{name}-labels.json').read_bytes()).hexdigest()))
+             labels_sha256=hashlib.sha256((cache/f'{name}-labels.json').read_bytes()).hexdigest())
+        if args.rebuild_cache:
+            assert manifest==json.loads((out/f'{name}-manifest.json').read_text()),f'{name} differs'
+        else:dump(out/f'{name}-manifest.json',manifest)
     assert all(not set(component_sets[a]) & set(component_sets[b]) for a,b in
                [('train','development'),('train','confirmation'),('development','confirmation')])
-    dump(out/'acquisition.json',dict(url=URL, source_commit='922ac98f19a201998dbdae6d7f2887a5258dbdeb',
+    acquisition_path=ROOT/'.cache/phase2/rebuild-report.json' if args.rebuild_cache else out/'acquisition.json'
+    dump(acquisition_path,dict(url=URL, source_commit='922ac98f19a201998dbdae6d7f2887a5258dbdeb',
          source_file_pinned=False,sha256=hashlib.sha256(dest.read_bytes()).hexdigest(),
          bytes=dest.stat().st_size,downloaded_payload_bytes=downloaded,raw_records=len(raw),
          elapsed_seconds=time.perf_counter()-t,alias_mapping_available=bool(aliases),
@@ -90,7 +101,7 @@ def main():
          lineage='MuSiQue-Ans raw dev, author-linked Google Drive; benchmark supervision',
          license='CC BY 4.0 per pinned author repository',
          timestamp_utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())))
-    print((out/'acquisition.json').read_text())
+    print(acquisition_path.read_text())
 
 
 if __name__=='__main__':

@@ -1,0 +1,19 @@
+{
+  "chat_template_kwargs": {
+    "enable_thinking": false
+  },
+  "max_tokens": 256,
+  "messages": [
+    {
+      "content": "Answer the question using the supplied source paragraphs. Return only JSON:\n{\"answer\":\"short answer\", \"citations\":[integer paragraph IDs supporting the reasoning]}.\nCite the evidence needed to connect the question to the answer, including intermediate\nfacts. If evidence is insufficient, return {\"answer\":\"\", \"citations\":[]}.\nDo not invent evidence or cite paragraphs not supplied. /no_think",
+      "role": "system"
+    },
+    {
+      "content": "{\"paragraphs\": [{\"idx\": 6, \"text\": \"Joel Sayre (December 13, 1900 \\u2013 September 9, 1979) was an American novelist, war reporter, and screenwriter born in Marion, Indiana. He was the chief screenwriter for the 1939 film Gunga Din. He died on the September 9, 1979 of heart failure.\", \"title\": \"Joel Sayre\"}, {\"idx\": 10, \"text\": \"Yuyutsu (Sanskrit: \\u092f\\u0941\\u092f\\u0941\\u0924\\u094d\\u0938\\u0941) in the Hindu epic Mahabharata was a son of Dhritarashtra with Sughada / Sauvali, his wife Gandhari's maid. He was the paternal half - sibling to Gandhari's children: Duryodhana and the rest of the 99 Kuru brothers and their sister Dushala. Eventually, he was the only son of Dhritarashtra who survived the Kurukshetra war.\", \"title\": \"Yuyutsu\"}, {\"idx\": 13, \"text\": \"Zhen Zhen () is a female giant panda born on August 3, 2007 to Bai Yun and Gao Gao at the San Diego Zoo. Her name means \\\"Precious\\\". She is Bai Yun's fourth cub, and Gao Gao's third. Zhen Zhen has one half sibling, Hua Mei, and four full siblings, Mei Sheng, Su Lin, Yun Zi, and Xiao Liwu. Like her full siblings, Zhen Zhen was conceived via natural mating.\", \"title\": \"Zhen Zhen\"}, {\"idx\": 14, \"text\": \"\\\"War of the Coprophages\\\" was Darin Morgan's third episode, after the second-season episode \\\"Humbug\\\" and season three's \\\"Clyde Bruckman's Final Repose\\\". In order to achieve the effect of a cockroach infestation, the show used around three hundred cockroaches for the episode in addition to extremely detailed rubber cockroach props and \\\"piles and piles\\\" of faux-dung. The episode's title is a reference to the famous novel \\\"The War of the Worlds\\\" by H.G. Wells, as well as its 1938 radio adaptation by Orson Welles. The character Dr. Berenbaum is named for entomologist May Berenbaum.\", \"title\": \"War of the Coprophages\"}], \"question\": \"Who is the sibling of the screenwriter of War of the Coprophages?\"}",
+      "role": "user"
+    }
+  ],
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "seed": 761,
+  "temperature": 0
+}

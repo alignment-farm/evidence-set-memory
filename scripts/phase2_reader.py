@@ -9,6 +9,7 @@ import urllib.request
 from phase2_assets import dump
 
 ROOT=Path(__file__).resolve().parents[1]
+SCRIPT_SHA=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
 sys.path.insert(0,str(ROOT/'.cache/reconnaissance/MuSiQue'))
 from metrics.answer import compute_exact,compute_f1
 
@@ -23,7 +24,18 @@ def parse(response):
     try:
         text=response['choices'][0]['message']['content'].split('</think>')[-1].strip()
         if text.startswith('```'): text=text.split('\n',1)[1].rsplit('```',1)[0]
-        result=json.loads(text)
+        # Some observed DMR responses ignore JSON mode but end with a valid object.
+        # Extract the LAST schema-valid JSON object, without interpreting prose.
+        found=[]
+        for i,char in enumerate(text):
+            if char!='{':continue
+            try:
+                value,_=json.JSONDecoder().raw_decode(text[i:])
+                if isinstance(value,dict) and isinstance(value.get('answer'),str) and isinstance(value.get('citations'),list):
+                    found.append(value)
+            except ValueError:pass
+        if not found:raise ValueError('No answer object')
+        result=found[-1]
         assert isinstance(result['answer'],str) and isinstance(result['citations'],list)
         assert all(type(i)==int for i in result['citations'])
         return result
@@ -80,7 +92,8 @@ def main():
             user=json.dumps(dict(question=e['question'],paragraphs=paragraphs),sort_keys=True)
             rules=RULES if arm!='no_context' else 'Answer from your existing knowledge. No sources are supplied. Return only JSON with a short answer and citations: []. If unknown use an empty answer. /no_think'
             payload=dict(model=args.model,messages=[dict(role='system',content=rules),dict(role='user',content=user)],
-                         temperature=0,seed=761,max_tokens=256,chat_template_kwargs=dict(enable_thinking=False))
+                         temperature=0,seed=761,max_tokens=1024,response_format=dict(type='json_object'),
+                         chat_template_kwargs=dict(enable_thinking=False))
             key=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()).hexdigest()
             reused=key in calls
             if not reused:
@@ -132,7 +145,7 @@ def main():
              completion_tokens=sum(c['response'].get('usage',{}).get('completion_tokens',0) for c in calls.values()),
              request_seconds=sum(c['wall_seconds'] for c in calls.values()),wall_seconds=time.perf_counter()-started,
              errors=errors,usage_missing=sum('usage' not in c['response'] for c in calls.values()),
-             script_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+             script_sha256=SCRIPT_SHA,
              timestamp_utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())))
     print(json.dumps(summary,indent=2))
 
