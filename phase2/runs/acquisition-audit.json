@@ -1,0 +1,63 @@
+{
+  "cost": {
+    "development": {
+      "excluded_non20_ids": [],
+      "input_bytes": 550314,
+      "pair_rows": 9120,
+      "paragraphs": 960,
+      "questions": 48,
+      "seconds": 0.25629470800049603,
+      "unary_rows": 960
+    },
+    "train": {
+      "excluded_non20_ids": [
+        "triple_ii__639955_834494_34099",
+        "triple_ii__102087_214799_259594",
+        "triple_ii__532517_214799_259594"
+      ],
+      "input_bytes": 3138853,
+      "pair_rows": 48070,
+      "paragraphs": 5060,
+      "questions": 253,
+      "seconds": 1.4331724590156227,
+      "unary_rows": 5060
+    }
+  },
+  "diagnostics": "same acquisition pairs plus development; not fresh evaluation",
+  "rows": [
+    {
+      "complete": 77,
+      "margin_satisfied": 0.0,
+      "mean_recall": 0.5770750988142291,
+      "model": "initial",
+      "n": 253,
+      "pair_order_accuracy": 0.7749505639076233,
+      "split": "train"
+    },
+    {
+      "complete": 112,
+      "margin_satisfied": 0.70652174949646,
+      "mean_recall": 0.6877470355731228,
+      "model": "learned",
+      "n": 253,
+      "pair_order_accuracy": 0.8486906886100769,
+      "split": "train"
+    },
+    {
+      "complete": 12,
+      "mean_recall": 0.579861111111111,
+      "model": "initial",
+      "n": 48,
+      "split": "development"
+    },
+    {
+      "complete": 20,
+      "mean_recall": 0.7239583333333334,
+      "model": "learned",
+      "n": 48,
+      "split": "development"
+    }
+  ],
+  "script_sha256": "5a68809575ad665e2a3802904247aeb23050309abea1a2810fcfc9d1446872cd",
+  "wall_seconds": 2.198287708044518
+}

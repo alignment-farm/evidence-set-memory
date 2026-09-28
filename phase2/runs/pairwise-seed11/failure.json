@@ -1,0 +1,8 @@
+{
+  "stage": "representation_before_any_training",
+  "exception": "AssertionError: len(paragraphs) == 20",
+  "diagnosis": "The full author asset includes 18/19-context records; the three reconnaissance records did not reveal this variation. Train partition contains two 18-context and one 19-context records.",
+  "intervention": "Declare the fixed-20 candidate mechanism cohort explicitly. Exclude non-20 rows after partitioning, retain their IDs in every representation ledger. No scores or outcomes select exclusions.",
+  "training_updates": 0,
+  "checkpoint": null
+}

@@ -1,0 +1,16 @@
+{
+  "alias_mapping_available": true,
+  "bytes": 42457393,
+  "cache_partition_hashes": "see split manifests",
+  "downloaded_payload_bytes": 42457393,
+  "elapsed_seconds": 5.780615750001743,
+  "license": "CC BY 4.0 per pinned author repository",
+  "lineage": "MuSiQue-Ans raw dev, author-linked Google Drive; benchmark supervision",
+  "raw_records": 2417,
+  "sha256": "76eb07a2cd7b60b3336374a28097e90867f979791023f5626e7397dc2d083dd5",
+  "source_commit": "922ac98f19a201998dbdae6d7f2887a5258dbdeb",
+  "source_file_pinned": false,
+  "split_seed": 28092602,
+  "timestamp_utc": "2026-09-28T13:18:59Z",
+  "url": "https://drive.google.com/uc?export=download&id=1TRXU68wveSehVbQrRRtWsUsFkKUF43QS"
+}

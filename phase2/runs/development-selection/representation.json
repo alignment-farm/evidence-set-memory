@@ -1,0 +1,9 @@
+{
+  "excluded_non20_ids": [],
+  "input_bytes": 550314,
+  "pair_rows": 9120,
+  "paragraphs": 960,
+  "questions": 48,
+  "seconds": 0.2648718749987893,
+  "unary_rows": 960
+}

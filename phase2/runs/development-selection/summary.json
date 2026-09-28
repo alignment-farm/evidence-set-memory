@@ -1,0 +1,92 @@
+{
+  "beam": {
+    "accepted_swaps": 0,
+    "complete": 20,
+    "mean_recall": 0.7170138888888888,
+    "n": 48,
+    "optimal_score": 48,
+    "score_evaluations": 28682,
+    "seconds": 0.047405916149728,
+    "selection_gradients": 0
+  },
+  "exact": {
+    "accepted_swaps": 0,
+    "complete": 20,
+    "mean_recall": 0.7170138888888888,
+    "n": 48,
+    "optimal_score": 48,
+    "score_evaluations": 232560,
+    "seconds": 0.009462625195737928,
+    "selection_gradients": 0
+  },
+  "learned_unary": {
+    "accepted_swaps": 0,
+    "complete": 15,
+    "mean_recall": 0.6684027777777777,
+    "n": 48,
+    "optimal_score": 2,
+    "score_evaluations": 960,
+    "seconds": 0,
+    "selection_gradients": 0
+  },
+  "ordinary_0.0": {
+    "accepted_swaps": 0,
+    "complete": 13,
+    "mean_recall": 0.609375,
+    "n": 48,
+    "optimal_score": 0,
+    "score_evaluations": 3552,
+    "seconds": 0.005480752035509795,
+    "selection_gradients": 0
+  },
+  "ordinary_0.25": {
+    "accepted_swaps": 0,
+    "complete": 13,
+    "mean_recall": 0.595486111111111,
+    "n": 48,
+    "optimal_score": 0,
+    "score_evaluations": 3552,
+    "seconds": 0.0050143294502049685,
+    "selection_gradients": 0
+  },
+  "ordinary_0.5": {
+    "accepted_swaps": 0,
+    "complete": 15,
+    "mean_recall": 0.6197916666666666,
+    "n": 48,
+    "optimal_score": 0,
+    "score_evaluations": 3552,
+    "seconds": 0.00502412993228063,
+    "selection_gradients": 0
+  },
+  "ordinary_1.0": {
+    "accepted_swaps": 0,
+    "complete": 15,
+    "mean_recall": 0.6215277777777778,
+    "n": 48,
+    "optimal_score": 1,
+    "score_evaluations": 3552,
+    "seconds": 0.005015291040763259,
+    "selection_gradients": 0
+  },
+  "relaxed": {
+    "accepted_swaps": 0,
+    "complete": 19,
+    "mean_recall": 0.7065972222222222,
+    "n": 48,
+    "optimal_score": 20,
+    "score_evaluations": 384,
+    "seconds": 1.4426044158171862,
+    "selection_gradients": 15360
+  },
+  "relaxed_swap": {
+    "accepted_swaps": 33,
+    "complete": 20,
+    "mean_recall": 0.7239583333333334,
+    "n": 48,
+    "optimal_score": 43,
+    "score_evaluations": 5568,
+    "seconds": 1.4501687859883532,
+    "selection_gradients": 15360
+  }
+}

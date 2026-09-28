@@ -1,8 +1,15 @@
 # Evidence-set memory
 
 An independent Construct-2 ancillary investigation, commissioned 28 September
-2026. **Status: first bounded acquisition/diagnosis phase completed locally;
-root scientific review pending.**
+2026. **Status: phase 2 experimentation underway; phase 1 published locally.
+Root scientific review remains separate.**
+
+[Phase 2 development findings](phase2/DEVELOPMENT.md) extend the work to real
+MuSiQue prose, a small neural pairwise energy, and projected continuous selection.
+The learner improves development support recovery, while exact/beam search is
+more reliable and cheaper than the tested relaxation. Complete QA and a semantic
+representation diagnostic are running before fresh confirmation. This phase is
+explicitly benchmark-supervised, not continuing experience.
 
 The [phase 1 findings](FINDINGS.md) report an eight-coefficient set learner trained
 on earlier executed attempts in an explicitly authored quote/revision workload.
