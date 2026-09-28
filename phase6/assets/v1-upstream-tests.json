@@ -1,0 +1,32 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/preflight-v1/case\")))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/preflight-v1/case/tmp/upstream",
+    "--junitxml",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/preflight-v1/case/upstream.xml",
+    "tests"
+  ],
+  "counts": {},
+  "output": "INTERNALERROR> Traceback (most recent call last):\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/_pytest/main.py\", line 279, in wrap_session\nINTERNALERROR>     config._do_configure()\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/_pytest/config/__init__.py\", line 1118, in _do_configure\nINTERNALERROR>     self.hook.pytest_configure.call_historic(kwargs=dict(config=self))\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/pluggy/_hooks.py\", line 534, in call_historic\nINTERNALERROR>     res = self._hookexec(self.name, self._hookimpls.copy(), kwargs, False)\nINTERNALERROR>           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/pluggy/_manager.py\", line 120, in _hookexec\nINTERNALERROR>     return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\nINTERNALERROR>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/pluggy/_callers.py\", line 167, in _multicall\nINTERNALERROR>     raise exception\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/pluggy/_callers.py\", line 121, in _multicall\nINTERNALERROR>     res = hook_impl.function(*args)\nINTERNALERROR>           ^^^^^^^^^^^^^^^^^^^^^^^^^\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/_pytest/logging.py\", line 640, in pytest_configure\nINTERNALERROR>     config.pluginmanager.register(LoggingPlugin(config), \"logging-plugin\")\nINTERNALERROR>                                   ^^^^^^^^^^^^^^^^^^^^^\nINTERNALERROR>   File \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/lib/python3.12/site-packages/_pytest/logging.py\", line 677, in __init__\nINTERNALERROR>     self.log_file_handler = _FileHandler(\nINTERNALERROR>                             ^^^^^^^^^^^^^\nINTERNALERROR>   File \"/Users/macos-user/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/logging/__init__.py\", line 1231, in __init__\nINTERNALERROR>     StreamHandler.__init__(self, self._open())\nINTERNALERROR>                                  ^^^^^^^^^^^^\nINTERNALERROR>   File \"/Users/macos-user/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/logging/__init__.py\", line 1263, in _open\nINTERNALERROR>     return open_func(self.baseFilename, self.mode,\nINTERNALERROR>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nINTERNALERROR> PermissionError: [Errno 1] Operation not permitted: '/dev/null'\n",
+  "returncode": 3,
+  "seconds": 0.2596793750417419,
+  "source_sha256": {
+    "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+    "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+    "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+    "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+    "src/dotenv/main.py": "195eca8ba2583c36bec72d995c72aa111f9b46f29aeeaaa1d06d0ec1f7d826bf",
+    "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+    "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+    "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+  }
+}

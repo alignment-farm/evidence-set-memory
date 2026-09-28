@@ -4,6 +4,12 @@ An independent Construct-2 ancillary investigation, commissioned 28 September
 2026. **Status: phases 1–5 and the reader-budget diagnosis published locally.
 Root scientific review remains separate.**
 
+Phase 6 is underway: a [source-native code-edit pilot](phase6/PROTOCOL.md) with
+pinned python-dotenv source, executable regression/acceptance tests and a fixed
+local reader. The upstream baseline passes 149 tests (one unavailable IPython
+integration skipped). Development currently tests real patches, ordinary source
+expansion and public test-driven repair; no phase-6 transfer result is claimed yet.
+
 [Phase 5 findings](phase5/FINDINGS.md) add an authored versioned-configuration
 workload with native CPython execution and fresh longer dependency chains.
 Earlier executed feedback teaches compact selection: trained exact energy and

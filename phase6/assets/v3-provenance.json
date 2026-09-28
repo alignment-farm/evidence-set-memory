@@ -1,0 +1,17 @@
+{
+  "dmr_inspect": {
+    "config": {
+      "format": "gguf"
+    },
+    "created": 0,
+    "id": "sha256:f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef",
+    "tags": [
+      "docker.io/ai/qwen3.8:27b-q4_K_M"
+    ]
+  },
+  "dmr_ps": "MODEL NAME  BACKEND  MODE  UNTIL  \n",
+  "python": "Python 3.12.14",
+  "script_sha256": "c77c55ad56bcb2cb47a8172e8b4701469d5be06765920661f6279f0902ac9cf0",
+  "source_commit": "d6c0b9638349a7dd605d60ee555ff60421c1a594",
+  "timestamp": "2026-09-28T18:40:18Z"
+}
