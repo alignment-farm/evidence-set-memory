@@ -1,0 +1,452 @@
+{
+  "acquisition": {
+    "executions": 2448,
+    "parser_seconds": 0.11097984231309965,
+    "proposal_policy": "24 random + ordinary closure + all omissions and single supersets",
+    "seconds": 0.12327833304880187
+  },
+  "embeddings_constructed": 0,
+  "experiment_totals": {
+    "discrete_evaluations": 501360,
+    "fits": 5,
+    "gradient_steps": 241920,
+    "native_executions": 4481,
+    "optimizer_steps": 2000,
+    "pair_presentations": 43354000,
+    "train_including_feature_pair_construction_seconds": 3.3336042088922113
+  },
+  "external_model_calls": 0,
+  "optimizer_diagnosis": {
+    "discrete_evaluations": 3216,
+    "executions": 192,
+    "gradient_steps": 115200,
+    "parser_seconds": 0.010144370782654732,
+    "search_seconds": 0.9243745337007567
+  },
+  "policy_evaluation_runs": [
+    {
+      "cache_hits": 96,
+      "delivered_bytes": 218372,
+      "discrete_evaluations": 50400,
+      "episodes": 288,
+      "executions": 248,
+      "gradient_steps": 23040,
+      "parser_seconds": 0.013813209778163582,
+      "path": "development/explicit_only-outcomes.json",
+      "repair_selection_seconds": 0.0019866699003614485,
+      "repairs": 56,
+      "representation_seconds": 0.002611627569422126,
+      "search_seconds": 0.1582103677210398
+    },
+    {
+      "cache_hits": 96,
+      "delivered_bytes": 172300,
+      "discrete_evaluations": 50400,
+      "episodes": 288,
+      "executions": 192,
+      "gradient_steps": 23040,
+      "parser_seconds": 0.010530202998779714,
+      "path": "development/native_syntax-outcomes.json",
+      "repair_selection_seconds": 0,
+      "repairs": 0,
+      "representation_seconds": 0.006123795406892896,
+      "search_seconds": 0.1630202560336329
+    },
+    {
+      "cache_hits": 48,
+      "delivered_bytes": 100280,
+      "discrete_evaluations": 0,
+      "episodes": 144,
+      "executions": 96,
+      "gradient_steps": 0,
+      "parser_seconds": 0.00488974479958415,
+      "path": "development/ordinary-outcomes.json",
+      "repair_selection_seconds": 0,
+      "repairs": 0,
+      "representation_seconds": 0.003300247772131115,
+      "search_seconds": 8.34141974337399e-05
+    },
+    {
+      "cache_hits": 144,
+      "delivered_bytes": 252016,
+      "discrete_evaluations": 50400,
+      "episodes": 432,
+      "executions": 288,
+      "gradient_steps": 23040,
+      "parser_seconds": 0.014480004145298153,
+      "path": "balanced/outcomes.json",
+      "repair_selection_seconds": 0,
+      "repairs": 0,
+      "representation_seconds": 0.005949875805526972,
+      "search_seconds": 0.16156875027809292
+    },
+    {
+      "cache_hits": 144,
+      "delivered_bytes": 232206,
+      "discrete_evaluations": 50400,
+      "episodes": 432,
+      "executions": 360,
+      "gradient_steps": 23040,
+      "parser_seconds": 0.01577720866771415,
+      "path": "constraint-energy/outcomes.json",
+      "repair_selection_seconds": 0.0014612934901379049,
+      "repairs": 72,
+      "representation_seconds": 0.0063914539641700685,
+      "search_seconds": 0.16120199725264683
+    },
+    {
+      "cache_hits": 144,
+      "delivered_bytes": 252016,
+      "discrete_evaluations": 50400,
+      "episodes": 432,
+      "executions": 288,
+      "gradient_steps": 23040,
+      "parser_seconds": 0.014540456584654748,
+      "path": "balanced-final/outcomes.json",
+      "repair_selection_seconds": 0,
+      "repairs": 0,
+      "representation_seconds": 0.00594864203594625,
+      "search_seconds": 0.16133890772471204
+    },
+    {
+      "cache_hits": 168,
+      "delivered_bytes": 338109,
+      "discrete_evaluations": 246144,
+      "episodes": 504,
+      "executions": 369,
+      "gradient_steps": 11520,
+      "parser_seconds": 0.020431044686120003,
+      "path": "confirmation/outcomes.json",
+      "repair_selection_seconds": 0.001045208948198706,
+      "repairs": 33,
+      "representation_seconds": 0.027796514332294464,
+      "search_seconds": 0.11677575053181499
+    }
+  ],
+  "timing_caveat": "Single-host small CPU runs, not isolated microbenchmarks. Nested inclusive times must not be added twice.",
+  "training_runs": [
+    {
+      "optimizer_steps": 400,
+      "pair_presentations": 8670800,
+      "pair_types": {
+        "complete_over_failed": 18040,
+        "shorter_success": 3637
+      },
+      "pairs": 21677,
+      "path": "development/explicit_only-model.json",
+      "seconds": 0.8425877499976195,
+      "trace": [
+        {
+          "loss": 0.9355513306522266,
+          "step": 1,
+          "weights": [
+            0.16065211571063082,
+            -0.006479876762366429,
+            0.03840199951206928,
+            -0.5137872179308466
+          ]
+        },
+        {
+          "loss": 0.5343186560108312,
+          "step": 50,
+          "weights": [
+            2.2199563188189426,
+            0.6669186743280813,
+            0.43330940660784617,
+            -1.437803566305168
+          ]
+        },
+        {
+          "loss": 0.47144567881503685,
+          "step": 100,
+          "weights": [
+            3.5159721843464635,
+            0.7634053295639021,
+            0.7274139981963679,
+            -1.383145580377043
+          ]
+        },
+        {
+          "loss": 0.4276560040559924,
+          "step": 200,
+          "weights": [
+            5.231039667079259,
+            0.7155743911593874,
+            1.172996079135628,
+            -1.0734663748095588
+          ]
+        },
+        {
+          "loss": 0.4079209198896289,
+          "step": 400,
+          "weights": [
+            7.143094129411823,
+            0.7206585382454153,
+            1.5592943667204493,
+            -0.9020638909689902
+          ]
+        }
+      ]
+    },
+    {
+      "optimizer_steps": 400,
+      "pair_presentations": 8670800,
+      "pair_types": {
+        "complete_over_failed": 18040,
+        "shorter_success": 3637
+      },
+      "pairs": 21677,
+      "path": "development/native_syntax-model.json",
+      "seconds": 0.2561381249688566,
+      "trace": [
+        {
+          "loss": 0.9079665780074898,
+          "step": 1,
+          "weights": [
+            0.1606521156479464,
+            -0.006479876552910727,
+            0.03840200049099606,
+            -0.5137872179523184
+          ]
+        },
+        {
+          "loss": 0.4572930700980575,
+          "step": 50,
+          "weights": [
+            2.2486279495532093,
+            0.6802619636387168,
+            0.9953281770021232,
+            -1.409193617000749
+          ]
+        },
+        {
+          "loss": 0.3872222191999472,
+          "step": 100,
+          "weights": [
+            3.6300232654019338,
+            0.7729453557956544,
+            1.1488080298210108,
+            -1.348130408489218
+          ]
+        },
+        {
+          "loss": 0.3434174680361402,
+          "step": 200,
+          "weights": [
+            5.35815651035949,
+            0.8428752556450222,
+            1.5566266739646901,
+            -1.255254428716668
+          ]
+        },
+        {
+          "loss": 0.32383049840786043,
+          "step": 400,
+          "weights": [
+            7.26831763603067,
+            0.9408789321274972,
+            1.926415273564079,
+            -1.2501439553138072
+          ]
+        }
+      ]
+    },
+    {
+      "optimizer_steps": 400,
+      "pair_presentations": 8670800,
+      "pair_types": {
+        "complete_over_failed": 18040,
+        "shorter_success": 3637
+      },
+      "pairs": 21677,
+      "path": "balanced/native_syntax-model.json",
+      "seconds": 0.7378428749507293,
+      "trace": [
+        {
+          "loss": 1.2519212323480133,
+          "step": 1,
+          "weights": [
+            0.16065211423260572,
+            0.09352012124350548,
+            0.03840199891969287,
+            -0.41378722125386536
+          ]
+        },
+        {
+          "loss": 0.6815389215996924,
+          "step": 50,
+          "weights": [
+            2.3525053462189502,
+            1.0017509060225658,
+            0.6845434118055814,
+            -1.2314839788220207
+          ]
+        },
+        {
+          "loss": 0.575583901557547,
+          "step": 100,
+          "weights": [
+            3.905295916789716,
+            1.089341548211343,
+            0.8216153461395048,
+            -1.1952937233039682
+          ]
+        },
+        {
+          "loss": 0.49714191989550943,
+          "step": 200,
+          "weights": [
+            6.0218629201614,
+            1.1661553664002537,
+            1.1298892277793475,
+            -1.0778644578270014
+          ]
+        },
+        {
+          "loss": 0.45839086473099544,
+          "step": 400,
+          "weights": [
+            8.454709187185848,
+            1.3267247840746474,
+            1.4408159713590551,
+            -1.1014091596180198
+          ]
+        }
+      ]
+    },
+    {
+      "optimizer_steps": 400,
+      "pair_presentations": 8670800,
+      "pair_types": {
+        "complete_over_failed": 18040,
+        "shorter_success": 3637
+      },
+      "pairs": 21677,
+      "path": "constraint-energy/native_syntax-model.json",
+      "seconds": 0.7331136249704286,
+      "trace": [
+        {
+          "loss": 1.2857949849334562,
+          "step": 1,
+          "weights": [
+            0.16065211557872794,
+            0.0935201146299813,
+            0.038402000369839054,
+            0.0
+          ]
+        },
+        {
+          "loss": 0.7777109917742588,
+          "step": 50,
+          "weights": [
+            2.3876963281763026,
+            0.29007528487310663,
+            1.2007505131664586,
+            0.0
+          ]
+        },
+        {
+          "loss": 0.635279767180186,
+          "step": 100,
+          "weights": [
+            3.986136542342861,
+            0.4067409316935082,
+            1.252938906795041,
+            0.0
+          ]
+        },
+        {
+          "loss": 0.5411347935930583,
+          "step": 200,
+          "weights": [
+            6.040050111056668,
+            0.561131210255616,
+            1.5427502967988915,
+            0.0
+          ]
+        },
+        {
+          "loss": 0.4943484906218739,
+          "step": 400,
+          "weights": [
+            8.412932239787887,
+            0.7202643919979865,
+            1.8850952262485066,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "optimizer_steps": 400,
+      "pair_presentations": 8670800,
+      "pair_types": {
+        "complete_over_failed": 18040,
+        "shorter_success": 3637
+      },
+      "pairs": 21677,
+      "path": "balanced-final/native_syntax-model.json",
+      "seconds": 0.7639218340045772,
+      "trace": [
+        {
+          "loss": 1.2519212323480133,
+          "step": 1,
+          "weights": [
+            0.16065211423260572,
+            0.09352012124350548,
+            0.03840199891969287,
+            -0.41378722125386536
+          ]
+        },
+        {
+          "loss": 0.6815389215996924,
+          "step": 50,
+          "weights": [
+            2.3525053462189502,
+            1.0017509060225658,
+            0.6845434118055814,
+            -1.2314839788220207
+          ]
+        },
+        {
+          "loss": 0.575583901557547,
+          "step": 100,
+          "weights": [
+            3.905295916789716,
+            1.089341548211343,
+            0.8216153461395048,
+            -1.1952937233039682
+          ]
+        },
+        {
+          "loss": 0.49714191989550943,
+          "step": 200,
+          "weights": [
+            6.0218629201614,
+            1.1661553664002537,
+            1.1298892277793475,
+            -1.0778644578270014
+          ]
+        },
+        {
+          "loss": 0.45839086473099544,
+          "step": 400,
+          "weights": [
+            8.454709187185848,
+            1.3267247840746474,
+            1.4408159713590551,
+            -1.1014091596180198
+          ]
+        }
+      ]
+    }
+  ],
+  "unknown": [
+    "investigator tokens/dollars",
+    "human-equivalent authoring/label design work",
+    "machine joules",
+    "process startup/import/serialization time",
+    "native unit-test executions before final audit were not counted"
+  ],
+  "weight_downloads": 0
+}

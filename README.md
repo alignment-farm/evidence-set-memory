@@ -1,13 +1,21 @@
 # Evidence-set memory
 
 An independent Construct-2 ancillary investigation, commissioned 28 September
-2026. **Status: phases 1–4 and the reader-budget diagnosis published locally.
+2026. **Status: phases 1–5 and the reader-budget diagnosis published locally.
 Root scientific review remains separate.**
 
-[Phase 5 development](phase5/DEVELOPMENT.md) is now testing an explicitly
-authored, versioned INI workload with native CPython execution. Initial results
-separate missed default/escape semantics from energy-search failures. No fresh
-phase-5 confirmation has run yet; compactness acquisition is being diagnosed.
+[Phase 5 findings](phase5/FINDINGS.md) add an authored versioned-configuration
+workload with native CPython execution and fresh longer dependency chains.
+Earlier executed feedback teaches compact selection: trained exact energy and
+ordinary closure both complete 48/48 noncached later tasks (72/72 including reuse).
+Ordinary closure remains slightly more compact and cheaper. The same energy's
+frozen gradient recipe completes only 34/48; a separate soft-penalty energy
+completes 29/48. Public repair closes all failures. Post-hoc extra steps/restarts
+repair the optimizer, while explicit hard constraints reproduce ordinary closure.
+These separate representation, objective and optimization limits—not an LLM or
+neural advantage. [Reproduction](phase5/REPRODUCE.md), [native costs](phase5/runs/audit/native-costs.json)
+and [audit](phase5/runs/audit/audit.json) preserve five fits, failed attempts and
+all outcomes. All 18 repository tests pass; the seven new tests cover this phase.
 
 [Phase 2 findings](phase2/FINDINGS.md) extend the work to real
 MuSiQue prose, a small neural pairwise energy, and projected continuous selection.

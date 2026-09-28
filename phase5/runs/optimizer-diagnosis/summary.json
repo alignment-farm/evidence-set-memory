@@ -1,0 +1,38 @@
+{
+  "more_starts": {
+    "complete": 48,
+    "discrete_evaluations": 1536,
+    "global_energy": 48,
+    "gradient_steps": 46080,
+    "maximum_energy_gap": 0.0,
+    "n": 48,
+    "search_seconds": 0.3798693318385631
+  },
+  "more_steps": {
+    "complete": 48,
+    "discrete_evaluations": 384,
+    "global_energy": 48,
+    "gradient_steps": 46080,
+    "maximum_energy_gap": 0.0,
+    "n": 48,
+    "search_seconds": 0.3507641640608199
+  },
+  "one_flip": {
+    "complete": 34,
+    "discrete_evaluations": 912,
+    "global_energy": 33,
+    "gradient_steps": 11520,
+    "maximum_energy_gap": 0.5395534735325449,
+    "n": 48,
+    "search_seconds": 0.08847237180452794
+  },
+  "original_replay": {
+    "complete": 34,
+    "discrete_evaluations": 384,
+    "global_energy": 33,
+    "gradient_steps": 11520,
+    "maximum_energy_gap": 0.5395534735325449,
+    "n": 48,
+    "search_seconds": 0.10526866599684581
+  }
+}

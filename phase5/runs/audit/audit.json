@@ -1,0 +1,20 @@
+{
+  "audit_native_executions": 6185,
+  "audit_replay_cost_separate_from_experiment": true,
+  "audit_wall_seconds": 2.199614541954361,
+  "audit_weight_replay_seconds": 1.850510208052583,
+  "checks": {
+    "bit_identical_weight_replay": 5,
+    "complete_pool_and_minimal_closure": 144,
+    "eligible_executed_feedback": 2448,
+    "outcome_scope_cache_and_public_repair": 2520,
+    "posthoc_optimizer_native_output": 192
+  },
+  "configparser_sha256": "cf5318e0c45a2e206b4ec74d4d66493185ed26c3736a86b0ebdf8f3a3e365a1a",
+  "confirmation_histories": 12,
+  "current_script_sha256": "347a583c6cb9ceb6d2ecd0a4e5cb9ab748c047dee7e833557959968ff961354c",
+  "development_histories": 12,
+  "eligible_pool_reachability": "all required sections present",
+  "frozen_files_verified": 8,
+  "primary_model_reading": "not tested; native executable semantics only"
+}

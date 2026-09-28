@@ -1,0 +1,24 @@
+{
+  "configparser_path": "/Users/macos-user/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/configparser.py",
+  "configparser_sha256": "cf5318e0c45a2e206b4ec74d4d66493185ed26c3736a86b0ebdf8f3a3e365a1a",
+  "diagnostic_sha256": "a8c972a433fa240b313bd1e79eadddb7447848ddfe998f1a95e665c03d10d7e1",
+  "fresh_confirmation": false,
+  "git_head": "f8651b89a9ce7eb4301c363e7156a9e22348af2c",
+  "implementation_sha256": "6e5bfa985cf1f8aa87806f6a0fe27022515c0d3dffe6ce9c64d33671dc670b00",
+  "investigator": {
+    "backend_fingerprint": null,
+    "model": "gpt-6-astra",
+    "monetary_cost": null,
+    "provider": "OpenAI",
+    "reasoning": "high",
+    "session": "01a0e7e4-68e2-7fb2-9a5d-2ea6873b86b8",
+    "source": "observed turn_context"
+  },
+  "numpy": "2.5.3",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "python": "3.12.14 (main, Sep  1 2026, 14:09:38) [Clang 22.1.3 ]",
+  "timestamp_utc": "2026-09-28T17:49:07Z",
+  "torch": "2.14.0",
+  "torch_threads": 16,
+  "weights_updated": false
+}

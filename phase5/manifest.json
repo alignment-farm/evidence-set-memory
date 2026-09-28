@@ -1,0 +1,214 @@
+{
+  "files": {
+    "AGENTS.md": {
+      "bytes": 4951,
+      "sha256": "540ec1f8fa5d0b5189c84ab368c501dc140d1e072a019ff316180041e1238463"
+    },
+    "FEASIBILITY.md": {
+      "bytes": 15082,
+      "sha256": "682de1b6618061d89f3a7558ce0ffe6642e6747be2d560f8b994bfc4cd571a25"
+    },
+    "README.md": {
+      "bytes": 10251,
+      "sha256": "e5b891f066e80a7f0084f7cb2fb14965693ed76d4c41e9abe48cab46755e9c0b"
+    },
+    "START.md": {
+      "bytes": 2703,
+      "sha256": "c569853df00ec74076c099e6d3e446185ba8feeb87fe57c734fda91fd3765c35"
+    },
+    "phase5/CLAIM.md": {
+      "bytes": 2560,
+      "sha256": "893411ebc9c690ec5671740c730fc16c151f74c7981f45196801028707e177b8"
+    },
+    "phase5/DEVELOPMENT.md": {
+      "bytes": 2007,
+      "sha256": "271d2282e67e892b9d34d2b32aec964c7071869c77593f6950b1ca7dbd8d6a17"
+    },
+    "phase5/FINDINGS.md": {
+      "bytes": 13395,
+      "sha256": "1935e02dfdf20a33b7e7dcfbfb1b5b7c2e3f7e6c2a6019f441baaa9ddee008c5"
+    },
+    "phase5/OPTIMIZER_DIAGNOSIS.md": {
+      "bytes": 1074,
+      "sha256": "f99676397438269bff4a7ab9d4f8b5012ea8484c397b593962e7a4ad5683357c"
+    },
+    "phase5/PROTOCOL.md": {
+      "bytes": 8270,
+      "sha256": "f2a05d226686f7c3770b5192b3c861a8877a41cfb01bcca624e30800d5aa488d"
+    },
+    "phase5/REPRODUCE.md": {
+      "bytes": 3673,
+      "sha256": "0d7b18bc9971bb530afc479cba653c65242ad8bbb8c170b978ec62c69df96063"
+    },
+    "phase5/SOURCES.md": {
+      "bytes": 2103,
+      "sha256": "543b51d089c768bbac1dbd9fdda43c314b3992bfec5ea57ba20e6bdc027f4ccc"
+    },
+    "phase5/freeze.json": {
+      "bytes": 1867,
+      "sha256": "cbcb3d4804268a85f872ad4bc0ce821d8fc57f1e7f5d6838dc705b12f4052cfe"
+    },
+    "phase5/runs/audit/audit.json": {
+      "bytes": 845,
+      "sha256": "5272dbb5c930ca68007079e2728aee41d5ef23767d45da9a117aa5477ce3b2bf"
+    },
+    "phase5/runs/audit/confirmation-expanded-summary.json": {
+      "bytes": 10491,
+      "sha256": "4a707d568a3adfbadd2450a777322f63e8d61eb17276b3c90a06158a63a28f2a"
+    },
+    "phase5/runs/audit/native-costs.json": {
+      "bytes": 11963,
+      "sha256": "a23bb5d01d15764b1e90943f791f6ada13f322978f5eaeb84e578adba4f1bcc6"
+    },
+    "phase5/runs/balanced-final/native_syntax-model.json": {
+      "bytes": 1731,
+      "sha256": "29d91028cf4ff63b137adbed7a67f2ade49b499026be21b0b453529a7949ac02"
+    },
+    "phase5/runs/balanced-final/outcomes.json": {
+      "bytes": 484186,
+      "sha256": "9c685179299c5fdcf7d1a3f4a6d19fe7cdcc9bd89a5e560420fb49a5e80fb6c2"
+    },
+    "phase5/runs/balanced-final/provenance.json": {
+      "bytes": 1141,
+      "sha256": "5d0d08181b7d53cdb538fc62be706aed60cc582645d483718d7be98ec2901da5"
+    },
+    "phase5/runs/balanced-final/summary.json": {
+      "bytes": 6689,
+      "sha256": "ce61d37a1e375e3fd2b0a6d84e8f24e503bf633aa8787aaea32b1e9406f312ba"
+    },
+    "phase5/runs/balanced/FAILURE.md": {
+      "bytes": 1408,
+      "sha256": "0dd354cd0c0b2730f8abd17ce114242477402f04639d74b1a9f14366ff53f42d"
+    },
+    "phase5/runs/balanced/native_syntax-model.json": {
+      "bytes": 1674,
+      "sha256": "bcaff6b967d2b7f729e1e75d89c1a0a574f6eaca1d2a031d0046c0f285c07d3d"
+    },
+    "phase5/runs/balanced/outcomes.json": {
+      "bytes": 484184,
+      "sha256": "c60a0e90367b15f414e39ba89dd2749db2a3452783c912ddb5065635b2035b61"
+    },
+    "phase5/runs/balanced/summary.json": {
+      "bytes": 6689,
+      "sha256": "6486bf0a3dcefcb059f59142f6303f41765fcd7b8084e748d296dbd64a1d7a4c"
+    },
+    "phase5/runs/confirmation/histories.json": {
+      "bytes": 303388,
+      "sha256": "f128c94f8e396921503350406bfd982846e7f1812703224711115a0d0fd0520b"
+    },
+    "phase5/runs/confirmation/outcomes.json": {
+      "bytes": 615287,
+      "sha256": "c6fb9c3c8e76a5232a98718bfb7285493cc7b9815fa3e4754a3dec1530700d8f"
+    },
+    "phase5/runs/confirmation/provenance.json": {
+      "bytes": 858,
+      "sha256": "083815999bd43e4e6f23df4ea7cf6f17af45ef4142b428b41f4605de8bc42d8d"
+    },
+    "phase5/runs/confirmation/summary.json": {
+      "bytes": 7853,
+      "sha256": "103b7d72e20272e14cf8cb226d0e8e10df93ac11069b3fe8efa92d7f399aec43"
+    },
+    "phase5/runs/constraint-energy/native_syntax-model.json": {
+      "bytes": 1616,
+      "sha256": "385ca3f4eaf73e9eac9fcce05fed4e83b5a6bd4cf10041a57cdc5ce537a3a2a5"
+    },
+    "phase5/runs/constraint-energy/outcomes.json": {
+      "bytes": 503948,
+      "sha256": "1d096fc1334277159d83f7c50a6dd47ac2be97a976890614d5cddd06d5e73987"
+    },
+    "phase5/runs/constraint-energy/provenance.json": {
+      "bytes": 1141,
+      "sha256": "5240f1e20ba71c16a2b384cd7cee16b9b5fb6a4e65629aff6f16b65aeb170fd3"
+    },
+    "phase5/runs/constraint-energy/summary.json": {
+      "bytes": 6763,
+      "sha256": "1405e25b22a0ead64d36f84eb4c2f11c69c21701a9906d32cf2290afe41fbb2b"
+    },
+    "phase5/runs/development/acquisition-cost.json": {
+      "bytes": 190,
+      "sha256": "87358c8d484fc45aa6bba7fac6a296fbd8b7217a93b7fe7f9953ce61ac8d6edd"
+    },
+    "phase5/runs/development/attempts.json": {
+      "bytes": 1326234,
+      "sha256": "33041377bdb9d68e1bbfd950643288050a078be7819ad90d5a5764bb0e0d380a"
+    },
+    "phase5/runs/development/explicit_only-model.json": {
+      "bytes": 1644,
+      "sha256": "1b092a04ca640169a6da47bca068bd95987652e2c08613e45515e53262fe0c9e"
+    },
+    "phase5/runs/development/explicit_only-outcomes.json": {
+      "bytes": 364349,
+      "sha256": "2cbd8b3006e431b7e0754a52cc29a8277d22950146b62c1b641f4637b1ab44fe"
+    },
+    "phase5/runs/development/histories.json": {
+      "bytes": 283143,
+      "sha256": "8e68fad3518c78be216bf9081285062a581c11db9390f5c1bf4b3610f8f0ddcf"
+    },
+    "phase5/runs/development/native_syntax-model.json": {
+      "bytes": 1637,
+      "sha256": "e3e17a6ebe9efb834ad78d3ea8a3102e9f869bff9c7bf2489c9b5a78576d2ea4"
+    },
+    "phase5/runs/development/native_syntax-outcomes.json": {
+      "bytes": 326792,
+      "sha256": "f7359509e69dffb128dc0efd123e77867471bd7971c9e4824625962da69f653d"
+    },
+    "phase5/runs/development/ordinary-outcomes.json": {
+      "bytes": 166510,
+      "sha256": "b776b1f1d4e128a44a92ca4b93758ce2e02e1e4ca1a05b8ab31e3b60ee66baa9"
+    },
+    "phase5/runs/development/provenance.json": {
+      "bytes": 858,
+      "sha256": "fe41229d48f48519254657120b8772ad9e5045775e714a3b12dc5e6e08b56472"
+    },
+    "phase5/runs/development/summary.json": {
+      "bytes": 12238,
+      "sha256": "d20ea8914d625646835fc178bed149e4fc81160b6da43883958d2f7ee4ab2fdb"
+    },
+    "phase5/runs/optimizer-diagnosis/outcomes.json": {
+      "bytes": 311917,
+      "sha256": "d4551ee6b387ac33ffd34c58afc943d32ea2fef7d892f00d5fbdd6bbdfa75d07"
+    },
+    "phase5/runs/optimizer-diagnosis/provenance.json": {
+      "bytes": 1009,
+      "sha256": "ccc4685b191dfd15497c59d56f465f9df127ee2a8c946e1bbe5c8186d8a375ba"
+    },
+    "phase5/runs/optimizer-diagnosis/summary.json": {
+      "bytes": 900,
+      "sha256": "ab4dee0d13a4d7cb5e75c421c72e63da90ba265a7767f93e2e2745d0f3007138"
+    },
+    "pyproject.toml": {
+      "bytes": 213,
+      "sha256": "3d59ad4e755afa6df6d12fda59f5fe4fe0f13d527bdc569082e3be664b51759b"
+    },
+    "scripts/phase5_audit.py": {
+      "bytes": 9694,
+      "sha256": "347a583c6cb9ceb6d2ecd0a4e5cb9ab748c047dee7e833557959968ff961354c"
+    },
+    "scripts/phase5_config.py": {
+      "bytes": 26847,
+      "sha256": "6e5bfa985cf1f8aa87806f6a0fe27022515c0d3dffe6ce9c64d33671dc670b00"
+    },
+    "scripts/phase5_manifest.py": {
+      "bytes": 1371,
+      "sha256": "b8b8cc6f7bcb988748c83df538bcc912818ccd2295ee995eb4967779ce62fd50"
+    },
+    "scripts/phase5_optimizer_diagnosis.py": {
+      "bytes": 3819,
+      "sha256": "a8c972a433fa240b313bd1e79eadddb7447848ddfe998f1a95e665c03d10d7e1"
+    },
+    "scripts/phase5_restore_sources.py": {
+      "bytes": 3611,
+      "sha256": "852d3a93b4a711f06425ad153ec5a9b1b906132b314dd5f15fb358be17f3ce47"
+    },
+    "scripts/test_phase5_config.py": {
+      "bytes": 4539,
+      "sha256": "4d2e73534a4f6d1dc0650fb102bc580539c02cf525aada9c8fc43671f9626297"
+    },
+    "uv.lock": {
+      "bytes": 80685,
+      "sha256": "f28f088f86fb610b217a46c17b5214593bacd0b9856c98473dd5f503cf5294c1"
+    }
+  },
+  "freeze_commit": "f8651b89a9ce7eb4301c363e7156a9e22348af2c",
+  "scope": "Phase 5 publication; prior manifests remain scoped to prior commits"
+}

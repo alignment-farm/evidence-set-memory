@@ -1,0 +1,324 @@
+{
+  "all": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 12,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 80240,
+    "discrete_evaluations": 0,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 72,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 12,
+    "parser_executions": 48,
+    "parser_seconds": 0.003200627223122865,
+    "raw_records_scanned": 1020,
+    "repair_selection_seconds": 0,
+    "repairs": 0,
+    "representation_option_characters": 0,
+    "representation_seconds": 0.00015754293417558074,
+    "selected_record_uses": 480,
+    "selection_seconds": 0.0
+  },
+  "constraint_exact": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 9,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 4,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 4,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 41316,
+    "discrete_evaluations": 61440,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 53,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 4,
+    "parser_executions": 67,
+    "parser_seconds": 0.0032197461696341634,
+    "raw_records_scanned": 1020,
+    "repair_selection_seconds": 0.000525832932908088,
+    "repairs": 19,
+    "representation_option_characters": 12408,
+    "representation_seconds": 0.0012485007755458355,
+    "selected_record_uses": 124,
+    "selection_seconds": 0.004303876135963947
+  },
+  "exact": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 12,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 35111,
+    "discrete_evaluations": 61440,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 72,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 12,
+    "parser_executions": 48,
+    "parser_seconds": 0.0023495398927479982,
+    "raw_records_scanned": 1020,
+    "repair_selection_seconds": 0,
+    "repairs": 0,
+    "representation_option_characters": 12408,
+    "representation_seconds": 0.001451323740184307,
+    "selected_record_uses": 204,
+    "selection_seconds": 0.004275791114196181
+  },
+  "hard": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 12,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 34442,
+    "discrete_evaluations": 61440,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 72,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 12,
+    "parser_executions": 48,
+    "parser_seconds": 0.00241504586301744,
+    "raw_records_scanned": 1020,
+    "repair_selection_seconds": 0,
+    "repairs": 0,
+    "representation_option_characters": 12408,
+    "representation_seconds": 0.0013210497563704848,
+    "selected_record_uses": 200,
+    "selection_seconds": 0.007381587871350348
+  },
+  "ordinary": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 12,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 34442,
+    "discrete_evaluations": 0,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 72,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 12,
+    "parser_executions": 48,
+    "parser_seconds": 0.0023706250358372927,
+    "raw_records_scanned": 1020,
+    "repair_selection_seconds": 0,
+    "repairs": 0,
+    "representation_option_characters": 12408,
+    "representation_seconds": 0.001444581022951752,
+    "selected_record_uses": 200,
+    "selection_seconds": 0.00011112104402855039
+  },
+  "relax": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 10,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 6,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 6,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 39476,
+    "discrete_evaluations": 384,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 58,
+    "gradient_steps": 11520,
+    "histories_all_first_complete": 6,
+    "parser_executions": 62,
+    "parser_seconds": 0.0036021656705997884,
+    "raw_records_scanned": 1020,
+    "repair_selection_seconds": 0.0005193760152906179,
+    "repairs": 14,
+    "representation_option_characters": 12408,
+    "representation_seconds": 0.0010628391173668206,
+    "selected_record_uses": 140,
+    "selection_seconds": 0.09624020720366389
+  },
+  "untrained": {
+    "by_stage": {
+      "dependency_revision": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "initial": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "old_valid_obligation": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "revised_repeat": {
+        "first_complete": 12,
+        "n": 12
+      },
+      "value_correction": {
+        "first_complete": 12,
+        "n": 12
+      }
+    },
+    "cache_hits": 24,
+    "cache_invalidations": 24,
+    "delivery_bytes": 73082,
+    "discrete_evaluations": 61440,
+    "episodes": 72,
+    "final_complete": 72,
+    "first_complete": 72,
+    "gradient_steps": 0,
+    "histories_all_first_complete": 12,
+    "parser_executions": 48,
+    "parser_seconds": 0.003273294831160456,
+    "raw_records_scanned": 1020,
+    "repair_selection_seconds": 0,
+    "repairs": 0,
+    "representation_option_characters": 12408,
+    "representation_seconds": 0.021110676985699683,
+    "selected_record_uses": 432,
+    "selection_seconds": 0.004463167162612081
+  }
+}
