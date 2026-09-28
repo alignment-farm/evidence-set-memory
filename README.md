@@ -7,16 +7,19 @@ Root scientific review remains separate.**
 [Phase 2 development findings](phase2/DEVELOPMENT.md) extend the work to real
 MuSiQue prose, a small neural pairwise energy, and projected continuous selection.
 The learner improves development support recovery, while exact/beam search is
-more reliable and cheaper than the tested relaxation. Complete QA and a semantic
-representation diagnostic are running before fresh confirmation. This phase is
-explicitly benchmark-supervised, not continuing experience.
+more reliable and cheaper than the tested relaxation. The semantic diagnostic and
+frozen held-out selection are complete; the 24-case complete-QA comparison is
+running. This phase is explicitly benchmark-supervised, not continuing experience.
 
 [Phase 3 scaling findings](phase3/FINDINGS.md) test the frozen energy with up to
 160 candidates. Relaxation beats exhaustive enumeration at larger pools, but
 beam search matches the optimum with less measured work. These are optimizer
-diagnostics on seen material. Phase 2's frozen fresh selection result is 26/64
+diagnostics on seen material. Phase 2's frozen held-out selection result is 26/64
 complete evidence sets versus 15/64 for ordinary hybrid access; complete QA is
-still running and must decide usefulness.
+still running and must decide usefulness. The [exposure audit](phase2/EXPOSURE.md)
+found one previously inspected reconnaissance question in those 64: the 63-case
+sensitivity result remains 26 versus 15. Split-disjoint component IDs do not imply
+fully disjoint source text or absence of pretrained exposure.
 
 [Phase 4 findings](phase4/FINDINGS.md) show that continuous inference is sensitive
 to terms that vanish on every discrete evidence set: one such extension changes

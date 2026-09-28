@@ -1,0 +1,494 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "component_disjoint_splits": true,
+    "confirmation_selection_exact_replay": true,
+    "phase2/CLAIM.md": true,
+    "phase2/PROTOCOL.md": true,
+    "phase2/data/confirmation-manifest.json": true,
+    "phase2/data/development-manifest.json": true,
+    "phase2/data/train-manifest.json": true,
+    "phase2/encoder.json": true,
+    "phase2/runs/semantic-pairwise/checkpoint.json": true,
+    "phase2/runs/semantic-unary/checkpoint.json": true,
+    "pyproject.toml": true,
+    "scaling_non_timing_exact_replay": true,
+    "scripts/phase2_encode.py": true,
+    "scripts/phase2_energy.py": true,
+    "scripts/phase2_reader.py": true,
+    "semantic_training_checkpoint_exact_replay": true,
+    "uv.lock": true
+  },
+  "confirmation_component_clusters": [
+    [
+      "double__14095_15463"
+    ],
+    [
+      "double__7046_44085"
+    ],
+    [
+      "triple_ii__389955_132457_47686"
+    ],
+    [
+      "double__512773_346751"
+    ],
+    [
+      "double__144763_599630"
+    ],
+    [
+      "triple_ii__158139_19788_15107"
+    ],
+    [
+      "triple_ii__92788_648104_13493"
+    ],
+    [
+      "quadruple_iii__15567_59747_211319_557671"
+    ],
+    [
+      "double__159903_154896"
+    ],
+    [
+      "quadruple_ioh1__316459_41402_145282_13584"
+    ],
+    [
+      "double__6870_16335"
+    ],
+    [
+      "double__636597_480615"
+    ],
+    [
+      "double__39063_212301"
+    ],
+    [
+      "double__58939_213732"
+    ],
+    [
+      "triple_ii__604797_443779_52195"
+    ],
+    [
+      "double__48776_807969"
+    ],
+    [
+      "double__825727_584042"
+    ],
+    [
+      "double__65202_712629"
+    ],
+    [
+      "quadruple_ioh1__719125_132409_223216_35031"
+    ],
+    [
+      "quadruple_iii__118068_582428_157828_162309"
+    ],
+    [
+      "double__415518_616002"
+    ],
+    [
+      "double__9_59409"
+    ],
+    [
+      "triple_ii__302383_503371_21711"
+    ],
+    [
+      "double__701895_752697"
+    ],
+    [
+      "triple_ii__109113_720914_41132"
+    ],
+    [
+      "double__58168_1783"
+    ],
+    [
+      "triple_io__326964_464925_7713"
+    ],
+    [
+      "double__96414_47902"
+    ],
+    [
+      "triple_ii__446612_160545_34754",
+      "triple_ii__465684_160545_34751"
+    ],
+    [
+      "double__41158_35123"
+    ],
+    [
+      "double__80637_19033"
+    ],
+    [
+      "quadruple_iii__58323_375563_161848_84681",
+      "triple_io__106842_30645_84681"
+    ],
+    [
+      "triple_ii__857_846_7791"
+    ],
+    [
+      "triple_ii__379315_160713_77246"
+    ],
+    [
+      "double__132469_533882"
+    ],
+    [
+      "triple_io__90327_87184_76291"
+    ],
+    [
+      "triple_ii__536452_15840_36002",
+      "triple_ii__791757_15840_36014"
+    ],
+    [
+      "triple_io__132957_133292_40768",
+      "triple_io__132957_483843_40768"
+    ],
+    [
+      "double__34495_85544"
+    ],
+    [
+      "double__267938_92763",
+      "double__403060_92763"
+    ],
+    [
+      "double__40970_90367"
+    ],
+    [
+      "triple_ii__131783_131926_87157",
+      "triple_ii__152880_131926_87157"
+    ],
+    [
+      "triple_ii__617062_127905_80286"
+    ],
+    [
+      "quadruple_iii__638988_17130_70784_79935",
+      "quadruple_iot__71753_73205_70784_79935"
+    ],
+    [
+      "double__525242_52835"
+    ],
+    [
+      "double__126306_396277"
+    ],
+    [
+      "double__30390_36634"
+    ],
+    [
+      "quadruple_iii__199881_765799_282674_759393",
+      "quadruple_iii__638706_765799_282674_759393"
+    ],
+    [
+      "triple_ii__103751_24918_24991"
+    ],
+    [
+      "triple_ii__140345_2053_5289"
+    ],
+    [
+      "double__752214_639679"
+    ],
+    [
+      "quadruple_iii__44149_32392_823060_610794"
+    ],
+    [
+      "triple_ii__79462_91850_685675"
+    ],
+    [
+      "double__204493_69048"
+    ],
+    [
+      "triple_ii__135794_87694_64412",
+      "triple_ii__315504_629431_64412"
+    ]
+  ],
+  "reproduction_costs": {
+    "scaling": {
+      "160": {
+        "beam": {
+          "cases": 4,
+          "complete": 2,
+          "cpu_seconds": 0.01787699999999859,
+          "global_optima": 4,
+          "score_evaluations": 29767,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 0.017888415954075754
+        },
+        "exact": {
+          "cases": 4,
+          "complete": 2,
+          "cpu_seconds": 25.147109,
+          "global_optima": 4,
+          "score_evaluations": 105177440,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 25.14890295889927
+        },
+        "relaxed_swap": {
+          "cases": 4,
+          "complete": 2,
+          "cpu_seconds": 0.14366400000000112,
+          "global_optima": 4,
+          "score_evaluations": 3152,
+          "selection_gradients": 1280,
+          "swaps": 1,
+          "wall_seconds": 0.14366329100448638
+        }
+      },
+      "20": {
+        "beam": {
+          "cases": 4,
+          "complete": 2,
+          "cpu_seconds": 0.0017119999999944957,
+          "global_optima": 4,
+          "score_evaluations": 2374,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 0.0017091239569708705
+        },
+        "exact": {
+          "cases": 4,
+          "complete": 2,
+          "cpu_seconds": 0.005204999999999904,
+          "global_optima": 4,
+          "score_evaluations": 19380,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 0.0052055419073440135
+        },
+        "relaxed_swap": {
+          "cases": 4,
+          "complete": 2,
+          "cpu_seconds": 0.11860699999999547,
+          "global_optima": 4,
+          "score_evaluations": 416,
+          "selection_gradients": 1280,
+          "swaps": 2,
+          "wall_seconds": 0.11861679202411324
+        }
+      },
+      "40": {
+        "beam": {
+          "cases": 4,
+          "complete": 1,
+          "cpu_seconds": 0.0040120000000045675,
+          "global_optima": 4,
+          "score_evaluations": 6276,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 0.0040107909590005875
+        },
+        "exact": {
+          "cases": 4,
+          "complete": 1,
+          "cpu_seconds": 0.08849199999999713,
+          "global_optima": 4,
+          "score_evaluations": 365560,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 0.08850104198791087
+        },
+        "relaxed_swap": {
+          "cases": 4,
+          "complete": 1,
+          "cpu_seconds": 0.12005399999999833,
+          "global_optima": 3,
+          "score_evaluations": 1040,
+          "selection_gradients": 1280,
+          "swaps": 3,
+          "wall_seconds": 0.12005341792246327
+        }
+      },
+      "80": {
+        "beam": {
+          "cases": 4,
+          "complete": 1,
+          "cpu_seconds": 0.008125999999998523,
+          "global_optima": 4,
+          "score_evaluations": 14098,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 0.008123083971440792
+        },
+        "exact": {
+          "cases": 4,
+          "complete": 1,
+          "cpu_seconds": 1.4972850000000013,
+          "global_optima": 4,
+          "score_evaluations": 6326320,
+          "selection_gradients": 0,
+          "swaps": 0,
+          "wall_seconds": 1.4973099179333076
+        },
+        "relaxed_swap": {
+          "cases": 4,
+          "complete": 1,
+          "cpu_seconds": 0.12530199999999914,
+          "global_optima": 4,
+          "score_evaluations": 1856,
+          "selection_gradients": 1280,
+          "swaps": 2,
+          "wall_seconds": 0.12530033400980756
+        }
+      }
+    },
+    "selection": {
+      "beam": {
+        "accepted_swaps": 0,
+        "complete": 26,
+        "mean_recall": 0.73046875,
+        "n": 64,
+        "optimal_score": 64,
+        "score_evaluations": 38907,
+        "seconds": 0.06511146220145747,
+        "selection_gradients": 0
+      },
+      "exact": {
+        "accepted_swaps": 0,
+        "complete": 26,
+        "mean_recall": 0.73046875,
+        "n": 64,
+        "optimal_score": 64,
+        "score_evaluations": 310080,
+        "seconds": 0.01174625288695097,
+        "selection_gradients": 0
+      },
+      "learned_unary": {
+        "accepted_swaps": 0,
+        "complete": 15,
+        "mean_recall": 0.6263020833333334,
+        "n": 64,
+        "optimal_score": 3,
+        "score_evaluations": 1280,
+        "seconds": 0,
+        "selection_gradients": 0
+      },
+      "ordinary_1.0": {
+        "accepted_swaps": 0,
+        "complete": 15,
+        "mean_recall": 0.6354166666666666,
+        "n": 64,
+        "optimal_score": 2,
+        "score_evaluations": 4736,
+        "seconds": 0.009066497848834842,
+        "selection_gradients": 0
+      },
+      "relaxed": {
+        "accepted_swaps": 0,
+        "complete": 29,
+        "mean_recall": 0.7473958333333333,
+        "n": 64,
+        "optimal_score": 32,
+        "score_evaluations": 512,
+        "seconds": 1.958232297329232,
+        "selection_gradients": 20480
+      },
+      "relaxed_swap": {
+        "accepted_swaps": 34,
+        "complete": 26,
+        "mean_recall": 0.73046875,
+        "n": 64,
+        "optimal_score": 64,
+        "score_evaluations": 6784,
+        "seconds": 1.972075296973344,
+        "selection_gradients": 20480
+      }
+    },
+    "training": {
+      "code_sha256": "14b387e15b8b1fb7bb874f6c06c8e66a17d1a5755bf835c0f2e8e0e7b22caf25",
+      "contrast_presentations": 485760,
+      "created_utc": "2026-09-28T13:43:43Z",
+      "development_representation": {
+        "encoder_cost_ledger": "phase2/runs/encoding-development.json",
+        "excluded_non20_ids": [],
+        "input_bytes": 550314,
+        "pair_rows": 9120,
+        "paragraphs": 960,
+        "questions": 48,
+        "seconds": 0.26166120800189674,
+        "semantic_feature_seconds": 0.011155624990351498,
+        "unary_rows": 960
+      },
+      "device": "cpu",
+      "epochs": 60,
+      "numpy": "2.5.3",
+      "optimizer_updates": 960,
+      "parameter_count": 674,
+      "representation": {
+        "encoder_cost_ledger": "phase2/runs/encoding-train.json",
+        "excluded_non20_ids": [
+          "triple_ii__639955_834494_34099",
+          "triple_ii__102087_214799_259594",
+          "triple_ii__532517_214799_259594"
+        ],
+        "input_bytes": 3138853,
+        "pair_rows": 48070,
+        "paragraphs": 5060,
+        "questions": 253,
+        "seconds": 1.478339750028681,
+        "semantic_feature_seconds": 0.05653233302291483,
+        "unary_rows": 5060
+      },
+      "seed": 23,
+      "set_contrasts": 8096,
+      "threads": 2,
+      "torch": "2.14.0",
+      "train_cpu_seconds": 2.2215649999999996,
+      "train_wall_seconds": 1.6530119589879178,
+      "training_questions": 253
+    }
+  },
+  "source_paragraph_overlap": {
+    "development__confirmation": 35,
+    "train__confirmation": 130,
+    "train__development": 163
+  },
+  "support_comparison": {
+    "learned_unary": {
+      "cluster_bootstrap_percentile_95": [
+        0.016666666666666666,
+        0.3142857142857143
+      ],
+      "clusters": 55,
+      "interpretation": "Descriptive cluster resampling of this cohort; no population or multiplicity-adjusted claim",
+      "losses": 7,
+      "mean_difference": 0.171875,
+      "n": 64,
+      "ties": 39,
+      "wins": 18
+    },
+    "ordinary_1.0": {
+      "cluster_bootstrap_percentile_95": [
+        0.047619047619047616,
+        0.2951267930327862
+      ],
+      "clusters": 55,
+      "interpretation": "Descriptive cluster resampling of this cohort; no population or multiplicity-adjusted claim",
+      "losses": 4,
+      "mean_difference": 0.171875,
+      "n": 64,
+      "ties": 45,
+      "wins": 15
+    },
+    "relaxed": {
+      "cluster_bootstrap_percentile_95": [
+        -0.13114754098360656,
+        0.03076923076923077
+      ],
+      "clusters": 55,
+      "interpretation": "Descriptive cluster resampling of this cohort; no population or multiplicity-adjusted claim",
+      "losses": 5,
+      "mean_difference": -0.046875,
+      "n": 64,
+      "ties": 57,
+      "wins": 2
+    },
+    "relaxed_swap": {
+      "cluster_bootstrap_percentile_95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 55,
+      "interpretation": "Descriptive cluster resampling of this cohort; no population or multiplicity-adjusted claim",
+      "losses": 0,
+      "mean_difference": 0.0,
+      "n": 64,
+      "ties": 64,
+      "wins": 0
+    }
+  }
+}
