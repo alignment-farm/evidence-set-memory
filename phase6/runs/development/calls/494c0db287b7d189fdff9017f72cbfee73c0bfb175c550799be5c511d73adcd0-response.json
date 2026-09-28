@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\":[{\"path\":\"src/dotenv/main.py\",\"old\":\"def dotenv_values(\\n    dotenv_path: Optional[StrPath] = None,\\n    stream: Optional[IO[str]] = None,\\n    verbose: bool = False,\\n    interpolate: bool = True,\\n    encoding: Optional[str] = \\\"utf-8\\\",\\n) -> Dict[str, Optional[str]]:\\n    \\\"\\\"\\\"\\n    Parse a .env file and return its content as a dict.\\n\\n    The returned dict will have `None` values for keys without values in the .env file.\\n    For example, `foo=bar` results in `{\\\"foo\\\": \\\"bar\\\"}` whereas `foo` alone results in\\n    `{\\\"foo\\\": None}`\\n\\n    Parameters:\\n        dotenv_path: Absolute or relative path to the .env file.\\n        stream: `StringIO` object with .env content, used if `dotenv_path` is `None`.\\n        verbose: Whether to output a warning if the .env file is missing.\\n        encoding: Encoding to be used to read the file.\\n\\n    If both `dotenv_path` and `stream` are `None`, `find_dotenv()` is used to find the\\n    .env file.\\n    \\\"\\\"\\\"\\n    if dotenv_path is None and stream is None:\\n        dotenv_path = find_dotenv()\\n\\n    return DotEnv(\\n        dotenv_path=dotenv_path,\\n        stream=stream,\\n        verbose=verbose,\\n        interpolate=interpolate,\\n        override=True,\\n        encoding=encoding,\\n    ).dict()\",\"new\":\"def dotenv_values(\\n    dotenv_path: Optional[StrPath] = None,\\n    stream: Optional[IO[str]] = None,\\n    verbose: bool = False,\\n    interpolate: bool = True,\\n    encoding: Optional[str] = \\\"utf-8\\\",\\n    override: bool = True,\\n) -> Dict[str, Optional[str]]:\\n    \\\"\\\"\\\"\\n    Parse a .env file and return its content as a dict.\\n\\n    The returned dict will have `None` values for keys without values in the .env file.\\n    For example, `foo=bar` results in `{\\\"foo\\\": \\\"bar\\\"}` whereas `foo` alone results in\\n    `{\\\"foo\\\": None}`\\n\\n    Parameters:\\n        dotenv_path: Absolute or relative path to the .env file.\\n        stream: `StringIO` object with .env content, used if `dotenv_path` is `None`.\\n        verbose: Whether to output a warning if the .env file is missing.\\n        encoding: Encoding to be used to read the file.\\n        override: Whether to override the system environment variables with the variables\\n            from the `.env` file during interpolation. When `False`, the process\\n            environment takes precedence over already parsed file values during\\n            expansion. This does not replace the returned raw file assignments or\\n            mutate `os.environ`.\\n\\n    If both `dotenv_path` and `stream` are `None`, `find_dotenv()` is used to find the\\n    .env file.\\n    \\\"\\\"\\\"\\n    if dotenv_path is None and stream is None:\\n        dotenv_path = find_dotenv()\\n\\n    return DotEnv(\\n        dotenv_path=dotenv_path,\\n        stream=stream,\\n        verbose=verbose,\\n        interpolate=interpolate,\\n        override=override,\\n        encoding=encoding,\\n    ).dict()\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790621440,
+    "id": "chatcmpl-Xw2pk51zPc4cTdVk2Qc3kik8Y6qEtlyN",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 40440.405,
+      "predicted_n": 754,
+      "predicted_per_second": 18.64471930980909,
+      "predicted_per_token_ms": 53.634489389920425,
+      "prompt_ms": 20742.66,
+      "prompt_n": 3857,
+      "prompt_per_second": 185.94529341945537,
+      "prompt_per_token_ms": 5.377925849105522
+    },
+    "usage": {
+      "completion_tokens": 754,
+      "prompt_tokens": 3857,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 4611
+    }
+  },
+  "seconds": 61.47458691598149,
+  "timestamp": "2026-09-28T18:50:40Z"
+}

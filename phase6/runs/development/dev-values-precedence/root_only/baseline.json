@@ -1,0 +1,40 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/7ab72e0c561ccef9228b\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/7ab72e0c561ccef9228b/tmp/baseline",
+    "--junitxml",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/7ab72e0c561ccef9228b/baseline.xml",
+    "tests",
+    "public_current.py",
+    "prior_0.py",
+    "prior_1.py"
+  ],
+  "counts": {
+    "errors": 0,
+    "failures": 1,
+    "skipped": 1,
+    "tests": 164
+  },
+  "output": "........................................................................ [ 44%]\n........................................................................ [ 88%]\n.....F.............                                                      [100%]\n=================================== FAILURES ===================================\n____________________________ test_values_precedence ____________________________\n\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10b82ef90>\n\n    def test_values_precedence(monkeypatch):\n        monkeypatch.setenv('A', 'environment')\n        text = 'A=file\\nB=${A}\\n'\n>       assert dotenv.dotenv_values(stream=io.StringIO(text), override=False) == {'A':'file', 'B':'environment'}\nE       TypeError: dotenv_values() got an unexpected keyword argument 'override'\n\n/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/7ab72e0c561ccef9228b/public_current.py:7: TypeError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/7ab72e0c561ccef9228b/baseline.xml -\n=========================== short test summary info ============================\nFAILED public_current.py::test_values_precedence - TypeError: dotenv_values()...\n1 failed, 162 passed, 1 skipped in 0.90s\n",
+  "returncode": 1,
+  "seconds": 1.1469360410119407,
+  "source_sha256": {
+    "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+    "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+    "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+    "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+    "src/dotenv/main.py": "81ce2246ac597174a966aac7ff191b81969174ff62672fb37a2459a9b97cd030",
+    "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+    "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+    "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+  }
+}

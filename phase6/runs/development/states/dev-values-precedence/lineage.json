@@ -1,0 +1,52 @@
+[
+  {
+    "accepted_policy": "ordinary",
+    "patches": [
+      {
+        "edits": [
+          {
+            "new": "    if quote:\n        value_out = \"'{}'\".format(\n            value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n        )\n    else:\n        value_out = value_to_set",
+            "old": "    if quote:\n        value_out = \"'{}'\".format(value_to_set.replace(\"'\", \"\\\\'\"))\n    else:\n        value_out = value_to_set",
+            "path": "src/dotenv/main.py"
+          }
+        ]
+      }
+    ],
+    "requirement": "Fix set_key so values written in single-quoted form round-trip through dotenv_values(interpolate=False) without losing literal backslashes. Cover quote_mode='always' and the quoted branch of 'auto', including backslashes adjacent to quotes and at the end of values. Preserve existing quote_mode behavior, return values, export handling, encoding and all upstream tests. Do not change tests or broaden the requested API.",
+    "source_hashes": {
+      "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+      "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+      "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+      "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+      "src/dotenv/main.py": "81ce2246ac597174a966aac7ff191b81969174ff62672fb37a2459a9b97cd030",
+      "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+      "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+      "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+    }
+  },
+  {
+    "accepted_policy": "ordinary",
+    "patches": [
+      {
+        "edits": [
+          {
+            "new": "def dotenv_values(\n    dotenv_path: Optional[StrPath] = None,\n    stream: Optional[IO[str]] = None,\n    verbose: bool = False,\n    interpolate: bool = True,\n    encoding: Optional[str] = \"utf-8\",\n    override: bool = True,\n) -> Dict[str, Optional[str]]:\n    \"\"\"\n    Parse a .env file and return its content as a dict.\n\n    The returned dict will have `None` values for keys without values in the .env file.\n    For example, `foo=bar` results in `{\"foo\": \"bar\"}` whereas `foo` alone results in\n    `{\"foo\": None}`\n\n    Parameters:\n        dotenv_path: Absolute or relative path to the .env file.\n        stream: `StringIO` object with .env content, used if `dotenv_path` is `None`.\n        verbose: Whether to output a warning if the .env file is missing.\n        interpolate: Whether to interpolate variable references using the values of\n            already parsed variables and the process environment.\n        encoding: Encoding to be used to read the file.\n        override: When `True`, already parsed file values take precedence over the\n            process environment during interpolation. When `False`, the process\n            environment takes precedence over already parsed file values during\n            interpolation. This does not change the returned raw file assignments or\n            mutate `os.environ`.\n\n    If both `dotenv_path` and `stream` are `None`, `find_dotenv()` is used to find the\n    .env file.\n    \"\"\"\n    if dotenv_path is None and stream is None:\n        dotenv_path = find_dotenv()\n\n    return DotEnv(\n        dotenv_path=dotenv_path,\n        stream=stream,\n        verbose=verbose,\n        interpolate=interpolate,\n        override=override,\n        encoding=encoding,\n    ).dict()",
+            "old": "def dotenv_values(\n    dotenv_path: Optional[StrPath] = None,\n    stream: Optional[IO[str]] = None,\n    verbose: bool = False,\n    interpolate: bool = True,\n    encoding: Optional[str] = \"utf-8\",\n) -> Dict[str, Optional[str]]:\n    \"\"\"\n    Parse a .env file and return its content as a dict.\n\n    The returned dict will have `None` values for keys without values in the .env file.\n    For example, `foo=bar` results in `{\"foo\": \"bar\"}` whereas `foo` alone results in\n    `{\"foo\": None}`\n\n    Parameters:\n        dotenv_path: Absolute or relative path to the .env file.\n        stream: `StringIO` object with .env content, used if `dotenv_path` is `None`.\n        verbose: Whether to output a warning if the .env file is missing.\n        encoding: Encoding to be used to read the file.\n\n    If both `dotenv_path` and `stream` are `None`, `find_dotenv()` is used to find the\n    .env file.\n    \"\"\"\n    if dotenv_path is None and stream is None:\n        dotenv_path = find_dotenv()\n\n    return DotEnv(\n        dotenv_path=dotenv_path,\n        stream=stream,\n        verbose=verbose,\n        interpolate=interpolate,\n        override=True,\n        encoding=encoding,\n    ).dict()",
+            "path": "src/dotenv/main.py"
+          }
+        ]
+      }
+    ],
+    "requirement": "Extend dotenv_values with an optional trailing override: bool = True parameter. Preserve all existing positional arguments/default behavior. Forward this flag to the existing DotEnv interpolation-precedence machinery: override=False lets the process environment take precedence over already parsed file values during expansion; it must not replace the returned raw file assignments or mutate os.environ. Preserve interpolate=False and all earlier accepted behavior. Update its docstring. Do not change tests.",
+    "source_hashes": {
+      "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+      "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+      "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+      "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+      "src/dotenv/main.py": "7d61cf9c031ade38b86e8a2a25e3ecefacf4b19b71d3e4881e31ce47beb858fa",
+      "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+      "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+      "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+    }
+  }
+]

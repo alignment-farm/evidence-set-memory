@@ -1,0 +1,59 @@
+[
+  {
+    "action": {
+      "edits": [
+        {
+          "new": "def dotenv_values(\n    dotenv_path: Optional[StrPath] = None,\n    stream: Optional[IO[str]] = None,\n    verbose: bool = False,\n    interpolate: bool = True,\n    encoding: Optional[str] = \"utf-8\",\n    override: bool = True,\n) -> Dict[str, Optional[str]]:\n    \"\"\"\n    Parse a .env file and return its content as a dict.\n\n    The returned dict will have `None` values for keys without values in the .env file.\n    For example, `foo=bar` results in `{\"foo\": \"bar\"}` whereas `foo` alone results in\n    `{\"foo\": None}`\n\n    Parameters:\n        dotenv_path: Absolute or relative path to the .env file.\n        stream: `StringIO` object with .env content, used if `dotenv_path` is `None`.\n        verbose: Whether to output a warning if the .env file is missing.\n        encoding: Encoding to be used to read the file.\n        override: Whether to override the system environment variables with the variables\n            from the `.env` file during interpolation.\n\n    If both `dotenv_path` and `stream` are `None`, `find_dotenv()` is used to find the\n    .env file.\n    \"\"\"\n    if dotenv_path is None and stream is None:\n        dotenv_path = find_dotenv()\n\n    return DotEnv(\n        dotenv_path=dotenv_path,\n        stream=stream,\n        verbose=verbose,\n        interpolate=interpolate,\n        override=override,\n        encoding=encoding,\n    ).dict()",
+          "old": "def dotenv_values(\n    dotenv_path: Optional[StrPath] = None,\n    stream: Optional[IO[str]] = None,\n    verbose: bool = False,\n    interpolate: bool = True,\n    encoding: Optional[str] = \"utf-8\",\n) -> Dict[str, Optional[str]]:\n    \"\"\"\n    Parse a .env file and return its content as a dict.\n\n    The returned dict will have `None` values for keys without values in the .env file.\n    For example, `foo=bar` results in `{\"foo\": \"bar\"}` whereas `foo` alone results in\n    `{\"foo\": None}`\n\n    Parameters:\n        dotenv_path: Absolute or relative path to the .env file.\n        stream: `StringIO` object with .env content, used if `dotenv_path` is `None`.\n        verbose: Whether to output a warning if the .env file is missing.\n        encoding: Encoding to be used to read the file.\n\n    If both `dotenv_path` and `stream` are `None`, `find_dotenv()` is used to find the\n    .env file.\n    \"\"\"\n    if dotenv_path is None and stream is None:\n        dotenv_path = find_dotenv()\n\n    return DotEnv(\n        dotenv_path=dotenv_path,\n        stream=stream,\n        verbose=verbose,\n        interpolate=interpolate,\n        override=True,\n        encoding=encoding,\n    ).dict()",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    },
+    "changed": [
+      "src/dotenv/main.py"
+    ],
+    "public_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/bf5136a974436942dac5\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase6/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/bf5136a974436942dac5/tmp/public_0",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/bf5136a974436942dac5/public_0.xml",
+        "tests",
+        "public_current.py",
+        "prior_0.py",
+        "prior_1.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 1,
+        "tests": 164
+      },
+      "output": "........................................................................ [ 44%]\n........................................................................ [ 88%]\n...................                                                      [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase6/work/bf5136a974436942dac5/public_0.xml -\n163 passed, 1 skipped in 0.71s\n",
+      "returncode": 0,
+      "seconds": 0.9790207499754615,
+      "source_sha256": {
+        "src/dotenv/__init__.py": "58153949f4a2280852de1ceed7bca436ebb06eec320c25fdd52cefe2f51e3ae3",
+        "src/dotenv/__main__.py": "3744612c6ee71c8aad9491f0c1ea48a3ecdb24f371f6c7b0082446639dbc87fe",
+        "src/dotenv/cli.py": "fedb50b91f589789353d3e770722129038c9de43bf37f2f320367367de6e5c49",
+        "src/dotenv/ipython.py": "6af23a69ecff4719c1a6d62072122ab85d934a0288f863a1637a698aedd5b961",
+        "src/dotenv/main.py": "f224cff3a747f1094af3af4254e62c375063fab02f73a479692eb7404f956f4c",
+        "src/dotenv/parser.py": "4205391f0330336c0caadd2fcfa7474c9e27ccf9b0a91aaf8b8312c9e5627e05",
+        "src/dotenv/variables.py": "083d2a5cebefa41deae51a4140c0fda97eaf1d7ed2c96f92ba2c063054a5b74f",
+        "src/dotenv/version.py": "7784076264bfdf48f484f37c36634f9d0fd9d13a610d16eee0cb508fd713f5ef"
+      }
+    },
+    "request_hash": "778c3c45e7e97c800cd312326e84cd1aa0fbc3a01d2de8584ac94ac0d45bc350",
+    "reused": false,
+    "turn": 0
+  }
+]
