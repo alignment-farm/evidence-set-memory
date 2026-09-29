@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\":[{\"path\":\"slugify/__main__.py\",\"old\":\"        stopwords=args.stopwords,\\n        lowercase=args.lowercase,\",\"new\":\"        stopwords=args.stopwords,\\n        regex_pattern=args.regex_pattern,\\n        lowercase=args.lowercase,\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790643688,
+    "id": "chatcmpl-4hqQgKOGNKq4eXPWWjZj2FpH8SPCe92L",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 0,
+      "predicted_ms": 2920.604,
+      "predicted_n": 55,
+      "predicted_per_second": 18.831721109743054,
+      "predicted_per_token_ms": 53.101890909090905,
+      "prompt_ms": 28792.363,
+      "prompt_n": 5345,
+      "prompt_per_second": 185.63950447554444,
+      "prompt_per_token_ms": 5.386784471468663
+    },
+    "usage": {
+      "completion_tokens": 55,
+      "prompt_tokens": 5345,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 5400
+    }
+  },
+  "seconds": 32.59324687498156,
+  "timestamp": "2026-09-29T01:01:28Z"
+}

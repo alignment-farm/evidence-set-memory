@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"slugify/slugify.py\", \"old\": \"    :param stopwords (iterable): words to discount\\n    :param regex_pattern (str): regex pattern for disallowed characters\\n    :param lowercase (bool): activate case sensitivity by setting it to False\\n    :param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']]\\n    :param allow_unicode (bool): allow unicode characters\\n    :return (str):\\n    \\\"\\\"\\\"\\n\\n    # user-specific replacements\\n    if replacements:\\n        for old, new in replacements:\\n            text = text.replace(old, new)\", \"new\": \"    :param stopwords (iterable): words to discount; one-shot iterables are consumed once\\n    :param regex_pattern (str): regex pattern for disallowed characters\\n    :param lowercase (bool): activate case sensitivity by setting it to False\\n    :param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']];\\n        one-shot iterables, including one-shot rule iterables, are consumed once and applied in\\n        both the initial and final replacement passes with original rule order preserved\\n    :param allow_unicode (bool): allow unicode characters\\n    :return (str):\\n    \\\"\\\"\\\"\\n\\n    # materialize one-shot iterables so they can be used in both replacement passes\\n    if replacements is not None:\\n        replacements = [tuple(rule) for rule in replacements]\\n    if stopwords is not None:\\n        stopwords = list(stopwords)\\n\\n    # user-specific replacements\\n    if replacements:\\n        for old, new in replacements:\\n            text = text.replace(old, new)\"}, {\"path\": \"slugify/slugify.py\", \"old\": \"    # remove stopwords\\n    if stopwords:\\n        if lowercase:\\n            stopwords_lower = [s.lower() for s in stopwords]\\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords_lower]\\n        else:\\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords]\\n        text = DEFAULT_SEPARATOR.join(words)\", \"new\": \"    # remove stopwords\\n    if stopwords:\\n        if lowercase:\\n            stopwords_lower = {s.lower() for s in stopwords}\\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords_lower]\\n        else:\\n            stopwords_set = set(stopwords)\\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords_set]\\n        text = DEFAULT_SEPARATOR.join(words)\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790642679,
+    "id": "chatcmpl-74KI36olP5k7Gyc0aLogcLDh1A7FLfNn",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 2841,
+      "predicted_ms": 56967.441,
+      "predicted_n": 569,
+      "predicted_per_second": 9.988161483328696,
+      "predicted_per_token_ms": 100.11852548330404,
+      "prompt_ms": 15488.45,
+      "prompt_n": 2683,
+      "prompt_per_second": 173.2258553954721,
+      "prompt_per_token_ms": 5.772810286992173
+    },
+    "usage": {
+      "completion_tokens": 569,
+      "prompt_tokens": 5524,
+      "prompt_tokens_details": {
+        "cached_tokens": 2841
+      },
+      "total_tokens": 6093
+    }
+  },
+  "seconds": 72.5091486669844,
+  "timestamp": "2026-09-29T00:44:39Z"
+}

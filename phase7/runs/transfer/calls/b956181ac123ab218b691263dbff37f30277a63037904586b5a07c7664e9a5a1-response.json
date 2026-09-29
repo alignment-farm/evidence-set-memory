@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"finish\":true}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790643733,
+    "id": "chatcmpl-ZtnbnDb2WubIt3er0VG59JAVs0T3HsTd",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 6542,
+      "predicted_ms": 274.033,
+      "predicted_n": 6,
+      "predicted_per_second": 21.89517320906606,
+      "predicted_per_token_ms": 45.67216666666667,
+      "prompt_ms": 943.4,
+      "prompt_n": 64,
+      "prompt_per_second": 67.83972864108544,
+      "prompt_per_token_ms": 14.740625
+    },
+    "usage": {
+      "completion_tokens": 6,
+      "prompt_tokens": 6606,
+      "prompt_tokens_details": {
+        "cached_tokens": 6542
+      },
+      "total_tokens": 6612
+    }
+  },
+  "seconds": 1.2849130000104196,
+  "timestamp": "2026-09-29T01:02:13Z"
+}

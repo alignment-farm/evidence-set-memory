@@ -1,0 +1,137 @@
+[
+  {
+    "action": {
+      "edits": [
+        {
+          "new": "        stopwords=args.stopwords,\n        regex_pattern=args.regex_pattern,\n        lowercase=args.lowercase,",
+          "old": "        stopwords=args.stopwords,\n        lowercase=args.lowercase,",
+          "path": "slugify/__main__.py"
+        }
+      ]
+    },
+    "changed": [
+      "slugify/__main__.py"
+    ],
+    "public_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "pytest.ini",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/public_0",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/public_0.xml",
+        "test.py",
+        "public_current.py",
+        "prior_0.py",
+        "prior_1.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 89
+      },
+      "output": "........................................................................ [ 80%]\n.................                                                        [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/public_0.xml -\n89 passed in 0.05s\n",
+      "returncode": 0,
+      "seconds": 0.2807313340017572
+    },
+    "request_hash": "741b35f08efe424ac6a133bba360f8cae0769897d5e55d48098277b8cb5eadf3",
+    "reused": false,
+    "turn": 0
+  },
+  {
+    "action": {
+      "check": "from slugify import slugify\nfrom slugify.__main__ import parse_args, slugify_params\n\ndef test_regex_forwarded_none():\n    params = slugify_params(parse_args(['slugify', 'Hello']))\n    assert params['regex_pattern'] is None\n    assert slugify(**params) == 'hello'\n\ndef test_regex_forwarded_custom():\n    pattern = r'[^a-z_]+'\n    params = slugify_params(parse_args(['slugify', 'Hello_42', '--regex-pattern', pattern]))\n    assert params['regex_pattern'] == pattern\n    assert slugify(**params) == 'hello_'\n\ndef test_other_options_preserved():\n    params = slugify_params(parse_args(['slugify', 'A B', '--separator', '_', '--no-lowercase']))\n    assert params['separator'] == '_'\n    assert params['lowercase'] is False\n    assert params['regex_pattern'] is None\n    assert slugify(**params) == 'A_B'\n\ndef test_iterable_options_still_work():\n    reps = iter([('|', 'or'), iter(['%', 'percent'])])\n    out = slugify('a|b%c', replacements=reps)\n    assert out == slugify('a|b%c', replacements=[('|', 'or'), ('%', 'percent')])\n    sw = iter(['the'])\n    out2 = slugify('the quick the', stopwords=sw)\n    assert out2 == slugify('the quick the', stopwords=['the'])\n    out3 = slugify('The Quick The', stopwords=['The'], lowercase=False)\n    assert out3 == 'quick'"
+    },
+    "check_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "pytest.ini",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/check_1",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/check_1.xml",
+        "scratch_0.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 4
+      },
+      "output": "...F                                                                     [100%]\n=================================== FAILURES ===================================\n_______________________ test_iterable_options_still_work _______________________\n\n    def test_iterable_options_still_work():\n        reps = iter([('|', 'or'), iter(['%', 'percent'])])\n        out = slugify('a|b%c', replacements=reps)\n        assert out == slugify('a|b%c', replacements=[('|', 'or'), ('%', 'percent')])\n        sw = iter(['the'])\n        out2 = slugify('the quick the', stopwords=sw)\n        assert out2 == slugify('the quick the', stopwords=['the'])\n        out3 = slugify('The Quick The', stopwords=['The'], lowercase=False)\n>       assert out3 == 'quick'\nE       AssertionError: assert 'Quick' == 'quick'\nE         \nE         - quick\nE         ? ^\nE         + Quick\nE         ? ^\n\nscratch_0.py:30: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/check_1.xml -\n=========================== short test summary info ============================\nFAILED scratch_0.py::test_iterable_options_still_work - AssertionError: asser...\n1 failed, 3 passed in 0.03s\n",
+      "returncode": 1,
+      "seconds": 0.25438762502744794
+    },
+    "request_hash": "3c569b5e6b7164833027aa123f8671226dba50a405705fc3790c897cd48b4695",
+    "reused": false,
+    "turn": 1
+  },
+  {
+    "action": {
+      "check": "from slugify import slugify\nfrom slugify.__main__ import parse_args, slugify_params\n\ndef test_regex_forwarded_none():\n    params = slugify_params(parse_args(['slugify', 'Hello']))\n    assert params['regex_pattern'] is None\n    assert slugify(**params) == 'hello'\n\ndef test_regex_forwarded_custom():\n    pattern = r'[^a-z_]+'\n    params = slugify_params(parse_args(['slugify', 'Hello_42', '--regex-pattern', pattern]))\n    assert params['regex_pattern'] == pattern\n    assert slugify(**params) == 'hello_'\n\ndef test_other_options_preserved():\n    params = slugify_params(parse_args(['slugify', 'A B', '--separator', '_', '--no-lowercase']))\n    assert params['separator'] == '_'\n    assert params['lowercase'] is False\n    assert params['regex_pattern'] is None\n    assert slugify(**params) == 'A_B'\n\ndef test_iterable_options_still_work():\n    reps = iter([('|', 'or'), iter(['%', 'percent'])])\n    out = slugify('a|b%c', replacements=reps)\n    assert out == slugify('a|b%c', replacements=[('|', 'or'), ('%', 'percent')])\n    sw = iter(['the'])\n    out2 = slugify('the quick the', stopwords=sw)\n    assert out2 == slugify('the quick the', stopwords=['the'])\n    out3 = slugify('The Quick The', stopwords=['The'], lowercase=False)\n    assert out3 == 'Quick'"
+    },
+    "check_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "pytest.ini",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/check_2",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/check_2.xml",
+        "scratch_1.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 4
+      },
+      "output": "....                                                                     [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/45f9959b818ee561bd/tmp/check_2.xml -\n4 passed in 0.02s\n",
+      "returncode": 0,
+      "seconds": 0.24227983399759978
+    },
+    "request_hash": "fc416e40b85b434ce01f411b3416d7ee514a645cdf61a5250af270fd34a38d87",
+    "reused": false,
+    "turn": 2
+  }
+]

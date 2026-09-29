@@ -1,0 +1,42 @@
+{
+  "only_target_docstring_ast_changed": true,
+  "reader_calls": 0,
+  "source_hash_replayed": true,
+  "test": {
+    "command": [
+      "/usr/bin/sandbox-exec",
+      "-p",
+      "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/repair-audit/final-audit/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/repair-audit/final-audit\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "-c",
+      "pytest.ini",
+      "--rootdir",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/repair-audit/final-audit",
+      "--confcutdir",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/repair-audit/final-audit",
+      "--basetemp",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/repair-audit/final-audit/tmp/repair_replay",
+      "--junitxml",
+      "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/repair-audit/final-audit/tmp/repair_replay.xml",
+      "test.py",
+      "public_current.py",
+      "heldout_current.py",
+      "prior_0.py",
+      "prior_1.py"
+    ],
+    "counts": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 93
+    },
+    "output": "........................................................................ [ 77%]\n.....................                                                    [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/repair-audit/final-audit/tmp/repair_replay.xml -\n93 passed in 0.06s\n",
+    "returncode": 0,
+    "seconds": 0.28175841696793213
+  }
+}

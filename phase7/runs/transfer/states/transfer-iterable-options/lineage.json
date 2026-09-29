@@ -1,0 +1,29 @@
+[
+  {
+    "accepted_policy": "ordinary_access",
+    "patches": [
+      {
+        "edits": [
+          {
+            "new": "    :param stopwords (iterable): words to discount; one-shot iterables are consumed once\n    :param regex_pattern (str): regex pattern for disallowed characters\n    :param lowercase (bool): activate case sensitivity by setting it to False\n    :param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']];\n        one-shot iterables, including one-shot rule iterables, are consumed once and applied in\n        both the initial and final replacement passes with original rule order preserved\n    :param allow_unicode (bool): allow unicode characters\n    :return (str):\n    \"\"\"\n\n    # materialize one-shot iterables so they can be used in both replacement passes\n    if replacements is not None:\n        replacements = [tuple(rule) for rule in replacements]\n    if stopwords is not None:\n        stopwords = list(stopwords)\n\n    # user-specific replacements\n    if replacements:\n        for old, new in replacements:\n            text = text.replace(old, new)",
+            "old": "    :param stopwords (iterable): words to discount\n    :param regex_pattern (str): regex pattern for disallowed characters\n    :param lowercase (bool): activate case sensitivity by setting it to False\n    :param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']]\n    :param allow_unicode (bool): allow unicode characters\n    :return (str):\n    \"\"\"\n\n    # user-specific replacements\n    if replacements:\n        for old, new in replacements:\n            text = text.replace(old, new)",
+            "path": "slugify/slugify.py"
+          },
+          {
+            "new": "    # remove stopwords\n    if stopwords:\n        if lowercase:\n            stopwords_lower = {s.lower() for s in stopwords}\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords_lower]\n        else:\n            stopwords_set = set(stopwords)\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords_set]\n        text = DEFAULT_SEPARATOR.join(words)",
+            "old": "    # remove stopwords\n    if stopwords:\n        if lowercase:\n            stopwords_lower = [s.lower() for s in stopwords]\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords_lower]\n        else:\n            words = [w for w in text.split(DEFAULT_SEPARATOR) if w not in stopwords]\n        text = DEFAULT_SEPARATOR.join(words)",
+            "path": "slugify/slugify.py"
+          }
+        ]
+      }
+    ],
+    "requirement": "Make slugify honor its iterable options consistently for one-shot inputs. A finite replacements iterable, including replacement pairs that are themselves one-shot iterables, must behave exactly like the equivalent list of two-element tuples in both the initial and final replacement passes, with original rule order preserved. A finite stopwords iterable must behave like the equivalent list for both lowercase=True and lowercase=False, even when the first input word is not a stopword. Consume each one-shot iterable no more than once, do not mutate caller-owned lists, preserve None/empty-option behavior and existing normalization/truncation/CLI behavior. Update relevant docstrings; only production Python files may be edited.",
+    "source_hashes": {
+      "slugify/__init__.py": "43ef5b28242ff3db9fddb26bff21f130f84159737c602ce5c50c0afe476979f2",
+      "slugify/__main__.py": "d64bfc035e5383fdfe96bc11495b87a18b80f3fca4beb6b73a1080d31628d5c6",
+      "slugify/__version__.py": "0e1df2e0c9d602334919b6a8466ddd7e2cadc85fa20f977edce09f1b297ffd8f",
+      "slugify/slugify.py": "48a67f96569f77bd8b12c1bf224e0d8732f7032e3f6bdbfa880195f188832100",
+      "slugify/special.py": "f1b1c03c69d9fb591eb96e31d9665d15755bf4b1684bb8bd268e2dcbfd83f210"
+    }
+  }
+]

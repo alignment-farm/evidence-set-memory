@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"slugify/__main__.py\", \"old\": \"def slugify_params(args: argparse.Namespace) -> dict[str, Any]:\\n    return dict(\\n        text=args.input_string,\\n        entities=args.entities,\\n        decimal=args.decimal,\\n        hexadecimal=args.hexadecimal,\\n        max_length=args.max_length,\\n        word_boundary=args.word_boundary,\\n        save_order=args.save_order,\\n        separator=args.separator,\\n        stopwords=args.stopwords,\\n        lowercase=args.lowercase,\\n        replacements=args.replacements,\\n        allow_unicode=args.allow_unicode\\n    )\", \"new\": \"def slugify_params(args: argparse.Namespace) -> dict[str, Any]:\\n    \\\"\\\"\\\"Build the keyword arguments for :func:`slugify` from parsed CLI arguments.\\n\\n    The parsed ``regex_pattern`` value is forwarded unchanged (including ``None``)\\n    so the CLI applies the same custom disallowed-character pattern as the library\\n    call. All other CLI options, positional/STDIN input, and case/Unicode behavior\\n    are preserved.\\n    \\\"\\\"\\\"\\n    return dict(\\n        text=args.input_string,\\n        entities=args.entities,\\n        decimal=args.decimal,\\n        hexadecimal=args.hexadecimal,\\n        max_length=args.max_length,\\n        word_boundary=args.word_boundary,\\n        save_order=args.save_order,\\n        separator=args.separator,\\n        stopwords=args.stopwords,\\n        regex_pattern=args.regex_pattern,\\n        lowercase=args.lowercase,\\n        replacements=args.replacements,\\n        allow_unicode=args.allow_unicode\\n    )\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790644079,
+    "id": "chatcmpl-xrPo9bPkJaFGoS73SWn5w9bBct02LjdV",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 4715,
+      "predicted_ms": 62254.018,
+      "predicted_n": 339,
+      "predicted_per_second": 5.445431650692812,
+      "predicted_per_token_ms": 183.6401710914454,
+      "prompt_ms": 9934.533,
+      "prompt_n": 975,
+      "prompt_per_second": 98.1425095673848,
+      "prompt_per_token_ms": 10.189264615384614
+    },
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 5690,
+      "prompt_tokens_details": {
+        "cached_tokens": 4715
+      },
+      "total_tokens": 6029
+    }
+  },
+  "seconds": 72.24450866697589,
+  "timestamp": "2026-09-29T01:07:59Z"
+}

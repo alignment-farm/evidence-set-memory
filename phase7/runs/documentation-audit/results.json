@@ -1,0 +1,90 @@
+[
+  {
+    "after_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount; one-shot iterables are consumed once\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']];\n    one-shot iterables, including one-shot rule iterables, are consumed once and applied in\n    both the initial and final replacement passes with original rule order preserved\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "before_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']]\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": true,
+    "executable_and_documentation_gate": true,
+    "explicit_finish": true,
+    "frozen_executable_complete": true,
+    "policy": "ordinary_access",
+    "task": "transfer-iterable-options"
+  },
+  {
+    "after_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount; one-shot iterables are consumed once\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']];\n    one-shot iterables (including one-shot pair iterables) are consumed once and applied in\n    the initial and final replacement passes with rule order preserved\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "before_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']]\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": true,
+    "executable_and_documentation_gate": true,
+    "explicit_finish": true,
+    "frozen_executable_complete": true,
+    "policy": "full_context",
+    "task": "transfer-iterable-options"
+  },
+  {
+    "after_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount; finite one-shot iterables are consumed once\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']];\n    finite one-shot iterables, including one-shot pair iterables, are consumed once and applied\n    in rule order in both the initial and final replacement passes\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "before_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']]\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": true,
+    "executable_and_documentation_gate": true,
+    "explicit_finish": false,
+    "frozen_executable_complete": true,
+    "policy": "empirical_reuse",
+    "task": "transfer-iterable-options"
+  },
+  {
+    "after_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount; one-shot iterables are consumed once\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']];\n    one-shot iterables, including one-shot pair iterables, are consumed once and applied in\n    both the initial and final replacement passes with original rule order preserved\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "before_docstring": "Make a slug from the given text.\n:param text (str): initial text\n:param entities (bool): converts html entities to unicode\n:param decimal (bool): converts html decimal to unicode\n:param hexadecimal (bool): converts html hexadecimal to unicode\n:param max_length (int): output string length\n:param word_boundary (bool): truncates to complete word even if length ends up shorter than max_length\n:param save_order (bool): if parameter is True and max_length > 0 return whole words in the initial order\n:param separator (str): separator between words\n:param stopwords (iterable): words to discount\n:param regex_pattern (str): regex pattern for disallowed characters\n:param lowercase (bool): activate case sensitivity by setting it to False\n:param replacements (iterable): list of replacement rules e.g. [['|', 'or'], ['%', 'percent']]\n:param allow_unicode (bool): allow unicode characters\n:return (str):",
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": true,
+    "executable_and_documentation_gate": true,
+    "explicit_finish": true,
+    "frozen_executable_complete": true,
+    "policy": "learned_energy",
+    "task": "transfer-iterable-options"
+  },
+  {
+    "after_docstring": null,
+    "before_docstring": null,
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": false,
+    "executable_and_documentation_gate": false,
+    "explicit_finish": true,
+    "frozen_executable_complete": true,
+    "policy": "ordinary_access",
+    "task": "transfer-cli-regex"
+  },
+  {
+    "after_docstring": null,
+    "before_docstring": null,
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": false,
+    "executable_and_documentation_gate": false,
+    "explicit_finish": true,
+    "frozen_executable_complete": true,
+    "policy": "full_context",
+    "task": "transfer-cli-regex"
+  },
+  {
+    "after_docstring": "Build the keyword arguments for :func:`slugify` from parsed CLI arguments.\n\nThe parsed ``regex_pattern`` value is forwarded unchanged (including ``None``)\nso the CLI applies the same custom disallowed-character pattern as the library\ncall. All other CLI options, positional/STDIN input, and case/Unicode behavior\nare preserved.",
+    "before_docstring": null,
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": true,
+    "executable_and_documentation_gate": true,
+    "explicit_finish": true,
+    "frozen_executable_complete": true,
+    "policy": "empirical_reuse",
+    "task": "transfer-cli-regex"
+  },
+  {
+    "after_docstring": null,
+    "before_docstring": null,
+    "doc_scope": "Requested relevant function documentation; unchanged/missing is a clear omission. Changed text still needs semantic review.",
+    "documentation_updated": false,
+    "executable_and_documentation_gate": false,
+    "explicit_finish": true,
+    "frozen_executable_complete": true,
+    "policy": "learned_energy",
+    "task": "transfer-cli-regex"
+  }
+]

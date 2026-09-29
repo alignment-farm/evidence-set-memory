@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"check\": \"from slugify import slugify\\n\\ndef test_replacements_iter_one_shot():\\n    assert slugify('a b', replacements=iter([('-', '+')])) == 'a+b'\\n    assert slugify('a b', replacements=iter([('-', '+')])) == slugify('a b', replacements=[('-', '+')])\\n\\ndef test_replacements_pairs_one_shot():\\n    assert slugify('a b', replacements=iter([iter(['-', '+'])])) == 'a+b'\\n    assert slugify('a b', replacements=iter([iter(['-', '+'])])) == slugify('a b', replacements=[('-', '+')])\\n\\ndef test_replacements_order_preserved():\\n    assert slugify('x y z', replacements=iter([('x', '1'), ('y', '2'), ('z', '3')])) == '1-2-3'\\n    assert slugify('x y z', replacements=iter([('x', '1'), ('y', '2'), ('z', '3')])) == slugify('x y z', replacements=[('x', '1'), ('y', '2'), ('z', '3')])\\n\\ndef test_stopwords_iter_lowercase():\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop'])) == 'keep-tail'\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop'])) == slugify('Keep Drop Tail', stopwords=['Drop'])\\n\\ndef test_stopwords_iter_case_sensitive():\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop']), lowercase=False) == 'Keep-Tail'\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop']), lowercase=False) == slugify('Keep Drop Tail', stopwords=['Drop'], lowercase=False)\\n\\ndef test_stopwords_first_word_not_stopword():\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop']), lowercase=False) == 'Keep-Tail'\\n    assert slugify('Drop Keep Tail', stopwords=iter(['Drop']), lowercase=False) == 'Keep-Tail'\\n\\ndef test_no_mutation():\\n    repl = [('-', '+')]\\n    repl_copy = list(repl)\\n    slugify('a b', replacements=repl)\\n    assert repl == repl_copy\\n    sw = ['Drop']\\n    sw_copy = list(sw)\\n    slugify('Keep Drop Tail', stopwords=sw)\\n    assert sw == sw_copy\\n\\ndef test_none_and_empty():\\n    assert slugify('a b', replacements=None) == 'a-b'\\n    assert slugify('a b', replacements=()) == 'a-b'\\n    assert slugify('Keep Drop Tail', stopwords=None) == 'keep-drop-tail'\\n    assert slugify('Keep Drop Tail', stopwords=()) == 'keep-drop-tail'\\n\\ndef test_existing_behavior():\\n    assert slugify('10 | 20 %', replacements=[['|', 'or'], ['%', 'percent']]) == '10-or-20-percent'\\n    assert slugify('this has a stopword', stopwords=['stopword']) == 'this-has-a'\\n    assert slugify('thIs Has a stopword Stopword', stopwords=['Stopword'], lowercase=False) == 'thIs-Has-a-stopword'\\n    assert slugify('jaja---lol-m\u00e9m\u00e9m\u00e9oo--a', max_length=9) == 'jaja-lol'\\n    assert slugify('jaja---lol-m\u00e9m\u00e9m\u00e9oo--a', max_length=20, word_boundary=True, separator='.') == 'jaja.lol.mememeoo.a'\"}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790643071,
+    "id": "chatcmpl-0P7HMYdUZeem3DhQL91E8ffPZiWLJrOL",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 16394,
+      "predicted_ms": 82582.739,
+      "predicted_n": 790,
+      "predicted_per_second": 9.56616369917205,
+      "predicted_per_token_ms": 104.53511265822785,
+      "prompt_ms": 1218.382,
+      "prompt_n": 87,
+      "prompt_per_second": 71.40617638802937,
+      "prompt_per_token_ms": 14.004390804597701
+    },
+    "usage": {
+      "completion_tokens": 790,
+      "prompt_tokens": 16481,
+      "prompt_tokens_details": {
+        "cached_tokens": 16394
+      },
+      "total_tokens": 17271
+    }
+  },
+  "seconds": 83.88638695795089,
+  "timestamp": "2026-09-29T00:51:11Z"
+}

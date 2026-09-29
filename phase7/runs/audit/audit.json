@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "complete_grade_replay": 12,
+    "protected_files_unchanged": 12,
+    "public_repair_grade_replay": 15,
+    "request_identity_and_private_file_boundary": 61,
+    "scratch_grade_replay": 22,
+    "source_hash_replay": 12
+  },
+  "frozen_files": 32,
+  "pytest_invocations": 61,
+  "pytest_seconds": 24.168637375172693,
+  "reader_calls": 0,
+  "script_sha256": "b7e8d96d698e743811b9c9d0758011a2ee897a7a5497c30af84b353363dbcfa5",
+  "wall_seconds": 24.34143720800057
+}

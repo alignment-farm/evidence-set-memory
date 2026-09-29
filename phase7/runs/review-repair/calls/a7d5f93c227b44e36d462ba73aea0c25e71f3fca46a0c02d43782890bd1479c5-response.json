@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\":[{\"new\":\"def slugify_params(args: argparse.Namespace) -> dict[str, Any]:\\n    \\\"\\\"\\\"Convert parsed CLI arguments into keyword arguments for :func:`slugify`.\\n\\n    Forwards every parsed option unchanged, including ``regex_pattern`` (which\\n    remains ``None`` when ``--regex-pattern`` is not supplied), so the CLI\\n    applies the same custom disallowed-character pattern as a direct library\\n    call.\\n    \\\"\\\"\\\"\\n    return dict(\",\"old\":\"def slugify_params(args: argparse.Namespace) -> dict[str, Any]:\\n    return dict(\",\"path\":\"slugify/__main__.py\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790644390,
+    "id": "chatcmpl-Y0heS2tjq3gPLCoCQU3g7X30QPIA7vJ4",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 6611,
+      "predicted_ms": 24629.128,
+      "predicted_n": 140,
+      "predicted_per_second": 5.684326298519379,
+      "predicted_per_token_ms": 175.92234285714287,
+      "prompt_ms": 1580.503,
+      "prompt_n": 83,
+      "prompt_per_second": 52.51492720988192,
+      "prompt_per_token_ms": 19.042204819277107
+    },
+    "usage": {
+      "completion_tokens": 140,
+      "prompt_tokens": 6694,
+      "prompt_tokens_details": {
+        "cached_tokens": 6611
+      },
+      "total_tokens": 6834
+    }
+  },
+  "seconds": 29.789745957998093,
+  "timestamp": "2026-09-29T01:13:10Z"
+}

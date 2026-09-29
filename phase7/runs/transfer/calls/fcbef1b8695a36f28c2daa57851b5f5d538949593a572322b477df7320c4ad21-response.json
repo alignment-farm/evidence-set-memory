@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"check\": \"from slugify import slugify\\n\\ndef test_replacements_iterable_both_passes():\\n    assert slugify('a b', replacements=iter([('-', '+')])) == 'a+b'\\n    assert slugify('a b', replacements=[('-', '+')]) == 'a+b'\\n    assert slugify('a b', replacements=iter([('-', '+'), ('+', '=')])) == 'a=b'\\n    assert slugify('a b', replacements=[('-', '+'), ('+', '=')]) == 'a=b'\\n\\ndef test_replacements_one_shot_rules():\\n    assert slugify('a b', replacements=iter([iter(['-', '+'])])) == 'a+b'\\n    assert slugify('a b', replacements=[iter(['-', '+'])]) == 'a+b'\\n\\ndef test_stopwords_iterable():\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop']), lowercase=False) == 'Keep-Tail'\\n    assert slugify('Keep Drop Tail', stopwords=['Drop'], lowercase=False) == 'Keep-Tail'\\n    assert slugify('Drop Keep Tail', stopwords=iter(['Drop']), lowercase=False) == 'Keep-Tail'\\n    assert slugify('Drop Keep Tail', stopwords=['Drop'], lowercase=False) == 'Keep-Tail'\\n    assert slugify('Drop Keep Tail', stopwords=iter(['drop']), lowercase=True) == 'Keep-Tail'\\n    assert slugify('Drop Keep Tail', stopwords=['drop'], lowercase=True) == 'Keep-Tail'\\n\\ndef test_none_and_empty():\\n    assert slugify('a b', replacements=None) == 'a-b'\\n    assert slugify('a b', stopwords=None) == 'a-b'\\n    assert slugify('a b', replacements=[]) == 'a-b'\\n    assert slugify('a b', stopwords=[]) == 'a-b'\\n\\ndef test_no_mutation():\\n    repl = [[ '-', '+']]\\n    slugify('a b', replacements=repl)\\n    assert repl == [[ '-', '+']]\\n    sw = ['Drop']\\n    slugify('Keep Drop Tail', stopwords=sw, lowercase=False)\\n    assert sw == ['Drop']\\n\\ndef test_existing_behavior():\\n    assert slugify('Hello World') == 'hello-world'\\n    assert slugify('Hello World', max_length=5) == 'hello'\\n    assert slugify('Hello World', max_length=5, word_boundary=True) == 'hello'\\n    assert slugify('Hello World', separator='_') == 'hello_world'\\n    assert slugify('a,b,c', decimal=False) == 'a-b-c'\\n\"}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790642743,
+    "id": "chatcmpl-nmavnIxcWLx6vP5XMfzPa2sbFsWj08ra",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 6092,
+      "predicted_ms": 62903.079,
+      "predicted_n": 577,
+      "predicted_per_second": 9.17284192082235,
+      "predicted_per_token_ms": 109.01746793760832,
+      "prompt_ms": 1129.609,
+      "prompt_n": 87,
+      "prompt_per_second": 77.01779996441248,
+      "prompt_per_token_ms": 12.984011494252872
+    },
+    "usage": {
+      "completion_tokens": 577,
+      "prompt_tokens": 6179,
+      "prompt_tokens_details": {
+        "cached_tokens": 6092
+      },
+      "total_tokens": 6756
+    }
+  },
+  "seconds": 64.12942324997857,
+  "timestamp": "2026-09-29T00:45:43Z"
+}

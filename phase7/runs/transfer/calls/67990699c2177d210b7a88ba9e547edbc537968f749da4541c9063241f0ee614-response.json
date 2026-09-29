@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"check\": \"from slugify import slugify\\n\\ndef test_replacements_iterable_both_passes():\\n    assert slugify('a b', replacements=iter([('-', '+')])) == 'a+b'\\n    assert slugify('a b', replacements=[('-', '+')]) == 'a+b'\\n    assert slugify('a b', replacements=iter(iter([('-', '+')]),)) == 'a+b'\\n\\ndef test_replacements_order_preserved():\\n    assert slugify('x y z', replacements=iter([('x', '1'), ('y', '2'), ('z', '3')])) == '1-2-3'\\n\\ndef test_stopwords_iterable_lowercase():\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop'])) == 'keep-tail'\\n    assert slugify('Keep Drop Tail', stopwords=['Drop']) == 'keep-tail'\\n\\ndef test_stopwords_iterable_case_sensitive():\\n    assert slugify('Keep Drop Tail', stopwords=iter(['Drop']), lowercase=False) == 'Keep-Tail'\\n    assert slugify('Keep Drop Tail', stopwords=['Drop'], lowercase=False) == 'Keep-Tail'\\n\\ndef test_stopwords_first_word_not_stopword():\\n    assert slugify('Alpha Beta Gamma', stopwords=iter(['Beta']), lowercase=False) == 'Alpha-Gamma'\\n\\ndef test_no_mutation():\\n    repl = [('-', '+')]\\n    slugify('a b', replacements=repl)\\n    assert repl == [('-', '+')]\\n    stops = ['Drop']\\n    slugify('Keep Drop Tail', stopwords=stops)\\n    assert stops == ['Drop']\\n\\ndef test_none_and_empty():\\n    assert slugify('a b', replacements=None) == 'a-b'\\n    assert slugify('a b', stopwords=None) == 'a-b'\\n    assert slugify('a b', replacements=[]) == 'a-b'\\n    assert slugify('a b', stopwords=[]) == 'a-b'\\n\\ndef test_existing_behavior():\\n    assert slugify('Hello World') == 'hello-world'\\n    assert slugify('Hello World', max_length=5) == 'hello'\\n    assert slugify('Hello World', separator='_') == 'hello_world'\\n\"}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790643653,
+    "id": "chatcmpl-x45ZXYLJ9AlJVPi3Fl5PqeVv5Ei0Ry6J",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 5667,
+      "predicted_ms": 34156.51,
+      "predicted_n": 498,
+      "predicted_per_second": 14.579943911131435,
+      "predicted_per_token_ms": 68.58736947791165,
+      "prompt_ms": 1513.499,
+      "prompt_n": 87,
+      "prompt_per_second": 57.482694075119966,
+      "prompt_per_token_ms": 17.39654022988506
+    },
+    "usage": {
+      "completion_tokens": 498,
+      "prompt_tokens": 5754,
+      "prompt_tokens_details": {
+        "cached_tokens": 5667
+      },
+      "total_tokens": 6252
+    }
+  },
+  "seconds": 35.76795933302492,
+  "timestamp": "2026-09-29T01:00:53Z"
+}

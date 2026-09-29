@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"check\":\"from slugify import slugify\\nfrom slugify.__main__ import parse_args, slugify_params\\nimport io, sys\\n\\ndef test_regex_forwarded_none():\\n    params = slugify_params(parse_args(['slugify', 'Hello_42']))\\n    assert params['regex_pattern'] is None\\n    assert slugify(**params) == 'hello-42'\\n\\ndef test_regex_forwarded_custom():\\n    pattern = r'[^a-z_]+'\\n    params = slugify_params(parse_args(['slugify', 'Hello_42', '--regex-pattern', pattern]))\\n    assert params['regex_pattern'] == pattern\\n    assert slugify(**params) == 'hello_'\\n\\ndef test_other_options_preserved():\\n    params = slugify_params(parse_args(['slugify', 'A B', '--separator', '_', '--no-lowercase', '--max-length', '5']))\\n    assert params['separator'] == '_'\\n    assert params['lowercase'] is False\\n    assert params['max_length'] == 5\\n    assert params['regex_pattern'] is None\\n    assert slugify(**params) == 'A_B'\\n\\ndef test_stdin_input():\\n    old = sys.stdin\\n    sys.stdin = io.StringIO('Hi there')\\n    try:\\n        params = slugify_params(parse_args(['slugify', '--stdin']))\\n    finally:\\n        sys.stdin = old\\n    assert params['text'] == 'Hi there'\\n    assert slugify(**params) == 'hi-there'\\n\\ndef test_iterable_options_still_work():\\n    reps = iter([('|', 'or'), iter(['%', 'percent'])])\\n    out = slugify('a|b% c', replacements=reps)\\n    assert out == 'a-or-bpercent-c'\\n    sw = iter(['the'])\\n    assert slugify('the quick the fox', stopwords=sw) == 'quick-fox'\\n    sw2 = iter(['The'])\\n    assert slugify('The quick The fox', stopwords=sw2, lowercase=False) == 'quick-fox'\\n\\ndef test_none_empty_preserved():\\n    assert slugify('a b', replacements=None, stopwords=None) == 'a-b'\\n    assert slugify('a b', replacements=(), stopwords=()) == 'a-b'\"}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790643958,
+    "id": "chatcmpl-Ez47ywkHOsn0BPq0e7byOnNQUWkQYJpJ",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 7886,
+      "predicted_ms": 92839.652,
+      "predicted_n": 514,
+      "predicted_per_second": 5.53642747389876,
+      "predicted_per_token_ms": 180.62189105058366,
+      "prompt_ms": 3768.66,
+      "prompt_n": 245,
+      "prompt_per_second": 65.0098443478584,
+      "prompt_per_token_ms": 15.382285714285715
+    },
+    "usage": {
+      "completion_tokens": 514,
+      "prompt_tokens": 8131,
+      "prompt_tokens_details": {
+        "cached_tokens": 7886
+      },
+      "total_tokens": 8645
+    }
+  },
+  "seconds": 96.66438341600588,
+  "timestamp": "2026-09-29T01:05:58Z"
+}

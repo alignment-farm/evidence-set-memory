@@ -1,20 +1,21 @@
 # Evidence-set memory
 
 An independent Construct-2 ancillary investigation, commissioned 28 September
-2026. **Status: phases 1–6 and their bounded diagnoses published locally.
+2026. **Status: phases 1–7 and their bounded diagnoses published locally.
 Root scientific review remains separate.**
 
-Phase 7 is underway: [fixed-reader scratch-test development](phase7/PROTOCOL.md)
-uses the exposed dotenv failure, with a same-budget no-scratch control. A second
-project, pinned python-slugify v8.0.4, passes all 82 original tests. Later tasks
-were authored after interface/comparison freeze `94bc951`. Earlier energy and
-empirical-reuse policies stay fixed; no new advantage is assumed.
-An [interim self-check diagnosis](phase7/CHECK_DIAGNOSIS.md) finds that a reader's
-20 generated checks contain two incorrect expectations and miss a one-helper
-mutation recreating the known bug. The actual patch passes; check count alone does
-not explain or certify that success. Fresh cross-project transfer is now running;
-the first completed ordinary attempt passes all applicable tests after correcting
-one mistaken self-check expectation without changing its working implementation.
+[Phase 7 findings](phase7/FINDINGS.md) add shared scratch-test access and two
+post-freeze edits in python-slugify. All final patches pass executable tests, but
+only empirical reuse fulfills both requested documentation updates; its first
+verification loop nevertheless exhausts the budget. Learned energy selects compact
+then broad evidence, costing 59,738 logical tokens versus ordinary dependency
+access's 55,466 at equal measured requirement coverage. Own checks sometimes contain
+wrong expectations or miss the known bug. A separate public-scope review repairs
+ordinary's documentation omission in one call, without changing frozen scores.
+All twelve attempt grades, 22 scratch outcomes, 32 frozen hashes and 26 repository
+tests verify. [Reproduction](phase7/REPRODUCE.md), [final costs](phase7/runs/final-audit/final-costs.json)
+and [next step](phase7/FINDINGS.md#stopping-reason-and-next-bounded-step) distinguish
+test completion, full requested deliverables, explicit finish and reviewed repair.
 
 [Phase 6 findings](phase6/FINDINGS.md) report source-native python-dotenv edits
 with executable tests and a fixed local reader. A six-weight set energy learns

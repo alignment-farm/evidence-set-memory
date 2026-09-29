@@ -1,0 +1,71 @@
+{
+  "backend_provenance_correction": "The frozen ledger lists backend build unknown. runtime.json records the observed local serving binary/version; independent HTTPS endpoint attestation remains unknown.",
+  "completion_tokens": 20783,
+  "extra_uninstrumented_work": [
+    "Two small read-only proposal inspections during transfer",
+    "provenance/status queries and unsuccessful metrics probe",
+    "investigator review and authoring labor"
+  ],
+  "frozen_transfer": [
+    {
+      "documentation_gate": 1,
+      "executable_complete": 2,
+      "explicit_finish": 2,
+      "logical_calls": 9,
+      "logical_tokens": 55466,
+      "policy": "ordinary_access"
+    },
+    {
+      "documentation_gate": 1,
+      "executable_complete": 2,
+      "explicit_finish": 2,
+      "logical_calls": 9,
+      "logical_tokens": 95404,
+      "policy": "full_context"
+    },
+    {
+      "documentation_gate": 2,
+      "executable_complete": 2,
+      "explicit_finish": 1,
+      "logical_calls": 13,
+      "logical_tokens": 106144,
+      "policy": "empirical_reuse"
+    },
+    {
+      "documentation_gate": 1,
+      "executable_complete": 2,
+      "explicit_finish": 2,
+      "logical_calls": 9,
+      "logical_tokens": 59738,
+      "policy": "learned_energy"
+    }
+  ],
+  "inherited_acquisition": "phase6/runs/audit/native-costs.json",
+  "interpretation": "Tokens are native work, not dollars or joules. Logical cached deliveries are not free standalone deployment. Post-hoc review is separate from frozen comparison.",
+  "native_pytest_invocations": {
+    "check_mutation": 4,
+    "main_audit": 61,
+    "original_attempts": 73,
+    "preflight": 6,
+    "repair_audit": 1,
+    "retention": 1,
+    "review_repair": 1
+  },
+  "new_training_fits": 0,
+  "physical_calls": 57,
+  "prompt_tokens": 567896,
+  "reader_seconds": 3239.266405374219,
+  "review_assisted_ordinary_sequence_tokens": 62300,
+  "review_repair": {
+    "completion_tokens": 140,
+    "model_calls": 1,
+    "prompt_tokens": 6694,
+    "provenance": "Investigator-authored public requirement review; post-hoc ordinary continuation, not autonomous or frozen result",
+    "pytest_invocations": 1,
+    "pytest_seconds": 0.29490912501933053,
+    "seconds": 29.789745957998093
+  },
+  "script_sha256": "d10f2c66df972bd96a02906d81576daa67cce96247956e958376de9c9c6e0af9",
+  "server_cached_prompt_tokens": 453387,
+  "timestamp": "2026-09-29T01:14:32Z"
+}

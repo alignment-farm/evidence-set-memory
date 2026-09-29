@@ -1,0 +1,290 @@
+{
+  "completion_tokens": 20643,
+  "inherited_acquisition": "phase6/runs/audit/native-costs.json",
+  "new_training_fits": 0,
+  "physical_calls": 56,
+  "posthoc_check_diagnosis": {
+    "hidden_failure_ids": [
+      [],
+      [
+        "test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n]"
+      ]
+    ],
+    "own_failure_ids": [
+      [
+        "test_dotenv_values_override",
+        "test_get_key_interpolate_false"
+      ],
+      [
+        "test_dotenv_values_override",
+        "test_get_key_interpolate_false"
+      ]
+    ],
+    "pytest_invocations": 4,
+    "pytest_seconds": 1.0559446660336107,
+    "reader_calls": 0,
+    "same_own_failure_ids": true,
+    "scope": "Post-hoc unblinded investigator mutation of one helper; not acquisition or a fresh task result",
+    "script_sha256": "ef3b45a9ce6ca8340d297e86bf23d877bc45747cbe3389a1c947c202224382e7",
+    "timestamp": "2026-09-29T00:33:20Z"
+  },
+  "preflight_seconds": 2.5069562488934025,
+  "preflight_tests": 6,
+  "prompt_tokens": 561202,
+  "reader_seconds": 3209.476659416221,
+  "retention": {
+    "accepted_tasks": [
+      "transfer-iterable-options",
+      "transfer-cli-regex"
+    ],
+    "reader_calls": 0,
+    "source_hashes": {
+      "slugify/__init__.py": "43ef5b28242ff3db9fddb26bff21f130f84159737c602ce5c50c0afe476979f2",
+      "slugify/__main__.py": "1004e679d6d1bacc9dc805ed5fb60053c2f7bdd216994bcab1ebf5fcd46cb57a",
+      "slugify/__version__.py": "0e1df2e0c9d602334919b6a8466ddd7e2cadc85fa20f977edce09f1b297ffd8f",
+      "slugify/slugify.py": "48a67f96569f77bd8b12c1bf224e0d8732f7032e3f6bdbfa880195f188832100",
+      "slugify/special.py": "f1b1c03c69d9fb591eb96e31d9665d15755bf4b1684bb8bd268e2dcbfd83f210"
+    },
+    "test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/retention/transfer/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/retention/transfer\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "pytest.ini",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/retention/transfer",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/retention/transfer",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/retention/transfer/tmp/retention",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/retention/transfer/tmp/retention.xml",
+        "test.py",
+        "prior_0.py",
+        "prior_1.py",
+        "prior_2.py",
+        "prior_3.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 93
+      },
+      "output": "........................................................................ [ 77%]\n.....................                                                    [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/retention/transfer/tmp/retention.xml -\n93 passed in 0.06s\n",
+      "returncode": 0,
+      "seconds": 0.2777019590139389
+    }
+  },
+  "runs": [
+    {
+      "cached_prompt_tokens": 236126,
+      "completion_tokens": 9792,
+      "errors": 0,
+      "groups": {
+        "empirical_reuse:checks=False": {
+          "attempts": 1,
+          "check_submissions": 0,
+          "complete": 0,
+          "completion_tokens": 1006,
+          "finished": 1,
+          "initial_source_bytes": 5781,
+          "interface_errors": 0,
+          "logical_calls": 3,
+          "prompt_tokens": 30487,
+          "proposal_choices": [
+            "pointwise"
+          ],
+          "public_pass": 1,
+          "pytest_invocations": 4,
+          "pytest_seconds": 3.371764292009175,
+          "read_bytes": 18384,
+          "read_calls": 1,
+          "representation_seconds": 0.006406833999790251,
+          "selection_seconds": 0.0010068330448120832
+        },
+        "empirical_reuse:checks=True": {
+          "attempts": 1,
+          "check_submissions": 1,
+          "complete": 0,
+          "completion_tokens": 2871,
+          "finished": 1,
+          "initial_source_bytes": 5781,
+          "interface_errors": 1,
+          "logical_calls": 5,
+          "prompt_tokens": 59047,
+          "proposal_choices": [
+            "pointwise"
+          ],
+          "public_pass": 1,
+          "pytest_invocations": 5,
+          "pytest_seconds": 4.046151668066159,
+          "read_bytes": 18384,
+          "read_calls": 1,
+          "representation_seconds": 0.006377207988407463,
+          "selection_seconds": 0.0012303340481594205
+        },
+        "ordinary_access:checks=False": {
+          "attempts": 1,
+          "check_submissions": 0,
+          "complete": 0,
+          "completion_tokens": 1230,
+          "finished": 1,
+          "initial_source_bytes": 8667,
+          "interface_errors": 0,
+          "logical_calls": 5,
+          "prompt_tokens": 66518,
+          "proposal_choices": [
+            "ordinary"
+          ],
+          "public_pass": 1,
+          "pytest_invocations": 6,
+          "pytest_seconds": 5.319037417997606,
+          "read_bytes": 18384,
+          "read_calls": 1,
+          "representation_seconds": 0.006256084016058594,
+          "selection_seconds": 0.001111583027523011
+        },
+        "ordinary_access:checks=True": {
+          "attempts": 1,
+          "check_submissions": 1,
+          "complete": 1,
+          "completion_tokens": 4685,
+          "finished": 0,
+          "initial_source_bytes": 8667,
+          "interface_errors": 2,
+          "logical_calls": 8,
+          "prompt_tokens": 138330,
+          "proposal_choices": [
+            "ordinary"
+          ],
+          "public_pass": 1,
+          "pytest_invocations": 6,
+          "pytest_seconds": 4.967077540990431,
+          "read_bytes": 45232,
+          "read_calls": 3,
+          "representation_seconds": 0.006393541989382356,
+          "selection_seconds": 0.0010527499835006893
+        }
+      },
+      "physical_calls": 21,
+      "prompt_tokens": 294382,
+      "request_seconds": 1594.4080985421897,
+      "run": "phase7/runs/development"
+    },
+    {
+      "cached_prompt_tokens": 210650,
+      "completion_tokens": 10851,
+      "errors": 0,
+      "groups": {
+        "empirical_reuse:checks=True": {
+          "attempts": 2,
+          "check_submissions": 8,
+          "complete": 2,
+          "completion_tokens": 4211,
+          "finished": 1,
+          "initial_source_bytes": 18170,
+          "interface_errors": 0,
+          "logical_calls": 13,
+          "prompt_tokens": 101933,
+          "proposal_choices": [
+            "pointwise",
+            "pointwise"
+          ],
+          "public_pass": 2,
+          "pytest_invocations": 16,
+          "pytest_seconds": 4.26648045697948,
+          "read_bytes": 14346,
+          "read_calls": 2,
+          "representation_seconds": 0.004848875047173351,
+          "selection_seconds": 0.0009083340410143137
+        },
+        "full_context:checks=True": {
+          "attempts": 2,
+          "check_submissions": 4,
+          "complete": 2,
+          "completion_tokens": 2986,
+          "finished": 2,
+          "initial_source_bytes": 24585,
+          "interface_errors": 0,
+          "logical_calls": 9,
+          "prompt_tokens": 92418,
+          "proposal_choices": [
+            "all",
+            "all"
+          ],
+          "public_pass": 2,
+          "pytest_invocations": 12,
+          "pytest_seconds": 3.254345958121121,
+          "read_bytes": 30923,
+          "read_calls": 1,
+          "representation_seconds": 0.004707082989625633,
+          "selection_seconds": 0.0008864579722285271
+        },
+        "learned_energy:checks=True": {
+          "attempts": 2,
+          "check_submissions": 4,
+          "complete": 2,
+          "completion_tokens": 2705,
+          "finished": 2,
+          "initial_source_bytes": 17424,
+          "interface_errors": 0,
+          "logical_calls": 9,
+          "prompt_tokens": 57033,
+          "proposal_choices": [
+            "root_only",
+            "all"
+          ],
+          "public_pass": 2,
+          "pytest_invocations": 12,
+          "pytest_seconds": 3.229792832979001,
+          "read_bytes": 10385,
+          "read_calls": 1,
+          "representation_seconds": 0.004699125012848526,
+          "selection_seconds": 0.007556165975984186
+        },
+        "ordinary_access:checks=True": {
+          "attempts": 2,
+          "check_submissions": 4,
+          "complete": 2,
+          "completion_tokens": 2555,
+          "finished": 2,
+          "initial_source_bytes": 16838,
+          "interface_errors": 0,
+          "logical_calls": 9,
+          "prompt_tokens": 52911,
+          "proposal_choices": [
+            "ordinary",
+            "ordinary"
+          ],
+          "public_pass": 2,
+          "pytest_invocations": 12,
+          "pytest_seconds": 3.1764028760953806,
+          "read_bytes": 10385,
+          "read_calls": 1,
+          "representation_seconds": 0.004867832933086902,
+          "selection_seconds": 0.0013579580117948353
+        }
+      },
+      "physical_calls": 35,
+      "prompt_tokens": 266820,
+      "request_seconds": 1615.0685608740314,
+      "run": "phase7/runs/transfer"
+    }
+  ],
+  "unknown": [
+    "investigator compute and labor",
+    "authored labels/workload labor",
+    "machine joules",
+    "package/Git network bytes",
+    "serving backend build and isolated latency",
+    "small untimed setup/serialization overhead"
+  ]
+}
