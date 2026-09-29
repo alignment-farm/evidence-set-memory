@@ -7,12 +7,14 @@ Root scientific review remains separate.**
 Phase 7 is underway: [fixed-reader scratch-test development](phase7/PROTOCOL.md)
 uses the exposed dotenv failure, with a same-budget no-scratch control. A second
 project, pinned python-slugify v8.0.4, passes all 82 original tests. Later tasks
-will be authored only after the interface/comparison freeze. Earlier energy and
+were authored after interface/comparison freeze `94bc951`. Earlier energy and
 empirical-reuse policies stay fixed; no new advantage is assumed.
 An [interim self-check diagnosis](phase7/CHECK_DIAGNOSIS.md) finds that a reader's
 20 generated checks contain two incorrect expectations and miss a one-helper
 mutation recreating the known bug. The actual patch passes; check count alone does
-not explain or certify that success. Fresh transfer has not yet run.
+not explain or certify that success. Fresh cross-project transfer is now running;
+the first completed ordinary attempt passes all applicable tests after correcting
+one mistaken self-check expectation without changing its working implementation.
 
 [Phase 6 findings](phase6/FINDINGS.md) report source-native python-dotenv edits
 with executable tests and a fixed local reader. A six-weight set energy learns
