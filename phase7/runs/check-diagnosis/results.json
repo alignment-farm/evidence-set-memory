@@ -1,0 +1,152 @@
+[
+  {
+    "hidden": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/hidden",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/hidden.xml",
+        "heldout_current.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 0,
+        "tests": 6
+      },
+      "output": "......                                                                   [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/hidden.xml -\n6 passed in 0.02s\n",
+      "returncode": 0,
+      "seconds": 0.23516383301466703
+    },
+    "hidden_failed_ids": [],
+    "mutant": false,
+    "own": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/own",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/own.xml",
+        "scratch_0.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 2,
+        "skipped": 0,
+        "tests": 20
+      },
+      "output": "..................FF                                                     [100%]\n=================================== FAILURES ===================================\n________________________ test_get_key_interpolate_false ________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/own/test_get_key_interpolate_false0')\n\n    def test_get_key_interpolate_false(tmp_path):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=${B}\\nB=world\\n')\n        assert dotenv.get_key(p, 'A', interpolate=False) == '${B}'\n>       assert dotenv.get_key(p, 'A') == 'world'\nE       AssertionError: assert '' == 'world'\nE         \nE         - world\n\nscratch_0.py:127: AssertionError\n_________________________ test_dotenv_values_override __________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/own/test_dotenv_values_override0')\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x106de6900>\n\n    def test_dotenv_values_override(tmp_path, monkeypatch):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=${B}\\nB=file\\n')\n        monkeypatch.setenv('B', 'env')\n>       assert dotenv.dotenv_values(p, override=True)['A'] == 'file'\nE       AssertionError: assert 'env' == 'file'\nE         \nE         - file\nE         + env\n\nscratch_0.py:133: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/False/tmp/own.xml -\n=========================== short test summary info ============================\nFAILED scratch_0.py::test_get_key_interpolate_false - AssertionError: assert ...\nFAILED scratch_0.py::test_dotenv_values_override - AssertionError: assert 'en...\n2 failed, 18 passed in 0.05s\n",
+      "returncode": 1,
+      "seconds": 0.29881241702241823
+    },
+    "own_failed_ids": [
+      "test_dotenv_values_override",
+      "test_get_key_interpolate_false"
+    ]
+  },
+  {
+    "hidden": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/hidden",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/hidden.xml",
+        "heldout_current.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 1,
+        "skipped": 0,
+        "tests": 6
+      },
+      "output": "..F...                                                                   [100%]\n=================================== FAILURES ===================================\n___ test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n] ____\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/hidden/test_newline_variants_B_keep_n0')\nbefore = b'B=keep\\nC=tail\\r\\n', key = 'A'\nexpected = b\"B=keep\\nC=tail\\r\\nA='new'\\n\"\n\n    @pytest.mark.parametrize('before, key, expected', [\n        (b'B=keep\\r\\nA=old\\nC=tail', 'A', b\"B=keep\\r\\nA='new'\\r\\nC=tail\"),\n        (b'B=keep\\r\\nC=tail', 'A', b\"B=keep\\r\\nC=tail\\r\\nA='new'\\r\\n\"),\n        (b'B=keep\\nC=tail\\r\\n', 'A', b\"B=keep\\nC=tail\\r\\nA='new'\\n\"),\n        (b'B=keep', 'A', b\"B=keep\\nA='new'\\n\"),\n        (b'', 'A', b\"A='new'\\n\"),\n    ])\n    def test_newline_variants(tmp_path, before, key, expected):\n        p = tmp_path / '.env'; p.write_bytes(before)\n        assert dotenv.set_key(p, key, 'new') == (True, key, 'new')\n>       assert p.read_bytes() == expected\nE       assert b\"B=keep\\nC=t...\\nA='new'\\r\\n\" == b\"B=keep\\nC=tail\\r\\nA='new'\\n\"\nE         \nE         At index 22 diff: b'\\r' != b'\\n'\nE         Use -v to get more diff\n\nheldout_current.py:14: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/hidden.xml -\n=========================== short test summary info ============================\nFAILED heldout_current.py::test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n]\n1 failed, 5 passed in 0.03s\n",
+      "returncode": 1,
+      "seconds": 0.24837858299724758
+    },
+    "hidden_failed_ids": [
+      "test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n]"
+    ],
+    "mutant": true,
+    "own": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/own",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/own.xml",
+        "scratch_0.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 2,
+        "skipped": 0,
+        "tests": 20
+      },
+      "output": "..................FF                                                     [100%]\n=================================== FAILURES ===================================\n________________________ test_get_key_interpolate_false ________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/own/test_get_key_interpolate_false0')\n\n    def test_get_key_interpolate_false(tmp_path):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=${B}\\nB=world\\n')\n        assert dotenv.get_key(p, 'A', interpolate=False) == '${B}'\n>       assert dotenv.get_key(p, 'A') == 'world'\nE       AssertionError: assert '' == 'world'\nE         \nE         - world\n\nscratch_0.py:127: AssertionError\n_________________________ test_dotenv_values_override __________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/own/test_dotenv_values_override0')\nmonkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10685a420>\n\n    def test_dotenv_values_override(tmp_path, monkeypatch):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=${B}\\nB=file\\n')\n        monkeypatch.setenv('B', 'env')\n>       assert dotenv.dotenv_values(p, override=True)['A'] == 'file'\nE       AssertionError: assert 'env' == 'file'\nE         \nE         - file\nE         + env\n\nscratch_0.py:133: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/check-diagnosis/check-diagnosis/True/tmp/own.xml -\n=========================== short test summary info ============================\nFAILED scratch_0.py::test_get_key_interpolate_false - AssertionError: assert ...\nFAILED scratch_0.py::test_dotenv_values_override - AssertionError: assert 'en...\n2 failed, 18 passed in 0.06s\n",
+      "returncode": 1,
+      "seconds": 0.27358983299927786
+    },
+    "own_failed_ids": [
+      "test_dotenv_values_override",
+      "test_get_key_interpolate_false"
+    ]
+  }
+]

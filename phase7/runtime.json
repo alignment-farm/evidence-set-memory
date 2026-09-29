@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-09-29T00:18:51Z",
+  "local_date": "2026-09-28",
+  "serving_process_binary": "/Users/macos-user/.docker/bin/inference/llama-server",
+  "binary_sha256": "0e9095b1a9068961682fa60fa101bdcf40e0b1f1e6b0c44c1616c0611c1d4b26",
+  "version_stdout": "version: 1 (72874f5)\nbuilt with AppleClang 17.0.0.17000013 for Darwin arm64",
+  "docker_client": "29.8.0",
+  "uv": "0.12.13 (0ebbd9274 2026-09-10 aarch64-apple-darwin)",
+  "scope": "Observed local serving process path and binary metadata during development; not a cryptographic attestation of the HTTPS endpoint's backend.",
+  "resource_observation": "Only this phase7_edit.py participant driver and its llama-server process visible; no exclusive shared-machine lease."
+}

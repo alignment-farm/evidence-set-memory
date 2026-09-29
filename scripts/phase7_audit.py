@@ -4,6 +4,7 @@ from collections import Counter
 import hashlib
 import json
 from pathlib import Path
+import re
 import time
 import phase7_edit as s
 
@@ -52,8 +53,10 @@ def run(out):
                 key=event['request_hash'];request=s.load(root/f'calls/{key}-request.json')
                 assert hashlib.sha256(json.dumps(request,sort_keys=True).encode()).hexdigest()==key
                 response=s.load(root/f'calls/{key}-response.json')
-                assert 'f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef' in response['response']['model']
-                assert task['hidden_test'] not in json.dumps(request)
+                if not response['error']:
+                    assert 'f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef' in response['response']['model']
+                for function in re.findall(r'def (test_\w+)\(',task['hidden_test']):
+                    assert function not in json.dumps(request),function
                 assert not (case/'heldout_current.py').exists();checks['request_identity_and_private_file_boundary']+=1
                 if 'interface_error' in event:continue
                 action=event.get('action',{})
@@ -86,6 +89,7 @@ def run(out):
         reader_seconds=sum(r['request_seconds'] for r in ledger),
         preflight_tests=len(preflights),preflight_seconds=sum(p['seconds'] for p in preflights),
         retention=s.load(s.PHASE/'runs/transfer/retention.json'),new_training_fits=0,
+        posthoc_check_diagnosis=s.load(s.PHASE/'runs/check-diagnosis/summary.json'),
         inherited_acquisition='phase6/runs/audit/native-costs.json',
         unknown=['investigator compute and labor','authored labels/workload labor','machine joules','package/Git network bytes',
                  'serving backend build and isolated latency','small untimed setup/serialization overhead']))

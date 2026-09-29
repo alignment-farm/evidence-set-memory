@@ -37,7 +37,10 @@ excluding it after observing results. Representation construction is charged.
 Reader identity, available/idle DMR observation, Python version and investigator
 metadata are in `assets-v2/provenance.json`. Dependencies are pinned in `uv.lock`.
 Reported model tag/quantization is not independent architectural validation;
-backend build, pretraining exposure and monetary/energy costs remain unknown.
+pretraining exposure and monetary/energy costs remain unknown. A subsequent local
+serving-process/binary check is in `runtime.json`: version 1 (72874f5), binary hash,
+Docker client and uv versions. It narrows the setup's initially unknown backend
+provenance, without cryptographically attesting the HTTPS server.
 No new arXiv requests, model downloads or external participant APIs are used.
 Root's linked exact-version method ledger remains background, not a new novelty
 review. Setup includes a failed web fetch and a failed clone of an incorrectly

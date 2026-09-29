@@ -1,0 +1,9 @@
+{
+  "edits": [
+    {
+      "new": "def _detect_line_ending(source: IO[str]) -> str:\n    content = source.read()\n    source.seek(0)\n    return \"\\r\\n\" if \"\\r\\n\" in content else \"\\n\"",
+      "old": "def _detect_line_ending(source: IO[str]) -> str:\n    content = source.read()\n    source.seek(0)\n    for i, ch in enumerate(content):\n        if ch == \"\\n\":\n            return \"\\r\\n\" if i > 0 and content[i - 1] == \"\\r\" else \"\\n\"\n        if ch == \"\\r\":\n            return \"\\r\\n\" if i + 1 < len(content) and content[i + 1] == \"\\n\" else \"\\n\"\n    return \"\\n\"",
+      "path": "src/dotenv/main.py"
+    }
+  ]
+}

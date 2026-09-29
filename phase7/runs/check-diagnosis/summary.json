@@ -1,0 +1,25 @@
+{
+  "hidden_failure_ids": [
+    [],
+    [
+      "test_newline_variants[B=keep\\nC=tail\\r\\n-A-B=keep\\nC=tail\\r\\nA='new'\\n]"
+    ]
+  ],
+  "own_failure_ids": [
+    [
+      "test_dotenv_values_override",
+      "test_get_key_interpolate_false"
+    ],
+    [
+      "test_dotenv_values_override",
+      "test_get_key_interpolate_false"
+    ]
+  ],
+  "pytest_invocations": 4,
+  "pytest_seconds": 1.0559446660336107,
+  "reader_calls": 0,
+  "same_own_failure_ids": true,
+  "scope": "Post-hoc unblinded investigator mutation of one helper; not acquisition or a fresh task result",
+  "script_sha256": "ef3b45a9ce6ca8340d297e86bf23d877bc45747cbe3389a1c947c202224382e7",
+  "timestamp": "2026-09-29T00:33:20Z"
+}
