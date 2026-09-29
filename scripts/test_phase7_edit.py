@@ -30,5 +30,15 @@ class SelfCheckBoundary(unittest.TestCase):
         b,_=s.selection(task,source,rows,'learned_energy')
         self.assertEqual(a,b)
 
+    def test_port_preserves_old_energy_and_proposals(self):
+        source=s.ROOT/'phase6/runs/development/states/dev-values-precedence'
+        rows,_,_=s.records(source,s.ASSETS['dotenv'])
+        task=s.load(s.ROOT/'phase6/runs/transfer/tasks.json')[0]
+        old_choices=s.energy.proposals(task,source)
+        for candidate in old_choices:
+            chosen=s.proposal(task,source,rows,candidate['policy'])
+            self.assertEqual([r['id'] for r in chosen],[r['id'] for r in candidate['chosen']])
+            self.assertEqual(s.energy.feature(task,rows,chosen,candidate['policy']),candidate['features'])
+
 
 if __name__=='__main__':unittest.main()

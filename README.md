@@ -4,6 +4,12 @@ An independent Construct-2 ancillary investigation, commissioned 28 September
 2026. **Status: phases 1–6 and their bounded diagnoses published locally.
 Root scientific review remains separate.**
 
+Phase 7 is underway: [fixed-reader scratch-test development](phase7/PROTOCOL.md)
+uses the exposed dotenv failure, with a same-budget no-scratch control. A second
+project, pinned python-slugify v8.0.4, passes all 82 original tests. Later tasks
+will be authored only after the interface/comparison freeze. Earlier energy and
+empirical-reuse policies stay fixed; no new advantage is assumed.
+
 [Phase 6 findings](phase6/FINDINGS.md) report source-native python-dotenv edits
 with executable tests and a fixed local reader. A six-weight set energy learns
 earlier executed preferences, but on two later edits selects exactly the same

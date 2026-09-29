@@ -42,6 +42,7 @@ def copy_case(source,asset,dest):
         if p.is_dir():shutil.copytree(p,dest/name)
         else:shutil.copy2(p,dest/name)
     (dest/'tmp').mkdir();(dest/'bin').mkdir()
+    if not (dest/'setup.cfg').exists():(dest/'pytest.ini').write_text('[pytest]\n')
     entry,module=asset['entry']; wrapper=dest/'bin'/entry
     wrapper.write_text(f'#!{PYTHON}\nfrom {module} import '+('cli' if entry=='dotenv' else 'main')+'\n'+('cli' if entry=='dotenv' else 'main')+'()\n')
     wrapper.chmod(0o755)
@@ -52,11 +53,13 @@ def execute(case,asset,targets,label):
     start=time.perf_counter();case=case.resolve(); report=case/'tmp'/f'{label}.xml'
     profile=f'''(version 1) (allow default) (deny network*)
     (deny file-write* (require-all (require-not (subpath "{case}/tmp")) (require-not (literal "/dev/null")) (require-not (literal "/dev/ptmx")) (require-not (regex #"^/dev/ttys[0-9]+$"))))
-    (deny file-read* (require-all (subpath "{ROOT}") (require-not (subpath "{case}")) (require-not (subpath "{PHASE}/.venv"))))
+    (deny file-read-data (require-all (subpath "{ROOT}") (require-not (subpath "{case}")) (require-not (subpath "{PHASE}/.venv"))))
     (deny file-read* (subpath "/Users/macos-user/.codex") (subpath "/Users/macos-user/.ssh"))'''
     env={'PATH':f'{case}/bin:{PYTHON.parent}:/usr/bin:/bin','PYTHONPATH':str(case/asset['pythonpath']),
          'PYTHONDONTWRITEBYTECODE':'1','PYTEST_DISABLE_PLUGIN_AUTOLOAD':'1','TMPDIR':str(case/'tmp'),'LANG':'en_US.UTF-8'}
+    config='setup.cfg' if (case/'setup.cfg').exists() else 'pytest.ini'
     command=['/usr/bin/sandbox-exec','-p',profile,str(PYTHON),'-m','pytest','-q','-p','no:cacheprovider',
+             '-c',config,'--rootdir',str(case),'--confcutdir',str(case),
              '--basetemp',str(case/'tmp'/label),'--junitxml',str(report),*targets]
     try:
         result=subprocess.run(command,cwd=case,env=env,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=60)

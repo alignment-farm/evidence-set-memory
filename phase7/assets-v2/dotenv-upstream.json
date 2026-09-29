@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets-v2/dotenv/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets-v2/dotenv\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "-c",
+    "setup.cfg",
+    "--rootdir",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets-v2/dotenv",
+    "--confcutdir",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets-v2/dotenv",
+    "--basetemp",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets-v2/dotenv/tmp/upstream",
+    "--junitxml",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets-v2/dotenv/tmp/upstream.xml",
+    "tests"
+  ],
+  "counts": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 1,
+    "tests": 150
+  },
+  "output": "........................................................................ [ 48%]\n........................................................................ [ 96%]\n.....                                                                    [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets-v2/dotenv/tmp/upstream.xml -\n149 passed, 1 skipped in 1.09s\n",
+  "returncode": 0,
+  "seconds": 1.3314854159834795
+}
