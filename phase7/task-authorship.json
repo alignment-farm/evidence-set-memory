@@ -1,0 +1,8 @@
+{
+  "freeze_commit": "94bc951",
+  "freeze_sha256": "1ac07cf3686a9f3d19d4c7e2ae4bb3326eaa21f6d4142b7f93f55a1e79e288bc",
+  "new_acquisition_updates": false,
+  "script_sha256": "5e1ae527d36a32d077b53f98894ce93ba1f545f07c3e841f514739a0a58b5b17",
+  "source": "Investigator-authored after freeze, no upstream issue/reference patch used",
+  "timestamp": "2026-09-29T00:42:52Z"
+}
