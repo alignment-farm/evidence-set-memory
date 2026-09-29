@@ -1,0 +1,76 @@
+[
+  {
+    "action": {
+      "read": [
+        "src/dotenv/main.py",
+        "src/dotenv/parser.py"
+      ]
+    },
+    "read_bytes": 18384,
+    "request_hash": "b7c877ed6d08d6c3b7b44f026e270fe9c13777c68ae53db62cb52e6ec9c19c9d",
+    "reused": false,
+    "turn": 0
+  },
+  {
+    "action": {
+      "edits": [
+        {
+          "new": "@contextmanager\ndef rewrite(\n    path: StrPath,\n    encoding: Optional[str],\n) -> Iterator[Tuple[IO[str], IO[str]]]:\n    pathlib.Path(path).touch()\n\n    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False) as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding, newline=\"\") as source:\n                yield (source, dest)\n        except BaseException as err:\n            error = err\n\n    if error is None:\n        shutil.move(dest.name, path)\n    else:\n        os.unlink(dest.name)\n        raise error from None\n\n\ndef _detect_line_ending(source: IO[str]) -> str:\n    \"\"\"Return the first LF or CRLF line-ending style found in the stream.\n\n    The stream is rewound afterwards so it can be consumed normally.\n    Defaults to LF when no line ending is present.\n    \"\"\"\n    source.seek(0)\n    data = source.read()\n    source.seek(0)\n    if \"\\r\\n\" in data:\n        return \"\\r\\n\"\n    if \"\\n\" in data:\n        return \"\\n\"\n    return \"\\n\"",
+          "old": "@contextmanager\ndef rewrite(\n    path: StrPath,\n    encoding: Optional[str],\n) -> Iterator[Tuple[IO[str], IO[str]]]:\n    pathlib.Path(path).touch()\n\n    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False) as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding) as source:\n                yield (source, dest)\n        except BaseException as err:\n            error = err\n\n    if error is None:\n        shutil.move(dest.name, path)\n    else:\n        os.unlink(dest.name)\n        raise error from None",
+          "path": "src/dotenv/main.py"
+        },
+        {
+          "new": "    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        line_ending = _detect_line_ending(source)\n\n        if quote:\n            value_out = \"'{}'\".format(\n                value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n            )\n        else:\n            value_out = value_to_set\n        if export:\n            line_out = f'export {key_to_set}={value_out}{line_ending}'\n        else:\n            line_out = f\"{key_to_set}={value_out}{line_ending}\"\n\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith((\"\\n\", \"\\r\\n\"))\n        if not replaced:\n            if missing_newline:\n                dest.write(line_ending)\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+          "old": "    if quote:\n        value_out = \"'{}'\".format(\n            value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n        )\n    else:\n        value_out = value_to_set\n    if export:\n        line_out = f'export {key_to_set}={value_out}\\n'\n    else:\n        line_out = f\"{key_to_set}={value_out}\\n\"\n\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith(\"\\n\")\n        if not replaced:\n            if missing_newline:\n                dest.write(\"\\n\")\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    },
+    "changed": [
+      "src/dotenv/main.py"
+    ],
+    "public_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/9d9db06b4538d8fd4f/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/9d9db06b4538d8fd4f\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/9d9db06b4538d8fd4f",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/9d9db06b4538d8fd4f",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/9d9db06b4538d8fd4f/tmp/public_1",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/9d9db06b4538d8fd4f/tmp/public_1.xml",
+        "tests",
+        "public_current.py",
+        "prior_0.py",
+        "prior_1.py",
+        "prior_2.py",
+        "prior_3.py",
+        "prior_4.py",
+        "prior_5.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 1,
+        "tests": 174
+      },
+      "output": "........................................................................ [ 41%]\n........................................................................ [ 83%]\n.............................                                            [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/9d9db06b4538d8fd4f/tmp/public_1.xml -\n173 passed, 1 skipped in 0.73s\n",
+      "returncode": 0,
+      "seconds": 0.9943160829716362
+    },
+    "request_hash": "9e42f43b85a0c645cfaad839167ebdcb216001b2e44aea5640fb253bf64145a9",
+    "reused": false,
+    "turn": 1
+  }
+]

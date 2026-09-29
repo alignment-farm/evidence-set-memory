@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"path\": \"src/dotenv/main.py\", \"old\": \"@contextmanager\\ndef rewrite(\\n    path: StrPath,\\n    encoding: Optional[str],\\n) -> Iterator[Tuple[IO[str], IO[str]]]:\\n    pathlib.Path(path).touch()\\n\\n    with tempfile.NamedTemporaryFile(mode=\\\"w\\\", encoding=encoding, delete=False) as dest:\\n        error = None\\n        try:\\n            with open(path, encoding=encoding) as source:\\n                yield (source, dest)\\n        except BaseException as err:\\n            error = err\\n\\n    if error is None:\\n        shutil.move(dest.name, path)\\n    else:\\n        os.unlink(dest.name)\\n        raise error from None\", \"new\": \"@contextmanager\\ndef rewrite(\\n    path: StrPath,\\n    encoding: Optional[str],\\n) -> Iterator[Tuple[IO[str], IO[str]]]:\\n    pathlib.Path(path).touch()\\n\\n    with tempfile.NamedTemporaryFile(mode=\\\"w\\\", encoding=encoding, delete=False) as dest:\\n        error = None\\n        try:\\n            with open(path, encoding=encoding, newline=\\\"\\\") as source:\\n                yield (source, dest)\\n        except BaseException as err:\\n            error = err\\n\\n    if error is None:\\n        shutil.move(dest.name, path)\\n    else:\\n        os.unlink(dest.name)\\n        raise error from None\\n\\n\\ndef _detect_line_ending(source: IO[str]) -> str:\\n    \\\"\\\"\\\"Return the first LF or CRLF line-ending style found in the stream.\\n\\n    The stream is rewound afterwards so it can be consumed normally.\\n    Defaults to LF when no line ending is present.\\n    \\\"\\\"\\\"\\n    source.seek(0)\\n    data = source.read()\\n    source.seek(0)\\n    if \\\"\\\\r\\\\n\\\" in data:\\n        return \\\"\\\\r\\\\n\\\"\\n    if \\\"\\\\n\\\" in data:\\n        return \\\"\\\\n\\\"\\n    return \\\"\\\\n\\\"\"}, {\"path\": \"src/dotenv/main.py\", \"old\": \"    if quote:\\n        value_out = \\\"'{}'\\\".format(\\n            value_to_set.replace(\\\"\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\").replace(\\\"'\\\", \\\"\\\\\\\\'\\\")\\n        )\\n    else:\\n        value_out = value_to_set\\n    if export:\\n        line_out = f'export {key_to_set}={value_out}\\\\n'\\n    else:\\n        line_out = f\\\"{key_to_set}={value_out}\\\\n\\\"\\n\\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\\n        replaced = False\\n        missing_newline = False\\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\\n            if mapping.key == key_to_set:\\n                dest.write(line_out)\\n                replaced = True\\n            else:\\n                dest.write(mapping.original.string)\\n                missing_newline = not mapping.original.string.endswith(\\\"\\\\n\\\")\\n        if not replaced:\\n            if missing_newline:\\n                dest.write(\\\"\\\\n\\\")\\n            dest.write(line_out)\\n\\n    return True, key_to_set, value_to_set\", \"new\": \"    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\\n        line_ending = _detect_line_ending(source)\\n\\n        if quote:\\n            value_out = \\\"'{}'\\\".format(\\n                value_to_set.replace(\\\"\\\\\\\\\\\", \\\"\\\\\\\\\\\\\\\\\\\").replace(\\\"'\\\", \\\"\\\\\\\\'\\\")\\n            )\\n        else:\\n            value_out = value_to_set\\n        if export:\\n            line_out = f'export {key_to_set}={value_out}{line_ending}'\\n        else:\\n            line_out = f\\\"{key_to_set}={value_out}{line_ending}\\\"\\n\\n        replaced = False\\n        missing_newline = False\\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\\n            if mapping.key == key_to_set:\\n                dest.write(line_out)\\n                replaced = True\\n            else:\\n                dest.write(mapping.original.string)\\n                missing_newline = not mapping.original.string.endswith((\\\"\\\\n\\\", \\\"\\\\r\\\\n\\\"))\\n        if not replaced:\\n            if missing_newline:\\n                dest.write(line_ending)\\n            dest.write(line_out)\\n\\n    return True, key_to_set, value_to_set\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790641118,
+    "id": "chatcmpl-nt1lmmCXnnekEOAf5LZr84oYzHbXU9zg",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 6515,
+      "predicted_ms": 102243.808,
+      "predicted_n": 980,
+      "predicted_per_second": 9.584932517380416,
+      "predicted_per_token_ms": 104.33041632653061,
+      "prompt_ms": 31326.579,
+      "prompt_n": 4940,
+      "prompt_per_second": 157.69356749742767,
+      "prompt_per_token_ms": 6.341412753036438
+    },
+    "usage": {
+      "completion_tokens": 980,
+      "prompt_tokens": 11455,
+      "prompt_tokens_details": {
+        "cached_tokens": 6515
+      },
+      "total_tokens": 12435
+    }
+  },
+  "seconds": 133.64339262497379,
+  "timestamp": "2026-09-29T00:18:38Z"
+}

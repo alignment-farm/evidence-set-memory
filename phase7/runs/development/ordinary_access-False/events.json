@@ -1,0 +1,190 @@
+[
+  {
+    "action": {
+      "read": [
+        "src/dotenv/main.py",
+        "src/dotenv/parser.py"
+      ]
+    },
+    "read_bytes": 18384,
+    "request_hash": "4e20ee9e687fb2a9cc7f78c5567e6df65386da2937d6776c1ff38e835309ae6a",
+    "reused": false,
+    "turn": 0
+  },
+  {
+    "action": {
+      "edits": [
+        {
+          "new": "def _detect_line_ending(source: IO[str]) -> str:\n    \"\"\"Detect the first LF or CRLF line-ending style in the stream.\n\n    Returns \"\\r\\n\" if the first line ending is CRLF, \"\\n\" if it is LF, or\n    \"\\n\" when no line ending is present. The stream position is restored to\n    its original value.\n    \"\"\"\n    start = source.tell()\n    try:\n        content = source.read()\n    finally:\n        source.seek(start)\n    if \"\\r\\n\" in content:\n        return \"\\r\\n\"\n    if \"\\n\" in content:\n        return \"\\n\"\n    return \"\\n\"\n\n\n@contextmanager\ndef rewrite(\n    path: StrPath,\n    encoding: Optional[str],\n) -> Iterator[Tuple[IO[str], IO[str]]]:\n    pathlib.Path(path).touch()\n\n    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False) as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding) as source:\n                yield (source, dest)\n        except BaseException as err:\n            error = err\n\n    if error is None:\n        shutil.move(dest.name, path)\n    else:\n        os.unlink(dest.name)\n        raise error from None",
+          "old": "@contextmanager\ndef rewrite(\n    path: StrPath,\n    encoding: Optional[str],\n) -> Iterator[Tuple[IO[str], IO[str]]]:\n    pathlib.Path(path).touch()\n\n    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False) as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding) as source:\n                yield (source, dest)\n        except BaseException as err:\n            error = err\n\n    if error is None:\n        shutil.move(dest.name, path)\n    else:\n        os.unlink(dest.name)\n        raise error from None",
+          "path": "src/dotenv/main.py"
+        },
+        {
+          "new": "    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        line_ending = _detect_line_ending(source)\n\n        if quote:\n            value_out = \"'{}'\".format(\n                value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n            )\n        else:\n            value_out = value_to_set\n        if export:\n            line_out = f'export {key_to_set}={value_out}{line_ending}'\n        else:\n            line_out = f\"{key_to_set}={value_out}{line_ending}\"\n\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith(\"\\n\")\n        if not replaced:\n            if missing_newline:\n                dest.write(line_ending)\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+          "old": "    if quote:\n        value_out = \"'{}'\".format(\n            value_to_set.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\")\n        )\n    else:\n        value_out = value_to_set\n    if export:\n        line_out = f'export {key_to_set}={value_out}\\n'\n    else:\n        line_out = f\"{key_to_set}={value_out}\\n\"\n\n    with rewrite(dotenv_path, encoding=encoding) as (source, dest):\n        replaced = False\n        missing_newline = False\n        for mapping in with_warn_for_invalid_lines(parse_stream(source)):\n            if mapping.key == key_to_set:\n                dest.write(line_out)\n                replaced = True\n            else:\n                dest.write(mapping.original.string)\n                missing_newline = not mapping.original.string.endswith(\"\\n\")\n        if not replaced:\n            if missing_newline:\n                dest.write(\"\\n\")\n            dest.write(line_out)\n\n    return True, key_to_set, value_to_set",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    },
+    "changed": [
+      "src/dotenv/main.py"
+    ],
+    "public_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_1",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_1.xml",
+        "tests",
+        "public_current.py",
+        "prior_0.py",
+        "prior_1.py",
+        "prior_2.py",
+        "prior_3.py",
+        "prior_4.py",
+        "prior_5.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 1,
+        "skipped": 1,
+        "tests": 174
+      },
+      "output": "........................................................................ [ 41%]\n........................................................................ [ 83%]\n.....F.......................                                            [100%]\n=================================== FAILURES ===================================\n_________________________ test_crlf_update_and_remove __________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_1/test_crlf_update_and_remove0')\n\n    def test_crlf_update_and_remove(tmp_path):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=old\\r\\nB=keep\\r\\n')\n        dotenv.set_key(p, 'A', 'new')\n>       assert p.read_bytes() == b\"A='new'\\r\\nB=keep\\r\\n\"\nE       assert b\"A='new'\\nB=keep\\n\" == b\"A='new'\\r\\nB=keep\\r\\n\"\nE         \nE         At index 7 diff: b'\\n' != b'\\r'\nE         Use -v to get more diff\n\n/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/public_current.py:7: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_1.xml -\n=========================== short test summary info ============================\nFAILED public_current.py::test_crlf_update_and_remove - assert b\"A='new'\\nB=k...\n1 failed, 172 passed, 1 skipped in 0.75s\n",
+      "returncode": 1,
+      "seconds": 1.0378609169856645
+    },
+    "request_hash": "8b93c43bd961d1e029d94a815549bc1c551e376fcb590aefc20038a479d76cb0",
+    "reused": false,
+    "turn": 1
+  },
+  {
+    "action": {
+      "edits": [
+        {
+          "new": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False, newline=\"\") as dest:",
+          "old": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False) as dest:",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    },
+    "changed": [
+      "src/dotenv/main.py"
+    ],
+    "public_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_2",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_2.xml",
+        "tests",
+        "public_current.py",
+        "prior_0.py",
+        "prior_1.py",
+        "prior_2.py",
+        "prior_3.py",
+        "prior_4.py",
+        "prior_5.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 1,
+        "skipped": 1,
+        "tests": 174
+      },
+      "output": "........................................................................ [ 41%]\n........................................................................ [ 83%]\n.....F.......................                                            [100%]\n=================================== FAILURES ===================================\n_________________________ test_crlf_update_and_remove __________________________\n\ntmp_path = PosixPath('/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_2/test_crlf_update_and_remove0')\n\n    def test_crlf_update_and_remove(tmp_path):\n        p = tmp_path / '.env'\n        p.write_bytes(b'A=old\\r\\nB=keep\\r\\n')\n        dotenv.set_key(p, 'A', 'new')\n>       assert p.read_bytes() == b\"A='new'\\r\\nB=keep\\r\\n\"\nE       assert b\"A='new'\\nB=keep\\n\" == b\"A='new'\\r\\nB=keep\\r\\n\"\nE         \nE         At index 7 diff: b'\\n' != b'\\r'\nE         Use -v to get more diff\n\n/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/public_current.py:7: AssertionError\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_2.xml -\n=========================== short test summary info ============================\nFAILED public_current.py::test_crlf_update_and_remove - assert b\"A='new'\\nB=k...\n1 failed, 172 passed, 1 skipped in 0.74s\n",
+      "returncode": 1,
+      "seconds": 0.9997959590400569
+    },
+    "request_hash": "cbf01300a335065362ddbec3434eb9b6a1ed49b15d3631f814c6655f4f6035da",
+    "reused": false,
+    "turn": 2
+  },
+  {
+    "action": {
+      "edits": [
+        {
+          "new": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False, newline=\"\") as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding, newline=\"\") as source:\n                yield (source, dest)",
+          "old": "    with tempfile.NamedTemporaryFile(mode=\"w\", encoding=encoding, delete=False, newline=\"\") as dest:\n        error = None\n        try:\n            with open(path, encoding=encoding) as source:\n                yield (source, dest)",
+          "path": "src/dotenv/main.py"
+        }
+      ]
+    },
+    "changed": [
+      "src/dotenv/main.py"
+    ],
+    "public_test": {
+      "command": [
+        "/usr/bin/sandbox-exec",
+        "-p",
+        "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read-data (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "-c",
+        "setup.cfg",
+        "--rootdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191",
+        "--confcutdir",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191",
+        "--basetemp",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_3",
+        "--junitxml",
+        "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_3.xml",
+        "tests",
+        "public_current.py",
+        "prior_0.py",
+        "prior_1.py",
+        "prior_2.py",
+        "prior_3.py",
+        "prior_4.py",
+        "prior_5.py"
+      ],
+      "counts": {
+        "errors": 0,
+        "failures": 0,
+        "skipped": 1,
+        "tests": 174
+      },
+      "output": "........................................................................ [ 41%]\n........................................................................ [ 83%]\n.............................                                            [100%]\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/work/46fc5aa0ff37d43191/tmp/public_3.xml -\n173 passed, 1 skipped in 0.73s\n",
+      "returncode": 0,
+      "seconds": 0.9866225409787148
+    },
+    "request_hash": "c35a4e3d8405713b09f37b0b56d631d14c89aa71c55b445e314a0bc1fa733790",
+    "reused": false,
+    "turn": 3
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"check\": \"import io\\nimport os\\nimport sys\\nsys.path.insert(0, 'src')\\nimport dotenv\\n\\ndef test_crlf_update_and_remove(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\nB=keep\\\\r\\\\n')\\n    dotenv.set_key(p, 'A', 'new')\\n    assert p.read_bytes() == b\\\"A='new'\\\\r\\\\nB=keep\\\\r\\\\n\\\"\\n    dotenv.unset_key(p, 'A')\\n    assert p.read_bytes() == b'B=keep\\\\r\\\\n'\\n\\ndef test_lf_update_and_remove(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\nB=keep\\\\n')\\n    dotenv.set_key(p, 'A', 'new')\\n    assert p.read_bytes() == b\\\"A='new'\\\\nB=keep\\\\n\\\"\\n    dotenv.unset_key(p, 'A')\\n    assert p.read_bytes() == b'B=keep\\\\n'\\n\\ndef test_mixed_uses_first(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\nB=keep\\\\n')\\n    dotenv.set_key(p, 'C', 'x')\\n    assert p.read_bytes() == b\\\"A=old\\\\r\\\\nB=keep\\\\nC='x'\\\\r\\\\n\\\"\\n\\ndef test_empty_file_defaults_lf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'')\\n    dotenv.set_key(p, 'A', 'v')\\n    assert p.read_bytes() == b\\\"A='v'\\\\n\\\"\\n\\ndef test_no_trailing_newline_crlf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\nB=keep')\\n    dotenv.set_key(p, 'C', 'x')\\n    assert p.read_bytes() == b\\\"A=old\\\\r\\\\nB=keep\\\\r\\\\nC='x'\\\\r\\\\n\\\"\\n\\ndef test_export_crlf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\n')\\n    dotenv.set_key(p, 'B', 'v', export=True)\\n    assert p.read_bytes() == b\\\"A=old\\\\r\\\\nexport B='v'\\\\r\\\\n\\\"\\n\\ndef test_backslash_roundtrip_crlf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\n')\\n    dotenv.set_key(p, 'B', 'a\\\\\\\\b')\\n    assert p.read_bytes() == b\\\"A=old\\\\r\\\\nB='a\\\\\\\\\\\\\\\\b'\\\\r\\\\n\\\"\\n    assert dotenv.dotenv_values(p, interpolate=False)['B'] == 'a\\\\\\\\b'\\n\\ndef test_unset_preserves_lf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\nB=keep\\\\n')\\n    dotenv.unset_key(p, 'A')\\n    assert p.read_bytes() == b'B=keep\\\\n'\\n\\ndef test_unset_preserves_crlf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\nB=keep\\\\r\\\\n')\\n    dotenv.unset_key(p, 'A')\\n    assert p.read_bytes() == b'B=keep\\\\r\\\\n'\\n\\ndef test_unset_missing_key_no_change(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\nB=keep\\\\r\\\\n')\\n    res = dotenv.unset_key(p, 'Z')\\n    assert res == (None, 'Z')\\n    assert p.read_bytes() == b'A=old\\\\r\\\\nB=keep\\\\r\\\\n'\\n\\ndef test_set_key_return(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'')\\n    assert dotenv.set_key(p, 'K', 'V') == (True, 'K', 'V')\\n\\ndef test_quote_mode_never(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\n')\\n    dotenv.set_key(p, 'B', 'plain', quote_mode='never')\\n    assert p.read_bytes() == b\\\"A=old\\\\r\\\\nB=plain\\\\r\\\\n\\\"\\n\\ndef test_quote_mode_auto_quoted(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\n')\\n    dotenv.set_key(p, 'B', 'has space', quote_mode='auto')\\n    assert p.read_bytes() == b\\\"A=old\\\\r\\\\nB='has space'\\\\r\\\\n\\\"\\n\\ndef test_quote_mode_auto_unquoted(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\n')\\n    dotenv.set_key(p, 'B', 'alnum123', quote_mode='auto')\\n    assert p.read_bytes() == b\\\"A=old\\\\r\\\\nB=alnum123\\\\r\\\\n\\\"\\n\\ndef test_invalid_quote_mode(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'')\\n    try:\\n        dotenv.set_key(p, 'A', 'v', quote_mode='bad')\\n        assert False\\n    except ValueError:\\n        pass\\n\\ndef test_replace_existing_crlf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old\\\\r\\\\nB=keep\\\\r\\\\n')\\n    dotenv.set_key(p, 'A', 'new')\\n    assert p.read_bytes() == b\\\"A='new'\\\\r\\\\nB=keep\\\\r\\\\n\\\"\\n\\ndef test_append_after_no_newline_lf(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=old')\\n    dotenv.set_key(p, 'B', 'x')\\n    assert p.read_bytes() == b\\\"A=old\\\\nB='x'\\\\n\\\"\\n\\ndef test_encoding_utf8(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes('A=old\\\\r\\\\n'.encode('utf-8'))\\n    dotenv.set_key(p, 'B', 'h\u00e9llo', encoding='utf-8')\\n    assert p.read_bytes() == \\\"A=old\\\\r\\\\nB='h\u00e9llo'\\\\r\\\\n\\\".encode('utf-8')\\n\\ndef test_get_key_interpolate_false(tmp_path):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=${B}\\\\nB=world\\\\n')\\n    assert dotenv.get_key(p, 'A', interpolate=False) == '${B}'\\n    assert dotenv.get_key(p, 'A') == 'world'\\n\\ndef test_dotenv_values_override(tmp_path, monkeypatch):\\n    p = tmp_path / '.env'\\n    p.write_bytes(b'A=${B}\\\\nB=file\\\\n')\\n    monkeypatch.setenv('B', 'env')\\n    assert dotenv.dotenv_values(p, override=True)['A'] == 'file'\\n    assert dotenv.dotenv_values(p, override=False)['A'] == 'env'\\n    assert 'B' not in os.environ or os.environ.get('B') == 'env'\\n\"}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790641920,
+    "id": "chatcmpl-md3JwWuE6MV1Yo6uqraX9FZyYJA6hXse",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 23764,
+      "predicted_ms": 132106.751,
+      "predicted_n": 1708,
+      "predicted_per_second": 12.928938052529958,
+      "predicted_per_token_ms": 77.34587295081967,
+      "prompt_ms": 1647.836,
+      "prompt_n": 102,
+      "prompt_per_second": 61.899363771637475,
+      "prompt_per_token_ms": 16.155254901960785
+    },
+    "usage": {
+      "completion_tokens": 1708,
+      "prompt_tokens": 23866,
+      "prompt_tokens_details": {
+        "cached_tokens": 23764
+      },
+      "total_tokens": 25574
+    }
+  },
+  "seconds": 133.8328532910091,
+  "timestamp": "2026-09-29T00:32:00Z"
+}

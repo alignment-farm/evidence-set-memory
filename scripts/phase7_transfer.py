@@ -12,7 +12,8 @@ def freeze():
     paths=list((s.ROOT/'scripts').glob('phase7_*.py'))+[s.ROOT/'scripts/test_phase7_edit.py']
     paths += [s.ROOT/p for p in ['scripts/phase6_edit.py','scripts/phase6_energy.py','scripts/phase6_prompt.py',
         'phase6/runs/acquisition/model.json','phase6/runs/acquisition/examples.json','phase7/PROTOCOL.md',
-        'phase7/CLAIM.md','phase7/pyproject.toml','phase7/uv.lock','phase7/runtime.json','uv.lock']]
+        'phase7/CLAIM.md','phase7/SOURCES.md','phase7/CHECK_DIAGNOSIS.md',
+        'phase7/runs/check-diagnosis/summary.json','phase7/pyproject.toml','phase7/uv.lock','phase7/runtime.json','uv.lock']]
     paths += list((s.PHASE/'assets-v2').glob('*'))
     paths += [s.PHASE/'runs/development/results.json',s.PHASE/'runs/development/execution.json']
     s.dump(s.PHASE/'freeze.json',dict(timestamp=s.old.stamp(),future_task_file_absent=True,

@@ -1,0 +1,41 @@
+{
+  "error": null,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "{\"edits\": [{\"new\": \"    with tempfile.NamedTemporaryFile(mode=\\\"w\\\", encoding=encoding, delete=False, newline=\\\"\\\") as dest:\\n        error = None\\n        try:\\n            with open(path, encoding=encoding, newline=\\\"\\\") as source:\\n                yield (source, dest)\", \"old\": \"    with tempfile.NamedTemporaryFile(mode=\\\"w\\\", encoding=encoding, delete=False) as dest:\\n        error = None\\n        try:\\n            with open(path, encoding=encoding) as source:\\n                yield (source, dest)\", \"path\": \"src/dotenv/main.py\"}]}",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1790641785,
+    "id": "chatcmpl-YyFVssZ7IYbwKXPAvW4WJuGqgSvnb9Y8",
+    "model": "/Users/macos-user/.docker/models/bundles/sha256/f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef/model/Qwen3.8-27B-UD-Q4_K_M.gguf",
+    "object": "chat.completion",
+    "system_fingerprint": "b1-72874f5",
+    "timings": {
+      "cache_n": 20056,
+      "predicted_ms": 19873.343,
+      "predicted_n": 131,
+      "predicted_per_second": 6.591744529342647,
+      "predicted_per_token_ms": 151.70490839694656,
+      "prompt_ms": 32236.398,
+      "prompt_n": 3578,
+      "prompt_per_second": 110.99254947776734,
+      "prompt_per_token_ms": 9.009613750698716
+    },
+    "usage": {
+      "completion_tokens": 131,
+      "prompt_tokens": 23634,
+      "prompt_tokens_details": {
+        "cached_tokens": 20056
+      },
+      "total_tokens": 23765
+    }
+  },
+  "seconds": 52.1851700420375,
+  "timestamp": "2026-09-29T00:29:45Z"
+}
