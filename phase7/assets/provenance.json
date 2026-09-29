@@ -1,0 +1,28 @@
+{
+  "dmr_inspect": {
+    "config": {
+      "format": "gguf"
+    },
+    "created": 0,
+    "id": "sha256:f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef",
+    "tags": [
+      "docker.io/ai/qwen3.8:27b-q4_K_M"
+    ]
+  },
+  "dmr_ps": "MODEL NAME  BACKEND  MODE  UNTIL  \n",
+  "investigator": {
+    "cli": "0.158.0",
+    "model": "gpt-6-astra",
+    "provider": "openai",
+    "reasoning": "high",
+    "session": "01a0e7e4-68e2-7fb2-9a5d-2ea6873b86b8"
+  },
+  "python": "Python 3.12.14",
+  "script_sha256": "5e7472a1b7656b18db8afae0180b9560797d68ee6ad2a76101c6afbf06b6df1a",
+  "setup_failures": [
+    "Git clone tag 8.0.4 failed: remote branch absent; corrected to v8.0.4 after ls-remote.",
+    "Web open of GitHub tag URL failed; source verified through Git clone."
+  ],
+  "source_commit": "f85f9488520148d5f6899b5639199882b605e30a",
+  "timestamp": "2026-09-29T00:12:08Z"
+}

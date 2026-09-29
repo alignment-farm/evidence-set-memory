@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/usr/bin/sandbox-exec",
+    "-p",
+    "(version 1) (allow default) (deny network*)\n    (deny file-write* (require-all (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets/dotenv/tmp\")) (require-not (literal \"/dev/null\")) (require-not (literal \"/dev/ptmx\")) (require-not (regex #\"^/dev/ttys[0-9]+$\"))))\n    (deny file-read* (require-all (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory\") (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets/dotenv\")) (require-not (subpath \"/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv\"))))\n    (deny file-read* (subpath \"/Users/macos-user/.codex\") (subpath \"/Users/macos-user/.ssh\"))",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/phase7/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets/dotenv/tmp/upstream",
+    "--junitxml",
+    "/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets/dotenv/tmp/upstream.xml",
+    "tests"
+  ],
+  "counts": {
+    "errors": 1,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 1
+  },
+  "output": "\n==================================== ERRORS ====================================\n________________________ ERROR collecting test session _________________________\n/Users/macos-user/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/pathlib.py:892: in is_file\n    return S_ISREG(self.stat().st_mode)\n/Users/macos-user/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/pathlib.py:840: in stat\n    return os.stat(self, follow_symlinks=follow_symlinks)\nE   PermissionError: [Errno 1] Operation not permitted: '/Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets'\n- generated xml file: /Users/macos-user/Developer/Projects/alignment-farm/ancillary-studies/evidence-set-memory/.cache/phase7/preflights/assets/dotenv/tmp/upstream.xml -\n=========================== short test summary info ============================\nERROR  - PermissionError: [Errno 1] Operation not permitted: '/Users/macos-us...\n!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!\n1 error in 0.06s\n",
+  "returncode": 2,
+  "seconds": 0.32450487499590963
+}
